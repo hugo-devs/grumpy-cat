@@ -29,19 +29,19 @@
 			"Ala-Dea"
 		]
 	},
-	"Hier den Namen": {
-		"description": "Beschreibung hier",
+	"Champagnier": {
+		"description": "It is a little gourmét, which loves good food and particularly wine. Also it wears always a bottle in its hand.",
 		"basestats": {
 			"hp": 55,
-			"attack": 70,
-			"defense": 55,
+			"attack": 65,
+			"defense": 60,
 			"special-attack-multiplier": 1.2,
-			"type": "latin"
+			"type": "french"
 		},
 		"attacks": [
-			"Attacke1",
-			"Attacke2",
-			"Attacke3"
+			"kir",
+			"blanc-de-noirs",
+			"bordeaux"
 		]
 	},
 	"Hier den Namen": {
