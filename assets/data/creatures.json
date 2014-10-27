@@ -29,19 +29,19 @@
 			"Ala-Dea"
 		]
 	},
-	"gh": {
-		"description": " hhhh",
+	"Champagnier": {
+		"description": "It is a little gourmét, which loves good food and particuarly wine. Also it wears always a bottle and is often drunk.",
 		"basestats": {
-			"hp": 59,
-			"attack": 90,
-			"defense": 95,
-			"special-attack-multiplier": 1.6,
-			"type": "english"
+			"hp": 90,
+			"attack": 65,
+			"defense": 70,
+			"special-attack-multiplier": 1.8,
+			"type": "french"
 		},
 		"attacks": [
-			"hj",
-			"bb",
-			"mm"
+			"blanc-de-noirs",
+			"bordeaux",
+			"à-ta-santé"
 		]
 	},
 	"Hier den Namen": {
