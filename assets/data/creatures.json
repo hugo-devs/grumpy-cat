@@ -5,8 +5,8 @@
 			"hp": 100,
 			"attack": 100,
 			"defense": 100,
-			"special-attack-multiplier": 1.5,
-			"type": "english"
+			"special-attack-multiplier": 1.2,
+			"type": "latin"
 		},
 		"attacks": [
 			"Habs-Hamster",
