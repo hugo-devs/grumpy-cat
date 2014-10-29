@@ -6,14 +6,14 @@
 	},
 	"Self-Dizzle" : {
 		"text": "Lizzle bullies herself. The enemy laughs. The enemy's attack sinks.",
-		"action": ["hp", -20],
+		"action": ["hp", -20]
 	},
 	"Self-Dizzle" : {
 		"text": "Lizzle bullies herself. The enemy laughs. The enemy's attack sinks.",
-		"action": ["defense", -20],
+		"action": ["defense", -20]
 	},
 	"Self-Dizzle" : {
 		"text": "Lizzle bullies herself. The enemy laughs. The enemy's attack sinks.",
-		"action": ["special-attack-multiplyer", -0.2],
+		"action": ["special-attack-multiplyer", -0.2]
 	}
 }
