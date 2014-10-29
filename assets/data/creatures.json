@@ -48,7 +48,7 @@
 		"description": "Great. Brilliant. Terrfic. Bullet-Proof and Super-Natural. But extraordinarily stuipd.",
 		"basestats": {
 			"hp": 44,
-			"attack": ,
+			"attack": 66,
 			"defense": 55,
 			"special-attack-multiplier": 1.1,
 			"type": "english"
@@ -57,6 +57,21 @@
 			"Confulizzl",
 			"Klugscheißerism",
 			"Self-Dizzle"
+		]
+	},
+	"Aestas": {
+		"description": "It is a small dinosaur with yellow feathers, like a sunflower in the summer. He looks very cute, because he has a big beak and a small body, but if he hungry, he will be dangerous.",
+		"basestats": {
+			"hp": 80,
+			"attack": 75,
+			"defense": 45,
+			"special-attack-multiplier": 1.3,
+			"type": "latin"
+		},
+		"attacks": [
+			"Sonnentanz",
+			"Mampfer",
+			"Road Run"
 		]
 	},
 	"Hier den Namen": {
