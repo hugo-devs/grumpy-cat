@@ -1,6 +1,6 @@
 {
 	"Self-Dizzle" : {
-		"text": "Lizzle bullies herself. The enemy laughs. The enemy's attack sinks.",
+		"text": "{Attacker} bullies herself. {Enemy} laughs. {Enemy}'s attack sinks.",
 		"action": ["attack", -20],
 		"action-self": ["defense", -5],
 		"type": "english",
