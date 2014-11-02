@@ -2,18 +2,8 @@
 	"Self-Dizzle" : {
 		"text": "Lizzle bullies herself. The enemy laughs. The enemy's attack sinks.",
 		"action": ["attack", -20],
-		"action-self": ["defense", -5]
-	},
-	"Self-Dizzle" : {
-		"text": "Lizzle bullies herself. The enemy laughs. The enemy's attack sinks.",
-		"action": ["hp", -20]
-	},
-	"Self-Dizzle" : {
-		"text": "Lizzle bullies herself. The enemy laughs. The enemy's attack sinks.",
-		"action": ["defense", -20]
-	},
-	"Self-Dizzle" : {
-		"text": "Lizzle bullies herself. The enemy laughs. The enemy's attack sinks.",
-		"action": ["special-attack-multiplyer", -0.2]
+		"action-self": ["defense", -5],
+		"type": "english",
+		"difficulty": "easy"
 	}
 }
