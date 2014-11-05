@@ -5,7 +5,7 @@
 			"hp": 100,
 			"attack": 100,
 			"defense": 100,
-			"special-attack-multiplier": 1.2,
+			"special-attack-multiplier": 2.5,
 			"type": "latin"
 		},
 		"attacks": [
@@ -74,6 +74,23 @@
 			"Road-Run"
 		]
 	},
+	"Ferreon": {
+		"description": "",
+		"basestats": {
+			"hp": ,
+			"attack": 70,
+			"defense": 55,
+			"special-attack-multiplier": 1.2,
+			"type": "English"
+		},
+		"attacks": [
+			"Attacke1",
+			"Attacke2",
+			"Attacke3"
+		]
+	
+	}
+
 	"Hier den Namen": {
 		"description": "Beschreibung hier",
 		"basestats": {
@@ -90,3 +107,4 @@
 		]
 	}
 }
+
