@@ -7,9 +7,16 @@
 		"difficulty": "easy"
 	},
 	"Habs-Hamster": {
-		"text": "{Attacker} bites {Enemy}. {Enemy} is badly hurt.",
+		"text": "{Attacker} swallows {Enemy}. {Enemy} escapes barely.",
 		"action": ["hp", -40],
 		"type": "latin",
 		"difficulty": "hard"
 	}
+	"Beißerchen": {
+		"text": "{Attacker} bites {Enemy}. {Enemy}´s hp sink.",
+		"action": ["hp", -30],
+		"type": "latin",
+		"difficulty": "hard"
+	}
+	
 }
