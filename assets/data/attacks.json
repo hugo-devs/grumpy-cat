@@ -11,5 +11,5 @@
 		"action": ["hp", -40],
 		"type": "latin",
 		"difficulty": "hard"
-	)
+	}
 }
