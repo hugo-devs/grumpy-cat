@@ -5,5 +5,11 @@
 		"action-self": ["defense", -5],
 		"type": "english",
 		"difficulty": "easy"
-	}
+	},
+	"Habs-Hamster": {
+		"text": "{Attacker} bites {Enemy}. {Enemy} is badly hurt.",
+		"action": ["hp", -40],
+		"type": "latin",
+		"difficulty": "hard"
+	)
 }
