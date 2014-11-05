@@ -11,7 +11,7 @@
 		"action": ["hp", -40],
 		"type": "latin",
 		"difficulty": "hard"
-	}
+	},
 	"Beißerchen": {
 		"text": "{Attacker} bites {Enemy}. {Enemy}´s hp sink.",
 		"action": ["hp", -30],
