@@ -1,20 +1,25 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=no">
 	<title>Our super awesome game</title>
+	
 	<script type="text/javascript" src="bower_components/platform/platform.js"></script>
-	<script type="text/javascript" src="bower_components/prevent-overflow/prevent-overflow.js"></script>
 
 	<link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
 	<link rel="import" href="bower_components/core-icons/core-icons.html">
 	<link rel="import" href="bower_components/font-roboto/roboto.html">
 	<link rel="import" href="bower_components/core-drawer-panel/core-drawer-panel.html">
 	<link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+	<link rel="import" href="bower_components/paper-dialog/paper-dialog-transition.html">
+	<link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
+	<link rel="import" href="bower_components/paper-input/paper-input.html">
+	<link rel="import" href="bower_components/paper-button/paper-button.html">
 
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
-<body fullbleed>
+<body fullbleed unresolved>
 
 	<core-drawer-panel id="drawerPanel">
 
@@ -52,7 +57,15 @@
 		</div>
 	</core-drawer-panel>
 
+
+	<paper-dialog id="dialog_choose_name" title="Choose your Name">
+		<h1 class="dialog_headline">Coose your Name</h1>
+		<p>Choose wisely. You cannot change your name later.</p>
+		<paper-input></paper-input>
+		<paper-button onclick="set_name()" affirmative autofocus role="button" label="Accept"></paper-button>
+	</paper-dialog>
+
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="assets/js/polymer.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
+</html>

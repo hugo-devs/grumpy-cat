@@ -1,0 +1,53 @@
+body
+  font-family: "RobotoDraft",Helvetica,Arial,sans-serif
+  color: black
+  opacity: 0.87
+
+core-toolbar
+  background-color: #3f51b5
+  color: white
+  box-shadow: rgba(0, 0, 0, 0.29804) 0px 1px 5px 0px
+
+core-drawer-panel:not([narrow]) #navicon
+  display: none
+
+.notification-element
+  opacity: 0.2
+  transition: all 2s ease
+  margin: 0px 0px 4px 5px
+
+.dialog_headline
+  font-size: 1.2em !important
+  font-weight: bold !important
+  
+paper-dialog
+  margin-left: auto !important
+  margin-right: auto !important
+  top: 30%
+
+#timeline-content
+  padding: 2px
+
+.notification-element
+  &:nth-of-type(1)
+    opacity: 1
+    margin-top: 4px
+  &:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4)
+    opacity: 1
+  &:nth-of-type(5)
+    opacity: 0.9
+  &:nth-of-type(6)
+    opacity: 0.8
+  &:nth-of-type(7)
+    opacity: 0.7
+  &:nth-of-type(8)
+    opacity: 0.6
+  &:nth-of-type(9)
+    opacity: 0.5
+  &:nth-of-type(10)
+    opacity: 0.4
+  &:nth-of-type(11)
+    opacity: 0.3
+    
+@import mobile
+@import big
