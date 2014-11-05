@@ -1,0 +1,16 @@
+[
+	{
+		"type": "text",
+		"value": "Here comes the text"
+	},
+	{
+		"type": "fight",
+		"enemy": "Dymynator",
+		"lvl": "50",
+		"xp": "1000"
+	},
+	{
+		"type": "text",
+		"value": "Wow, you beat the Dymynator"
+	}
+]
