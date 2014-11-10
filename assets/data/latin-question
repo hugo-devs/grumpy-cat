@@ -1,28 +1,52 @@
 {
   "easy": [
     {
-      "question": "",
-      "answer": ""
+      "question": "What is the first person singular simple present of be?",
+      "answer": "sum"
     },
     {
-      "question": "",
-      "answer": ""
+      "question": "What is the second person singular simple present of be?",
+      "answer": "es"
     },
     {
-      "question": "",
-      "answer": ""
+      "question": "What is the third person singular simple present of be?",
+      "answer": "est"
     },
     {
-      "question": "",
-      "answer": ""
+      "question": "What is the first person plural simple present of be?",
+      "answer": "sumus"
     },
     {
-      "question": "",
-      "answer": ""
+      "question": "What is the second person plural simple present of be?",
+      "answer": "estis"
     },
     {
-      "question": "",
-      "answer": ""
+      "question": "What is the third person plural simple present of be?",
+      "answer": "sunt"
+    }
+    {
+      "question": "What is the first person singular simple present of can?",
+      "answer": "possum"
+    },
+    {
+      "question": "What is the second person singular simple present of can?",
+      "answer": "potes"
+    },
+    {
+      "question": "What is the third person singular simple present of can?",
+      "answer": "potest"
+    },
+    {
+      "question": "What is the first person plural simple present of can?",
+      "answer": "possumus"
+    },
+    {
+      "question": "What is the second person plural simple present of can?",
+      "answer": "potestis"
+    },
+    {
+      "question": "What is the third person plural simple present of can?",
+      "answer": "possunt"
     }
   ]
 }
