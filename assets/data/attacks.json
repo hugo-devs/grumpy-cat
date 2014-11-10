@@ -24,5 +24,11 @@
 		"type": "latin",
 		"difficulty": "hard"
 	},
+	"Scharfer Blick": {
+		"text": "{Attacker} stares {Enemy} down. {Enemy}´s attack sinks.",
+		"action": ["attack", -25],
+		"type": "latin",
+		"difficulty": "hard"
+	},
 	
 }
