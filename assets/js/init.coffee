@@ -1,3 +1,3 @@
 init = ->
   load_cookies()
-  parse_story()
+  check_for_new_game()

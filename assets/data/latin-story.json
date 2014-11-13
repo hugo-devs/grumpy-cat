@@ -1,13 +1,24 @@
 [
 	{
+		"type": "pop",
+		"value": "Hey"
+	},
+	{
+		"type": "pop",
+		"value": "Ho"
+	},
+	{
+		"type": "pop",
+		"value": "Sup"
+	},
+	{
 		"type": "text",
-		"value": "Here comes the text"
+		"value": "Spartacus: Hey ||name||, nice ||creature|| you have there! You are now a slave and must fight as a gladiator to survive and maybe one day become free, but for now I am going to be your Mentor and train you. Let's see how good you are"
 	},
 	{
 		"type": "fight",
-		"enemy": "Dymynator",
-		"lvl": "50",
-		"xp": "1000"
+		"enemy": "Avus-Avis",
+		"lvl": "1"
 	},
 	{
 		"type": "text",

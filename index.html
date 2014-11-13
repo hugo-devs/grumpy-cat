@@ -6,6 +6,7 @@
 	<title>Our super awesome game</title>
 	
 	<script type="text/javascript" src="bower_components/platform/platform.js"></script>
+	<script type="text/javascript" src="bower_components/sweetalert/lib/sweet-alert.min.js"></script>
 
 	<link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
 	<link rel="import" href="bower_components/core-icons/core-icons.html">
@@ -17,6 +18,7 @@
 	<link rel="import" href="bower_components/paper-input/paper-input.html">
 	<link rel="import" href="bower_components/paper-button/paper-button.html">
 
+	<link rel="stylesheet" type="text/css" href="bower_components/sweetalert/lib/sweet-alert.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body fullbleed unresolved>
@@ -28,24 +30,7 @@
 				<span>Timeline</span>
 			</core-toolbar>
 
-			<div id="timeline-content">
-
-				<div class="notification-element">Elsbeth flees! Dymy wins.</div>
-				<div class="notification-element">Dymy uses Latein-Boss!</div>
-				<div class="notification-element">Round 1 ends!</div>
-				<div class="notification-element">Dymy is terrified! Dymy's Defense sunk!</div>
-				<div class="notification-element">Elsbeth uses Duck Face!</div>
-				<div class="notification-element">Dymy's a eingeschnappte Lebersaussage! Dymy's Attack sunk!</div>
-				<div class="notification-element">Elsbeth laughts at Dymy!</div>
-				<div class="notification-element">Dymy uses Platscher! Nothing happens!</div>
-				<div class="notification-element">Round 1 ends!</div>
-				<div class="notification-element">Dymy was hurt he now has 7.6E40 HP left!</div>
-				<div class="notification-element">Elsbeth uses Handball!</div>
-				<div class="notification-element">Elsbeth was hurt! Elsbeth now has 68 HP left!</div>
-				<div class="notification-element">Dymy uses Würg-Backen!</div>
-				<div class="notification-element">Go Dymy! Fight!</div>
-
-			</div>
+			<div id="timeline_content"></div>
 
 		</div>
 
@@ -58,12 +43,20 @@
 	</core-drawer-panel>
 
 
-	<paper-dialog id="dialog_choose_name" title="Choose your Name">
-		<h1 class="dialog_headline">Coose your Name</h1>
+	<paper-dialog id="dialog_choose_name" heading="Choose your Name" opened="false">
 		<p>Choose wisely. You cannot change your name later.</p>
-		<paper-input></paper-input>
-		<paper-button onclick="set_name()" affirmative autofocus role="button" label="Accept"></paper-button>
+		<paper-input value="Bob" required="true"></paper-input>
+		<paper-button onclick="set_name()" affirmative autofocus role="button">Accept</paper-button>
 	</paper-dialog>
+
+	<paper-dialog id="dialog_choose_creature" heading="Choose your Creature and Language" opened="false">
+		<p>Choose wisely. The creature will determine the language you want to learn and your strengths and weaksnesses. As well as the part of the story you are going to play first.</p>
+		<paper-button onclick="set_character('Lizzle'); set_storyline('english');" raised role="button">English</paper-button>
+		<paper-button onclick="set_character('Cricetinae'); set_storyline('latin');" raised role="button">Latin</paper-button>
+		<paper-button onclick="set_character('Champagnier'); set_storyline('french');" raised role="button">French</paper-button>
+	</paper-dialog>
+
+	<paper-dialog id="dialog_backstory"></paper-dialog>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="assets/js/main.js"></script>
