@@ -4,3 +4,5 @@ init = ->
   
   $("div > *").css("visibility", "visible")
   $("#preloader").fadeOut("fast")
+  # stupid thigns that css coundnt do for me
+  $(".select_attack").css("position", "absolute")
