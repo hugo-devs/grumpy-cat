@@ -1,68 +1,76 @@
 body {
-	font-family: "RobotoDraft",Helvetica,Arial,sans-serif;
-	color: black;
-	opacity: 0.87;
-}
+  font-family: "RobotoDraft", Helvetica, Arial, sans-serif;
+  color: black;
+  opacity: 0.87; }
+
+body > * {
+  visibility: hidden; }
 
 core-toolbar {
-	background-color: #3f51b5;
-	color: white;
-	box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 5px 0px;
-}
+  background-color: #3f51b5;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.29804) 0px 1px 5px 0px; }
 
 core-drawer-panel:not([narrow]) #navicon {
-  display: none;
-}
-
-#main-panel {
-	background-color: #e51c23;
-}
-
-#drawer-panel {
-	background-color: #76ff03;
-}
+  display: none; }
 
 .notification-element {
-		opacity: 0.2;
-		transition: all 2s ease;
-		margin: 0px 0px 4px 5px;
-}
+  opacity: 0.2;
+  transition: all 2s ease;
+  margin: 0px 0px 4px 5px; }
 
-#timeline-content {
-	padding: 2px;
-}
+paper-dialog {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  top: 30%; }
+
+div.fight_area > .player {
+  display: inline;
+  float: left;
+  margin: 5px; }
+
+div.fight_area > .enemy {
+  display: inline;
+  float: right;
+  margin: 5px 20px 5px 5px; }
+
+#preloader {
+  visibility: visible;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -64px;
+  margin-left: -64px; }
+
+#timeline_content {
+  padding: 2px; }
 
 .notification-element:nth-of-type(1) {
-	opacity: 1;
-	margin-top: 4px;
-}
-.notification-element:nth-of-type(2) {
-	opacity: 1;
-}
-.notification-element:nth-of-type(3) {
-	opacity: 1;
-}
+  opacity: 1;
+  margin-top: 4px; }
+.notification-element:nth-of-type(2), .notification-element:nth-of-type(3) {
+  opacity: 0.9; }
 .notification-element:nth-of-type(4) {
-	opacity: 1;
-}
+  opacity: 0.8; }
 .notification-element:nth-of-type(5) {
-	opacity: 0.9;
-}
+  opacity: 0.7; }
 .notification-element:nth-of-type(6) {
-	opacity: 0.8;
-}
+  opacity: 0.6; }
 .notification-element:nth-of-type(7) {
-	opacity: 0.7;
-}
+  opacity: 0.5; }
 .notification-element:nth-of-type(8) {
-	opacity: 0.6;
-}
+  opacity: 0.4; }
 .notification-element:nth-of-type(9) {
-	opacity: 0.5;
-}
+  opacity: 0.3; }
 .notification-element:nth-of-type(10) {
-	opacity: 0.4;
-}
-.notification-element:nth-of-type(11) {
-	opacity: 0.3;
-}
+  opacity: 0.2; }
+
+@media (max-width: 400px) {
+  div.fight_area > .enemy {
+    float: left; } }
+@media (min-width: 601px) {
+  paper-dialog {
+    left: 50%;
+    transform: translate(-50%, 0); } }

@@ -1,1 +1,0 @@
-document.addEventListener("polymer-ready",function(){var e=document.getElementById("navicon"),n=document.getElementById("drawerPanel");e.addEventListener("click",function(){n.togglePanel()})});

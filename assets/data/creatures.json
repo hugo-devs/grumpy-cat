@@ -5,8 +5,7 @@
 			"hp": 100,
 			"attack": 100,
 			"defense": 100,
-			"special-attack-multiplier": 1.5,
-			"type": "english"
+			"type": "latin"
 		},
 		"attacks": [
 			"Habs-Hamster",
@@ -20,7 +19,6 @@
 			"hp": 55,
 			"attack": 70,
 			"defense": 55,
-			"special-attack-multiplier": 1.2,
 			"type": "latin"
 		},
 		"attacks": [
@@ -32,10 +30,9 @@
 	"Champagnier": {
 		"description": "It is a little gourmét, which loves good food and particuarly wine. Also it wears always a bottle and is often drunk.",
 		"basestats": {
-			"hp": 90,
-			"attack": 65,
-			"defense": 70,
-			"special-attack-multiplier": 1.8,
+			"hp": 60,
+			"attack": 60,
+			"defense": 60,
 			"type": "french"
 		},
 		"attacks": [
@@ -44,13 +41,55 @@
 			"à-ta-santé"
 		]
 	},
-	"Hier den Namen": {
-		"description": "Beschreibung hier",
+	"Lizzle": {
+		"description": "Great. Brilliant. Terrfic. Bullet-Proof and Super-Natural. But extraordinarily stuipd.",
 		"basestats": {
-			"hp": 55,
+			"hp": 44,
+			"attack": 66,
+			"defense": 55,
+			"type": "english"
+		},
+		"attacks": [
+			"Confulizzle",
+			"Klugscheißerism",
+			"Self-Dizzle"
+		]
+	},
+	"Aestas": {
+		"description": "It is a small dinosaur with yellow feathers, like a sunflower in the summer. He looks very cute, because he has a big beak and a small body, but if he hungry, he will be dangerous.",
+		"basestats": {
+			"hp": 50,
+			"attack": 75,
+			"defense": 45,
+			"type": "latin"
+		},
+		"attacks": [
+			"Sonnentanz",
+			"Mampfer",
+			"Road-Run"
+		]
+	},
+	"Ferreon": {
+		"description": "",
+		"basestats": {
+			"hp": 44,
 			"attack": 70,
 			"defense": 55,
-			"special-attack-multiplier": 1.2,
+			"type": "english"
+		},
+		"attacks": [
+			"Attacke1",
+			"Attacke2",
+			"Attacke3"
+		]
+	
+	},
+	"Cricetinae": {
+		"description": "It's a hamster! It's cute, abdorable and snappy.",
+		"basestats": {
+			"hp": 60,
+			"attack": 70,
+			"defense": 55,
 			"type": "latin"
 		},
 		"attacks": [
@@ -65,13 +104,13 @@
 			"hp": 55,
 			"attack": 70,
 			"defense": 55,
-			"special-attack-multiplier": 1.2,
 			"type": "latin"
 		},
 		"attacks": [
-			"Attacke1",
-			"Attacke2",
-			"Attacke3"
+			"Habs-Hamster",
+			"Scharfer-Blick",
+			"Beißerchen"
 		]
 	}
 }
+
