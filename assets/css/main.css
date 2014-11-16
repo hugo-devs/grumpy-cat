@@ -3,6 +3,9 @@ body {
   color: black;
   opacity: 0.87; }
 
+body > * {
+  visibility: hidden; }
+
 core-toolbar {
   background-color: #3f51b5;
   color: white;
@@ -20,6 +23,26 @@ paper-dialog {
   margin-left: auto !important;
   margin-right: auto !important;
   top: 30%; }
+
+div.fight_area > .player {
+  display: inline;
+  float: left;
+  margin: 5px; }
+
+div.fight_area > .enemy {
+  display: inline;
+  float: right;
+  margin: 5px 20px 5px 5px; }
+
+#preloader {
+  visibility: visible;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -64px;
+  margin-left: -64px; }
 
 #timeline_content {
   padding: 2px; }
@@ -44,6 +67,9 @@ paper-dialog {
 .notification-element:nth-of-type(10) {
   opacity: 0.2; }
 
+@media (max-width: 400px) {
+  div.fight_area > .enemy {
+    float: left; } }
 @media (min-width: 601px) {
   paper-dialog {
     left: 50%;

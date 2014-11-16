@@ -17,11 +17,16 @@
 	<link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
 	<link rel="import" href="bower_components/paper-input/paper-input.html">
 	<link rel="import" href="bower_components/paper-button/paper-button.html">
+	<link rel="import" href="bower_components/paper-progress/paper-progress.html">
 
 	<link rel="stylesheet" type="text/css" href="bower_components/sweetalert/lib/sweet-alert.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body fullbleed unresolved>
+	
+	<div id="preloader">
+		<img src="assets/img/preloader.gif" height="128" width="128" alt="">
+	</div>
 
 	<core-drawer-panel id="drawerPanel">
 
@@ -39,6 +44,25 @@
 				<paper-icon-button id="navicon" icon="announcement"></paper-icon-button>
 				<span flex>Our Fun Game</span>
 			</core-toolbar>
+			
+			<div class="fight_area">
+				
+				<div class="player">
+					
+					<h1>DYMYNATOR</h1>
+					<paper-progress value="70"></paper-progress>
+
+				</div>
+
+				<div class="enemy">
+					
+					<h1>LIZZLE</h1>
+					<paper-progress value="20"></paper-progress>
+
+				</div>
+
+			</div>
+
 		</div>
 	</core-drawer-panel>
 
