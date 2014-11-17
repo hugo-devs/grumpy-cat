@@ -35,4 +35,14 @@ reset = ->
 load_story = ->
   $.getJSON "assets/data/#{cookies.storyline}-story.json", (json) ->
     data.story = json
+    load_attacks()
+
+load_attacks = ->
+  $.getJSON "assets/data/attacks.json", (json) ->
+    data.attacks = json
+    load_creatures()
+
+load_creatures = ->
+  $.getJSON "assets/data/creatures.json", (json) ->
+    data.creatures = json
     parse_story()

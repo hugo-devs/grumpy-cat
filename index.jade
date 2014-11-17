@@ -20,8 +20,8 @@ html
     link(rel="stylesheet", type="text/css", href="assets/css/main.css")
   body(fullbleed="", unresolved="")
 
-    #preloader
-      img(src="assets/img/preloader.gif", height="128", width="128", alt="")
+    //#preloader
+    //  img(src="assets/img/preloader.gif", height="128", width="128", alt="")
     
     core-drawer-panel#drawerPanel
 
@@ -40,10 +40,16 @@ html
 
           .creatures
             .player
-              h1 DYMYNATOR
+              h1
+                span.name Dymynator
+                span.lvl LVL
+                  span 100
               paper-progress(value="70")
             .enemy
-              h1 LIZZLE
+              h1
+                span.name Lizzle
+                span.lvl LVL
+                  span 1
               paper-progress(value="20")
         
           .select_attack

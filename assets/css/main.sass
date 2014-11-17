@@ -3,9 +3,6 @@ body
   color: black
   opacity: 0.87
 
-body > *
-  visibility: hidden
-
 core-toolbar
   background-color: #3f51b5
   color: white
@@ -33,6 +30,15 @@ div.fight_area > .creatures > .enemy
   display: inline
   float: right
   margin: 5px 20px 5px 5px
+  
+.fight_area > .creatures > .player > h1 > span.lvl, .fight_area > .creatures > .enemy > h1 > span.lvl
+  font-size: 0.5em
+  &::before
+    content: " "
+
+.fight_area > .creatures > .player > h1 > span.name, .fight_area > .creatures > .enemy > h1 > span.name
+  text-transform: uppercase
+
 
 div.select_attack
   padding: 10px
