@@ -23,7 +23,7 @@
     {
       "question": "What is the third person plural simple present of be?",
       "answer": "sunt"
-    }
+    },
     {
       "question": "What is the first person singular simple present of can?",
       "answer": "possum"
@@ -47,6 +47,150 @@
     {
       "question": "What is the third person plural simple present of can?",
       "answer": "possunt"
-    }
+    },
+    {
+      "question": "What is the first person singular simple present of want?",
+      "answer": "volo"
+    },
+    {
+      "question": "What is the second person singular simple present of want?",
+      "answer": "vis"
+    },
+    {
+      "question": "What is the third person singular simple present of want?",
+      "answer": "vult"
+    },
+    {
+      "question": "What is the first person plural simple present of want?",
+      "answer": "volumus"
+    },
+    {
+      "question": "What is the second person plural simple present of want?",
+      "answer": "vultis"
+    },
+    {
+      "question": "What is the third person plural simple present of want?",
+      "answer": "volunt"
+    },
+    {
+      "question": "What is the first person singular simple present of love?",
+      "answer": "amo"
+    },
+    {
+      "question": "What is the second person singular simple present of love?",
+      "answer": "amas"
+    },
+    {
+      "question": "What is the third person singular simple present of love?",
+      "answer": "amat"
+    },
+    {
+      "question": "What is the first person plural simple present of love?",
+      "answer": "amamus"
+    },
+    {
+      "question": "What is the second person plural simple present of love?",
+      "answer": "amatis"
+    },
+    {
+      "question": "What is the third person plural simple present of love?",
+      "answer": "amant"
+    },
+    {
+      "question": "What is the first person singular simple present of see?",
+      "answer": "video"
+    },
+    {
+      "question": "What is the second person singular simple present of see?",
+      "answer": "vides"
+    },
+    {
+      "question": "What is the third person singular simple present of see?",
+      "answer": "videt"
+    },
+    {
+      "question": "What is the first person plural simple present of see?",
+      "answer": "videmus"
+    },
+    {
+      "question": "What is the second person plural simple present of see?",
+      "answer": "videtis"
+    },
+    {
+      "question": "What is the third person plural simple present of see?",
+      "answer": "vident"
+    },
+    {
+      "question": "What is the first person singular simple present of hear?",
+      "answer": "audio"
+    },
+    {
+      "question": "What is the second person singular simple present of hear?",
+      "answer": "audis"
+    },
+    {
+      "question": "What is the third person singular simple present of hear?",
+      "answer": "audit"
+    },
+    {
+      "question": "What is the first person plural simple present of hear?",
+      "answer": "audimus"
+    },
+    {
+      "question": "What is the second person plural simple present of hear?",
+      "answer": "auditis"
+    },
+    {
+      "question": "What is the third person plural simple present of hear?",
+      "answer": "audiunt"
+    },
+    {
+      "question": "What is the first person singular simple present of take (capere)?",
+      "answer": "capio"
+    },
+    {
+      "question": "What is the second person singular simple present of take (capere)?",
+      "answer": "capis"
+    },
+    {
+      "question": "What is the third person singular simple present of take (capere)?",
+      "answer": "capit"
+    },
+    {
+      "question": "What is the first person plural simple present of take (capere)?",
+      "answer": "capimus"
+    },
+    {
+      "question": "What is the second person plural simple present of take (capere)?",
+      "answer": "capitis"
+    },
+    {
+      "question": "What is the third person plural simple present of take (capere)?",
+      "answer": "capiunt"
+    },
+    {
+      "question": "What is the first person singular simple present of do?",
+      "answer": "ago"
+    },
+    {
+      "question": "What is the second person singular simple present of do?",
+      "answer": "agis"
+    },
+    {
+      "question": "What is the third person singular simple present of do?",
+      "answer": "agit"
+    },
+    {
+      "question": "What is the first person plural simple present of do?",
+      "answer": "agimus"
+    },
+    {
+      "question": "What is the second person plural simple present of do?",
+      "answer": "agitis"
+    },
+    {
+      "question": "What is the third person plural simple present of do?",
+      "answer": "agunt"
+    },
   ]
 }

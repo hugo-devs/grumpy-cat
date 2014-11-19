@@ -17,8 +17,8 @@ function Fight (enemy, enemy_lvl) {
   this.enemy_type = data.creatures[this.enemy].basestats.type
 
   this.update_health = function () {
-    $(".fight_area > .creatures > .player > paper-progress").attr("value", (this.player_health / data.creatures[this.character].hp) * 100)
-    $(".fight_area > .creatures > .enemy > paper-progress").attr("value", (this.enemy_health / data.creatures[this.enemy].hp) * 100)
+    $(".fight_area > .creatures > .player > paper-progress").attr("value", (this.player_health / parseInt(data.creatures[this.character].basestats.hp)) * 100)
+    $(".fight_area > .creatures > .enemy > paper-progress").attr("value", (this.enemy_health / parseInt(data.creatures[this.enemy].basestats.hp)) * 100)
   }
 
   this.set_display = function () {

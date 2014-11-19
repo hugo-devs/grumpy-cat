@@ -100,3 +100,6 @@ notify = (text) ->
   $("#timeline_content").prepend "<p class='notification-element'>#{text}</p>"
   $(".notification-element:nth-of-type(1)").css "display", "none"
   $(".notification-element:nth-of-type(1)").fadeIn "fast"
+
+pop = (text, heading) ->
+  $(".dialog").html('<paper-dialog heading="' + heading + '" opened="true" transition="paper-dialog-transition-bottom">' + text + '</paper-dialog>')

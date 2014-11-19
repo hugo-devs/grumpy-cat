@@ -1,26 +1,26 @@
 {
 	"Self-Dizzle" : {
 		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
-		"action": ["attack", -20],
-		"action-self": ["defense", -5],
+		"action": ["attack", -200],
+		"action-self": ["defense", -50],
 		"type": "english",
 		"difficulty": "easy"
 	},
 	"Habs-Hamster": {
 		"text": "||creature|| swallows ||Enemy||. ||Enemy|| escapes barely.",
-		"action": ["hp", -40],
+		"action": ["hp", -400],
 		"type": "latin",
 		"difficulty": "hard"
 	},
 	"Beißerchen": {
 		"text": "||creature|| bites ||Enemy||. ||Enemy||´s hp sink.",
-		"action": ["hp", -30],
+		"action": ["hp", -300],
 		"type": "latin",
 		"difficulty": "hard"
 	},
 	"Scharfer Blick": {
 		"text": "||creature|| stares ||Enemy|| down. ||Enemy||´s attack sinks.",
-		"action": ["attack", -25],
+		"action": ["attack", -250],
 		"type": "latin",
 		"difficulty": "hard"
 	}
