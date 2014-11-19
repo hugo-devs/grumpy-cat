@@ -78,6 +78,12 @@ load_creatures = function() {
   });
 };
 
+callbacks = {
+  log_hey: function() {
+    return console.log("Hey");
+  }
+};
+
 function Fight (enemy, enemy_lvl) {
   this.character = cookies.character;
   this.player_lvl = parseInt(cookies.lvl);
@@ -85,20 +91,16 @@ function Fight (enemy, enemy_lvl) {
   this.enemy_lvl = enemy_lvl;
 
   //Keeps track of health
-  this.player_health = parseInt(data.creatures[this.character].basestats.hp)
-  this.enemy_health = parseInt(data.creatures[this.enemy].basestats.hp)
+  this.player_health = Math.round(parseInt(data.creatures[this.character].basestats.hp) * parseInt(cookies.lvl) / 33)
+  this.enemy_health = Math.round(parseInt(data.creatures[this.enemy].basestats.hp) * parseInt(enemy_lvl) / 33)
 
-  //Keeps track of attack, defense and type
-  this.player_attack = parseInt(data.creatures[this.character].basestats.attack)
-  this.enemy_attack = parseInt(data.creatures[this.enemy].basestats.attack)
-  this.player_defense = parseInt(data.creatures[this.character].basestats.defense)
-  this.enemy_defense = parseInt(data.creatures[this.enemy].basestats.defense)
+  //Keeps track type
   this.player_type = data.creatures[this.character].basestats.type
   this.enemy_type = data.creatures[this.enemy].basestats.type
 
   this.update_health = function () {
-    $(".fight_area > .creatures > .player > paper-progress").attr("value", (this.player_health / parseInt(data.creatures[this.character].basestats.hp)) * 100)
-    $(".fight_area > .creatures > .enemy > paper-progress").attr("value", (this.enemy_health / parseInt(data.creatures[this.enemy].basestats.hp)) * 100)
+    $(".fight_area > .creatures > .player > paper-progress").attr("value", (this.player_health / parseInt(data.creatures[this.character].basestats.hp) * parseInt(cookies.lvl) / 33) * 100)
+    $(".fight_area > .creatures > .enemy > paper-progress").attr("value", (this.enemy_health / parseInt(data.creatures[this.enemy].basestats.hp) * parseInt(cookies.lvl) / 33) * 100)
   }
 
   this.set_display = function () {
@@ -112,12 +114,6 @@ function Fight (enemy, enemy_lvl) {
   };
 };
 
-callbacks = {
-  log_hey: function() {
-    return console.log("Hey");
-  }
-};
-
 fight_start = function(enemy, enemy_lvl) {
   currentFight = new Fight(enemy, enemy_lvl);
   return currentFight.set_display();
@@ -126,6 +122,10 @@ fight_start = function(enemy, enemy_lvl) {
 fight_attack = function(attack_name) {
   return console.log(data[attack_name]);
 };
+
+$("#dialog_choose_name").on("change", function() {
+  return set_name();
+});
 
 check_for_new_game = function() {
   if (cookies.character === void 0 || cookies.name === null) {
@@ -257,10 +257,6 @@ notify = function(text) {
 pop = function(text, heading) {
   return $(".dialog").html('<paper-dialog heading="' + heading + '" opened="true" transition="paper-dialog-transition-bottom">' + text + '</paper-dialog>');
 };
-
-$("#dialog_choose_name").on("change", function() {
-  return set_name();
-});
 
 init = function() {
   load_cookies();

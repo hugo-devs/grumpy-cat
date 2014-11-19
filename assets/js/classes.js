@@ -5,20 +5,16 @@ function Fight (enemy, enemy_lvl) {
   this.enemy_lvl = enemy_lvl;
 
   //Keeps track of health
-  this.player_health = parseInt(data.creatures[this.character].basestats.hp)
-  this.enemy_health = parseInt(data.creatures[this.enemy].basestats.hp)
+  this.player_health = Math.round(parseInt(data.creatures[this.character].basestats.hp) * parseInt(cookies.lvl) / 33)
+  this.enemy_health = Math.round(parseInt(data.creatures[this.enemy].basestats.hp) * parseInt(enemy_lvl) / 33)
 
-  //Keeps track of attack, defense and type
-  this.player_attack = parseInt(data.creatures[this.character].basestats.attack)
-  this.enemy_attack = parseInt(data.creatures[this.enemy].basestats.attack)
-  this.player_defense = parseInt(data.creatures[this.character].basestats.defense)
-  this.enemy_defense = parseInt(data.creatures[this.enemy].basestats.defense)
+  //Keeps track type
   this.player_type = data.creatures[this.character].basestats.type
   this.enemy_type = data.creatures[this.enemy].basestats.type
 
   this.update_health = function () {
-    $(".fight_area > .creatures > .player > paper-progress").attr("value", (this.player_health / parseInt(data.creatures[this.character].basestats.hp)) * 100)
-    $(".fight_area > .creatures > .enemy > paper-progress").attr("value", (this.enemy_health / parseInt(data.creatures[this.enemy].basestats.hp)) * 100)
+    $(".fight_area > .creatures > .player > paper-progress").attr("value", (this.player_health / parseInt(data.creatures[this.character].basestats.hp) * parseInt(cookies.lvl) / 33) * 100)
+    $(".fight_area > .creatures > .enemy > paper-progress").attr("value", (this.enemy_health / parseInt(data.creatures[this.enemy].basestats.hp) * parseInt(cookies.lvl) / 33) * 100)
   }
 
   this.set_display = function () {
