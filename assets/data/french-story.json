@@ -1,0 +1,19 @@
+[
+	{
+		"type": "pop",
+		"value": "Condorcet: Bonjour, mon amis and welcome to the french revolution. Your name is ||name||, isn't it? And you've got a very nice ||creature||, even if it's not that strong yet. We are in Paris at the end of the 18th century and you have to help us to win the revolution!"
+	},
+	{
+		"type": "text",
+		"value": "Spartacus: Hey ||name||, nice ||creature|| you have there! You are now a slave and must fight as a gladiator to survive and maybe one day become free, but for now I am going to be your Mentor and train you. Let's see how good you are."
+	},
+	{
+		"type": "fight",
+		"enemy": "Avus-Avis",
+		"lvl": "1"
+	},
+	{
+		"type": "text",
+		"value": "Wow, you beat the Dymynator"
+	}
+]
