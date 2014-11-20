@@ -29,9 +29,6 @@ load_cookies = ->
   else if cookies.finished_tut is "false"
     cookies.finished_tut = false
 
-reset = ->
-  document.cookie = ""
-
 load_story = ->
   $.getJSON "assets/data/#{cookies.storyline}-story.json", (json) ->
     data.story = json
