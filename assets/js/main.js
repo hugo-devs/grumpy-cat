@@ -256,8 +256,7 @@ pop = function(text, heading) {
 
 init = function() {
   load_cookies();
-  check_for_new_game();
-  return $(".select_attack").css("position", "absolute");
+  return check_for_new_game();
 };
 
 document.addEventListener("polymer-ready", function() {
