@@ -1,8 +1,8 @@
 {
 	"Self-Dizzle" : {
 		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
-		"action": ["attack", -200],
-		"action-self": ["defense", -50],
+		"action": ["attack", -0.2],
+		"action-self": ["defense", -0.2],
 		"type": "english",
 		"difficulty": "easy"
 	},
@@ -23,5 +23,17 @@
 		"action": ["attack", -250],
 		"type": "latin",
 		"difficulty": "hard"
+	},
+	"Test-Attack-Multiplier": {
+		"text": "Just testing the attack multiplier",
+		"action": ["attack", -0.2],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Test-Defense-Multiplier": {
+		"text": "Just testing the defense multiplier",
+		"action": ["defense", 0.2],
+		"type": "latin",
+		"difficulty": "easy"
 	}
 }
