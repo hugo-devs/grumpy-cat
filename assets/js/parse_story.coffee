@@ -1,20 +1,19 @@
 check_for_new_game = ->
-  if cookies.character is undefined or cookies.name is null
+  if localStorage.character is undefined or localStorage.name is null
     $("#dialog_choose_name").toggle()
     console.log "toggling dialog"
   else
     load_story()
 
 skip_tut = ->
-  if cookies.story_pos is 0 && cookies.finished_tut
-    if cookies.storyline is "latin"
-      cookies.story_pos = 10
+  if localStorage.story_pos is 0 && localStorage.finished_tut
+    if localStorage.storyline is "latin"
+      localStorage.story_pos = 10
 
 parse_story = ->
   skip_tut()
-  parse_story_element data.story[cookies.story_pos]
-  set_cookie("story_pos", cookies.story_pos + 1)
-  load_cookies()
+  parse_story_element data.story[localStorage.story_pos]
+  localStorage.story_pos += 1
 
 parse_story_element = (element) ->
   console.log element
@@ -64,31 +63,29 @@ parse_inline_vars = (input) ->
   __print = input.split("||")
   for i in [0..__print.length-1]
     if __print[i].toLowerCase() is "name"
-      __print[i] = cookies.name
+      __print[i] = localStorage.name
     else if __print[i].toLowerCase() is "creature"
-      __print[i] = cookies.character
+      __print[i] = localStorage.character
   __print = __print.join("")
 
 set_name = ->
   console.log  "Name set: #{$("#dialog_choose_name > paper-input").val()}"
-  set_cookie("name", $("#dialog_choose_name > paper-input").val())
-  load_cookies()
+  localStorage.name = $("#dialog_choose_name > paper-input").val()
   $("#dialog_choose_name").remove()
   $("#dialog_backstory").attr "heading", "Welcome to the Hugo Science Enrichment Center"
+  $("#dialog_backstory").attr "transition", "paper-dialog-transition-bottom"
   $("#dialog_backstory").html "<p>HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakepeare or the french revolution.</p> <paper-button onclick='show_choose_creature()' affirmative autofocus role='button'>Got it</paper-button>"
   $("#dialog_backstory").toggle()
 
 set_character = (what) ->
-  set_cookie("character", what)
-  set_cookie("lvl", 1)
-  set_cookie("finished_tut", false)
-  set_cookie("story_pos", 0)
-  load_cookies()
+  localStorage.character = what
+  localStorage.lvl = 1
+  localStorage.finished_tut = false
+  localStorage.story_pos = 0
   $("#dialog_choose_creature").remove()
 
 set_storyline = (which) ->
-  set_cookie("storyline", which)
-  load_cookies()
+  localStorage.storyline = which
   load_story()
 
 show_choose_creature = ->
