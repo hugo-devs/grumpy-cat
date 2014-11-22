@@ -6,14 +6,14 @@ check_for_new_game = ->
     load_story()
 
 skip_tut = ->
-  if localStorage.story_pos is 0 && localStorage.finished_tut
+  if parseInt(localStorage.story_pos) is 0 && localStorage.finished_tut == "true"
     if localStorage.storyline is "latin"
       localStorage.story_pos = 10
 
 parse_story = ->
   skip_tut()
-  parse_story_element data.story[localStorage.story_pos]
-  localStorage.story_pos += 1
+  parse_story_element data.story[parseInt(localStorage.story_pos)]
+  localStorage.story_pos = parseInt(localStorage.story_pos) + 1
 
 parse_story_element = (element) ->
   console.log element
@@ -22,6 +22,7 @@ parse_story_element = (element) ->
     setTimeout ->
       parse_story();
     ,2000
+
   else if element.type is "pop"
     if element.hasOwnProperty "title"
       swal {
@@ -58,6 +59,9 @@ parse_story_element = (element) ->
     else
       swal __swal, ->
         parse_story()
+
+  else if element.type is 'fight'
+    fight_start(element.enemy, parseInt(element.lvl))
 
 parse_inline_vars = (input) ->
   __print = input.split("||")

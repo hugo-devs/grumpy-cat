@@ -4,6 +4,11 @@
 		"value": "Hey"
 	},
 	{
+		"type": "fight",
+		"enemy": "Lizzle",
+		"lvl": 33
+	},
+	{
 		"type": "pop",
 		"value": "Ho"
 	},

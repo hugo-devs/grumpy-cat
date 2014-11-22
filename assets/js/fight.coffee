@@ -2,6 +2,7 @@
 fight_start = (enemy, enemy_lvl) ->
   currentFight = new Fight(enemy, enemy_lvl)
   currentFight.set_display()
+  $(".fight_area").fadeIn "fast"
 
 fight_attack = (attack_name) ->
   currAttack = data.attacks[attack_name]
@@ -27,6 +28,8 @@ fight_change_vals = (action, attacker, victim) ->
     currentFight[victim + "_attack_multiplier"] += action[1]
   if action[0] is 'defense'
     currentFight[victim + "_attack_multiplier"] += action[1]
+  else
+    console.log "There's an error with the action[0]. currAttack is #{currAttack}"
 
 
 fight_parse_inline_vars = (text) ->

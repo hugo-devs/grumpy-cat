@@ -54,7 +54,7 @@ function Fight (enemy, enemy_lvl) {
 		$(".select_attack > .attack_btns").html("");
 		for (var i = 0; i < this.player_attacks.length; i++) {
 			$(".select_attack > .attack_btns").append(
-				"<paper-button onclick='fight_attack("+ this.player_attacks[i]+ ")'>" + this.player_attacks[i] + "</paper-button>"
+				"<paper-button raised onclick='fight_attack("+ this.player_attacks[i]+ ")'>" + this.player_attacks[i] + "</paper-button>"
 			);
 		}
 

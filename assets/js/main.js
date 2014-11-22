@@ -100,7 +100,7 @@ function Fight (enemy, enemy_lvl) {
 		$(".select_attack > .attack_btns").html("");
 		for (var i = 0; i < this.player_attacks.length; i++) {
 			$(".select_attack > .attack_btns").append(
-				"<paper-button onclick='fight_attack("+ this.player_attacks[i]+ ")'>" + this.player_attacks[i] + "</paper-button>"
+				"<paper-button raised onclick='fight_attack("+ this.player_attacks[i]+ ")'>" + this.player_attacks[i] + "</paper-button>"
 			);
 		}
 
@@ -110,7 +110,8 @@ function Fight (enemy, enemy_lvl) {
 
 fight_start = function(enemy, enemy_lvl) {
   currentFight = new Fight(enemy, enemy_lvl);
-  return currentFight.set_display();
+  currentFight.set_display();
+  return $(".fight_area").fadeIn("fast");
 };
 
 fight_attack = function(attack_name) {
@@ -138,6 +139,8 @@ fight_change_vals = function(action, attacker, victim) {
   }
   if (action[0] === 'defense') {
     return currentFight[victim + "_attack_multiplier"] += action[1];
+  } else {
+    return console.log("There's an error with the action[0]. currAttack is " + currAttack);
   }
 };
 
@@ -174,7 +177,7 @@ check_for_new_game = function() {
 };
 
 skip_tut = function() {
-  if (localStorage.story_pos === 0 && localStorage.finished_tut) {
+  if (parseInt(localStorage.story_pos) === 0 && localStorage.finished_tut === "true") {
     if (localStorage.storyline === "latin") {
       return localStorage.story_pos = 10;
     }
@@ -183,8 +186,8 @@ skip_tut = function() {
 
 parse_story = function() {
   skip_tut();
-  parse_story_element(data.story[localStorage.story_pos]);
-  return localStorage.story_pos += 1;
+  parse_story_element(data.story[parseInt(localStorage.story_pos)]);
+  return localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
 };
 
 parse_story_element = function(element) {
@@ -237,6 +240,8 @@ parse_story_element = function(element) {
         return parse_story();
       });
     }
+  } else if (element.type === 'fight') {
+    return fight_start(element.enemy, parseInt(element.lvl));
   }
 };
 
