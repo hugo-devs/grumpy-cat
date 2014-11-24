@@ -191,6 +191,18 @@
     {
       "question": "What is the third person plural simple present of do?",
       "answer": "agunt"
-    },
+    }
+  ],
+  "medium": [
+    {
+      "question": "Just type in hamster.",
+      "answer": "hamster"
+    }
+  ],
+  "hard": [
+    {
+      "question": "Just type in hamsterboy.",
+      "answer": "hamsterboy"
+    }
   ]
 }

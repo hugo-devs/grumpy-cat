@@ -19,19 +19,17 @@
     <link rel="stylesheet" type="text/css" href="bower_components/sweetalert/lib/sweet-alert.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   </head>
-  <body fullbleed="" unresolved="">
-    <!--#preloader-->
-    <!--  img(src="assets/img/preloader.gif", height="128", width="128", alt="")-->
+  <body fullbleed unresolved>
     <core-drawer-panel id="drawerPanel">
-      <div id="drawer-panel" drawer="">
+      <div id="drawer-panel" drawer>
         <core-toolbar id="navheader"><span>Timeline</span></core-toolbar>
         <div id="timeline_content"></div>
       </div>
-      <div id="main-panel" main="">
+      <div id="main-panel" main>
         <core-toolbar id="mainheader">
-          <paper-icon-button id="navicon" icon="announcement"></paper-icon-button><span flex="">Our Fun Game</span>
+          <paper-icon-button id="navicon" icon="announcement"></paper-icon-button><span flex>Our Fun Game</span>
         </core-toolbar>
-        <div class="fight_area">
+        <div class="fight_area dpn">
           <div class="creatures">
             <div class="player">
               <h1><span class="name">Dymynator</span><span class="lvl">LVL<span>100</span></span></h1>
@@ -44,25 +42,27 @@
           </div>
           <div class="select_attack">
             <h3>Choose an attack</h3>
-            <paper-button raised>Habs-Hamster</paper-button>
-            <paper-button raised>Scharfer Blick</paper-button>
-            <paper-button raised>Beißerchen</paper-button>
+            <div class="attack_btns">
+              <paper-button raised>Habs-Hamster</paper-button>
+              <paper-button raised>Scharfer Blick</paper-button>
+              <paper-button raised>Beißerchen</paper-button>
+            </div>
           </div>
         </div>
       </div>
     </core-drawer-panel>
-    <paper-dialog id="dialog_choose_name" heading="Choose your Name" opened="false">
+    <paper-dialog id="dialog_choose_name" heading="Choose your Name" autoclosedisabled opened="false" transition="paper-dialog-transition-bottom" backdrop class="paper-dialog-transition paper-dialog-transition-bottom">
       <p>Choose wisely. You cannot change your name later.</p>
       <paper-input value="Bob" required="true"></paper-input>
-      <paper-button onclick="set_name()" affirmative="" autofocus="" role="button">Accept</paper-button>
+      <paper-button onclick="set_name()" autofocus role="button" affirmative>Accept</paper-button>
     </paper-dialog>
-    <paper-dialog id="dialog_choose_creature" heading="Choose your Creature and Language" opened="false">
+    <paper-dialog id="dialog_choose_creature" heading="Choose your Creature and Language" opened="false" autoclosedisabled transition="paper-dialog-transition-bottom" backdrop class="paper-dialog-transition paper-dialog-transition-bottom">
       <p>Choose wisely. The creature will determine the language you want to learn and your strengths and weaksnesses. As well as the part of the story you are going to play first.</p>
-      <paper-button onclick="set_character('Lizzle'); set_storyline('english');" raised="" role="button">English</paper-button>
-      <paper-button onclick="set_character('Cricetinae'); set_storyline('latin');" raised="" role="button">Latin</paper-button>
-      <paper-button onclick="set_character('Champagnier'); set_storyline('french');" raised="" role="button">French</paper-button>
+      <paper-button onclick="set_character('Lizzle'); set_storyline('english');" raised="" role="button" affirmative>English</paper-button>
+      <paper-button onclick="set_character('Cricetinae'); set_storyline('latin');" raised="" role="button" affirmative>Latin</paper-button>
+      <paper-button onclick="set_character('Champagnier'); set_storyline('french');" raised="" role="button" affirmative>French</paper-button>
     </paper-dialog>
-    <paper-dialog id="dialog_backstory"></paper-dialog>
+    <paper-dialog id="dialog_backstory" transition="paper-dialog-transition-bottom" autoclosedisabled backdrop class="paper-dialog-transition paper-dialog-transition-bottom"></paper-dialog>
     <div class="dialog"></div>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>

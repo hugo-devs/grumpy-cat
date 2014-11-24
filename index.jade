@@ -18,25 +18,22 @@ html
     link(rel="import", href="bower_components/paper-progress/paper-progress.html")
     link(rel="stylesheet", type="text/css", href="bower_components/sweetalert/lib/sweet-alert.css")
     link(rel="stylesheet", type="text/css", href="assets/css/main.css")
-  body(fullbleed="", unresolved="")
-
-    //#preloader
-    //  img(src="assets/img/preloader.gif", height="128", width="128", alt="")
+  body(fullbleed, unresolved)
     
     core-drawer-panel#drawerPanel
 
-      #drawer-panel(drawer="")
+      #drawer-panel(drawer)
         core-toolbar#navheader
           span Timeline
         #timeline_content
 
-      #main-panel(main="")
+      #main-panel(main)
 
         core-toolbar#mainheader
           paper-icon-button#navicon(icon="announcement")
-          span(flex="") Our Fun Game
+          span(flex) Our Fun Game
 
-        .fight_area
+        .fight_area.dpn
 
           .creatures
             .player
@@ -54,24 +51,25 @@ html
         
           .select_attack
             h3 Choose an attack
-            paper-button(raised) Habs-Hamster
-            paper-button(raised) Scharfer Blick
-            paper-button(raised) Beißerchen
+            .attack_btns
+              paper-button(raised) Habs-Hamster
+              paper-button(raised) Scharfer Blick
+              paper-button(raised) Beißerchen
 
 
-    paper-dialog#dialog_choose_name(heading="Choose your Name", opened="false")
+    paper-dialog#dialog_choose_name.paper-dialog-transition.paper-dialog-transition-bottom(heading="Choose your Name", autoclosedisabled, opened="false", transition="paper-dialog-transition-bottom" backdrop)
       p Choose wisely. You cannot change your name later.
       paper-input(value="Bob", required="true")
-      paper-button(onclick="set_name()", affirmative="", autofocus="", role="button") Accept
+      paper-button(onclick="set_name()", autofocus, role="button" affirmative) Accept
 
-    paper-dialog#dialog_choose_creature(heading="Choose your Creature and Language", opened="false")
+    paper-dialog#dialog_choose_creature.paper-dialog-transition.paper-dialog-transition-bottom(heading="Choose your Creature and Language", opened="false", autoclosedisabled, transition="paper-dialog-transition-bottom" backdrop)
       p
         | Choose wisely. The creature will determine the language you want to learn and your strengths and weaksnesses. As well as the part of the story you are going to play first.
-      paper-button(onclick="set_character('Lizzle'); set_storyline('english');", raised="", role="button") English
-      paper-button(onclick="set_character('Cricetinae'); set_storyline('latin');", raised="", role="button") Latin
-      paper-button(onclick="set_character('Champagnier'); set_storyline('french');", raised="", role="button") French
+      paper-button(onclick="set_character('Lizzle'); set_storyline('english');", raised="", role="button" affirmative) English
+      paper-button(onclick="set_character('Cricetinae'); set_storyline('latin');", raised="", role="button" affirmative) Latin
+      paper-button(onclick="set_character('Champagnier'); set_storyline('french');", raised="", role="button" affirmative) French
 
-    paper-dialog#dialog_backstory
+    paper-dialog#dialog_backstory(transition="paper-dialog-transition-bottom", autoclosedisabled, class="paper-dialog-transition paper-dialog-transition-bottom" backdrop)
 
     .dialog
 
