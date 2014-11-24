@@ -14,7 +14,7 @@ core-drawer-panel:not([narrow]) #navicon {
 .notification-element {
   opacity: 0.2;
   transition: all 2s ease;
-  margin: 0px 0px 4px 5px; }
+  margin: 15px 0px 15px 5px; }
 
 paper-dialog {
   margin-left: auto !important;
@@ -85,7 +85,3 @@ div.select_attack {
 @media (max-width: 400px) {
   div.fight_area > .enemy {
     float: left; } }
-@media (min-width: 601px) {
-  paper-dialog {
-    left: 50%;
-    transform: translate(-50%, 0); } }

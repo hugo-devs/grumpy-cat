@@ -1,6 +1,6 @@
 check_for_new_game = ->
   if localStorage.character is undefined or localStorage.name is null
-    $("#dialog_choose_name").toggle()
+    $("#dialog_choose_name")[0].toggle()
     console.log "toggling dialog"
   else
     load_story()
@@ -11,9 +11,22 @@ skip_tut = ->
       localStorage.story_pos = 10
 
 parse_story = ->
+  if parseInt(localStorage.story_pos) >= data.story.length
+    $(".dialog").html("
+      <paper-dialog backdrop autoCloseDisabled='true' heading='Which story do you want to play next?' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
+        <h3>Choose one of the three. You will still learn the same language and have the same creature, but your level will be reset. You can also replay the story you just played. Or you can completely reset the game and choose another language to learn.</h3>
+        <paper-button onclick=\"set_storyline('english');\" raised role='button' affirmative>English</paper-button>
+        <paper-button onclick=\"set_storyline('latin');\" raised  role='button' affirmative>Latin</paper-button>
+        <paper-button onclick=\"set_storyline('french');\" raised  role='button' affirmative>French</paper-button>
+        <paper-button onclick=\"reset();\" raised role='button' affirmative>Reset</paper-button>
+      </paper-dialog>
+    ")
+    $(".dialog > paper-dialog")[0].toggle()
+
   skip_tut()
   parse_story_element data.story[parseInt(localStorage.story_pos)]
-  localStorage.story_pos = parseInt(localStorage.story_pos) + 1
+  if data.story[parseInt(localStorage.story_pos)].type != "fight"
+    localStorage.story_pos = parseInt(localStorage.story_pos) + 1
 
 parse_story_element = (element) ->
   console.log element
@@ -72,14 +85,30 @@ parse_inline_vars = (input) ->
       __print[i] = localStorage.character
   __print = __print.join("")
 
+reset = ->
+  swal({
+    title: "Are you sure?",
+    text: "All progress will be lost.",
+    type: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#DD6B55",
+    confirmButtonText: "Yes, reset the game!",
+    cancelButtonText: "No, cancel please!",
+  }, (confirmed) ->
+    if confirmed
+      localStorage.clear()
+      location.reload()
+    else
+      location.reload()
+  )
+
 set_name = ->
   console.log  "Name set: #{$("#dialog_choose_name > paper-input").val()}"
   localStorage.name = $("#dialog_choose_name > paper-input").val()
   $("#dialog_choose_name").remove()
   $("#dialog_backstory").attr "heading", "Welcome to the Hugo Science Enrichment Center"
-  $("#dialog_backstory").attr "transition", "paper-dialog-transition-bottom"
   $("#dialog_backstory").html "<p>HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakepeare or the french revolution.</p> <paper-button onclick='show_choose_creature()' affirmative autofocus role='button'>Got it</paper-button>"
-  $("#dialog_backstory").toggle()
+  $("#dialog_backstory")[0].toggle()
 
 set_character = (what) ->
   localStorage.character = what
@@ -87,14 +116,19 @@ set_character = (what) ->
   localStorage.finished_tut = false
   localStorage.story_pos = 0
   $("#dialog_choose_creature").remove()
+  $(".core-overlay-backdrop").remove()
 
 set_storyline = (which) ->
+  console.log "Running set_storyline"
+  localStorage.story_pos = 0
+  localStorage.lvl = 1
   localStorage.storyline = which
+  $(".core-overlay-backdrop").remove()
   load_story()
 
 show_choose_creature = ->
   $("#dialog_backstory").remove()
-  $("#dialog_choose_creature").toggle()
+  $("#dialog_choose_creature")[0].toggle()
   notify "HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakepeare or the french revolution."
 
 notify = (text) ->

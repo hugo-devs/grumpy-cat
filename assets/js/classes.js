@@ -31,6 +31,7 @@ function Fight (enemy, enemy_lvl) {
 			this.turn = 'enemy';
 			this.victim = 'player';
 			$(".select_attack > .attack_btns > paper-button").attr("disabled", "");
+			fight_enemy_attack();
 		} else {
 			this.turn = 'player';
 			this.victim  = 'enemy';
@@ -54,9 +55,34 @@ function Fight (enemy, enemy_lvl) {
 		$(".select_attack > .attack_btns").html("");
 		for (var i = 0; i < this.player_attacks.length; i++) {
 			$(".select_attack > .attack_btns").append(
-				"<paper-button raised onclick='fight_attack("+ this.player_attacks[i]+ ")'>" + this.player_attacks[i] + "</paper-button>"
+				"<paper-button raised onclick='fight_question(\""+ this.player_attacks[i]+ "\")'>" + this.player_attacks[i] + "</paper-button>"
 			);
 		}
+
+		this.check_health = function () {
+			if (this.player_health <= 0) {
+				swal({
+					title: "You lost the Battle.",
+					text: "Try again!",
+					timer: 2999,
+					type: "error"
+				});
+				setTimeout(function () {parse_story();}, 3000);
+			} else if (this.enemy_health <= 0) {
+				swal({
+					title: "You won the Battle!",
+					text: "You earn one level. Continue you journey.",
+					timer: 2999,
+					type: "success"
+				});
+				localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+				localStorage.lvl = parseInt(localStorage.lvl) + 1;
+				setTimeout(function () {
+					parse_story();
+					$(".fight_area").fadeOut("fast");
+				}, 3000);
+			}
+		};
 
 		this.update_health();
 	};

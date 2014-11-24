@@ -35,5 +35,11 @@
 		"action": ["defense", 0.2],
 		"type": "latin",
 		"difficulty": "easy"
+	},
+	"Platscher": {
+		"text": "Nothing happens",
+		"action": ["hp", 0],
+		"type": "latin",
+		"difficulty": "hard"
 	}
 }

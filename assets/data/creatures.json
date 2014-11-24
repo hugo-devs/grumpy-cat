@@ -79,9 +79,9 @@
 			"type": "latin"
 		},
 		"attacks": [
-			"Attacke1",
-			"Attacke2",
-			"Attacke3"
+			"Test-Attack-Multiplier",
+			"Test-Defense-Multiplier",
+			"Habs-Hamster"
 		]
 	},
 	"Hier den Namen": {
