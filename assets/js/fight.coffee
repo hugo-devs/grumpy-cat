@@ -18,7 +18,7 @@ fight_question = (attack_name) ->
   $(".dialog > paper-dialog")[0].toggle()
 
 fight_check_question = (attack_name) ->
-  #$(".core-overlay-backdrop").remove()
+  $(".core-overlay-backdrop").remove()
   if $(".dialog > paper-dialog > paper-input").val().toLowerCase() == currentQuestion.question.answer.toLowerCase()
     fight_attack(attack_name)
     currentFight.switch_turn()
@@ -26,7 +26,6 @@ fight_check_question = (attack_name) ->
     notify "<span style='color: #E53935;'>Wrong answer! Your attack failed!<span>"
     setTimeout ->
       currentFight.switch_turn()
-      # add enemy attack here
     ,500
 
 fight_enemy_attack = ->
