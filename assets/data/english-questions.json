@@ -1,12 +1,12 @@
 {
   "easy": [
     {
-      "question": "what means 'make'",
-      "answer": "faire"
+      "question": "what means 'apfel'",
+      "answer": "apple"
     },
     {
-      "question": "what means 'be'",
-      "answer": ["'être'","'etre'"]
+      "question": "write 'walk' in simple past",
+      "answer": "walked"
     },
     {
       "question": "what means 'my name is'",
