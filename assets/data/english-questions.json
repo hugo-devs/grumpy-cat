@@ -1,7 +1,7 @@
 {
   "easy": [
     {
-      "question": "what means 'apfel'",
+      "question": "what does 'Apfel' mean in english",
       "answer": "apple"
     },
     {
@@ -9,8 +9,8 @@
       "answer": "walked"
     },
     {
-      "question": "what means 'my name is'",
-      "answer": "'je m'apelle'"
+      "question": "what does 'mein Name ist' mean in english",
+      "answer": "my name is"
     },
     {
       "question": "what means ",
