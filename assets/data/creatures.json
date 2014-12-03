@@ -84,6 +84,18 @@
 			"Habs-Hamster"
 		]
 	},
+	"Laudidam": {
+		"description": "",
+		"basestats": {
+			"hp": 700,
+			"type": "french"
+		},
+		"attacks": [
+			"",
+			"",
+			""
+		]
+	},
 	"Hier den Namen": {
 		"description": "Beschreibung hier",
 		"basestats": {

@@ -164,10 +164,17 @@ fight_question = function(attack_name) {
 };
 
 fight_check_question = function(attack_name) {
+  var i, __lower_array, _i, _ref;
+  __lower_array = [];
+  for (i = _i = 0, _ref = currentQuestion.question.answer.length - 1; 0 <= _ref ? _i <= _ref : _i >= _ref; i = 0 <= _ref ? ++_i : --_i) {
+    __lower_array.push(currentQuestion.question.answer[i].toLowerCase());
+  }
   $(".core-overlay-backdrop").remove();
   if ($(".dialog > paper-dialog > paper-input").val().toLowerCase() === currentQuestion.question.answer.toLowerCase()) {
     fight_attack(attack_name);
     return currentFight.switch_turn();
+  } else if ($.inArray($(".dialog > paper-dialog > paper-input").val().toLowerCase(), __lower_array) !== -1) {
+    return console.log("Hey");
   } else {
     notify("<span style='color: #E53935;'>Wrong answer! Your attack failed!<span>");
     return setTimeout(function() {
