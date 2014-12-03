@@ -49,10 +49,10 @@
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Klugscheißerism" : {
-		"text": "||creature|| correct her enemy. ||Enemy|| gets angry. ||Enemy||'s attack increases, defense decreases.",
-		"action": ["defense", 0.2],
-		"action-self": ["defense", -0.3],
+	"Confulizzle" : {
+		"text": "||creature|| confuses her enemy. ||Enemy|| confuses. ||Enemy|| attacks himself, attack increases.",
+		"action": ["attack", -0.2],
+		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "easy"
 	},
