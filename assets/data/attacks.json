@@ -50,7 +50,7 @@
 		"difficulty": "easy"
 	},
 	"Confulizzle" : {
-		"text": "||creature|| confuses her enemy. ||Enemy|| confuses. ||Enemy|| attacks himself, attack increases.",
+		"text": "||creature|| confuses her enemy. ||Enemy|| gets confuses. ||Enemy|| attacks himself, ||Enemy||'s attack increases.",
 		"action": ["attack", -0.2],
 		"action-self": ["defense", 0.0],
 		"type": "english",
