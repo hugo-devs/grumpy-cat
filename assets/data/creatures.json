@@ -60,15 +60,15 @@
 		]
 	},
 	"Ferreon": {
-		"description": "",
+		"description": "Ferreon is a little raccon. He is the ninja of the nature and the hero of the big city jungle..",
 		"basestats": {
 			"hp": 440,
 			"type": "english"
 		},
 		"attacks": [
-			"Attacke1",
-			"Attacke2",
-			"Attacke3"
+			"purzeltree",
+			"fit of rage",
+			"flic-flacs"
 		]
 	
 	},
@@ -82,6 +82,18 @@
 			"Test-Attack-Multiplier",
 			"Test-Defense-Multiplier",
 			"Habs-Hamster"
+		]
+	},
+	"Laudidam": {
+		"description": "",
+		"basestats": {
+			"hp": 700,
+			"type": "french"
+		},
+		"attacks": [
+			"",
+			"",
+			""
 		]
 	},
 	"Hier den Namen": {

@@ -18,10 +18,18 @@ fight_question = (attack_name) ->
   $(".dialog > paper-dialog")[0].toggle()
 
 fight_check_question = (attack_name) ->
+
+  __lower_array = []
+
+  for i in [0..currentQuestion.question.answer.length - 1]
+    __lower_array.push currentQuestion.question.answer[i].toLowerCase()
+
   $(".core-overlay-backdrop").remove()
   if $(".dialog > paper-dialog > paper-input").val().toLowerCase() == currentQuestion.question.answer.toLowerCase()
     fight_attack(attack_name)
     currentFight.switch_turn()
+  else if $.inArray($(".dialog > paper-dialog > paper-input").val().toLowerCase(), __lower_array) != -1
+    console.log "Hey"
   else
     notify "<span style='color: #E53935;'>Wrong answer! Your attack failed!<span>"
     setTimeout ->
