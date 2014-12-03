@@ -41,5 +41,12 @@
 		"action": ["hp", 0],
 		"type": "latin",
 		"difficulty": "hard"
-	}
+	},
+	"Self-Dizzle" : {
+		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
+		"action": ["attack", -0.2],
+		"action-self": ["defense", -0.2],
+		"type": "english",
+		"difficulty": "easy"
+	},
 }
