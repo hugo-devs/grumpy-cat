@@ -43,9 +43,16 @@
 		"difficulty": "hard"
 	},
 	"Klugscheißerism" : {
-		"text": "||creature|| correct her enemy. ||Enemy|| gets angry. ||Enemy||'s attack increases, defense sinks.",
-		"action": ["attack", +0.2],
-		"action-self": ["defense", -0.2],
+		"text": "||creature|| correct her enemy. ||Enemy|| gets angry. ||Enemy||'s attack increases, defense decreases.",
+		"action": ["defense", 0.2],
+		"action-self": ["defense", -0.3],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Klugscheißerism" : {
+		"text": "||creature|| correct her enemy. ||Enemy|| gets angry. ||Enemy||'s attack increases, defense decreases.",
+		"action": ["defense", 0.2],
+		"action-self": ["defense", -0.3],
 		"type": "english",
 		"difficulty": "easy"
 	},
