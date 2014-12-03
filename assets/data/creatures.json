@@ -1,6 +1,6 @@
 {
 	"Dymynator": {
-		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except Stochastik). It it a Hamster? No! Is it a Boy? No! It's the Dymynator!",
+		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except stochastic). It it a Hamster? No! Is it a Boy? No! It's the Dymynator!",
 		"basestats": {
 			"hp": 1000,
 			"type": "latin"
