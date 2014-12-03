@@ -1,212 +1,248 @@
 {
   "easy": [
     {
-      "question": "What is the first person singular simple present of be?",
+      "question": "What is the first person singular praesens of be?",
       "answer": "sum"
     },
     {
-      "question": "What is the second person singular simple present of be?",
+      "question": "What is the second person singular praesens of be?",
       "answer": "es"
     },
     {
-      "question": "What is the third person singular simple present of be?",
+      "question": "What is the third person singular praesens of be?",
       "answer": "est"
     },
     {
-      "question": "What is the first person plural simple present of be?",
+      "question": "What is the first person plural praesens of be?",
       "answer": "sumus"
     },
     {
-      "question": "What is the second person plural simple present of be?",
+      "question": "What is the second person plural praesens of be?",
       "answer": "estis"
     },
     {
-      "question": "What is the third person plural simple present of be?",
+      "question": "What is the third person plural praesens of be?",
       "answer": "sunt"
     },
     {
-      "question": "What is the first person singular simple present of can?",
+      "question": "What is the first person singular praesens of can?",
       "answer": "possum"
     },
     {
-      "question": "What is the second person singular simple present of can?",
+      "question": "What is the second person singular praesens of can?",
       "answer": "potes"
     },
     {
-      "question": "What is the third person singular simple present of can?",
+      "question": "What is the third person singular praesens of can?",
       "answer": "potest"
     },
     {
-      "question": "What is the first person plural simple present of can?",
+      "question": "What is the first person plural praesens of can?",
       "answer": "possumus"
     },
     {
-      "question": "What is the second person plural simple present of can?",
+      "question": "What is the second person plural praesens of can?",
       "answer": "potestis"
     },
     {
-      "question": "What is the third person plural simple present of can?",
+      "question": "What is the third person plural praesens of can?",
       "answer": "possunt"
     },
     {
-      "question": "What is the first person singular simple present of want?",
+      "question": "What is the first person singular praesens of want?",
       "answer": "volo"
     },
     {
-      "question": "What is the second person singular simple present of want?",
+      "question": "What is the second person singular praesens of want?",
       "answer": "vis"
     },
     {
-      "question": "What is the third person singular simple present of want?",
+      "question": "What is the third person singular praesens of want?",
       "answer": "vult"
     },
     {
-      "question": "What is the first person plural simple present of want?",
+      "question": "What is the first person plural praesens of want?",
       "answer": "volumus"
     },
     {
-      "question": "What is the second person plural simple present of want?",
+      "question": "What is the second person plural praesens of want?",
       "answer": "vultis"
     },
     {
-      "question": "What is the third person plural simple present of want?",
+      "question": "What is the third person plural praesens of want?",
       "answer": "volunt"
     },
     {
-      "question": "What is the first person singular simple present of love?",
+      "question": "What is the first person singular praesens of love?",
       "answer": "amo"
     },
     {
-      "question": "What is the second person singular simple present of love?",
+      "question": "What is the second person singular praesens of love?",
       "answer": "amas"
     },
     {
-      "question": "What is the third person singular simple present of love?",
+      "question": "What is the third person singular praesens of love?",
       "answer": "amat"
     },
     {
-      "question": "What is the first person plural simple present of love?",
+      "question": "What is the first person plural praesens of love?",
       "answer": "amamus"
     },
     {
-      "question": "What is the second person plural simple present of love?",
+      "question": "What is the second person plural praesens of love?",
       "answer": "amatis"
     },
     {
-      "question": "What is the third person plural simple present of love?",
+      "question": "What is the third person plural praesens of love?",
       "answer": "amant"
     },
     {
-      "question": "What is the first person singular simple present of see?",
+      "question": "What is the first person singular praesens of see?",
       "answer": "video"
     },
     {
-      "question": "What is the second person singular simple present of see?",
+      "question": "What is the second person singular praesens of see?",
       "answer": "vides"
     },
     {
-      "question": "What is the third person singular simple present of see?",
+      "question": "What is the third person singular praesens of see?",
       "answer": "videt"
     },
     {
-      "question": "What is the first person plural simple present of see?",
+      "question": "What is the first person plural praesens of see?",
       "answer": "videmus"
     },
     {
-      "question": "What is the second person plural simple present of see?",
+      "question": "What is the second person plural praesens of see?",
       "answer": "videtis"
     },
     {
-      "question": "What is the third person plural simple present of see?",
+      "question": "What is the third person plural praesens of see?",
       "answer": "vident"
     },
     {
-      "question": "What is the first person singular simple present of hear?",
+      "question": "What is the first person singular praesens of hear?",
       "answer": "audio"
     },
     {
-      "question": "What is the second person singular simple present of hear?",
+      "question": "What is the second person singular praesens of hear?",
       "answer": "audis"
     },
     {
-      "question": "What is the third person singular simple present of hear?",
+      "question": "What is the third person singular praesens of hear?",
       "answer": "audit"
     },
     {
-      "question": "What is the first person plural simple present of hear?",
+      "question": "What is the first person plural praesens of hear?",
       "answer": "audimus"
     },
     {
-      "question": "What is the second person plural simple present of hear?",
+      "question": "What is the second person plural praesens of hear?",
       "answer": "auditis"
     },
     {
-      "question": "What is the third person plural simple present of hear?",
+      "question": "What is the third person plural praesens of hear?",
       "answer": "audiunt"
     },
     {
-      "question": "What is the first person singular simple present of take (capere)?",
+      "question": "What is the first person singular praesens of take (capere)?",
       "answer": "capio"
     },
     {
-      "question": "What is the second person singular simple present of take (capere)?",
+      "question": "What is the second person singular praesens of take (capere)?",
       "answer": "capis"
     },
     {
-      "question": "What is the third person singular simple present of take (capere)?",
+      "question": "What is the third person singular praesens of take (capere)?",
       "answer": "capit"
     },
     {
-      "question": "What is the first person plural simple present of take (capere)?",
+      "question": "What is the first person plural praesens of take (capere)?",
       "answer": "capimus"
     },
     {
-      "question": "What is the second person plural simple present of take (capere)?",
+      "question": "What is the second person plural praesens of take (capere)?",
       "answer": "capitis"
     },
     {
-      "question": "What is the third person plural simple present of take (capere)?",
+      "question": "What is the third person plural praesens of take (capere)?",
       "answer": "capiunt"
     },
     {
-      "question": "What is the first person singular simple present of do?",
+      "question": "What is the first person singular praesens of do?",
       "answer": "ago"
     },
     {
-      "question": "What is the second person singular simple present of do?",
+      "question": "What is the second person singular praesens of do?",
       "answer": "agis"
     },
     {
-      "question": "What is the third person singular simple present of do?",
+      "question": "What is the third person singular praesens of do?",
       "answer": "agit"
     },
     {
-      "question": "What is the first person plural simple present of do?",
+      "question": "What is the first person plural praesens of do?",
       "answer": "agimus"
     },
     {
-      "question": "What is the second person plural simple present of do?",
+      "question": "What is the second person plural praesens of do?",
       "answer": "agitis"
     },
     {
-      "question": "What is the third person plural simple present of do?",
+      "question": "What is the third person plural praesens of do?",
       "answer": "agunt"
     },
     {
-      "question": "What is the third person plural simple present of do?",
-      "answer": "agunt"
+      "question": "What does mean not in Latin?",
+      "answer": "non"
     },
     {
-      "question": "What is the third person plural simple present of do?",
-      "answer": "agunt"
+      "question": "What does come mean in Latin?(infinitive)",
+      "answer": "venire"
     },
     {
-      "question": "What is the third person plural simple present of do?",
-      "answer": "agunt"
+      "question": "What does ask mean in Latin?(infinitive)",
+      "answer": "interrogare"
     },
     {
-      "question": "What is the third person plural simple present of do?",
-      "answer": "agunt"
+      "question": "What does answer mean in Latin?(infinitive)",
+      "answer": "respondere"
+    },
+    {
+      "question": "What does be mean in Latin?(infinitive)",
+      "answer": "esse"
+    },
+    {
+      "question": "What does can mean in Latin?(infinitive)",
+      "answer": "posse"
+    },
+    {
+      "question": "What does want mean in Latin?(infinitive)",
+      "answer": "velle"
+    },
+    {
+      "question": "What does love mean in Latin?(infinitive)",
+      "answer": "amare"
+    },
+    {
+      "question": "What does see mean in Latin?(infinitive)",
+      "answer": "videre"
+    },
+    {
+      "question": "What does hear mean in Latin?(infinitive)",
+      "answer": "audire"
+    },
+    {
+      "question": "What does do mean in Latin?(infinitive)",
+      "answer": "agere"
+    },
+    {
+      "question": "What does  mean in Latin?(infinitive)",
+      "answer": "interrogare"
+    },
+    {
+      "question": "What does answer mean in Latin?(infinitive)",
+      "answer": "respondere"
     },
   ],
   "medium": [

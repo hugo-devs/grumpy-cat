@@ -41,5 +41,19 @@
 		"action": ["hp", 0],
 		"type": "latin",
 		"difficulty": "hard"
-	}
+	},
+	"Klugscheißerism" : {
+		"text": "||creature|| correct her enemy. ||Enemy|| gets angry. ||Enemy||'s attack increases, defense decreases.",
+		"action": ["defense", 0.2],
+		"action-self": ["defense", -0.3],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Confulizzle" : {
+		"text": "||creature|| confuses her enemy. ||Enemy|| gets confuses. ||Enemy|| attacks himself, ||Enemy||'s attack increases.",
+		"action": ["attack", -0.2],
+		"action-self": ["defense", 0.0],
+		"type": "english",
+		"difficulty": "easy"
+	},
 }
