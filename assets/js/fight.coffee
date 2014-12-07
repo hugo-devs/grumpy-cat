@@ -1,10 +1,12 @@
 #function that gets called from parse story
 fight_start = (enemy, enemy_lvl) ->
+  console.log "running fight_start"
   currentFight = new Fight(enemy, enemy_lvl)
   currentFight.set_display()
   $(".fight_area").fadeIn "fast"
 
 fight_question = (attack_name) ->
+  console.log "running fight_question"
   currentQuestion.difficulty = data.attacks[attack_name].difficulty
   #currentQuestion.type = data.attacks[attack_name].type
   currentQuestion.question = data.questions[currentQuestion.difficulty][random(0, data.questions[currentQuestion.difficulty].length)]
@@ -18,13 +20,15 @@ fight_question = (attack_name) ->
   $(".dialog > paper-dialog")[0].toggle()
 
 fight_check_question = (attack_name) ->
-
+  console.log "running fight_check_question"
   __lower_array = []
 
   for i in [0..currentQuestion.question.answer.length - 1]
     __lower_array.push currentQuestion.question.answer[i].toLowerCase()
 
-  $(".core-overlay-backdrop").remove()
+  try
+    $(".core-overlay-backdrop").remove()
+  
   if $(".dialog > paper-dialog > paper-input").val().toLowerCase() == currentQuestion.question.answer.toLowerCase()
     fight_attack(attack_name)
     currentFight.switch_turn()
@@ -37,14 +41,19 @@ fight_check_question = (attack_name) ->
     ,500
 
 fight_enemy_attack = ->
+  console.log "running fight_enemy_attack"
   __random = random(0, currentFight.enemy_attacks.length - 1)
   fight_attack(currentFight.enemy_attacks[__random])
+  currentFight.switch_turn()
 
 
 fight_attack = (attack_name) ->
   currAttack = data.attacks[attack_name]
 
   fight_change_vals(currAttack.action, currentFight.turn, currentFight.victim)
+
+  if currAttack.hasOwnProperty "action-self"
+    fight_change_vals(currAttack.action, currentFight.victim, currentFight.turn)
 
   #output
   if currentFight.turn is 'player'
@@ -58,18 +67,25 @@ fight_attack = (attack_name) ->
   currentFight.check_health()
 
 fight_change_vals = (action, attacker, victim) ->
+  console.log "running fight_change_vals"
   if currAttack.action[0] is 'hp'
     currentFight[victim + '_health'] += Math.round(parseInt(action[1]) * currentFight[attacker + '_attack_multiplier'] * currentFight[victim + '_defense_multiplier'] * currentFight[attacker + '_lvl'] / 33)
     currentFight.update_health()
-  if currAttack.action[0] is 'attack'
+  else if currAttack.action[0] is 'attack'
     currentFight[victim + "_attack_multiplier"] += action[1]
-  if currAttack.action[0] is 'defense'
+  else if currAttack.action[0] is 'defense'
     currentFight[victim + "_attack_multiplier"] += action[1]
   else
-    console.log "There's an error with the action[0]. currAttack is #{currAttack}"
+    console.log "++++++++++ERROR++++++++++"
+    console.log "There's an error with the action[0]. currAttack is:"
+    console.log currAttack
+    console.log "action[0] is:"
+    console.log currAttack.action[0]
+    console.log "++++++++++ERROR++++++++++"
 
 
 fight_parse_inline_vars = (text) ->
+  console.log "running fight_parse_inline_vars"
   __attacker = currentFight.character
   __victim = currentFight.enemy
   if currentFight.turn is 'enemy'

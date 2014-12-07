@@ -27,6 +27,8 @@ function Fight (enemy, enemy_lvl) {
 	this.victim = 'enemy';
 
 	this.switch_turn = function () {
+		console.log("running switch_turn");
+		console.log("currentFight.turn was " + this.turn);
 		if (this.turn == 'player') {
 			this.turn = 'enemy';
 			this.victim = 'player';
@@ -37,6 +39,7 @@ function Fight (enemy, enemy_lvl) {
 			this.victim  = 'enemy';
 			$(".select_attack > .attack_btns > paper-button").removeAttr("disabled");
 		}
+		console.log("currentFight.turn is now " + this.turn);
 	};
 
 	this.update_health = function () {
