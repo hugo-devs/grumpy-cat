@@ -55,5 +55,12 @@
 		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "easy"
+	},
+	"Muncher" : {
+		"text": "||creature|| eats enemy. ||Enemy||'s attack increases.",
+		"action": ["attack", -0.2],
+		"action-self": ["defense", 0.0],
+		"type": "english",
+		"difficulty": "easy"
 	}
 }

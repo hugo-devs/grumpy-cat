@@ -237,12 +237,25 @@
       "answer": "agere"
     },
     {
-      "question": "What does  mean in Latin?(infinitive)",
-      "answer": "interrogare"
+      "question": "What does and mean in Latin?",
+      "answer": "et"
     },
     {
+<<<<<<< HEAD
       "question": "What does answer mean in Latin?(infinitive)",
       "answer": "respondere"
+=======
+      "question": "What does why mean in Latin?",
+      "answer": "cur"
+    },
+    {
+      "question": "What does what mean in Latin?",
+      "answer": "quid"
+    },
+    {
+      "question": "What does sit mean in Latin?(infinitive)",
+      "answer": "sedere"
+>>>>>>> FETCH_HEAD
     }
   ],
   "medium": [
