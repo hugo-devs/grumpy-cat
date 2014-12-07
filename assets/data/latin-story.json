@@ -23,7 +23,7 @@
 	{
 		"type": "fight",
 		"enemy": "Avus-Avis",
-		"lvl": "1"
+		"lvl": 1
 	},
 	{
 		"type": "text",
