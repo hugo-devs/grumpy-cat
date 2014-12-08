@@ -241,10 +241,10 @@
       "answer": "et"
     },
     {
-<<<<<<< HEAD
       "question": "What does answer mean in Latin?(infinitive)",
       "answer": "respondere"
-=======
+    },
+    {
       "question": "What does why mean in Latin?",
       "answer": "cur"
     },
@@ -255,7 +255,6 @@
     {
       "question": "What does sit mean in Latin?(infinitive)",
       "answer": "sedere"
->>>>>>> FETCH_HEAD
     }
   ],
   "medium": [
