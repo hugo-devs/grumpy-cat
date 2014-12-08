@@ -259,9 +259,125 @@
   ],
   "medium": [
     {
-      "question": "Just type in hamster.",
-      "answer": "hamster"
-    }
+      "question": "What is the first person singular imperfectum of love?",
+      "answer": "amabam"
+    },
+    {
+      "question": "What is the second person singular imperfectum of love?",
+      "answer": "amabas"
+    },
+    {
+      "question": "What is the third person singular imperfectum of love?",
+      "answer": "amabat"
+    },
+    {
+      "question": "What is the first person plural imperfectum of love?",
+      "answer": "amabamus"
+    },
+    {
+      "question": "What is the second person plural imperfectum of love?",
+      "answer": "amabatis"
+    },
+    {
+      "question": "What is the third person plural imperfectum of love?",
+      "answer": "amabant"
+    },
+     {
+      "question": "What is the first person singular imperfectum of see?",
+      "answer": "videbam"
+    },
+    {
+      "question": "What is the second person singular imperfectum of see?",
+      "answer": "videbas"
+    },
+    {
+      "question": "What is the third person singular imperfectum of see?",
+      "answer": "videbat"
+    },
+    {
+      "question": "What is the first person plural imperfectum of see?",
+      "answer": "videbamus"
+    },
+    {
+      "question": "What is the second person plural imperfectum of see?",
+      "answer": "videbatis"
+    },
+    {
+      "question": "What is the third person plural imperfectum of see?",
+      "answer": "videbant"
+    },
+    {
+      "question": "What is the first person singular imperfectum of hear?",
+      "answer": "audiebam"
+    },
+    {
+      "question": "What is the second person singular imperfectum of hear?",
+      "answer": "audiebas"
+    },
+    {
+      "question": "What is the third person singular imperfectum of hear?",
+      "answer": "audiebat"
+    },
+    {
+      "question": "What is the first person plural imperfectum of hear?",
+      "answer": "audiebamus"
+    },
+    {
+      "question": "What is the second person plural imperfectum of hear?",
+      "answer": "audiebatis"
+    },
+    {
+      "question": "What is the third person plural imperfectum of hear?",
+      "answer": "audiebant"
+    }, 
+    {
+      "question": "What is the first person singular imperfectum of take (capere)?",
+      "answer": "amabam"
+    },
+    {
+      "question": "What is the second person singular imperfectum of take (capere)?",
+      "answer": "amabas"
+    },
+    {
+      "question": "What is the third person singular imperfectum of take (capere)?",
+      "answer": "amabat"
+    },
+    {
+      "question": "What is the first person plural imperfectum of take (capere)?",
+      "answer": "amabamus"
+    },
+    {
+      "question": "What is the second person plural imperfectum of take (capere)?",
+      "answer": "amabatis"
+    },
+    {
+      "question": "What is the third person plural imperfectum of take (capere)?",
+      "answer": "amabant"
+    }, 
+    {
+      "question": "What is the first person singular imperfectum of love?",
+      "answer": "amabam"
+    },
+    {
+      "question": "What is the second person singular imperfectum of love?",
+      "answer": "amabas"
+    },
+    {
+      "question": "What is the third person singular imperfectum of love?",
+      "answer": "amabat"
+    },
+    {
+      "question": "What is the first person plural imperfectum of love?",
+      "answer": "amabamus"
+    },
+    {
+      "question": "What is the second person plural imperfectum of love?",
+      "answer": "amabatis"
+    },
+    {
+      "question": "What is the third person plural imperfectum of love?",
+      "answer": "amabant"
+    },
   ],
   "hard": [
     {
