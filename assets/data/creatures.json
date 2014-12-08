@@ -87,7 +87,7 @@
 	"Jussi": {
 		"description": "Jussi is a clever, white and angry beaver.",
 		"basestats": {
-			"hp": 550,
+			"hp": 700,
 			"type": "latin"
 		},
 		"attacks": [
