@@ -1,6 +1,6 @@
 {
 	"Self-Dizzle" : {
-		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
+		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack decreases.",
 		"action": ["attack", -0.2],
 		"action-self": ["defense", -0.2],
 		"type": "english",
@@ -13,13 +13,13 @@
 		"difficulty": "hard"
 	},
 	"Beißerchen": {
-		"text": "||creature|| bites ||Enemy||. ||Enemy||´s hp sink.",
+		"text": "||creature|| bites ||Enemy||. ||Enemy||´s hp decreases.",
 		"action": ["hp", -300],
 		"type": "latin",
 		"difficulty": "hard"
 	},
 	"Scharfer Blick": {
-		"text": "||creature|| stares ||Enemy|| down. ||Enemy||´s attack sinks.",
+		"text": "||creature|| stares ||Enemy|| down. ||Enemy||´s attack decreases.",
 		"action": ["attack", -250],
 		"type": "latin",
 		"difficulty": "hard"
