@@ -109,14 +109,14 @@
 		]
 	},
 	"Hugulo": {
-		"description": "Hugulo. It is a pink, fluffy rabbit. But he has red eyes, which can kill you.",
+		"description": "Hugulo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
 			"hp": 380,  
 			"type": "french"
 		},
 		"attacks": [
 			"jump-kick",
-			"rainbow-pup",
+			"rainbow-poop",
 			"easter-egg-attack"
 		]
 	},
