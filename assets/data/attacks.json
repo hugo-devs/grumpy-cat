@@ -1,6 +1,6 @@
 {
 	"Self-Dizzle" : {
-		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack decreases.",
+		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
 		"action": ["attack", -0.2],
 		"action-self": ["defense", -0.2],
 		"type": "english",
@@ -13,13 +13,13 @@
 		"difficulty": "hard"
 	},
 	"Beißerchen": {
-		"text": "||creature|| bites ||Enemy||. ||Enemy||´s hp decreases.",
+		"text": "||creature|| bites ||Enemy||. ||Enemy||´s hp sink.",
 		"action": ["hp", -300],
 		"type": "latin",
 		"difficulty": "hard"
 	},
 	"Scharfer Blick": {
-		"text": "||creature|| stares ||Enemy|| down. ||Enemy||´s attack decreases.",
+		"text": "||creature|| stares ||Enemy|| down. ||Enemy||´s attack sinks.",
 		"action": ["attack", -250],
 		"type": "latin",
 		"difficulty": "hard"
@@ -57,10 +57,41 @@
 		"difficulty": "easy"
 	},
 	"Muncher" : {
+		"text": "||creature|| bites enemy. ||Enemy||'s attack increases.",
+		"action": ["attack", -0.2],
+		"action": ["hp", -150],
+		"action-self": ["defense", 0.0],
+		"type": "english",
+		"difficulty": "easy"
+	}
+	"build-a-wall" : {
+		"text": "||creature|| builds a wall. ||creature||'s defense increases.",
+		"action": ["attack", 0.0],
+		"action-self": ["defense", 0.75],
+		"type": "english",
+		"difficulty": "easy"
+	}"throw-a-table" : {
+		"text": "||creature|| builds a table an throw it at the enemy.",
+		"action": ["hp", -190],
+		"action-self": ["defense", 0.0],
+		"type": "english",
+		"difficulty": "medium"
+	}"gets-angry" : {
+		"text": "||creature|| gets angry. ||creature||'s attack increases.",
+		"action": ["attack", 0.0],
+		"action-self": ["defense", 0.8],
+		"type": "english",
+		"difficulty": "medium"
+	}"Muncher" : {
 		"text": "||creature|| eats enemy. ||Enemy||'s attack increases.",
 		"action": ["attack", -0.2],
 		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "easy"
-	}
-}
+	}"Muncher" : {
+		"text": "||creature|| eats enemy. ||Enemy||'s attack increases.",
+		"action": ["attack", -0.2],
+		"action-self": ["defense", 0.0],
+		"type": "english",
+		"difficulty": "easy"
+	}}
