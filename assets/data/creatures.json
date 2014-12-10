@@ -131,7 +131,7 @@
 			"Cheesecake",
 			"Morse-Code"
 		]
-	}
+	},
 	"Eirik": {
 		"description": "He is nice and tolerant, but he hasn't any friends except Phnax.",
 		"basestats": {
@@ -143,7 +143,7 @@
 			"The-I-to-Erik",
 			"You-won't-get-a-cookie!"
 		]
-	}
+	},
 	"Phnax": {
 		"description": "An anemone clown fish with jug ears.",
 		"basestats": {
@@ -155,7 +155,7 @@
 			"Sailing",
 			"Water-sound"
 		]
-	}
+	},
 	"Combus": {
 		"description": "A colour-blind lizard wich can change his body colour randomly. He usually doesn't know what colour his body has.",
 		"basestats": {
@@ -167,7 +167,7 @@
 			"Not-evil",
 			"spilling-acid"
 		]
-	}
+	},
 	"Emmil": {
 		"description": "A white horse with shiny blue eyes. She likes music. Her best friends are Combus and Skopper.",
 		"basestats": {
@@ -179,7 +179,7 @@
 			"Scharfer-Blick",
 			"Beißerchen"
 		]
-	}
+	},
 	"Ladas": {
 		"description": "Beschreibung hier",
 		"basestats": {
@@ -191,7 +191,7 @@
 			"Scharfer-Blick",
 			"Beißerchen"
 		]
-	}
+	},
 	"Laudiphant": {
 		"description": "Beschreibung hier",
 		"basestats": {
@@ -204,5 +204,4 @@
 			"Beißerchen"
 		]
 	}
-	
 }
