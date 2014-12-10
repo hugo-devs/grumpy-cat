@@ -92,10 +92,10 @@
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Muncher" : {
-		"text": "||creature|| eats enemy. ||Enemy||'s attack increases.",
-		"action": ["attack", -0.2],
-		"action-self": ["defense", 0.0],
+	"Jump-Kick" : {
+		"text": "||creature|| jumps and kicks ||Enemy|| in the face. ||Enemy||'s attack decreases.",
+		"action": ["hp", -210],
+		"action-self": ["hp", 0.0],
 		"type": "english",
 		"difficulty": "easy"
 	}
