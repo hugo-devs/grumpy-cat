@@ -497,7 +497,47 @@
     {
       "question": "What is the third person plural imperfectum of do?",
       "answer": "agebant"
-    }
+    },
+    {
+      "question": "What is the nominative singular of voice?",
+      "answer": "vox"
+    },
+    {
+      "question": "What is the genitive singular of voice?",
+      "answer": "vocis"
+    },
+    {
+      "question": "What is the dative singular of voice?",
+      "answer": "voci"
+    },
+    {
+      "question": "What is the accusative singular of voice?",
+      "answer": "vocem"
+    },
+    {
+      "question": "What is the ablative singular of voice?",
+      "answer": "voce"
+    },
+    {
+      "question": "What is the nominative plural of voice?",
+      "answer": "voces"
+    },
+    {
+      "question": "What is the genitive plural of voice?",
+      "answer": "vocum"
+    },
+    {
+      "question": "What is the dative plural of voice?",
+      "answer": "vocibus"
+    },
+    {
+      "question": "What is the accusative plural of voice?",
+      "answer": "voces"
+    },
+    {
+      "question": "What is the ablative plural of voice?",
+      "answer": "vocibus"
+    },
   ],
   "hard": [
     {
