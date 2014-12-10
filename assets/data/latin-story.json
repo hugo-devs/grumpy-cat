@@ -14,22 +14,16 @@
 	},
 	{
 		"type": "pop",
-		"title": "Lutschen sie jetzt Joels Schwanz",
-		"value": "Für nur 12301203123€ pro Monat!"
-
-	},
-	{
-		"type": "pop",
 		"value": "Sup"
 	},
 	{
 		"type": "text",
-		"value": "Spartacus: Hey ||name||, nice ||creature|| you have there! You are now a slave and must fight as a gladiator to survive and maybe one day become free, but for now I am going to be your Mentor and train you. Let's see how good you are."
+		"value": "Spartacus: Hey ||name||, nice ||creature|| you have there! You are a slave and must fight as a gladiator to survive and maybe one day become free, but for now I am going to be your Mentor and train you. Let's see how good you are."
 	},
 	{
 		"type": "fight",
 		"enemy": "Avus-Avis",
-		"lvl": "1"
+		"lvl": 1
 	},
 	{
 		"type": "text",

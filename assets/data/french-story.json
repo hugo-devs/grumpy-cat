@@ -5,11 +5,23 @@
 	},
 	{
 		"type": "pop",
-		"value": "Oh, look, there are two children who are in trouble. A wild ... attacks them. You have to protect them, hurry up!"
+		"value": "Condorcet: Oh, look, there are three children being in trouble. A wild ... attacks them. You have to protect them, hurry up!"
+	},
+	{
+		"type": "text",
+		"value": "Kampfanleitung"
 	},
 	{
 		"type": "fight",
-		"enemy": "..."
+		"enemy": "...",
 		"level": "1"
+	},
+	{
+		"type": "text",
+		"value": "You defeated ..."
+	},
+	{
+		"type": "pop",
+		"value": "Condorcet: Wow, that was an exiting"
 	}
 ]

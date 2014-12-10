@@ -84,16 +84,40 @@
 			"Habs-Hamster"
 		]
 	},
-	"Laudidam": {
-		"description": "",
+	"Jussi": {
+		"description": "Jussi is a clever, white and angry beaver.",
 		"basestats": {
 			"hp": 700,
+			"type": "latin"
+		},
+		"attacks": [
+			"build-a-wall",
+			"throw-a-taible",
+			"gets-angry"
+		]
+	},
+	"Catoline": {
+		"description": "A green-black-striped big cat, which has long, dangerous claws and green eyes.",
+		"basestats": {
+			"hp": 550,
+			"type": "english"
+		},
+		"attacks": [
+			"catching-claws",
+			"claws-grind",
+			"eat-kitekat"
+		]
+	},
+	"Hugulo": {
+		"description": "Hugulo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
+		"basestats": {
+			"hp": 380,  
 			"type": "french"
 		},
 		"attacks": [
-			"",
-			"",
-			""
+			"jump-kick",
+			"rainbow-poop",
+			"easter-egg-attack"
 		]
 	},
 	"Hier den Namen": {

@@ -85,3 +85,9 @@ div.select_attack {
 @media (max-width: 400px) {
   div.fight_area > .enemy {
     float: left; } }
+@media (min-width: 1001px) {
+  paper-dialog {
+    width: 50%; } }
+@media (min-width: 601px) {
+  paper-dialog {
+    width: 75%; } }
