@@ -63,35 +63,40 @@
 		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "easy"
-	}
+	},
 	"build-a-wall" : {
 		"text": "||creature|| builds a wall. ||creature||'s defense increases.",
 		"action": ["attack", 0.0],
 		"action-self": ["defense", 0.75],
 		"type": "english",
 		"difficulty": "easy"
-	}"throw-a-table" : {
+	},
+	"throw-a-table" : {
 		"text": "||creature|| builds a table an throw it at the enemy.",
 		"action": ["hp", -190],
 		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "medium"
-	}"gets-angry" : {
+	},
+	"gets-angry" : {
 		"text": "||creature|| gets angry. ||creature||'s attack increases.",
 		"action": ["attack", 0.0],
 		"action-self": ["defense", 0.8],
 		"type": "english",
 		"difficulty": "medium"
-	}"Muncher" : {
+	},
+	"Muncher" : {
 		"text": "||creature|| eats enemy. ||Enemy||'s attack increases.",
 		"action": ["attack", -0.2],
 		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "easy"
-	}"Muncher" : {
+	},
+	"Muncher" : {
 		"text": "||creature|| eats enemy. ||Enemy||'s attack increases.",
 		"action": ["attack", -0.2],
 		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "easy"
-	}}
+	}
+}
