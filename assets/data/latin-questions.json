@@ -618,6 +618,46 @@
       "question": "What is the ablative plural of ship?",
       "answer": "navibus"
     },
+    {
+      "question": "What is the nominative singular of day?",
+      "answer": "dies"
+    }
+    {
+      "question": "What is the genitive singular of day?",
+      "answer": "diei"
+    },
+    {
+      "question": "What is the dative singular of day?",
+      "answer": "diei"
+    },
+    {
+      "question": "What is the accusative singular of day?",
+      "answer": "diem"
+    },
+    {
+      "question": "What is the ablative singular of day?",
+      "answer": "die"
+    },
+    {
+      "question": "What is the nominative plural of day?",
+      "answer": "dies"
+    },
+    {
+      "question": "What is the genitive plural of day?",
+      "answer": "dierum"
+    },
+    {
+      "question": "What is the dative plural of day?",
+      "answer": "diebus"
+    },
+    {
+      "question": "What is the accusative plural of day?",
+      "answer": "dies"
+    },
+    {
+      "question": "What is the ablative plural of day?",
+      "answer": "diebus"
+    }
   ],
   "hard": [
     {
