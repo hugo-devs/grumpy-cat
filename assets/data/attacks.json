@@ -111,5 +111,6 @@
 		"action": ["defense", 0.15],
 		"action-self": ["hp", 0], 
 		"type": "english",
-		"difficulty": "easy"	
+		"difficulty": "easy"
+	}
 }
