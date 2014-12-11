@@ -621,7 +621,7 @@
     {
       "question": "What is the nominative singular of day?",
       "answer": "dies"
-    }
+    },
     {
       "question": "What is the genitive singular of day?",
       "answer": "diei"
@@ -775,6 +775,6 @@
     {
       "question": "What is the ablative plural of cornu?",
       "answer": "cornibus"
-    },
+    }
   ]
 }
