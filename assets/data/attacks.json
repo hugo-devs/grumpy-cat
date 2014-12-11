@@ -43,7 +43,7 @@
 		"difficulty": "hard"
 	},
 	"Klugscheißerism" : {
-		"text": "||creature|| correct her enemy. ||Enemy|| gets angry. ||Enemy||'s attack increases, defense decreases.",
+		"text": "||creature|| correct ||Enemy||. ||Enemy|| gets angry. ||Enemy||'s attack increases, defense decreases.",
 		"action": ["defense", 0.2],
 		"action-self": ["defense", -0.3],
 		"type": "english",
@@ -93,7 +93,7 @@
 		"difficulty": "easy"
 	},
 	"Jump-Kick" : {
-		"text": "||creature|| jumps and kicks ||Enemy|| in the face. ||Enemy||'s attack decreases.",
+		"text": "||creature|| jumps and kicks ||Enemy|| in the face.",
 		"action": ["hp", -210],
 		"action-self": ["hp", 0.0],
 		"type": "english",
@@ -105,4 +105,11 @@
 		"action-self": ["hp", 75], 
 		"type": "english",
 		"difficulty": "easy"
+	},
+	"Easter-Egg-Attack" : {
+		"text": "||creature|| hides an egg. ||Enemy|| search it",
+		"action": ["defense", -0.15],
+		"action-self": ["hp", 75], 
+		"type": "english",
+		"difficulty": "easy"	
 }
