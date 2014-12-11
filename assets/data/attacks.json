@@ -102,7 +102,7 @@
 	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
-		"action-self": ["hp", 
+		"action-self": ["hp", 75], 
 		"type": "english",
 		"difficulty": "easy"
 }
