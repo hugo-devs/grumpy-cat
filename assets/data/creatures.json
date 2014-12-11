@@ -50,7 +50,7 @@
 	"Aestas": {
 		"description": "It is a small dinosaur with yellow feathers, like a sunflower in the summer. He looks very cute, because he has a big beak and a small body, but if he hungry, he will be dangerous.",
 		"basestats": {
-			"hp": 500,
+			"hp": 400,
 			"type": "latin"
 		},
 		"attacks": [
@@ -62,7 +62,7 @@
 	"Ferreon": {
 		"description": "Ferreon is a little raccon. He is the ninja of the nature and the hero of the big city jungle..",
 		"basestats": {
-			"hp": 440,
+			"hp": 540,
 			"type": "english"
 		},
 		"attacks": [
@@ -75,7 +75,7 @@
 	"Cricetinae": {
 		"description": "It's a hamster! It's cute, abdorable and snappy.",
 		"basestats": {
-			"hp": 600,
+			"hp": 400,
 			"type": "latin"
 		},
 		"attacks": [
@@ -111,7 +111,7 @@
 	"Hugulo": {
 		"description": "Hugulo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
-			"hp": 380,  
+			"hp": 420,  
 			"type": "french"
 		},
 		"attacks": [
@@ -120,11 +120,83 @@
 			"easter-egg-attack"
 		]
 	},
-	"Hier den Namen": {
+	"Souri": {
+		"description": "Souri is a little mouse with yellow tail and paws and a white fur.",
+		"basestats": {
+			"hp": 400,
+			"type": "french"
+		},
+		"attacks": [
+			"Squeek",
+			"Cheesecake",
+			"Morse-Code"
+		]
+	},
+	"Eirik": {
+		"description": "He is nice and tolerant, but he hasn't any friends except Phnax.",
+		"basestats": {
+			"hp": 380,
+			"type": "french"
+		},
+		"attacks": [
+			"Desperation",
+			"The-I-to-Erik",
+			"You-won't-get-a-cookie!"
+		]
+	},
+	"Phnax": {
+		"description": "An anemone clown fish with jug ears.",
+		"basestats": {
+			"hp": 460,
+			"type": "french"
+		},
+		"attacks": [
+			"Bad-joke",
+			"Sailing",
+			"Water-sound"
+		]
+	},
+	"Combus": {
+		"description": "A colour-blind lizard wich can change his body colour randomly. He usually doesn't know what colour his body has.",
+		"basestats": {
+			"hp": 560,
+			"type": "latin"
+		},
+		"attacks": [
+			"Colour-flash",
+			"Not-evil",
+			"spilling-acid"
+		]
+	},
+	"Emmil": {
+		"description": "A white horse with shiny blue eyes. She likes music. Her best friends are Combus and Skopper.",
+		"basestats": {
+			"hp": 490,
+			"type": "latin"
+		},
+		"attacks": [
+			"Habs-Hamster",
+			"Scharfer-Blick",
+			"Beißerchen"
+		]
+	},
+	"Ladas": {
 		"description": "Beschreibung hier",
 		"basestats": {
 			"hp": 550,
-			"type": "latin"
+			"type": "english"
+		},
+		"attacks": [
+			"Habs-Hamster",
+			"Scharfer-Blick",
+			"Beißerchen"
+		]
+	},
+	"Laudiphant": {
+		"description": "Beschreibung hier",
+		"basestats": {
+			"hp": 550,
+			"type": "english"
 		},
 		"attacks": [
 			"Habs-Hamster",

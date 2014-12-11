@@ -255,6 +255,126 @@
     {
       "question": "What does sit mean in Latin?(infinitive)",
       "answer": "sedere"
+    },
+    {
+      "question": "What is the nominative singular of friend(m.)?",
+      "answer": "amicus"
+    },
+    {
+      "question": "What is the genitive singular of friend(m.)?",
+      "answer": "amici"
+    },
+    {
+      "question": "What is the dative singular of friend(m.)?",
+      "answer": "amico"
+    },
+    {
+      "question": "What is the accusative singular of friend(m.)?",
+      "answer": "amicum"
+    },
+    {
+      "question": "What is the ablative singular of friend(m.)?",
+      "answer": "amico"
+    },
+    {
+      "question": "What is the nominative plural of friend(m.)?",
+      "answer": "amici"
+    },
+    {
+      "question": "What is the genitive plural of friend(m.)?",
+      "answer": "amicorum"
+    },
+    {
+      "question": "What is the dative plural of friend(m.)?",
+      "answer": "amicis"
+    },
+    {
+      "question": "What is the accusative plural of friend(m.)?",
+      "answer": "amicos"
+    },
+    {
+      "question": "What is the ablative plural of friend(m.)?",
+      "answer": "amicis"
+    },
+    {
+      "question": "What is the nominative singular of friend(f.)?",
+      "answer": "amica"
+    },
+    {
+      "question": "What is the genitive singular of friend(f.)?",
+      "answer": "amicae"
+    },
+    {
+      "question": "What is the dative singular of friend(f.)?",
+      "answer": "amicae"
+    },
+    {
+      "question": "What is the accusative singular of friend(f.)?",
+      "answer": "amicam"
+    },
+    {
+      "question": "What is the ablative singular of friend(f.)?",
+      "answer": "amica"
+    },
+    {
+      "question": "What is the nominative plural of friend(f.)?",
+      "answer": "amicae"
+    },
+    {
+      "question": "What is the genitive plural of friend(f.)?",
+      "answer": "amicarum"
+    },
+    {
+      "question": "What is the dative plural of friend(f.)?",
+      "answer": "amicis"
+    },
+    {
+      "question": "What is the accusative plural of friend(f.)?",
+      "answer": "amicas"
+    },
+    {
+      "question": "What is the ablative plural of friend(f.)?",
+      "answer": "amicis"
+    },
+    {
+      "question": "What is the nominative singular of gift?",
+      "answer": "donum"
+    },
+    {
+      "question": "What is the genitive singular of gift?",
+      "answer": "doni"
+    },
+    {
+      "question": "What is the dative singular of gift?",
+      "answer": "dono"
+    },
+    {
+      "question": "What is the accusative singular of gift?",
+      "answer": "donum"
+    },
+    {
+      "question": "What is the ablative singular of gift?",
+      "answer": "dono"
+    },
+    {
+      "question": "What is the nominative plural of gift?",
+      "answer": "dona"
+    },
+    {
+      "question": "What is the genitive plural of gift?",
+      "answer": "donorum"
+    },
+    {
+      "question": "What is the dative plural of gift?",
+      "answer": "donis"
+    },
+    {
+      "question": "What is the accusative plural of gift?",
+      "answer": "dona"
+    },
+    {
+      "question": "What is the ablative plural of gift?",
+      "answer": "donis"
     }
   ],
   "medium": [
@@ -332,57 +452,289 @@
     }, 
     {
       "question": "What is the first person singular imperfectum of take (capere)?",
-      "answer": "amabam"
+      "answer": "capiebam"
     },
     {
       "question": "What is the second person singular imperfectum of take (capere)?",
-      "answer": "amabas"
+      "answer": "capiebas"
     },
     {
       "question": "What is the third person singular imperfectum of take (capere)?",
-      "answer": "amabat"
+      "answer": "capiebat"
     },
     {
       "question": "What is the first person plural imperfectum of take (capere)?",
-      "answer": "amabamus"
+      "answer": "capiebamus"
     },
     {
       "question": "What is the second person plural imperfectum of take (capere)?",
-      "answer": "amabatis"
+      "answer": "capiebatis"
     },
     {
       "question": "What is the third person plural imperfectum of take (capere)?",
-      "answer": "amabant"
+      "answer": "capiebant"
     }, 
     {
-      "question": "What is the first person singular imperfectum of love?",
-      "answer": "amabam"
+      "question": "What is the first person singular imperfectum of do?",
+      "answer": "agebam"
     },
     {
-      "question": "What is the second person singular imperfectum of love?",
-      "answer": "amabas"
+      "question": "What is the second person singular imperfectum of do?",
+      "answer": "agebas"
     },
     {
-      "question": "What is the third person singular imperfectum of love?",
-      "answer": "amabat"
+      "question": "What is the third person singular imperfectum of do?",
+      "answer": "agebat"
     },
     {
-      "question": "What is the first person plural imperfectum of love?",
-      "answer": "amabamus"
+      "question": "What is the first person plural imperfectum of do?",
+      "answer": "agebamus"
     },
     {
-      "question": "What is the second person plural imperfectum of love?",
-      "answer": "amabatis"
+      "question": "What is the second person plural imperfectum of do?",
+      "answer": "agebatis"
     },
     {
-      "question": "What is the third person plural imperfectum of love?",
-      "answer": "amabant"
-    }
+      "question": "What is the third person plural imperfectum of do?",
+      "answer": "agebant"
+    },
+    {
+      "question": "What is the nominative singular of voice?",
+      "answer": "vox"
+    },
+    {
+      "question": "What is the genitive singular of voice?",
+      "answer": "vocis"
+    },
+    {
+      "question": "What is the dative singular of voice?",
+      "answer": "voci"
+    },
+    {
+      "question": "What is the accusative singular of voice?",
+      "answer": "vocem"
+    },
+    {
+      "question": "What is the ablative singular of voice?",
+      "answer": "voce"
+    },
+    {
+      "question": "What is the nominative plural of voice?",
+      "answer": "voces"
+    },
+    {
+      "question": "What is the genitive plural of voice?",
+      "answer": "vocum"
+    },
+    {
+      "question": "What is the dative plural of voice?",
+      "answer": "vocibus"
+    },
+    {
+      "question": "What is the accusative plural of voice?",
+      "answer": "voces"
+    },
+    {
+      "question": "What is the ablative plural of voice?",
+      "answer": "vocibus"
+    },
+    {
+      "question": "What is the nominative singular of river?",
+      "answer": "flumen"
+    },
+    {
+      "question": "What is the genitive singular of river?",
+      "answer": "fluminis"
+    },
+    {
+      "question": "What is the dative singular of river?",
+      "answer": "flumini"
+    },
+    {
+      "question": "What is the accusative singular of river?",
+      "answer": "fluminem"
+    },
+    {
+      "question": "What is the ablative singular of river?",
+      "answer": "flumine"
+    },
+    {
+      "question": "What is the nominative plural of river?",
+      "answer": "flumines"
+    },
+    {
+      "question": "What is the genitive plural of river?",
+      "answer": "fluminum"
+    },
+    {
+      "question": "What is the dative plural of river?",
+      "answer": "fluminibus"
+    },
+    {
+      "question": "What is the accusative plural of river?",
+      "answer": "flumines"
+    },
+    {
+      "question": "What is the ablative plural of river?",
+      "answer": "fluminibus"
+    },
+    {
+      "question": "What is the nominative singular of ship?",
+      "answer": "navis"
+    },
+    {
+      "question": "What is the genitive singular of ship?",
+      "answer": "navis"
+    },
+    {
+      "question": "What is the dative singular of ship?",
+      "answer": "navi"
+    },
+    {
+      "question": "What is the accusative singular of ship?",
+      "answer": "navem"
+    },
+    {
+      "question": "What is the ablative singular of ship?",
+      "answer": "nave"
+    },
+    {
+      "question": "What is the nominative plural of ship?",
+      "answer": "naves"
+    },
+    {
+      "question": "What is the genitive plural of ship?",
+      "answer": "navium"
+    },
+    {
+      "question": "What is the dative plural of ship?",
+      "answer": "navibus"
+    },
+    {
+      "question": "What is the accusative plural of ship?",
+      "answer": "naves"
+    },
+    {
+      "question": "What is the ablative plural of ship?",
+      "answer": "navibus"
+    },
   ],
   "hard": [
     {
-      "question": "Just type in hamsterboy.",
-      "answer": "hamsterboy"
-    }
+      "question": "What is the nominative singular of sea?",
+      "answer": "mare"
+    },
+    {
+      "question": "What is the genitive singular of sea?",
+      "answer": "maris"
+    },
+    {
+      "question": "What is the dative singular of sea?",
+      "answer": "mari"
+    },
+    {
+      "question": "What is the accusative singular of sea?",
+      "answer": "mare"
+    },
+    {
+      "question": "What is the ablative singular of sea?",
+      "answer": "mari"
+    },
+    {
+      "question": "What is the nominative plural of sea?",
+      "answer": "maria"
+    },
+    {
+      "question": "What is the genitive plural of sea?",
+      "answer": "marium"
+    },
+    {
+      "question": "What is the dative plural of sea?",
+      "answer": "maribus"
+    },
+    {
+      "question": "What is the accusative plural of sea?",
+      "answer": "maria"
+    },
+    {
+      "question": "What is the ablative plural of sea?",
+      "answer": "maribus"
+    },
+    {
+      "question": "What is the nominative singular of officer?",
+      "answer": "magistratus"
+    },
+    {
+      "question": "What is the genitive singular of officer?",
+      "answer": "magistratus"
+    },
+    {
+      "question": "What is the dative singular of officer?",
+      "answer": "magistratui"
+    },
+    {
+      "question": "What is the accusative singular of officer?",
+      "answer": "magistratum"
+    },
+    {
+      "question": "What is the ablative singular of officer?",
+      "answer": "magistratu"
+    },
+    {
+      "question": "What is the nominative plural of officer?",
+      "answer": "magistratus"
+    },
+    {
+      "question": "What is the genitive plural of officer?",
+      "answer": "magistratuum"
+    },
+    {
+      "question": "What is the dative plural of officer?",
+      "answer": "magistratibus"
+    },
+    {
+      "question": "What is the accusative plural of officer?",
+      "answer": "magistratus"
+    },
+    {
+      "question": "What is the ablative plural of officer?",
+      "answer": "magistratibus"
+    },
+    {
+      "question": "What is the genitive singular of cornu?",
+      "answer": "cornus"
+    },
+    {
+      "question": "What is the dative singular of cornu?",
+      "answer": "cornui"
+    },
+    {
+      "question": "What is the accusative singular of cornu?",
+      "answer": "cornu"
+    },
+    {
+      "question": "What is the ablative singular of cornu?",
+      "answer": "cornu"
+    },
+    {
+      "question": "What is the nominative plural of cornu?",
+      "answer": "cornua"
+    },
+    {
+      "question": "What is the genitive plural of cornu?",
+      "answer": "cornuum"
+    },
+    {
+      "question": "What is the dative plural of cornu?",
+      "answer": "cornibus"
+    },
+    {
+      "question": "What is the accusative plural of cornu?",
+      "answer": "cornua"
+    },
+    {
+      "question": "What is the ablative plural of cornu?",
+      "answer": "cornibus"
+    },
   ]
 }
