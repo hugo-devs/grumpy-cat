@@ -55,7 +55,7 @@
 		},
 		"attacks": [
 			"Sonnentanz",
-			"Muncher",
+			"Mampfer",
 			"Road-Run"
 		]
 	},
@@ -175,9 +175,9 @@
 			"type": "latin"
 		},
 		"attacks": [
-			"Habs-Hamster",
-			"Scharfer-Blick",
-			"Beißerchen"
+			"wibble",
+			"Yell",
+			"Look-at-my-horse-my-horse-is-amazing!"
 		]
 	},
 	"Ladas": {
