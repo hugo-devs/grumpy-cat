@@ -240,6 +240,54 @@
 			"drink-juice"
 		]
 	},
+	"Mydusa": {
+		"description": "",
+		"basestats": {
+			"hp": 550,
+			"type": "latin"
+		},
+		"attacks": [
+			"",
+			"",
+			""
+		]
+	},
+	"Skopper": {
+		"description": "",
+		"basestats": {
+			"hp": 550,
+			"type": "french"
+		},
+		"attacks": [
+			"",
+			"",
+			""
+		]
+	},
+	"Pieuvrerre": {
+		"description": "An orane octupus. One of Phnax' friends",
+		"basestats": {
+			"hp": 460,
+			"type": "french"
+		},
+		"attacks": [
+			"ink-bomb",
+			"tentacle-strike",
+			"orange-poison"
+		]
+	},
+	"": {
+		"description": "",
+		"basestats": {
+			"hp": 550,
+			"type": "latin"
+		},
+		"attacks": [
+			"",
+			"",
+			""
+		]
+	},
 	"Nouillon": {
 		"description": "A kind of noodle monster. Look delicious. Please do not eat him.",
 		"basestats": {
