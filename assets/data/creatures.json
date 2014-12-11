@@ -62,7 +62,7 @@
 	"Ferreon": {
 		"description": "Ferreon is a little raccon. He is the ninja of the nature and the hero of the big city jungle..",
 		"basestats": {
-			"hp": 440,
+			"hp": 540,
 			"type": "english"
 		},
 		"attacks": [
@@ -111,7 +111,7 @@
 	"Hugulo": {
 		"description": "Hugulo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
-			"hp": 380,  
+			"hp": 420,  
 			"type": "french"
 		},
 		"attacks": [
