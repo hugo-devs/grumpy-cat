@@ -538,11 +538,203 @@
       "question": "What is the ablative plural of voice?",
       "answer": "vocibus"
     },
+    {
+      "question": "What is the nominative singular of river?",
+      "answer": "flumen"
+    },
+    {
+      "question": "What is the genitive singular of river?",
+      "answer": "fluminis"
+    },
+    {
+      "question": "What is the dative singular of river?",
+      "answer": "flumini"
+    },
+    {
+      "question": "What is the accusative singular of river?",
+      "answer": "fluminem"
+    },
+    {
+      "question": "What is the ablative singular of river?",
+      "answer": "flumine"
+    },
+    {
+      "question": "What is the nominative plural of river?",
+      "answer": "flumines"
+    },
+    {
+      "question": "What is the genitive plural of river?",
+      "answer": "fluminum"
+    },
+    {
+      "question": "What is the dative plural of river?",
+      "answer": "fluminibus"
+    },
+    {
+      "question": "What is the accusative plural of river?",
+      "answer": "flumines"
+    },
+    {
+      "question": "What is the ablative plural of river?",
+      "answer": "fluminibus"
+    },
+    {
+      "question": "What is the nominative singular of ship?",
+      "answer": "navis"
+    },
+    {
+      "question": "What is the genitive singular of ship?",
+      "answer": "navis"
+    },
+    {
+      "question": "What is the dative singular of ship?",
+      "answer": "navi"
+    },
+    {
+      "question": "What is the accusative singular of ship?",
+      "answer": "navem"
+    },
+    {
+      "question": "What is the ablative singular of ship?",
+      "answer": "nave"
+    },
+    {
+      "question": "What is the nominative plural of ship?",
+      "answer": "naves"
+    },
+    {
+      "question": "What is the genitive plural of ship?",
+      "answer": "navium"
+    },
+    {
+      "question": "What is the dative plural of ship?",
+      "answer": "navibus"
+    },
+    {
+      "question": "What is the accusative plural of ship?",
+      "answer": "naves"
+    },
+    {
+      "question": "What is the ablative plural of ship?",
+      "answer": "navibus"
+    },
   ],
   "hard": [
     {
-      "question": "Just type in hamsterboy.",
-      "answer": "hamsterboy"
-    }
+      "question": "What is the nominative singular of sea?",
+      "answer": "mare"
+    },
+    {
+      "question": "What is the genitive singular of sea?",
+      "answer": "maris"
+    },
+    {
+      "question": "What is the dative singular of sea?",
+      "answer": "mari"
+    },
+    {
+      "question": "What is the accusative singular of sea?",
+      "answer": "mare"
+    },
+    {
+      "question": "What is the ablative singular of sea?",
+      "answer": "mari"
+    },
+    {
+      "question": "What is the nominative plural of sea?",
+      "answer": "maria"
+    },
+    {
+      "question": "What is the genitive plural of sea?",
+      "answer": "marium"
+    },
+    {
+      "question": "What is the dative plural of sea?",
+      "answer": "maribus"
+    },
+    {
+      "question": "What is the accusative plural of sea?",
+      "answer": "maria"
+    },
+    {
+      "question": "What is the ablative plural of sea?",
+      "answer": "maribus"
+    },
+    {
+      "question": "What is the nominative singular of officer?",
+      "answer": "magistratus"
+    },
+    {
+      "question": "What is the genitive singular of officer?",
+      "answer": "magistratus"
+    },
+    {
+      "question": "What is the dative singular of officer?",
+      "answer": "magistratui"
+    },
+    {
+      "question": "What is the accusative singular of officer?",
+      "answer": "magistratum"
+    },
+    {
+      "question": "What is the ablative singular of officer?",
+      "answer": "magistratu"
+    },
+    {
+      "question": "What is the nominative plural of officer?",
+      "answer": "magistratus"
+    },
+    {
+      "question": "What is the genitive plural of officer?",
+      "answer": "magistratuum"
+    },
+    {
+      "question": "What is the dative plural of officer?",
+      "answer": "magistratibus"
+    },
+    {
+      "question": "What is the accusative plural of officer?",
+      "answer": "magistratus"
+    },
+    {
+      "question": "What is the ablative plural of officer?",
+      "answer": "magistratibus"
+    },
+    {
+      "question": "What is the genitive singular of cornu?",
+      "answer": "cornus"
+    },
+    {
+      "question": "What is the dative singular of cornu?",
+      "answer": "cornui"
+    },
+    {
+      "question": "What is the accusative singular of cornu?",
+      "answer": "cornu"
+    },
+    {
+      "question": "What is the ablative singular of cornu?",
+      "answer": "cornu"
+    },
+    {
+      "question": "What is the nominative plural of cornu?",
+      "answer": "cornua"
+    },
+    {
+      "question": "What is the genitive plural of cornu?",
+      "answer": "cornuum"
+    },
+    {
+      "question": "What is the dative plural of cornu?",
+      "answer": "cornibus"
+    },
+    {
+      "question": "What is the accusative plural of cornu?",
+      "answer": "cornua"
+    },
+    {
+      "question": "What is the ablative plural of cornu?",
+      "answer": "cornibus"
+    },
   ]
 }
