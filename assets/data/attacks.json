@@ -107,9 +107,9 @@
 		"difficulty": "easy"
 	},
 	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
+		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
+		"action": ["defense", 0.15],
+		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"	
 }
