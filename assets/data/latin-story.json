@@ -1,19 +1,19 @@
 [
 	{
 		"type": "pop",
-		"value": "Spartacus: Hello young slave and welcome to the Colosseum of Rome. Now you have to fight as a gladiator with the help of your ||creature|| against opponents and their creatures to obtain the emperors favour and win freedom."
+		"value": "Spartacus: Hello young slave and welcome to the Colosseum of Rome. Now you have to fight as a gladiator with the help of your ||creature|| against opponents and their creatures to obtain the emperors favour and attain freedom."
 	},
 	{
 		"type": "pop",
-		"value": ""
+		"value": "My name is Spartacus and I'm already a famous gladiator. I'll accompany you on your way to liberty and support you wherever I can."
+	},
+	{
+		"type": "sound",
+		"value": "Horn"
 	},
 	{
 		"type": "pop",
-		"value": "Ho"
-	},
-	{
-		"type": "pop",
-		"value": "Sup"
+		"value": "Listen! The horn calls us for the first fight! Good luck my friend."
 	},
 	{
 		"type": "text",
