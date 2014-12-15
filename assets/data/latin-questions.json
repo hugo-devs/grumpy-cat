@@ -657,6 +657,246 @@
     {
       "question": "What is the ablative plural of day?",
       "answer": "diebus"
+    },
+    {
+      "question": "What is the first person singular praesens passive of love?",
+      "answer": "amor"
+    },
+    {
+      "question": "What is the second person singular praesens passive of love?",
+      "answer": "amaris"
+    },
+    {
+      "question": "What is the third person singular praesens passive of love?",
+      "answer": "amatur"
+    },
+    {
+      "question": "What is the first person plural praesens passive of love?",
+      "answer": "amamur"
+    },
+    {
+      "question": "What is the second person plural praesens passive of love?",
+      "answer": "amamini"
+    },
+    {
+      "question": "What is the third person plural praesens passive of love?",
+      "answer": "amantur"
+    },
+    {
+      "question": "What is the first person singular praesens passive of see?",
+      "answer": "videor"
+    },
+    {
+      "question": "What is the second person singular praesens passive of see?",
+      "answer": "videris"
+    },
+    {
+      "question": "What is the third person singular praesens passive of see?",
+      "answer": "videtur"
+    },
+    {
+      "question": "What is the first person plural praesens passive of see?",
+      "answer": "videmur"
+    },
+    {
+      "question": "What is the second person plural praesens passive of see?",
+      "answer": "videmini"
+    },
+    {
+      "question": "What is the third person plural praesens passive of see?",
+      "answer": "videntur"
+    },
+    {
+      "question": "What is the first person singular praesens passive of hear?",
+      "answer": "audior"
+    },
+    {
+      "question": "What is the second person singular praesens passive of hear?",
+      "answer": "audiris"
+    },
+    {
+      "question": "What is the third person singular praesens passive of hear?",
+      "answer": "auditur"
+    },
+    {
+      "question": "What is the first person plural praesens passive of hear?",
+      "answer": "audimur"
+    },
+    {
+      "question": "What is the second person plural praesens passive of hear?",
+      "answer": "audimini"
+    },
+    {
+      "question": "What is the third person plural praesens passive of hear?",
+      "answer": "audiuntur"
+    },
+    {
+      "question": "What is the first person singular praesens passive of take (capere)?",
+      "answer": "capior"
+    },
+    {
+      "question": "What is the second person singular praesens passive of take (capere)?",
+      "answer": "caperis"
+    },
+    {
+      "question": "What is the third person singular praesens passive of take (capere)?",
+      "answer": "capitur"
+    },
+    {
+      "question": "What is the first person plural praesens passive of take (capere)?",
+      "answer": "capimur"
+    },
+    {
+      "question": "What is the second person plural praesens passive of take (capere)?",
+      "answer": "capimini"
+    },
+    {
+      "question": "What is the third person plural praesens passive of take (capere)?",
+      "answer": "capiuntur"
+    },
+    {
+      "question": "What is the first person singular praesens passive of do?",
+      "answer": "agor"
+    },
+    {
+      "question": "What is the second person singular praesens passive of do?",
+      "answer": "ageris"
+    },
+    {
+      "question": "What is the third person singular praesens passive of do?",
+      "answer": "agitur"
+    },
+    {
+      "question": "What is the first person plural praesens passive of do?",
+      "answer": "cagimur"
+    },
+    {
+      "question": "What is the second person plural praesens passive of do?",
+      "answer": "agimini"
+    },
+    {
+      "question": "What is the third person plural praesens passive of do?",
+      "answer": "aguntur"
+    },
+    {
+      "question": "What is the first person singular imperfectum passive of love?",
+      "answer": "amabar"
+    },
+    {
+      "question": "What is the second person singular imperfectum passive of love?",
+      "answer": "amabaris"
+    },
+    {
+      "question": "What is the third person singular imperfectum passive of love?",
+      "answer": "amabatur"
+    },
+    {
+      "question": "What is the first person plural imperfectum passive of love?",
+      "answer": "amabamur"
+    },
+    {
+      "question": "What is the second person plural imperfectum passive of love?",
+      "answer": "amabamini"
+    },
+    {
+      "question": "What is the third person plural imperfectum passive of love?",
+      "answer": "amabantur"
+    },
+    {
+      "question": "What is the first person singular imperfectum passive of see?",
+      "answer": "videbar"
+    },
+    {
+      "question": "What is the second person singular imperfectum passive of see?",
+      "answer": "videbaris"
+    },
+    {
+      "question": "What is the third person singular imperfectum passive of see?",
+      "answer": "videbatur"
+    },
+    {
+      "question": "What is the first person plural imperfectum passive of see?",
+      "answer": "videbamur"
+    },
+    {
+      "question": "What is the second person plural imperfectum passive of see?",
+      "answer": "videbamini"
+    },
+    {
+      "question": "What is the third person plural imperfectum passive of see?",
+      "answer": "videbantur"
+    },
+    {
+      "question": "What is the first person singular imperfectum passive of hear?",
+      "answer": "audiebar"
+    },
+    {
+      "question": "What is the second person singular imperfectum passive of hear?",
+      "answer": "audiebaris"
+    },
+    {
+      "question": "What is the third person singular imperfectum passive of hear?",
+      "answer": "audiebatur"
+    },
+    {
+      "question": "What is the first person plural imperfectum passive of hear?",
+      "answer": "audiebamur"
+    },
+    {
+      "question": "What is the second person plural imperfectum passive of hear?",
+      "answer": "audiebamini"
+    },
+    {
+      "question": "What is the third person plural imperfectum passive of hear?",
+      "answer": "audiebantur"
+    },
+    {
+      "question": "What is the first person singular imperfectum passive of take (capere)?",
+      "answer": "capiebar"
+    },
+    {
+      "question": "What is the second person singular imperfectum passive of take (capere)?",
+      "answer": "capiebaris"
+    },
+    {
+      "question": "What is the third person singular imperfectum passive of take (capere)?",
+      "answer": "capiebatur"
+    },
+    {
+      "question": "What is the first person plural imperfectum passive of take (capere)?",
+      "answer": "capiebamur"
+    },
+    {
+      "question": "What is the second person plural imperfectum passive of take (capere)?",
+      "answer": "capiebamini"
+    },
+    {
+      "question": "What is the third person plural imperfectum passive of take (capere)?",
+      "answer": "capiebantur"
+    },
+    {
+      "question": "What is the first person singular imperfectum passive of do?",
+      "answer": "agebar"
+    },
+    {
+      "question": "What is the second person singular imperfectum passive of do?",
+      "answer": "agebaris"
+    },
+    {
+      "question": "What is the third person singular imperfectum passive of do?",
+      "answer": "agebatur"
+    },
+    {
+      "question": "What is the first person plural imperfectum passive of do?",
+      "answer": "agebamur"
+    },
+    {
+      "question": "What is the second person plural imperfectum passive of do?",
+      "answer": "agebamini"
+    },
+    {
+      "question": "What is the third person plural imperfectum passive of do?",
+      "answer": "agebantur"
     }
   ],
   "hard": [
