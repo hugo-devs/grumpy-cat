@@ -42,8 +42,10 @@ fight_check_question = (attack_name) ->
 
 fight_enemy_attack = ->
   console.log "running fight_enemy_attack"
-  __random = random(0, currentFight.enemy_attacks.length - 1)
-  fight_attack(currentFight.enemy_attacks[__random])
+  __random = random(0, currentFight.enemy_attacks.length)
+  __attack = currentFight.enemy_attacks[__random]
+  console.log "#{__attack} (#{__random})"
+  fight_attack(__attack)
   currentFight.switch_turn()
 
 
@@ -94,8 +96,8 @@ fight_parse_inline_vars = (text) ->
     
   __res = text.split("||")
   for i in [0..__res.length-1]
-  	if __res[i].toLowerCase() is 'creature'
-  	  __res[i] = __attacker
+    if __res[i].toLowerCase() is 'creature'
+      __res[i] = __attacker
     else if __res[i].toLowerCase() is 'enemy'
       __res[i] = __victim
-  __res = __res.join("") 
+  __res = __res.join("")
