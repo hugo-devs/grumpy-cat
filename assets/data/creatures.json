@@ -109,7 +109,7 @@
 		]
 	},
 	"Hugulo": {
-		"description": "Hugulo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
+		"description": "Hugulo. It is a pink, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
 			"hp": 420,  
 			"type": "french"
@@ -175,9 +175,9 @@
 			"type": "latin"
 		},
 		"attacks": [
-			"Habs-Hamster",
-			"Scharfer-Blick",
-			"Beißerchen"
+			"wibble",
+			"Yell",
+			"Look-at-my-horse-my-horse-is-amazing!"
 		]
 	},
 	"Ladas": {
@@ -202,6 +202,102 @@
 			"Habs-Hamster",
 			"Scharfer-Blick",
 			"Beißerchen"
+		]
+	},
+	"Oedipus": {
+		"description": "Oedipus is a blue fire bird with a big red tail and two green eyes.",
+		"basestats": {
+			"hp": 420,
+			"type": "latin"
+		},
+		"attacks": [
+			"fire-dance",
+			"beak-attack",
+			"flap"
+		]
+	},
+	"Lop": {
+		"description": "Lop is a little black lop.",
+		"basestats": {
+			"hp": 320,
+			"type": "english"
+		},
+		"attacks": [
+			"plague-attack",
+			"jumping",
+			"black-soul"
+		]
+	},
+	"Birwon": {
+		"description": "Birwon is a little cute Monkey with green eyes.",
+		"basestats": {
+			"hp": 350,
+			"type": "english"
+		},
+		"attacks": [
+			"style-mode",
+			"bubble-gum-shooter",
+			"drink-juice"
+		]
+	},
+	"Mydusa": {
+		"description": "",
+		"basestats": {
+			"hp": 550,
+			"type": "latin"
+		},
+		"attacks": [
+			"",
+			"",
+			""
+		]
+	},
+	"Skopper": {
+		"description": "",
+		"basestats": {
+			"hp": 550,
+			"type": "french"
+		},
+		"attacks": [
+			"",
+			"",
+			""
+		]
+	},
+	"Pieuvrerre": {
+		"description": "An orane octupus. One of Phnax' friends",
+		"basestats": {
+			"hp": 460,
+			"type": "french"
+		},
+		"attacks": [
+			"ink-bomb",
+			"tentacle-strike",
+			"orange-poison"
+		]
+	},
+	"": {
+		"description": "",
+		"basestats": {
+			"hp": 550,
+			"type": "latin"
+		},
+		"attacks": [
+			"",
+			"",
+			""
+		]
+	},
+	"Nouillon": {
+		"description": "A kind of noodle monster. Look delicious. Please do not eat him.",
+		"basestats": {
+			"hp": 410,
+			"type": "french"
+		},
+		"attacks": [
+			"Spaghetti-whip",
+			"extra-cheese-!",
+			"Caborara-Rain"
 		]
 	}
 }
