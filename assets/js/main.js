@@ -199,11 +199,17 @@ fight_check_question = function(attack_name) {
   try {
     $(".core-overlay-backdrop").remove();
   } catch (_error) {}
+  if (localStorage.cheatMode === "Boss") {
+    fight_attack(attack_name);
+    currentFight.switch_turn();
+    return;
+  }
   if ($(".dialog > paper-dialog > paper-input").val().toLowerCase() === currentQuestion.question.answer.toLowerCase()) {
     fight_attack(attack_name);
     return currentFight.switch_turn();
   } else if ($.inArray($(".dialog > paper-dialog > paper-input").val().toLowerCase(), __lower_array) !== -1) {
-    return console.log("Hey");
+    fight_attack(attack_name);
+    return currentFight.switch_turn();
   } else {
     notify("<span style='color: #E53935;'>Wrong answer! Your attack failed!<span>");
     return setTimeout(function() {
