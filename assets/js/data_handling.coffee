@@ -36,4 +36,9 @@ reset_test = ->
   localStorage.clear()
   window.location.replace("/")
 
-random = (from, to) -> Math.floor((Math.random()*to)+from)
+random = (from, to) ->
+  console.log "from: #{from}"
+  console.log "to: #{to}"
+  res = Math.floor((Math.random()*to)+from)
+  console.log "number: #{res}"
+  res

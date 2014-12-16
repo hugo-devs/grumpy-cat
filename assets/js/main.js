@@ -64,7 +64,12 @@ reset_test = function() {
 };
 
 random = function(from, to) {
-  return Math.floor((Math.random() * to) + from);
+  var res;
+  console.log("from: " + from);
+  console.log("to: " + to);
+  res = Math.floor((Math.random() * to) + from);
+  console.log("number: " + res);
+  return res;
 };
 
 callbacks = {
@@ -144,21 +149,24 @@ function Fight (enemy, enemy_lvl) {
 					text: "Try again!",
 					timer: 2999,
 					type: "error"
-				});
-				setTimeout(function () {parse_story();}, 3000);
+				},
+					function () {
+						parse_story();
+					}
+				);
 			} else if (this.enemy_health <= 0) {
 				swal({
 					title: "You won the Battle!",
 					text: "You earn one level. Continue you journey.",
 					timer: 2999,
 					type: "success"
-				});
-				localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-				localStorage.lvl = parseInt(localStorage.lvl) + 1;
-				setTimeout(function () {
-					parse_story();
-					$(".fight_area").fadeOut("fast");
-				}, 3000);
+				},
+					function () {
+						localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+						localStorage.lvl = parseInt(localStorage.lvl) + 1;
+						parse_story();
+						$(".fight_area").fadeOut("fast");
+					});
 			}
 		};
 
@@ -191,11 +199,17 @@ fight_check_question = function(attack_name) {
   try {
     $(".core-overlay-backdrop").remove();
   } catch (_error) {}
+  if (localStorage.cheatMode === "Boss") {
+    fight_attack(attack_name);
+    currentFight.switch_turn();
+    return;
+  }
   if ($(".dialog > paper-dialog > paper-input").val().toLowerCase() === currentQuestion.question.answer.toLowerCase()) {
     fight_attack(attack_name);
     return currentFight.switch_turn();
   } else if ($.inArray($(".dialog > paper-dialog > paper-input").val().toLowerCase(), __lower_array) !== -1) {
-    return console.log("Hey");
+    fight_attack(attack_name);
+    return currentFight.switch_turn();
   } else {
     notify("<span style='color: #E53935;'>Wrong answer! Your attack failed!<span>");
     return setTimeout(function() {
@@ -205,10 +219,12 @@ fight_check_question = function(attack_name) {
 };
 
 fight_enemy_attack = function() {
-  var __random;
+  var __attack, __random;
   console.log("running fight_enemy_attack");
-  __random = random(0, currentFight.enemy_attacks.length - 1);
-  fight_attack(currentFight.enemy_attacks[__random]);
+  __random = random(0, currentFight.enemy_attacks.length);
+  __attack = currentFight.enemy_attacks[__random];
+  console.log("" + __attack + " (" + __random + ")");
+  fight_attack(__attack);
   return currentFight.switch_turn();
 };
 

@@ -69,21 +69,24 @@ function Fight (enemy, enemy_lvl) {
 					text: "Try again!",
 					timer: 2999,
 					type: "error"
-				});
-				setTimeout(function () {parse_story();}, 3000);
+				},
+					function () {
+						parse_story();
+					}
+				);
 			} else if (this.enemy_health <= 0) {
 				swal({
 					title: "You won the Battle!",
 					text: "You earn one level. Continue you journey.",
 					timer: 2999,
 					type: "success"
-				});
-				localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-				localStorage.lvl = parseInt(localStorage.lvl) + 1;
-				setTimeout(function () {
-					parse_story();
-					$(".fight_area").fadeOut("fast");
-				}, 3000);
+				},
+					function () {
+						localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+						localStorage.lvl = parseInt(localStorage.lvl) + 1;
+						parse_story();
+						$(".fight_area").fadeOut("fast");
+					});
 			}
 		};
 
