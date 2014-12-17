@@ -253,7 +253,7 @@
 		]
 	},
 	"Skopper": {
-		"description": "Skopper is the labrador of all the creatures: He barks, protects his friends and smells like a dog...well, he is a dog. By the way, his fur is neongreen."
+		"description": "Skopper is the labrador of all the creatures: He barks, protects his friends and smells like a dog...well, he is a dog. By the way, his fur is neongreen.",
 		"basestats": {
 			"hp": 365,
 			"type": "french"
