@@ -13,14 +13,14 @@
 		"difficulty": "hard"
 	},
 	"Beißerchen": {
-		"text": "||creature|| bites ||Enemy||. ||Enemy||´s hp sink.",
+		"text": "||creature|| bites ||Enemy||. ||Enemy||'s hp sink.",
 		"action": ["hp", -300],
 		"type": "latin",
 		"difficulty": "hard"
 	},
 	"Scharfer Blick": {
-		"text": "||creature|| stares ||Enemy|| down. ||Enemy||´s attack sinks.",
-		"action": ["attack", -250],
+		"text": "||creature|| stares ||Enemy|| down. ||Enemy||'s attack sinks.",
+		"action": ["attack", -0.25],
 		"type": "latin",
 		"difficulty": "hard"
 	},
@@ -43,14 +43,14 @@
 		"difficulty": "hard"
 	},
 	"Klugscheißerism" : {
-		"text": "||creature|| correct ||Enemy||. ||Enemy|| gets angry. ||Enemy||'s attack increases, defense decreases.",
+		"text": "||creature|| corrects ||Enemy||. ||Enemy|| gets angry. ||Enemy||'s attack increases, ||enemy||'s defense decreases.",
 		"action": ["defense", 0.2],
 		"action-self": ["defense", -0.3],
 		"type": "english",
 		"difficulty": "easy"
 	},
 	"Confulizzle" : {
-		"text": "||creature|| confuses her enemy. ||Enemy|| gets confuses. ||Enemy|| attacks himself, ||Enemy||'s attack increases.",
+		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s attack increases.",
 		"action": ["attack", -0.2],
 		"action-self": ["defense", 0.0],
 		"type": "english",
@@ -112,7 +112,7 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}
+	},
 	"Squeek" : {
 		"text": "||creature|| squeeks. ||creatures||'s attack increases",
 		"action": ["defense", 0.0],
@@ -126,7 +126,8 @@
 		"action-self": ["hp", 50], 
 		"type": "frenche",
 		"difficulty": "easy"
-	}"Morse.Code" : {
+	},
+	"Morse.Code" : {
 		"text": "||creature|| attacks ||Enemy|| with an encrypted Message",
 		"action": ["hp", -50],
 		"type": "french",
@@ -138,7 +139,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -151,7 +153,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -164,7 +167,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -177,7 +181,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -190,7 +195,7 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -203,7 +208,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -216,7 +222,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -229,7 +236,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -242,7 +250,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -255,7 +264,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -268,7 +278,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -281,7 +292,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -294,7 +306,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -307,7 +320,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -320,7 +334,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -333,7 +348,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -346,7 +362,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -359,7 +376,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -372,7 +390,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -385,7 +404,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
@@ -398,7 +418,8 @@
 		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
-	}"Rainbow-Poop" : {
+	},
+	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
