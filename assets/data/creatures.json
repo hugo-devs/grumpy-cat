@@ -1,6 +1,6 @@
 {
 	"Dymynator": {
-		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except stochastic). It it a Hamster? No! Is it a Boy? No! It's the Dymynator!",
+		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except stochastic). It is a Hamster? No! Is it a Boy? No! It's the Dymynator!",
 		"basestats": {
 			"hp": 1000,
 			"type": "latin"
@@ -181,27 +181,27 @@
 		]
 	},
 	"Ladas": {
-		"description": "Beschreibung hier",
+		"description": "Ladas is a cute red bumblebee. She is a really huge bumblebee, so don't underestimate her. ",
 		"basestats": {
-			"hp": 550,
+			"hp": 470,
 			"type": "english"
 		},
 		"attacks": [
-			"Habs-Hamster",
-			"Scharfer-Blick",
-			"Beißerchen"
+			"Flower-Power",
+			"Bzzzzzzzzzzzzzz",
+			"Desperation-about-English"
 		]
 	},
 	"Laudiphant": {
-		"description": "Beschreibung hier",
+		"description": "A fluffy purple elephant wich loves sweets, especially pancakes. You better do not stand between a Laudiphant and a pancake... It's for your own sake.",
 		"basestats": {
 			"hp": 550,
 			"type": "english"
 		},
 		"attacks": [
-			"Habs-Hamster",
-			"Scharfer-Blick",
-			"Beißerchen"
+			"Eat-a-pancake",
+			"cuddle-attack",
+			"confusion"
 		]
 	},
 	"Oedipus": {
@@ -241,31 +241,31 @@
 		]
 	},
 	"Mydusa": {
-		"description": "",
+		"description": "Medusa's sister. She can do everything - except latin.",
 		"basestats": {
 			"hp": 550,
 			"type": "latin"
 		},
 		"attacks": [
-			"",
-			"",
-			""
+			"curse",
+			"fossilize",
+			"eat-music"
 		]
 	},
 	"Skopper": {
-		"description": "",
+		"description": "Skopper is the labrador of all the creatures: He barks, protects his friends and smells like a dog...well, he is a dog. By the way, his fur is neongreen."
 		"basestats": {
-			"hp": 550,
+			"hp": 365,
 			"type": "french"
 		},
 		"attacks": [
-			"",
-			"",
-			""
+			"yowl",
+			"guzzle",
+			"like-a-puppy"
 		]
 	},
 	"Pieuvrerre": {
-		"description": "An orane octupus. One of Phnax' friends",
+		"description": "An orange octupus. One of Phnax' friends",
 		"basestats": {
 			"hp": 460,
 			"type": "french"
@@ -276,16 +276,16 @@
 			"orange-poison"
 		]
 	},
-	"": {
-		"description": "",
+	"Escargon": {
+		"description": "A yellow-violet-checkered snail. Escargon's worst fear is being eaten.",
 		"basestats": {
 			"hp": 550,
-			"type": "latin"
+			"type": "french"
 		},
 		"attacks": [
-			"",
-			"",
-			""
+			"slimy-track",
+			"Please-don't-eat-me!",
+			"highspeed"
 		]
 	},
 	"Nouillon": {

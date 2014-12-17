@@ -1,11 +1,13 @@
 [
 	{
 		"type": "pop",
-		"value": "Spartacus: Hello young slave and welcome to the Colosseum of Rome. Now you have to fight as a gladiator with the help of your ||creature|| against opponents and their creatures to obtain the emperors favour and attain freedom."
+		"value": "Hello young slave and welcome to the Colosseum of Rome. Now you have to fight as a gladiator with the help of your ||creature|| against opponents and their creatures to obtain the emperors favour and attain freedom.",
+		"title": "Spartacus:"
 	},
 	{
 		"type": "pop",
-		"value": "My name is Spartacus and I'm already a famous gladiator. I'll accompany you on your way to liberty and support you wherever I can."
+		"value": "My name is Spartacus and I'm already a famous gladiator. I'll accompany you on your way to liberty and support you wherever I can.",
+		"title": "Spartacus:"
 	},
 	{
 		"type": "sound",
@@ -13,19 +15,25 @@
 	},
 	{
 		"type": "pop",
-		"value": "Listen! The horn calls us for the first fight! Good luck my friend."
+		"value": "Listen! The horn calls us for the first fight! Good luck my friend.",
+		"title": "Spartacus"
 	},
 	{
 		"type": "text",
-		"value": "Spartacus: Hey ||name||, nice ||creature|| you have there! You are a slave and must fight as a gladiator to survive and maybe one day become free, but for now I am going to be your Mentor and train you. Let's see how good you are."
+		"value": "You are attacked by a gladiator and his ||enemy||"
+	},
+	{
+		"type": "text",
+		"value": "(Tutorial)"
 	},
 	{
 		"type": "fight",
-		"enemy": "Lizzle",
+		"enemy": "...",
 		"lvl": 1
 	},
 	{
-		"type": "text",
-		"value": "Wow, you beat the Dymynator"
+		"type": "pop",
+		"value": "That was impressive, you did a good job! And look your ||creature|| went one level up. But there's still a long way to go on wich you have to fight a lot. From now I'm not going to help you with your fights anymore, but don't worry because you'll gain more and more experience and your ||creature|| will become stronger. Look, your next enemy is already waiting for you!",
+		"title": "Spartacus:"
 	}
 ]
