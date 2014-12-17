@@ -1015,6 +1015,54 @@
     {
       "question": "What is the ablative plural of cornu?",
       "answer": "cornibus"
+    },
+    {
+      "question": "What is the first person singular perfectum of love?",
+      "answer": "amavi"
+    },
+    {
+      "question": "What is the second person singular perfectum of love?",
+      "answer": "amavisti"
+    },
+    {
+      "question": "What is the third person singular perfectum of love?",
+      "answer": "amavit"
+    },
+    {
+      "question": "What is the first person plural perfectum of love?",
+      "answer": "amavimur"
+    },
+    {
+      "question": "What is the second person plural perfectum of love?",
+      "answer": "amavistis"
+    },
+    {
+      "question": "What is the third person plural perfectum of love?",
+      "answer": "amaverunt"
+    },
+    {
+      "question": "What is the first person singular plusquamperfectum of love?",
+      "answer": "amaveram"
+    },
+    {
+      "question": "What is the second person singular plusquamperfectum of love?",
+      "answer": "amaveras"
+    },
+    {
+      "question": "What is the third person singular plusquamperfectum of love?",
+      "answer": "amaverat"
+    },
+    {
+      "question": "What is the first person plural plusquamperfectum of love?",
+      "answer": "amaveramus"
+    },
+    {
+      "question": "What is the second person plural plusquamperfectum of love?",
+      "answer": "amaveratis"
+    },
+    {
+      "question": "What is the third person plural plusquamperfectum of love?",
+      "answer": "amaverant"
     }
   ]
 }
