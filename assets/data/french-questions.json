@@ -13,16 +13,76 @@
       "answer": "je m'apelle"
     },
     {
-      "question": "what means ",
-      "answer": ""
+      "question": "what means ''",
+      "answer": "faire"
     },
     {
-      "question": "",
-      "answer": ""
+      "question": "what means 'live'",
+      "answer": "habiter"
     },
     {
-      "question": "",
-      "answer": ""
+      "question": "what means 'age'",
+      "answer": "ans"
+    },
+    {
+      "question": "what means 'be'",
+      "answer": ["être","etre"]
+    },
+    {
+      "question": "what means 'my name is'",
+      "answer": "je m'apelle"
+    },
+    {
+      "question": "what means 'do'",
+      "answer": "faire"
+    },
+    {
+      "question": "what means 'live'",
+      "answer": "habiter"
+    },
+    {
+      "question": "what means 'age'",
+      "answer": "ans"
+    },
+    {
+      "question": "what means 'be'",
+      "answer": ["être","etre"]
+    },
+    {
+      "question": "what means 'my name is'",
+      "answer": "je m'apelle"
+    },
+    {
+      "question": "what means 'do'",
+      "answer": "faire"
+    },
+    {
+      "question": "what means 'live'",
+      "answer": "habiter"
+    },
+    {
+      "question": "what means 'age'",
+      "answer": "ans"
+    },
+    {
+      "question": "what means 'be'",
+      "answer": ["être","etre"]
+    },
+    {
+      "question": "what means 'my name is'",
+      "answer": "je m'apelle"
+    },
+    {
+      "question": "what means 'do'",
+      "answer": "faire"
+    },
+    {
+      "question": "what means 'live'",
+      "answer": "habiter"
+    },
+    {
+      "question": "what means 'age'",
+      "answer": "ans"
     }
   ]
 }
