@@ -1,6 +1,6 @@
 {
 	"Dymynator": {
-		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except stochastic). It it a Hamster? No! Is it a Boy? No! It's the Dymynator!",
+		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except stochastic). It is a Hamster? No! Is it a Boy? No! It's the Dymynator!",
 		"basestats": {
 			"hp": 1000,
 			"type": "latin"
@@ -109,7 +109,7 @@
 		]
 	},
 	"Hugulo": {
-		"description": "Hugulo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
+		"description": "Hugulo. It is a pink, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
 			"hp": 420,  
 			"type": "french"
@@ -253,15 +253,15 @@
 		]
 	},
 	"Skopper": {
-		"description": "",
+		"description": "Skopper is the labrador of all the creatures: He barks, protects his friends and smells like a dog...well, he is a dog. By the way, his fur is neongreen.
 		"basestats": {
-			"hp": 550,
+			"hp": 365,
 			"type": "french"
 		},
 		"attacks": [
-			"",
-			"",
-			""
+			"yowl",
+			"guzzle",
+			"like-a-puppy"
 		]
 	},
 	"Pieuvrerre": {
@@ -276,16 +276,16 @@
 			"orange-poison"
 		]
 	},
-	"": {
-		"description": "",
+	"Escargon": {
+		"description": "A yellow-violet-checkered snail. Escargon's worst fear is being eaten.",
 		"basestats": {
 			"hp": 550,
-			"type": "latin"
+			"type": "french"
 		},
 		"attacks": [
-			"",
-			"",
-			""
+			"slimy-track",
+			"Please-don't-eat-me!",
+			"highspeed"
 		]
 	},
 	"Nouillon": {
