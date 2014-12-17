@@ -181,27 +181,27 @@
 		]
 	},
 	"Ladas": {
-		"description": "Beschreibung hier",
+		"description": "Ladas is a cute red bumblebee. She is a really huge bumblebee, so don't underestimate her. ",
 		"basestats": {
-			"hp": 550,
+			"hp": 470,
 			"type": "english"
 		},
 		"attacks": [
-			"Habs-Hamster",
-			"Scharfer-Blick",
-			"Beißerchen"
+			"Flower-Power",
+			"Bzzzzzzzzzzzzzz",
+			"Desperation-about-English"
 		]
 	},
 	"Laudiphant": {
-		"description": "Beschreibung hier",
+		"description": "A fluffy purple elephant wich loves sweets, especially pancakes. You better do not stand between a Laudiphant and a pancake... It's for your own sake.",
 		"basestats": {
 			"hp": 550,
 			"type": "english"
 		},
 		"attacks": [
-			"Habs-Hamster",
-			"Scharfer-Blick",
-			"Beißerchen"
+			"Eat-a-pancake",
+			"cuddle-attack",
+			"confusion"
 		]
 	},
 	"Oedipus": {
@@ -241,15 +241,15 @@
 		]
 	},
 	"Mydusa": {
-		"description": "",
+		"description": "Medusa's sister. She can do everything - except latin.",
 		"basestats": {
 			"hp": 550,
 			"type": "latin"
 		},
 		"attacks": [
-			"",
-			"",
-			""
+			"curse",
+			"fossilize",
+			"eat-music"
 		]
 	},
 	"Skopper": {
@@ -265,7 +265,7 @@
 		]
 	},
 	"Pieuvrerre": {
-		"description": "An orane octupus. One of Phnax' friends",
+		"description": "An orange octupus. One of Phnax' friends",
 		"basestats": {
 			"hp": 460,
 			"type": "french"
