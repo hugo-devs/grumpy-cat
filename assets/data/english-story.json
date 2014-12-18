@@ -28,13 +28,12 @@
     "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
   },
   {
-    "type": "pop",
-    "value": "",
-    "title": "enemy soldier:"
+    "type": "text",
+    "value": "An enemy soldier is attackig you!"
   },
   {
     "type": "fight",
-    "enemy": "Lop",
+    "enemy": "",
     "lvl": "1"
   },
   
