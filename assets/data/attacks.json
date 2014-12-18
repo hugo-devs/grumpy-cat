@@ -2,7 +2,7 @@
 	"Self-Dizzle" : {
 		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
 		"action": ["attack", -0.2],
-		"action-self": ["defense", -0.2],
+		"action-self": ["defense", 0.1],
 		"type": "english",
 		"difficulty": "easy"
 	},
@@ -127,13 +127,13 @@
 		"type": "frenche",
 		"difficulty": "easy"
 	},
-	"Morse.Code" : {
+	"Morse-Code" : {
 		"text": "||creature|| attacks ||Enemy|| with an encrypted Message",
 		"action": ["hp", -50],
 		"type": "french",
 		"difficulty": "medium"
 	},
-	"Easter-Egg-Attack" : {
+	"Desperation" : {
 		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
 		"action": ["defense", 0.15],
 		"action-self": ["hp", 0], 
