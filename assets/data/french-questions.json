@@ -1,88 +1,88 @@
 {
   "easy": [
     {
-      "question": "what means 'make'",
+      "question": "what means 'make' in french?",
       "answer": "faire"
     },
     {
-      "question": "what means 'be'",
+      "question": "what means 'be' in french?",
       "answer": ["être","etre"]
     },
     {
-      "question": "what means 'my name is'",
+      "question": "what means 'my name is' in french?",
       "answer": "je m'apelle"
     },
     {
-      "question": "what means ''",
+      "question": "what means 'do' in french?",
       "answer": "faire"
     },
     {
-      "question": "what means 'live'",
-      "answer": "habiter"
+      "question": "what means 'live' in french?",
+      "answer": "vivre"
     },
     {
-      "question": "what means 'age'",
+      "question": "what means 'age' in french?",
       "answer": "ans"
     },
     {
-      "question": "what means 'be'",
-      "answer": ["être","etre"]
+      "question": "what means 'like' in french?",
+      "answer": "aimer"
     },
     {
-      "question": "what means 'my name is'",
+      "question": "what means 'my name is'in french?",
       "answer": "je m'apelle"
     },
     {
-      "question": "what means 'do'",
-      "answer": "faire"
+      "question": "what means 'walk' in french?",
+      "answer": "aller"
     },
     {
-      "question": "what means 'live'",
-      "answer": "habiter"
+      "question": "what means 'have' in french?",
+      "answer": "avoir"
     },
     {
-      "question": "what means 'age'",
-      "answer": "ans"
+      "question": "what means 'call' in french?",
+      "answer": "appeler"
     },
     {
-      "question": "what means 'be'",
-      "answer": ["être","etre"]
+      "question": "what means 'hear' in french?",
+      "answer": ["écouter","ecouter"]
     },
     {
-      "question": "what means 'my name is'",
-      "answer": "je m'apelle"
+      "question": "what means 'play' in french?",
+      "answer": "jouer"
     },
     {
-      "question": "what means 'do'",
-      "answer": "faire"
+      "question": "what means 'eat' in french?",
+      "answer": "manger"
     },
     {
-      "question": "what means 'live'",
-      "answer": "habiter"
+      "question": "what means 'find' in french?",
+      "answer": "trouver"
     },
     {
-      "question": "what means 'age'",
-      "answer": "ans"
+      "question": "what means 'say' in french?",
+      "answer": "dire"
     },
     {
-      "question": "what means 'be'",
-      "answer": ["être","etre"]
+      "question": "what means 'write' in french?",
+      "answer": ["écrire","ecrire"]
     },
     {
-      "question": "what means 'my name is'",
-      "answer": "je m'apelle"
+      "question": "what means 'want' in french?",
+      "answer": "vouloir"
     },
     {
-      "question": "what means 'do'",
-      "answer": "faire"
+      "question": "what means 'arrive' in french?",
+      "answer": "arriver"
     },
     {
-      "question": "what means 'live'",
-      "answer": "habiter"
+      "question": "what means 'change' in french?",
+      "answer": "changer"
     },
     {
-      "question": "what means 'age'",
-      "answer": "ans"
+      "question": "what means 'sleep' in french?",
+      "answer": "dormir"
     }
   ]
 }
