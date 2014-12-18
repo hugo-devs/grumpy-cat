@@ -1,11 +1,13 @@
 [
 	{
 		"type": "pop",
-		"value": "Condorcet: Bonjour, mon amis and welcome to the french revolution. Your name is ||name||, isn't it? And you've got a very nice ||creature||, even if it's not that strong yet. We currently are in Paris at the end of the 18th century and you have to help us to fight against the injustice of the nobility during the french revolution! Let's go around and check if there are any citizens who need help."
+		"value": "Bonjour, mon amis and welcome to the french revolution. Your name is ||name||, isn't it? And you've got a very nice ||creature||, even if it's not that strong yet. We currently are in Paris at the end of the 18th century and you have to help us to fight against the injustice of the nobility during the french revolution! Let's go around and check if there are any citizens who need help.",
+		"title": "Condorcet:"
 	},
 	{
 		"type": "pop",
-		"value": "Condorcet: Oh, look, there are three children being in trouble. A wild ... attacks them. You have to protect them, hurry up!"
+		"value": "Oh, look, there are three children being in trouble. A wild Souri attacks them. You have to protect them, hurry up!",
+		"title": "Concorcet:"
 	},
 	{
 		"type": "text",
@@ -13,15 +15,12 @@
 	},
 	{
 		"type": "fight",
-		"enemy": "...",
+		"enemy": "Souri",
 		"level": "1"
 	},
 	{
-		"type": "text",
-		"value": "You defeated ..."
-	},
-	{
 		"type": "pop",
-		"value": "Condorcet: Wow, that was an exiting"
+		"value": "Condorcet: Wow, that was exciting. *to the kids* Are you alright? \n Pierre: Thank you for helping us, strange hero. My name is Pierre and this are my friends François and Gabrielle. We are from different parts of France and came to Paris for working and earning money for our families. We are very poor, you know? But now it's too dangerous for us to stay here, even if we aren't able to make money anymore. We want to get back home, but on the way there are lots of creatures, which can attack us. Can you help us to get back home safely, please? \n Conndorcet: These unfortunate children! Be generous and help them! \n " 
+		"title": "The story of the kids"
 	}
 ]
