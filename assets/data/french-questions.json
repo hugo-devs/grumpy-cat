@@ -1,10 +1,6 @@
 {
   "easy": [
     {
-      "question": "what means 'make' in french?",
-      "answer": "faire"
-    },
-    {
       "question": "what means 'be' in french?",
       "answer": ["être","etre"]
     },
@@ -29,7 +25,7 @@
       "answer": "aimer"
     },
     {
-      "question": "what means 'my name is'in french?",
+      "question": "what means 'my name is' in french?",
       "answer": "je m'apelle"
     },
     {
@@ -88,20 +84,20 @@
  
   "medium": [
    {
-      "question": "what means 'make' in french?",
-      "answer": "faire"
+      "question": "write 'avoir' 1.P in passe compose",
+      "answer": "j'ai eu"
     },
     {
-      "question": "what means 'be' in french?",
-      "answer": ["être","etre"]
+      "question": "write 'être' 1.P in passe compose",
+      "answer": ["j'ai été","j'ai ete"]
     },
     {
-      "question": "what means 'my name is' in french?",
-      "answer": "je m'apelle"
+      "question": "write 'aller' 1.P in passe compose (m)?",
+      "answer": "je suis allé"
     },
     {
-      "question": "what means 'do' in french?",
-      "answer": "faire"
+      "question": "write 'apprendre' 1.P in passe compose?",
+      "answer": "j"
     },
     {
       "question": "what means 'live' in french?",
