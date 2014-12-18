@@ -21,6 +21,7 @@
 	"Scharfer Blick": {
 		"text": "||creature|| stares ||Enemy|| down. ||Enemy||'s attack sinks.",
 		"action": ["attack", -0.25],
+		"action-self": ["attack", 0.3],
 		"type": "latin",
 		"difficulty": "hard"
 	},
@@ -40,132 +41,124 @@
 		"text": "Nothing happens",
 		"action": ["hp", 0],
 		"type": "latin",
-		"difficulty": "hard"
+		"difficulty": "easy"
 	},
 	"Klugscheißerism" : {
-		"text": "||creature|| corrects ||Enemy||. ||Enemy|| gets angry. ||Enemy||'s attack increases, ||enemy||'s defense decreases.",
+		"text": "||creature|| corrects ||Enemy||. ||Enemy|| gets angry. ||creature||'s defense increases, ||enemy||'s defense decreases.",
 		"action": ["defense", 0.2],
 		"action-self": ["defense", -0.3],
 		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "medium"
 	},
 	"Confulizzle" : {
-		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s attack increases.",
-		"action": ["attack", -0.2],
+		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points sinks.",
+		"action": ["hp", -70],
 		"action-self": ["defense", 0.0],
 		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "medium"
 	},
 	"Muncher" : {
 		"text": "||creature|| bites enemy. ||Enemy||'s attack increases.",
-		"action": ["attack", -0.2],
 		"action": ["hp", -150],
 		"action-self": ["defense", 0.0],
-		"type": "english",
-		"difficulty": "easy"
+		"type": "latin",
+		"difficulty": "hard"
 	},
-	"build-a-wall" : {
+	"Build-a-wall" : {
 		"text": "||creature|| builds a wall. ||creature||'s defense increases.",
 		"action": ["attack", 0.0],
-		"action-self": ["defense", 0.75],
+		"action-self": ["defense", -0.15],
 		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "medium"
 	},
-	"throw-a-table" : {
-		"text": "||creature|| builds a table an throw it at the enemy.",
+	"Throw-a-table" : {
+		"text": "||creature|| builds a table and throws it at the enemy.",
 		"action": ["hp", -190],
 		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "medium"
 	},
-	"gets-angry" : {
+	"Gets-angry" : {
 		"text": "||creature|| gets angry. ||creature||'s attack increases.",
 		"action": ["attack", 0.0],
-		"action-self": ["defense", 0.8],
+		"action-self": ["attack", 0.5],
 		"type": "english",
-		"difficulty": "medium"
-	},
-	"Muncher" : {
-		"text": "||creature|| eats enemy. ||Enemy||'s attack increases.",
-		"action": ["attack", -0.2],
-		"action-self": ["defense", 0.0],
-		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "hard"
 	},
 	"Jump-Kick" : {
 		"text": "||creature|| jumps and kicks ||Enemy|| in the face.",
 		"action": ["hp", -210],
 		"action-self": ["hp", 0.0],
-		"type": "english",
-		"difficulty": "easy"
+		"type": "french",
+		"difficulty": "hard"
 	},
 	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
+		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defense decreases.",
+		"action": ["defense", -0.1],
+		"action-self": ["hp", 60], 
+		"type": "french",
 		"difficulty": "easy"
 	},
 	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
+		"text": "||creature|| hides an egg. ||Enemy|| searches for it. ||Enemy||'s defense decreases.",
+		"action": ["defense", 0.2],
 		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Squeek" : {
-		"text": "||creature|| squeeks. ||creatures||'s attack increases",
-		"action": ["defense", 0.0],
-		"action-self": ["attack", 0.25], 
-		"type":"frenche",
-		"difficulty": "easy"
-	},
-	"Cheescake" : {
-		"text": "||creature|| eats a cake. ||creature|| hp increases ",
-		"action": ["defense", 0.0],
-		"action-self": ["hp", 50], 
-		"type": "frenche",
-		"difficulty": "easy"
-	},
-	"Morse-Code" : {
-		"text": "||creature|| attacks ||Enemy|| with an encrypted Message",
-		"action": ["hp", -50],
 		"type": "french",
 		"difficulty": "medium"
 	},
-	"Desperation" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
+	"Squeek" : {
+		"text": "||creature|| squeeks. ||creatures||'s attack increases. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.1],
+		"action-self": ["attack", 0.25], 
+		"type":"french",
+		"difficulty": "medium"
+	},
+	"Cheesecake" : {
+		"text": "||creature|| eats a cake. ||creature|| hp increases.",
+		"action": ["defense", 0.0],
+		"action-self": ["hp", 50], 
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Morse-code" : {
+		"text": "||creature|| attacks ||Enemy|| with an encrypted Message.",
+		"action": ["hp", -40],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Antiquus" : {
+		"text": "||creature|| reads an ancient book to ||enemy||. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.15],
 		"action-self": ["hp", 0], 
-		"type": "english",
+		"type": "latin",
 		"difficulty": "easy"
 	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
+	"Auspicium-Magnum" : {
+		"text": "||creature|| sees some birds and partners with them. ||enemy|| looks for ||creature||. ||creature|| attacks ||enemy|| from behind. ||enemy||'s health points sinks",
+		"action": ["hp", -70],
+		"action-self": ["hp", 0], 
+		"type": "latin",
+		"difficulty": "medium"
 	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
+	"Ala Dea" : {
+		"text": "||creature|| hits ||enemy|| with it's big wings. ||creature||'s attack increases. ||enemy||'s health points sinks.",
+		"action": ["hp", -150],
+		"action-self": ["attack", 0.1], 
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Sun-dance" : {
+		"text": "||creature|| starts dancing the sun-dance. ||enemy|| is burning for a short time. ||enemy||'s health points sinks.",
+		"action": ["hp", -100],
+		"action-self": ["hp", 0], 
+		"type": "latin",
+		"difficulty": "medium"
+	},
+	"Road-Run" : {
+		"text": "||creature|| starts running through the streets. The asphalt starts burning. ||enemy|| runs away. ||creature||'s health points and defense increases.",
 		"action": ["defense", 0.15],
 		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
+		"type": "latin",
 		"difficulty": "easy"
 	},
 	"Rainbow-Poop" : {
