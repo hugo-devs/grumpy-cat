@@ -1,7 +1,7 @@
 [
   {
     "type": "pop",
-    "value": "Hello valiant soldier. This is the 19th century and we are in the middle of the American Civil War. You fight on the side of the northern states, also called the Union, against the Confederate States of America to release the slaves. We are located near the Bull Run River and the southern troops are attacking us. ",
+    "value": "Hello valiant soldier. This is the 19th century and we are in the middle of the American Civil War. You fight on the side of the northern states, also called the Union, against the Confederate States of America to release the slaves. We are located near the Bull Run River and the southern troops are going to attack us. ",
     "title": "Abraham Lincoln:"
   },
   {
@@ -20,17 +20,17 @@
   },
   {
     "type": "pop",
-    "value": "Hello valiant soldier. This is the 19th century and we are in the middle of the American Civil War. You fight on the side of the northern states, also called the Union, against the Confederate States of America to release the slaves. We are located near the Bull Run River and the southern troops are attacking us. ",
-    "title": "Abraham Lincoln:"
-  },
-  {
-    "type": "pop",
-    "value": "But first I'll show you how to fight.",
+    "value": "That was impressive, you did a great job, young soldier ||name||! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
     "title": "Abraham Lincoln:"
   },
   {
     "type": "text",
-    "value": "Tutorialkampf"
+    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
+  },
+  {
+    "type": "pop",
+    "value": "",
+    "title": "enemy soldier:"
   },
   {
     "type": "fight",
