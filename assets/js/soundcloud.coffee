@@ -1,7 +1,11 @@
-console.log "Init soundcloud"
-SC.initialize {
-  	client_id: "bb72e01542b2481b1ed0c625951bcb03"
-  }
+try
+	# ...
+	console.log "Init soundcloud"
+	SC.initialize {
+	  	client_id: "bb72e01542b2481b1ed0c625951bcb03"
+	  }
+catch e
+	console.log "soundcloud failed"
 
 play_sound = (sound_id) ->
   try

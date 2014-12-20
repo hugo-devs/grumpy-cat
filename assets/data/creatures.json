@@ -315,7 +315,7 @@
 	"Buffalon": {
 		"description": "Buffalon is a shiny red buffalo with a big black moustache.",
 		"basestats": {
-			"hp" 450,
+			"hp": 450,
 			"type": "french"
 		},
 		"attacks": [
