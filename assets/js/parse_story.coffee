@@ -11,6 +11,7 @@ skip_tut = ->
       localStorage.story_pos = 10
 
 parse_story = ->
+  console.log "running parse_story"
   if parseInt(localStorage.story_pos) >= data.story.length
     $(".dialog").html("
       <paper-dialog backdrop autoCloseDisabled='true' heading='Which story do you want to play next?' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
@@ -34,7 +35,7 @@ parse_story_element = (element) ->
     notify parse_inline_vars(element.value)
     setTimeout ->
       parse_story();
-    ,2000
+    ,1000
 
   else if element.type is "pop"
     if element.hasOwnProperty "title"
@@ -45,7 +46,7 @@ parse_story_element = (element) ->
         setTimeout ->
           parse_story()
           console.log "callback from swal"
-        ,1000
+        ,250
     else
       swal {
         title: parse_inline_vars(element.value)
@@ -53,7 +54,7 @@ parse_story_element = (element) ->
         setTimeout ->
           parse_story()
           console.log "callback from swal"
-        ,1000
+        ,250
 
   else if element.type is "advanced_pop"
     __swal = element.swal
