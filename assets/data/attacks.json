@@ -154,275 +154,86 @@
 		"type": "latin",
 		"difficulty": "medium"
 	},
-	"Road-Run" : {
-		"text": "||creature|| starts running through the streets. The asphalt starts burning. ||enemy|| runs away. ||creature||'s health points and defense increases.",
+	"Rainbow-Poop" : {
+		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
+		"action": ["defense", -0.15],
+		"action-self": ["hp", 75], 
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Easter-Egg-Attack" : {
+		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
 		"action": ["defense", 0.15],
 		"action-self": ["hp", 0], 
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Road-Run": {
+		"text": "||creature|| starts running really fast. Flames burst out of the road. ||Enemy|| gets burned and loses health.",
+		"action": ["hp", -250],
 		"type": "latin",
 		"difficulty": "easy"
 	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
+	"Purzeltree": {
+		"text": "||creature|| purzels around. This gets ||creature|| going and their attack increases significantly.",
+		"action": ["hp", 0],
+		"action-self": ["attack", 0.4],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
+	"Desperation": {
+		"text": "||creature|| gets very desperate and activates all power resources. Their attack increases.",
+		"action": ["hp", 0],
+		"action-self": ["attack", 0.33],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Spaghetti-whip": {
+		"text": "||creature|| whips ||enemy|| with spaghetti. This deals quite some demage.",
+		"action": ["hp", 233],
+		"action-self": ["hp", 0],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Photosynthesis": {
+		"text": "||creature|| spreads their leafs and heals them.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 267],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
+	"": {
+		"text": "||",
+		"action": ["", 0],
+		"action-self": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
+	"": {
+		"text": "||",
+		"action": ["", 0],
+		"action-self": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
+	"": {
+		"text": "||",
+		"action": ["", 0],
+		"action-self": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
+	"": {
+		"text": "||",
+		"action": ["", 0],
+		"action-self": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
+	"": {
+		"text": "||",
+		"action": ["", 0],
+		"action-self": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
 	}

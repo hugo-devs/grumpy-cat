@@ -1,5 +1,4 @@
 try
-	# ...
 	console.log "Init soundcloud"
 	SC.initialize {
 	  	client_id: "bb72e01542b2481b1ed0c625951bcb03"
