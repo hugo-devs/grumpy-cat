@@ -107,6 +107,9 @@ function Fight (enemy, enemy_lvl) {
 	this.enemy = enemy;
 	this.enemy_lvl = enemy_lvl;
 
+	this.player_description = data.creatures[this.character].description;
+	this.enemy_description = data.creatures[this.enemy].description;
+
 	//Keeps track of health
 	this.player_health = Math.round(parseInt(data.creatures[this.character].basestats.hp) * parseInt(localStorage.lvl) / 33);
 	this.enemy_health = Math.round(parseInt(data.creatures[this.enemy].basestats.hp) * parseInt(enemy_lvl) / 33);
@@ -151,11 +154,13 @@ function Fight (enemy, enemy_lvl) {
 	};
 
 	this.set_display = function () {
-		//setting h1 with names and lvl of creatures
-		$('.fight_area > .creatures > .player > h1 > span.name').html(this.character);
-		$('.fight_area > .creatures > .enemy > h1 > span.name').html(this.enemy);
+		//setting h1 with names and lvl of creatures and tooltips
+		$('.fight_area > .creatures > .player > h1 > core-tooltip > span.name').html(this.character);
+		$('.fight_area > .creatures > .enemy > h1 > core-tooltip > span.name').html(this.enemy);
 		$('.fight_area > .creatures > .player > h1 > span.lvl > span').html(this.player_lvl);
 		$('.fight_area > .creatures > .enemy > h1 > span.lvl > span').html(this.enemy_lvl);
+		$('.fight_area > .creatures > .player > h1 > core-tooltip').attr("label", this.player_description);
+		$('.fight_area > .creatures > .enemy > h1 > core-tooltip').attr("label", this.enemy_description);
 
 		//Attack btns
 		$(".select_attack > .attack_btns").html("");

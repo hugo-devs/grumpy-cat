@@ -16,6 +16,7 @@
     <link rel="import" href="bower_components/paper-input/paper-input.html">
     <link rel="import" href="bower_components/paper-button/paper-button.html">
     <link rel="import" href="bower_components/paper-progress/paper-progress.html">
+    <link rel="import" href="bower_components/core-tooltip/core-tooltip.html">
     <link rel="stylesheet" type="text/css" href="bower_components/sweetalert/lib/sweet-alert.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   </head>
@@ -32,11 +33,15 @@
         <div class="fight_area dpn">
           <div class="creatures">
             <div class="player">
-              <h1><span class="name">Dymynator</span><span class="lvl">LVL<span>100</span></span></h1>
+              <h1>
+                <core-tooltip label="Hey" position="right"><span class="name">Dymynator</span></core-tooltip><span class="lvl">LVL<span>100</span></span>
+              </h1>
               <paper-progress value="70"></paper-progress>
             </div>
             <div class="enemy">
-              <h1><span class="name">Lizzle</span><span class="lvl">LVL<span>1</span></span></h1>
+              <h1>
+                <core-tooltip label="Ho" position="left"><span class="name">Dymynator</span></core-tooltip><span class="lvl">LVL<span>1</span></span>
+              </h1>
               <paper-progress value="20"></paper-progress>
             </div>
           </div>
