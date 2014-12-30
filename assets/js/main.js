@@ -165,9 +165,28 @@ function Fight (enemy, enemy_lvl) {
 		//Attack btns
 		$(".select_attack > .attack_btns").html("");
 		for (var i = 0; i < this.player_attacks.length; i++) {
-			$(".select_attack > .attack_btns").append(
-				"<paper-button raised onclick='fight_question(\""+ this.player_attacks[i]+ "\")'>" + this.player_attacks[i] + "</paper-button>"
-			);
+			console.log("Testing " + i + " (" + this.player_attacks[i] + ") and it is:");
+			console.log(data.attacks[this.player_attacks[i]]);
+			if (data.attacks[this.player_attacks[i]].hasOwnProperty("action_self")) {
+				$(".select_attack > .attack_btns").append(
+					"<core-tooltip position='top'>"+
+						"<paper-button raised onclick='fight_question(\""+ this.player_attacks[i]+ "\")'>" + this.player_attacks[i] + "</paper-button>"+
+						"<div tip class='tip'>"+
+							"<p><b>Enemy: </b>"+ data.attacks[this.player_attacks[i]].action[0].toUpperCase() + " " + data.attacks[this.player_attacks[i]].action[1] +"</p>"+
+							"<p class='you'><b>You: " + data.attacks[this.player_attacks[i]].action_self[0].toUpperCase() + " " + data.attacks[this.player_attacks[i]].action_self[1] + "</b></p>"+
+						"</div>"+
+					"</core-tooltip>"
+				);
+			} else if (data.attacks[this.player_attacks[i]].hasOwnProperty("action_self") === false) {
+				$(".select_attack > .attack_btns").append(
+					"<core-tooltip position='top'>"+
+						"<paper-button raised onclick='fight_question(\""+ this.player_attacks[i]+ "\")'>" + this.player_attacks[i] + "</paper-button>"+
+						"<div tip class='tip'>"+
+							"<p><b>Enemy: </b>"+ data.attacks[this.player_attacks[i]].action[0].toUpperCase() + " " + data.attacks[this.player_attacks[i]].action[1] +"</p>"+
+						"</div>"+
+					"</core-tooltip>"
+				);
+			}
 		}
 
 		this.check_health = function () {

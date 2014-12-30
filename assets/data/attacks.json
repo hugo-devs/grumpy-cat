@@ -18,7 +18,7 @@
 		"type": "latin",
 		"difficulty": "hard"
 	},
-	"Scharfer Blick": {
+	"Scharfer-Blick": {
 		"text": "||creature|| stares ||Enemy|| down. ||Enemy||'s attack sinks.",
 		"action": ["attack", -0.25],
 		"action-self": ["attack", 0.3],
