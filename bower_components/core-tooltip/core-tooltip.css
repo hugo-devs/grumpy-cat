@@ -33,11 +33,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   background-color: rgba(0,0,0,0.8);
   box-sizing: border-box;
   border-radius: 3px; /* TODO: not in spec. */
-  white-space: nowrap;
-  line-height: 6px;
+  white-space: normal;
+  line-height: normal;
   z-index: 1002; /* TODO: this is brittle. */
   -webkit-user-select: none;
   user-select: none;
+  width: 150%;
 }
 
 :host([large]) .core-tooltip {

@@ -62,9 +62,33 @@ function Fight (enemy, enemy_lvl) {
 		//Attack btns
 		$(".select_attack > .attack_btns").html("");
 		for (var i = 0; i < this.player_attacks.length; i++) {
+			// console.log("Testing " + i + " (" + this.player_attacks[i] + ") and it is:");
+			// console.log(data.attacks[this.player_attacks[i]]);
 			$(".select_attack > .attack_btns").append(
-				"<paper-button raised onclick='fight_question(\""+ this.player_attacks[i]+ "\")'>" + this.player_attacks[i] + "</paper-button>"
+				"<core-tooltip class='" + i + "' position='top'>"+
+					"<paper-button raised onclick='fight_question(\""+ this.player_attacks[i]+ "\")'>" + this.player_attacks[i] + "</paper-button>"+
+					"<div tip class='tip'>"+
+					"</div>"+
+				"</core-tooltip>"
 			);
+			var tt_self = false;
+			var tt_other = false;
+			var tt_dat = {}
+			if (data.attacks[this.player_attacks[i]].hasOwnProperty("action-self")) {
+				console.log("has self");
+				tt_self = true;
+				tt_dat.self_type = data.attacks[this.player_attacks[i]]["action-self"][0]
+				tt_dat.self_val = data.attacks[this.player_attacks[i]]["action-self"][1]
+				console.log("self_type: " + tt_dat.self_type);
+				console.log("self_val: " + tt_dat.self_val);
+
+			}
+			if (data.attacks[this.player_attacks[i]].hasOwnProperty("action")) {
+				tt_other = true;
+				tt_dat.other_type = data.attacks[this.player_attacks[i]].action[0]
+				tt_dat.other_val = data.attacks[this.player_attacks[i]].action[1]
+			}
+			fight_attack_tooltip(tt_self, tt_other, tt_dat, i)
 		}
 
 		this.check_health = function () {

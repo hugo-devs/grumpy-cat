@@ -371,5 +371,17 @@
 			"Brownie-power",
 			"Camouflage"
 		]
+	},
+	"Ben-Cheat": {
+		"description": "Just for ehhh... testing. *hust*",
+		"basestats": {
+			"hp": 100000000000,
+			"type": "english"
+		},
+		"attacks": [
+			"INSTAKILL",
+			"HEAL",
+			"Platscher"
+		]
 	}
 }

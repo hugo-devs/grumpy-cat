@@ -15,12 +15,13 @@
 	"Beißerchen": {
 		"text": "||creature|| bites ||Enemy||. ||Enemy||'s hp sink.",
 		"action": ["hp", -300],
+		"action-self": ["hp", 250],
 		"type": "latin",
 		"difficulty": "hard"
 	},
-	"Scharfer Blick": {
+	"Scharfer-Blick": {
 		"text": "||creature|| stares ||Enemy|| down. ||Enemy||'s attack sinks.",
-		"action": ["attack", -0.25],
+		"action": ["defense", 0.25],
 		"action-self": ["attack", 0.3],
 		"type": "latin",
 		"difficulty": "hard"
@@ -150,7 +151,6 @@
 	"Sun-dance" : {
 		"text": "||creature|| starts dancing the sun-dance. ||enemy|| is burning for a short time. ||enemy||'s health points sinks.",
 		"action": ["hp", -100],
-		"action-self": ["hp", 0], 
 		"type": "latin",
 		"difficulty": "medium"
 	},
@@ -164,7 +164,6 @@
 	"Easter-Egg-Attack" : {
 		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
 		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
 		"type": "english",
 		"difficulty": "easy"
 	},
@@ -191,7 +190,6 @@
 	"Spaghetti-whip": {
 		"text": "||creature|| whips ||enemy|| with spaghetti. This deals quite some demage.",
 		"action": ["hp", 233],
-		"action-self": ["hp", 0],
 		"type": "french",
 		"difficulty": "easy"
 	},
@@ -200,33 +198,31 @@
 		"action": ["hp", 0],
 		"action-self": ["hp", 267],
 		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "hard"
 	},
-	"": {
-		"text": "||",
-		"action": ["", 0],
-		"action-self": ["hp", 0],
+	"Flower-Power": {
+		"text": "Even flowers can punch. ||creature|| throws a straight punch at ||enemy||. They get hurt badly.",
+		"action": ["hp", 275],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Panic": {
+		"text": "||creature|| panics and punches and kicks wildly in every direction. ||enemy|| gets hit multiple times, but ||creature|| also hits themself once.",
+		"action": ["hp", -300],
+		"action-self": ["hp", -20],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"": {
-		"text": "||",
-		"action": ["", 0],
-		"action-self": ["hp", 0],
+	"INSTAKILL": {
+		"text": "Cheat kill",
+		"action": ["hp", -10000000000000000000000],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"": {
-		"text": "||",
-		"action": ["", 0],
-		"action-self": ["hp", 0],
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"": {
-		"text": "||",
-		"action": ["", 0],
-		"action-self": ["hp", 0],
+	"HEAL": {
+		"text": "Cheat heal",
+		"action": ["hp", 0],
+		"action-self": ["hp", 10000000000000000000000],
 		"type": "english",
 		"difficulty": "easy"
 	},
