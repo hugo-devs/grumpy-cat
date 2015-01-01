@@ -15,7 +15,7 @@
 	"Beißerchen": {
 		"text": "||creature|| bites ||Enemy||. ||Enemy||'s hp sink.",
 		"action": ["hp", -300],
-		"action-self": ["hp", 12321341234],
+		"action-self": ["hp", 250],
 		"type": "latin",
 		"difficulty": "hard"
 	},

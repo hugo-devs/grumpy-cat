@@ -97,19 +97,19 @@ fight_attack_tooltip = (self, other, dat, i) ->
   # other
   # ###########
   # HP
-  if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) > 0 and dat.other_type.toLowerCase() != 'attack' and dat.other_type.toLowerCase() != 'defense'
+  if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) > 0 and dat.other_type.toLowerCase() == 'hp'
     result += '<p><b>Enemy: </b>' + dat.other_type.toUpperCase() + ' +' + Math.round(dat.other_val * currentFight.player_attack_multiplier * currentFight.enemy_defense_multiplier * currentFight.player_lvl / 33) + '</p>'
-  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) < 0 and dat.other_type.toLowerCase() != 'attack' and dat.other_type.toLowerCase() != 'defense'
+  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) < 0 and dat.other_type.toLowerCase() == 'hp'
     result += '<p><b>Enemy: </b>' + dat.other_type.toUpperCase() + ' ' + Math.round(dat.other_val * currentFight.player_attack_multiplier * currentFight.enemy_defense_multiplier * currentFight.player_lvl / 33) + '</p>'
   # ATTACK
-  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) > 0 and dat.other_type.toLowerCase() == 'attack' and dat.other_type.toLowerCase() != 'defense'
+  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) > 0 and dat.other_type.toLowerCase() == 'attack'
     result += '<p><b>Enemy: </b>' + dat.other_type.toUpperCase() + ' +' + dat.other_val*100 + '%</p>'
-  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) < 0 and dat.other_type.toLowerCase() == 'attack' and dat.other_type.toLowerCase() != 'defense'
+  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) < 0 and dat.other_type.toLowerCase() == 'attack'
     result += '<p><b>Enemy: </b>' + dat.other_type.toUpperCase() + ' ' + dat.other_val*100 + '%</p>'
   # DEFENSE
-  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) < 0 and dat.other_type.toLowerCase() != 'attack' and dat.other_type.toLowerCase() == 'defense'
+  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) < 0 and dat.other_type.toLowerCase() == 'defense'
     result += '<p><b>Enemy: </b>' + dat.other_type.toUpperCase() + ' +' + dat.other_val*(-100) + '%</p>'
-  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) > 0 and dat.other_type.toLowerCase() != 'attack' and dat.other_type.toLowerCase() == 'defense'
+  else if other and parseFloat(dat.other_val) != 0 and parseFloat(dat.other_val) > 0 and dat.other_type.toLowerCase() == 'defense'
     result += '<p><b>Enemy: </b>' + dat.other_type.toUpperCase() + ' ' + dat.other_val*(-100) + '%</p>'
 
   # ###########
@@ -119,22 +119,22 @@ fight_attack_tooltip = (self, other, dat, i) ->
   console.log self
   console.log dat.self_type
   console.log dat.self_val
-  if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) > 0 and dat.self_type.toLowerCase() != 'attack' and dat.self_type.toLowerCase() != 'defense'
+  if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) > 0 and dat.self_type.toLowerCase() == 'hp'
     result += '<p><b>You: </b>' + dat.self_type.toUpperCase() + ' +' + Math.round(dat.self_val * currentFight.player_attack_multiplier * currentFight.enemy_defense_multiplier * currentFight.player_lvl / 33) + '</p>'
-  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) < 0 and dat.self_type.toLowerCase() != 'attack' and dat.self_type.toLowerCase() != 'defense'
+  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) < 0 and dat.self_type.toLowerCase() == 'hp'
     result += '<p><b>You: </b>' + dat.self_type.toUpperCase() + ' ' + Math.round(dat.self_val * currentFight.player_attack_multiplier * currentFight.enemy_defense_multiplier * currentFight.player_lvl / 33) + '</p>'
   # ATTACK
-  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) > 0 and dat.self_type.toLowerCase() == 'attack' and dat.self_type.toLowerCase() != 'defense'
+  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) > 0 and dat.self_type.toLowerCase() == 'attack'
     result += '<p><b>You: </b>' + dat.self_type.toUpperCase() + ' +' + dat.self_val*100 + '%</p>'
-  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) < 0 and dat.self_type.toLowerCase() == 'attack' and dat.self_type.toLowerCase() != 'defense'
+  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) < 0 and dat.self_type.toLowerCase() == 'attack'
     result += '<p><b>You: </b>' + dat.self_type.toUpperCase() + ' ' + dat.self_val*100 + '%</p>'
   # DEFENSE
-  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) < 0 and dat.self_type.toLowerCase() != 'attack' and dat.self_type.toLowerCase() == 'defense'
+  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) > 0 and dat.self_type.toLowerCase() == 'defense'
     result += '<p><b>You: </b>' + dat.self_type.toUpperCase() + ' ' + dat.self_val*(-100) + '%</p>'
-  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) < 0 and dat.self_type.toLowerCase() != 'attack' and dat.self_type.toLowerCase() == 'defense'
+  else if self and parseFloat(dat.self_val) != 0 and parseFloat(dat.self_val) < 0 and dat.self_type.toLowerCase() == 'defense'
     result += '<p><b>You: </b>' + dat.self_type.toUpperCase() + ' +' + dat.self_val*(-100) + '%</p>'
 
-  if result = ''
+  if result == ''
     result = 'Nothing happens'
 
   $('.select_attack > .attack_btns > .' + i + ' > .tip').html(result)
