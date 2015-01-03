@@ -54,14 +54,12 @@
 	"Confulizzle" : {
 		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points sinks.",
 		"action": ["hp", -70],
-		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "medium"
 	},
 	"Muncher" : {
 		"text": "||creature|| bites enemy. ||Enemy||'s attack increases.",
 		"action": ["hp", -150],
-		"action-self": ["defense", 0.0],
 		"type": "latin",
 		"difficulty": "hard"
 	},
@@ -75,7 +73,6 @@
 	"Throw-a-table" : {
 		"text": "||creature|| builds a table and throws it at the enemy.",
 		"action": ["hp", -190],
-		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "medium"
 	},
@@ -89,7 +86,6 @@
 	"Jump-Kick" : {
 		"text": "||creature|| jumps and kicks ||Enemy|| in the face.",
 		"action": ["hp", -210],
-		"action-self": ["hp", 0.0],
 		"type": "french",
 		"difficulty": "hard"
 	},
@@ -103,7 +99,6 @@
 	"Easter-Egg-Attack" : {
 		"text": "||creature|| hides an egg. ||Enemy|| searches for it. ||Enemy||'s defense decreases.",
 		"action": ["defense", 0.2],
-		"action-self": ["hp", 0], 
 		"type": "french",
 		"difficulty": "medium"
 	},
@@ -130,14 +125,12 @@
 	"Antiquus" : {
 		"text": "||creature|| reads an ancient book to ||enemy||. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
 		"type": "latin",
 		"difficulty": "easy"
 	},
 	"Auspicium-Magnum" : {
 		"text": "||creature|| sees some birds and partners with them. ||enemy|| looks for ||creature||. ||creature|| attacks ||enemy|| from behind. ||enemy||'s health points sinks",
 		"action": ["hp", -70],
-		"action-self": ["hp", 0], 
 		"type": "latin",
 		"difficulty": "medium"
 	},
@@ -171,14 +164,14 @@
 		"text": "||creature|| starts running really fast. Flames burst out of the road. ||Enemy|| gets burned and loses health.",
 		"action": ["hp", -250],
 		"type": "latin",
-		"difficulty": "easy"
+		"difficulty": "medium"
 	},
 	"Purzeltree": {
 		"text": "||creature|| purzels around. This gets ||creature|| going and their attack increases significantly.",
 		"action": ["hp", 0],
 		"action-self": ["attack", 0.4],
 		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "hard"
 	},
 	"Desperation": {
 		"text": "||creature|| gets very desperate and activates all power resources. Their attack increases.",
@@ -211,7 +204,7 @@
 		"action": ["hp", -300],
 		"action-self": ["hp", -20],
 		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "hard"
 	},
 	"INSTAKILL": {
 		"text": "Cheat kill",
@@ -225,6 +218,94 @@
 		"action-self": ["hp", 10000000000000000000000],
 		"type": "english",
 		"difficulty": "easy"
+	},
+	"Yell": {
+		"text": "||creature|| yells extremely loud. ||enemy||'s ears hurt, but ||creature|| gets really going. ||creature||'s attack increases while ||enemy||'s defense decreases.",
+		"action": ["defense", 0.3],
+		"action-self": ["attack", 0.2],
+		"type": "latin",
+		"difficulty": "medium"
+	},
+	"Cuddle-attack": {
+		"text": "||creature|| gives ||enemy|| a big hug. ||enemy|| doesn't want to hurt ||creature|| anymore. ||enemy||'s attack decreases significantly.",
+		"action": ["attack", -0.5],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Spilling-acid": {
+		"text": "||creature|| spills achid over ||enemy||. ||enemy|| gets hurt badly.",
+		"action": ["hp", -267],
+		"type": "latin",
+		"difficulty": "medium"
+	},
+	"Clout": {
+		"text": "||creature|| clouts ||enemy||. ||enemy|| loses health points.",
+		"action": ["hp", -243],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Wave": {
+		"text": "||creature|| summons a huge wave. ||enemy|| nearly drowns and loses a lot of health.",
+		"action": ["hp", -213],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Sea-bubble": {
+		"text": "||creature|| creates a big bubble that protects them very well from ||enemy||'s attacks",
+		"action": ["hp", 0],
+		"action-self": ["defense", -0.45],
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Style-mode": {
+		"text": "||creature|| activates the style mode. They are now basicly unstoppable",
+		"action": ["hp", 0],
+		"action-self": ["attack", 0.4],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Fossilize": {
+		"text": "||creature|| fossilizes themself. They are now hard as rock.",
+		"action": ["hp", 0],
+		"action-self": ["defense", -0.3],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Curse": {
+		"text": "||creature|| curses ||enemy||. This does quite some demage.",
+		"action": ["hp", -200],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Bubble-gum-shooter": {
+		"text": "||creature|| puts out bubble gum at 500 gums per minute and ||enemy|| gets hit often.",
+		"action": ["hp", -245],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Jumping": {
+		"text": "||creature|| jumps up and down so hard that the floor starts shaking. ||enemy|| bounces around and gets hurt.",
+		"action": ["hp", -200],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Flap": {
+		"text": "||creature|| flaps their wings so fast that the air vibrates. It's now harder for ||enemy|| to attack.",
+		"action": ["attack", -0.15],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"You-won't-get-a-cookie!": {
+		"text": "||creature|| won't give ||enemy|| a cookie. This really hurts.",
+		"action": ["hp", -150],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Ink-bomb": {
+		"text": "||creature|| throws a ink bomb onto ||enemy||'s can't see a thing now.",
+		"action": ["attack", -0.25],
+		"type": "french",
+		"difficulty": "medium"
 	},
 	"": {
 		"text": "||",
