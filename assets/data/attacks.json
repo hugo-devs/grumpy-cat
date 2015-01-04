@@ -307,6 +307,39 @@
 		"type": "french",
 		"difficulty": "medium"
 	},
+	"Sailing": {
+		"text": "||creature|| sails in a circle to create a swirl. ||enemy|| nearly drowns and takes some demage.",
+		"action": ["hp", -212],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Wibble": {
+		"text": "||creature|| wibbles a lot to distract ||enemy|| and eventually they hit ||enemy|| suprisingly.",
+		"action": ["hp", -300],
+		"type": "latin",
+		"difficulty": "medium"
+	},
+	"Look-at-my-horse-my-horse-is-amazing!": {
+		"text": "||creature|| likes their horse so much that they regain health points, because they need to protect the horse.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 275],
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Drink-juice": {
+		"text": "||creature|| drinks a magical juice to regenerate health.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 300],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Eat-a-pancake": {
+		"text": "||creature|| eats a a pancake and regains health with the new energy.",
+		"action": ["", 0],
+		"action-self": ["hp", 0],
+		"type": "english",
+		"difficulty": "easy"
+	},
 	"": {
 		"text": "||",
 		"action": ["", 0],
