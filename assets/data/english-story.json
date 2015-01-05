@@ -36,5 +36,56 @@
     "enemy": "",
     "lvl": "1"
   },
+    {
+    "type": "text",
+    "value": "xdcfgzhujifvghjker45ft67unthbgh6tzijt7zhb8u6l7p7._lk·̣hggggcffvbghzjuk9olikmjmhnf",
+  },
+  {
+    "type": "text",
+    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
+  },
+  {
+    "type": "text",
+    "value": "An enemy soldier is attackig you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "",
+    "lvl": "1"
+  },  {
+    "type": "pop",
+    "value": "That was impressive, you did a great job, young soldier ||name||! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
+    "title": "Abraham Lincoln:"
+  },
+  {
+    "type": "text",
+    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
+  },
+  {
+    "type": "text",
+    "value": "An enemy soldier is attackig you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "",
+    "lvl": "1"
+  },  {
+    "type": "pop",
+    "value": "That was impressive, you did a great job, young soldier ||name||! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
+    "title": "Abraham Lincoln:"
+  },
+  {
+    "type": "text",
+    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
+  },
+  {
+    "type": "text",
+    "value": "An enemy soldier is attackig you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "",
+    "lvl": "1"
+  },
   
 ]
