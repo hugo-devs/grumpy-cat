@@ -272,7 +272,7 @@
 		"difficulty": "easy"
 	},
 	"Curse": {
-		"text": "||creature|| curses ||enemy||. This does quite some demage.",
+		"text": "||creature|| curses ||enemy||. This does quite some damage.",
 		"action": ["hp", -200],
 		"type": "latin",
 		"difficulty": "easy"
