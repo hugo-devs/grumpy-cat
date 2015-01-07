@@ -1,83 +1,83 @@
 {
   "easy": [
     {
-      "question": "what means 'be' in french?",
+      "question": "what does 'be'mean in french?",
       "answer": ["être","etre"]
     },
     {
-      "question": "what means 'my name is' in french?",
+      "question": "what does 'my name is' mean in french?",
       "answer": "je m'apelle"
     },
     {
-      "question": "what means 'do' in french?",
+      "question": "what does'do'mean in french?",
       "answer": "faire"
     },
     {
-      "question": "what means 'live' in french?",
+      "question": "what does 'live' mean in french?",
       "answer": "vivre"
     },
     {
-      "question": "what means 'age' in french?",
+      "question": "what does 'age'mean in french?",
       "answer": "ans"
     },
     {
-      "question": "what means 'like' in french?",
+      "question": "what does 'like' mean in french?",
       "answer": "aimer"
     },
     {
-      "question": "what means 'my name is' in french?",
+      "question": "what does 'my name is' mean in french?",
       "answer": "je m'apelle"
     },
     {
-      "question": "what means 'walk' in french?",
+      "question": "what does 'walk' mean in french?",
       "answer": "aller"
     },
     {
-      "question": "what means 'have' in french?",
+      "question": "what does 'have' mean in french?",
       "answer": "avoir"
     },
     {
-      "question": "what means 'call' in french?",
+      "question": "what does 'call' mean in french?",
       "answer": "appeler"
     },
     {
-      "question": "what means 'hear' in french?",
+      "question": "what does 'hear' meanin french?",
       "answer": ["écouter","ecouter"]
     },
     {
-      "question": "what means 'play' in french?",
+      "question": "what does 'play' mean in french?",
       "answer": "jouer"
     },
     {
-      "question": "what means 'eat' in french?",
+      "question": "what does 'eat' mean in french?",
       "answer": "manger"
     },
     {
-      "question": "what means 'find' in french?",
+      "question": "what does 'find' mean in french?",
       "answer": "trouver"
     },
     {
-      "question": "what means 'say' in french?",
+      "question": "what does 'say' mean in french?",
       "answer": "dire"
     },
     {
-      "question": "what means 'write' in french?",
+      "question": "what does 'write' mean in french?",
       "answer": ["écrire","ecrire"]
     },
     {
-      "question": "what means 'want' in french?",
+      "question": "what does 'want' mean in french?",
       "answer": "vouloir"
     },
     {
-      "question": "what means 'arrive' in french?",
+      "question": "what does 'arrive' mean in french?",
       "answer": "arriver"
     },
     {
-      "question": "what means 'change' in french?",
+      "question": "what does 'change' mean in french?",
       "answer": "changer"
     },
     {
-      "question": "what means 'sleep' in french?",
+      "question": "what does 'sleep' mean in french?",
       "answer": "dormir"
     }
 ],
@@ -116,55 +116,65 @@
       "answer": "j'ai bu"
     },
     {
-      "question": "what means 'happy birthday' in french?",
+      "question": "what does 'happy birthday' mean in french?",
       "answer": "bon anniversaire"
     },
     {
-      "question": "what means 'spider' in french?",
+      "question": "what does 'spider' mean in french?",
       "answer": ["araignee","araignée"]
     },
     {
-      "question": "what means 'Monday' in french?",
+      "question": "what does 'Monday' mean in french?",
       "answer": "lundi"
     },
     {
-      "question": "what means 'Tuesday' in french?",
+      "question": "what does 'Tuesday' mean in french?",
       "answer": "mardi"
     },
     {
-      "question": "what means 'Wednesday' in french?",
+      "question": "what does 'Wednesday' mean in french?",
       "answer": "mercredi"
     },
     {
-      "question": "what means 'Thursday' in french?",
+      "question": "what does 'Thursday' mean in french?",
       "answer": "jeudi"
     },
     {
-      "question": "what means 'Friday' in french?",
+      "question": "what does 'Friday' mean in french?",
       "answer": "vendredi"
     },
     {
-      "question": "what means 'Saturday' in french?",
+      "question": "what does 'Saturday' mean in french?",
       "answer": "samedi"
     },
     {
-      "question": "what means 'Sunday' in french?",
+      "question": "what does 'Sunday' mean in french?",
       "answer": "dimanche"
     },
     {
-      "question": "what means 'autumn' in french?",
+      "question": "what does 'autumn' mean in french?",
       "answer": ["l'automne","automne"]
     },
     {
-      "question": "what means 'spring' in french?",
+      "question": "what does 'spring' mean in french?",
       "answer": ["le printemps","printemps"]
     },
     {
-      "question": "what means 'summer' in french?",
+      "question": "what does 'summer' mean in french?",
       "answer": ["l'ete","l'été","ete","été"]
     },
     {
-      "question": "what means 'winter' in french?",
+      "question": "what does 'winter' mean in french?",
       "answer": ["hiver","l'hiver"]
     } ]
-}
+],
+  "hard": [
+    {
+      "question": "what does 'xy' mean in french?"
+      "answer": "xy"
+    },
+    { 
+      "question": "what means 'xy' in french?
+      
+    
+]
