@@ -296,7 +296,7 @@
 		"difficulty": "easy"
 	},
 	"You-won't-get-a-cookie!": {
-		"text": "||creature|| won't give ||enemy|| a cookie. This really hurts.",
+		"text": "||creature|| won't give ||enemy|| a cookie. This really hurts emotionally.",
 		"action": ["hp", -150],
 		"type": "french",
 		"difficulty": "easy"
@@ -335,8 +335,8 @@
 	},
 	"Eat-a-pancake": {
 		"text": "||creature|| eats a a pancake and regains health with the new energy.",
-		"action": ["", 0],
-		"action-self": ["hp", 0],
+		"action": ["hp", 0],
+		"action-self": ["hp", 75],
 		"type": "english",
 		"difficulty": "easy"
 	},
@@ -417,11 +417,32 @@
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"": {
-		"text": "||",
-		"action": ["", 0],
+	"Confusion": {
+		"text": "|creature| confuses |enemy|. |enemy|'s defense decreases.",
+		"action": ["defense", 0.1],
 		"action-self": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
+	},
+	"Fire-dance": {
+		"text": "|creature| starts dancing the Fire-dance. |enemy| burns for a long time. |enemy|'s health points decreases.",
+		"action": ["hp", -300],
+		"action-self": ["hp", 0],
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Beak-attack": {
+		"text": "|creature| picks |enemy| in the face. |enemy|'s defense decreases.",
+		"action": ["defense", 0.2],
+		"action-self": ["hp", 0],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Plague-attack": {
+		"text": "|creature| infects |enemy| with a plaque. |enemy|'s attack decreases.",
+		"action": ["attack", -0.25],
+		"action-self": ["hp", 30],
+		"type": "english",
+		"difficulty": "hard"
 	}
 }
