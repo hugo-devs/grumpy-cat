@@ -1,12 +1,12 @@
 [
   {
     "type": "pop",
-    "value": "Hello valiant soldier. This is the 19th century and we are in the middle of the American Civil War. You fight on the side of the northern states, also called the Union, against the Confederate States of America to release the slaves. We are located near the Bull Run River and the southern troops are going to attack us. ",
+    "value": "Hello valiant soldier. This is the 19th century and we are in the middle of the American Civil War. You fight with your ||creature|| on the side of the northern states, also called the Union, against the Confederate States of America to release the slaves. We are located near the Bull Run River and the southern troops are going to attack us. ",
     "title": "Abraham Lincoln:"
   },
   {
     "type": "pop",
-    "value": "But first I'll show you how to fight.",
+    "value": "But first I'll show you how to fight against other creatures.",
     "title": "Abraham Lincoln:"
   },
   {
@@ -20,72 +20,123 @@
   },
   {
     "type": "pop",
-    "value": "That was impressive, you did a great job, young soldier ||name||! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
+    "value": "That was impressive, you did a great job, young soldier! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles against enemy soldiers and their creatures without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
     "title": "Abraham Lincoln:"
   },
   {
     "type": "text",
-    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
+    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C."
   },
   {
     "type": "text",
-    "value": "An enemy soldier is attackig you!"
+    "value": "An enemy soldier and his creature are attackig you!"
   },
   {
     "type": "fight",
-    "enemy": "",
-    "lvl": "1"
+    "enemy": "Birwon",
+    "lvl": "2"
+  },
+  {
+    "type": "text",
+    "value": "You just won a fight, but there is already a next opponent waiting for you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "Aestas",
+    "lvl": "3"
+  },  
+  {
+    "type": "pop",
+    "value": "Hey young soldier! You're doing well, but the battle is only starting. We have order to advance to General Albert Johnston's tent and capture him",
+    "title": "Union soldier:"
+  },
+  {
+    "type": "fight",
+    "enemy": "Souri",
+    "lvl": "4"
+  },
+  {
+    "type": "text",
+    "value": "Be careful! There's another soldier who wants to attack you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "Oedipus",
+    "lvl": "5"
+  },  
+  {
+    "type": "pop",
+    "value": "Hey scaredy-cat! Don't just stand around, let's fight!",
+    "title": "Enemy soldier:"
+  },
+  {
+    "type": "fight",
+    "enemy": "Sandmin",
+    "lvl": "6"
   },
     {
     "type": "text",
-    "value": "xdcfgzhujifvghjker45ft67unthbgh6tzijt7zhb8u6l7p7._lk·̣hggggcffvbghzjuk9olikmjmhnf",
-  },
-  {
-    "type": "text",
-    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
-  },
-  {
-    "type": "text",
-    "value": "An enemy soldier is attackig you!"
+    "value": "You advanced to the tent of the enemy commander. There are only two guards protecting it"
   },
   {
     "type": "fight",
-    "enemy": "",
+    "enemy": "Lop",
     "lvl": "1"
-  },  {
+  },
+  {
     "type": "pop",
-    "value": "That was impressive, you did a great job, young soldier ||name||! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
+    "value": "That was impressive, you did a great job, young soldier ||name||! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles against enemy soldiers and their creatures without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
     "title": "Abraham Lincoln:"
   },
   {
     "type": "text",
-    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
+    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C."
   },
   {
     "type": "text",
-    "value": "An enemy soldier is attackig you!"
+    "value": "An enemy soldier and his creature are attackig you!"
   },
   {
     "type": "fight",
-    "enemy": "",
-    "lvl": "1"
-  },  {
+    "enemy": "Birwon",
+    "lvl": "2"
+  },
+  {
+    "type": "text",
+    "value": "You just won a fight, but there is already a next opponent waiting for you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "Aestas",
+    "lvl": "3"
+  },  
+  {
     "type": "pop",
-    "value": "That was impressive, you did a great job, young soldier ||name||! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
-    "title": "Abraham Lincoln:"
-  },
-  {
-    "type": "text",
-    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C.",
-  },
-  {
-    "type": "text",
-    "value": "An enemy soldier is attackig you!"
+    "value": "Hey young soldier! You're doing well, but the battle is only starting.",
+    "title": "Union soldier:"
   },
   {
     "type": "fight",
-    "enemy": "",
-    "lvl": "1"
+    "enemy": "Souri",
+    "lvl": "4"
   },
+  {
+    "type": "text",
+    "value": "Be careful! There's another soldier who wants to attack you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "Oedipus",
+    "lvl": "5"
+  },  
+  {
+    "type": "pop",
+    "value": "Hey scaredy-cat! Don't just stand around, let's fight!",
+    "title": "Enemy soldier:"
+  },
+  {
+    "type": "fight",
+    "enemy": "Sandmin",
+    
   
 ]
