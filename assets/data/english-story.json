@@ -76,67 +76,45 @@
   },
     {
     "type": "text",
-    "value": "You advanced to the tent of the enemy commander. There are only two guards protecting it"
-  },
-  {
-    "type": "fight",
-    "enemy": "Lop",
-    "lvl": "1"
-  },
-  {
-    "type": "pop",
-    "value": "That was impressive, you did a great job, young soldier ||name||! Everytime you win a fight you gain experience and become stronger, because your ||creature|| goes one level up. In my oppinion it is not longer necessary to teach you how to fight. From now on you have to manage the battles against enemy soldiers and their creatures without me, but I'm always at your side if you have any questions. I'm sure that with your help we will be victorious in this war!",
-    "title": "Abraham Lincoln:"
+    "value": "You advanced to the tent of the enemy commander. There are only two guards protecting it. You have to beat both of them to finally compete with General Johnston."
   },
   {
     "type": "text",
-    "value": "The First Battle of Bull Run begins now, on the July 21 1861 in Viginia near the cities of Manassas and Washington D.C."
-  },
-  {
-    "type": "text",
-    "value": "An enemy soldier and his creature are attackig you!"
+    "value": "The first guard is attacking you!"
   },
   {
     "type": "fight",
-    "enemy": "Birwon",
-    "lvl": "2"
+    "enemy": "Phnax",
+    "lvl": "7"
   },
   {
     "type": "text",
-    "value": "You just won a fight, but there is already a next opponent waiting for you!"
+    "value": "The second guard is attacking you!"
   },
   {
     "type": "fight",
-    "enemy": "Aestas",
-    "lvl": "3"
+    "enemy": "Hugulo",
+    "lvl": "8"
   },  
   {
     "type": "pop",
-    "value": "Hey young soldier! You're doing well, but the battle is only starting.",
+    "value": "Be careful my friend, now we're going to enter the commanders tent. Don't lose courage! General Johnston and his creature are tough opponents, but your ||creature|| and you are tough as well.",
     "title": "Union soldier:"
   },
   {
-    "type": "fight",
-    "enemy": "Souri",
-    "lvl": "4"
-  },
-  {
     "type": "text",
-    "value": "Be careful! There's another soldier who wants to attack you!"
+    "value": "You step into the tent and confront the general bravely."
   },
-  {
-    "type": "fight",
-    "enemy": "Oedipus",
-    "lvl": "5"
-  },  
   {
     "type": "pop",
-    "value": "Hey scaredy-cat! Don't just stand around, let's fight!",
-    "title": "Enemy soldier:"
+    "value": "You little Union soldier will never beat me! We'll destroy the weak northern states and continue slavery for our own prosperity and wealthiness. The Confederate States of America shall prevail!",
+    "title": "General Albert Johnston:"
   },
   {
     "type": "fight",
-    "enemy": "Sandmin",
+    "enemy": "Laudiphant",
+    "lvl": "9"
+  },  
     
   
 ]
