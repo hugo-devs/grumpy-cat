@@ -3,7 +3,7 @@
 		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except stochastic). It is a Hamster? No! Is it a Boy? No! It's the Dymynator!",
 		"basestats": {
 			"hp": 1000,
-			"type": "latin"
+			"type": "french"
 		},
 		"attacks": [
 			"Habs-Hamster",

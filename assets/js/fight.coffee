@@ -11,9 +11,16 @@ fight_question = (attack_name) ->
   #currentQuestion.type = data.attacks[attack_name].type
   currentQuestion.question = data.questions[currentQuestion.difficulty][random(0, data.questions[currentQuestion.difficulty].length)]
   if currentQuestion.question.hasOwnProperty 'right'
-    $('.dialog').html('
-        <paper-radio-group class="radio-gr"></paper-radio-group>
-      ')
+    $(".dialog").html("
+        <paper-dialog backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
+          <h3>Answer this question to perform the attack!</h3>
+          <paper-radio-group class='radio-gr'></paper-radio-group>
+          <paper-button onclick='fight_check_question(\"#{attack_name}\")' autofocus role='button' affirmative>Attack!</paper-button>
+        </paper-dialog>
+    ")
+    for i in currentQuestion.question.answer
+      $('.radio-gr').append('<paper-radio-button name="' + currentQuestion.question.answer.indexOf(i) + '" label="' + i + '"></paper-radio-button>')
+    
   else
     $(".dialog").html("
         <paper-dialog backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
@@ -25,6 +32,9 @@ fight_question = (attack_name) ->
   $(".dialog > paper-dialog")[0].toggle()
 
 fight_check_question = (attack_name) ->
+
+  __success__ = false
+
   console.log "running fight_check_question"
   __lower_array = []
 
@@ -35,14 +45,19 @@ fight_check_question = (attack_name) ->
     $(".core-overlay-backdrop").remove()
 
   if localStorage.cheatMode == "Boss" or localStorage.character == 'Ben-Cheat'
-    fight_attack(attack_name)
-    currentFight.switch_turn()
-    return
+    __success__ = true
   
-  if $(".dialog > paper-dialog > paper-input").val().toLowerCase() == currentQuestion.question.answer.toLowerCase()
-    fight_attack(attack_name)
-    currentFight.switch_turn()
-  else if $.inArray($(".dialog > paper-dialog > paper-input").val().toLowerCase(), __lower_array) != -1
+  if currentQuestion.question.hasOwnProperty 'right'
+    if parseInt($('.radio-gr')[0].selected) == currentQuestion.question.right
+      __success__ = true
+    
+  else
+    if $(".dialog > paper-dialog > paper-input").val().toLowerCase() == currentQuestion.question.answer.toLowerCase()
+      __success__ = true
+    else if $.inArray($(".dialog > paper-dialog > paper-input").val().toLowerCase(), __lower_array) != -1
+      __success__ = true
+
+  if __success__
     fight_attack(attack_name)
     currentFight.switch_turn()
   else
@@ -50,6 +65,8 @@ fight_check_question = (attack_name) ->
     setTimeout ->
       currentFight.switch_turn()
     ,500
+
+  
 
 fight_enemy_attack = ->
   console.log "running fight_enemy_attack"

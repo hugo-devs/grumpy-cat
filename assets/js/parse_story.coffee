@@ -75,6 +75,8 @@ parse_story_element = (element) ->
         parse_story()
 
   else if element.type is 'fight'
+    console.log "fight lvl: #{element.lvl}"
+    console.log element
     fight_start(element.enemy, parseInt(element.lvl))
 
 parse_inline_vars = (input) ->

@@ -413,28 +413,25 @@
 	},
 	"Desperation-about-English": {
 		"text": "||creature|| is desperate because of english. This doesn't sound like an attack so nothing happens.",
-		"action": ["", 0],
+		"action": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
 	},
 	"Confusion": {
 		"text": "|creature| confuses |enemy|. |enemy|'s defense decreases.",
 		"action": ["defense", 0.1],
-		"action-self": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
 	},
 	"Fire-dance": {
 		"text": "|creature| starts dancing the Fire-dance. |enemy| burns for a long time. |enemy|'s health points decrease.",
 		"action": ["hp", -300],
-		"action-self": ["hp", 0],
 		"type": "latin",
 		"difficulty": "hard"
 	},
 	"Beak-attack": {
 		"text": "|creature| picks |enemy| in the face. |enemy|'s defense decreases.",
 		"action": ["defense", 0.2],
-		"action-self": ["hp", 0],
 		"type": "latin",
 		"difficulty": "easy"
 	},
@@ -462,14 +459,12 @@
 	"Yelp": {
 		"text": "|creature| yelps loudly. |enemy|'s defense decreases.",
 		"action": ["defense", 0.25],
-		"action-self": ["hp", 0],
 		"type": "french",
 		"difficulty": "medium"
 	},
 	"Devour": {
 		"text": "|creature| devours |enemy|'s arms. |enemy|'s health points decrease.",
 		"action": ["hp", -350],
-		"action-self": ["hp", 0],
 		"type": "french",
 		"difficulty": "hard"
 	},
@@ -483,7 +478,6 @@
 	"Tentacle-strike": {
 		"text": "|creature| strikes |enemy| with a tentacle. |enemy|'s health points decrease.",
 		"action": ["hp", -120],
-		"action-self": ["hp", ],
 		"type": "frenc",
 		"difficulty": "medium"
 	}

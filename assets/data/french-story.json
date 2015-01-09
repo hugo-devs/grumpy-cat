@@ -16,21 +16,21 @@
 	{
 		"type": "fight",
 		"enemy": "Souri",
-		"level": "1"
+		"lvl": 1
 	},
 	{
 		"type": "pop",
 		"value": "Condorcet: Wow, that was exciting. *to the kids* Are you alright? \n Pierre: Thank you for helping us, strange hero. My name is Pierre and this are my friends François and Gabrielle. We are from different parts of France and came to Paris for working and earning money for our families. We are very poor, you know? But now it's too dangerous for us to stay here, even if we aren't able to make money anymore. We want to get back home, but on the way there are lots of creatures, which can attack us. Can you help us to get back home safely, please? \n Conndorcet: These unfortunate children! Be generous and help them!", 
 		"title": "The story of the kids"
-	}
-		{
+	},
+	{
 		"type": "text",
-		"value": "You agree and together you decide to bring Pierre at home first. But is a long way to Brest and the childs be tired early. You want them to sleep while you keep watch. Not long as they fell asleep something rustles in the bush in front of you and a wild Nuoillion comes ot and attacks the children. To save the children you distract it and you are attacked.",
+		"value": "You agree and together you decide to bring Pierre at home first. But is a long way to Brest and the childs be tired early. You want them to sleep while you keep watch. Not long as they fell asleep something rustles in the bush in front of you and a wild Nuoillion comes ot and attacks the children. To save the children you distract it and you are attacked."
 	},
 	{
 		"type": "fight",
 		"enemy": "Nouillion",
-		"level": "1"
+		"lvl": 1
 	},
 	{
 		"type": "text",

@@ -413,8 +413,8 @@
     },
     {
       "question": "How do you build the passe compose of a regular french verb?",
-      "answer": ·["finite verb form of être/avoir + particip passe","infinite verb form of ",""],
-      "right": 
+      "answer": ["finite verb form of être/avoir + particip passe","infinite verb form of ",""],
+      "right": 1
       
     },
     {
@@ -424,72 +424,9 @@
 ],
   "hard": [
     {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-  {
-      "question": "what does 'xy' mean in french?"
-      "answer": "xy"
-    },
-    { 
-      "question": "what does 'xy' mean in french?
-    } 
-      
-    
-]
+      "question": "Who is a good boy",
+      "answer": ["You. Yes you are.", "How the fuck should I know"],
+      "right": 1
+    }
+  ]
+}
