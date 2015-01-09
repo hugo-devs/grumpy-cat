@@ -10,12 +10,17 @@ fight_question = (attack_name) ->
   currentQuestion.difficulty = data.attacks[attack_name].difficulty
   #currentQuestion.type = data.attacks[attack_name].type
   currentQuestion.question = data.questions[currentQuestion.difficulty][random(0, data.questions[currentQuestion.difficulty].length)]
-  $(".dialog").html("
-      <paper-dialog backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
-        <h3>Answer this question to perform the attack!</h3>
-        <paper-input autoclosedisabled label='enter your answer here'></paper-input>
-        <paper-button onclick='fight_check_question(\"#{attack_name}\")' autofocus role='button' affirmative>Attack!</paper-button>
-      </paper-dialog>
+  if currentQuestion.question.hasOwnProperty 'right'
+    $('.dialog').html('
+        <paper-radio-group class="radio-gr"></paper-radio-group>
+      ')
+  else
+    $(".dialog").html("
+        <paper-dialog backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
+          <h3>Answer this question to perform the attack!</h3>
+          <paper-input autoclosedisabled label='enter your answer here'></paper-input>
+          <paper-button onclick='fight_check_question(\"#{attack_name}\")' autofocus role='button' affirmative>Attack!</paper-button>
+        </paper-dialog>
     ")
   $(".dialog > paper-dialog")[0].toggle()
 
