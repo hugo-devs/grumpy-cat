@@ -58,9 +58,11 @@ fight_check_question = (attack_name) ->
       __success__ = true
 
   if __success__
+    console.log '%c right answer', 'color: #3BFF5F;'
     fight_attack(attack_name)
     currentFight.switch_turn()
   else
+    console.log '%c wrong answer', 'color: #FF2424;'
     notify "<span style='color: #E53935;'>Wrong answer! Your attack failed!<span>"
     setTimeout ->
       currentFight.switch_turn()

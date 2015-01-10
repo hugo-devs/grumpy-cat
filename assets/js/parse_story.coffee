@@ -23,17 +23,19 @@ parse_story = ->
       </paper-dialog>
     ")
     $(".dialog > paper-dialog")[0].toggle()
+    return
 
   skip_tut()
   parse_story_element data.story[parseInt(localStorage.story_pos)]
-  if data.story[parseInt(localStorage.story_pos)].type != "fight"
-    localStorage.story_pos = parseInt(localStorage.story_pos) + 1
+  # if data.story[parseInt(localStorage.story_pos)].type != "fight"
+  #   localStorage.story_pos = parseInt(localStorage.story_pos) + 1
 
 parse_story_element = (element) ->
   console.log element
   if element.type is "text"
     notify parse_inline_vars(element.value)
     setTimeout ->
+      localStorage.story_pos = parseInt(localStorage.story_pos) + 1
       parse_story();
     ,1000
 
@@ -44,6 +46,7 @@ parse_story_element = (element) ->
         title: parse_inline_vars(element.title)
       }, ->
         setTimeout ->
+          localStorage.story_pos = parseInt(localStorage.story_pos) + 1
           parse_story()
           console.log "callback from swal"
         ,250
@@ -52,6 +55,7 @@ parse_story_element = (element) ->
         title: parse_inline_vars(element.value)
       }, ->
         setTimeout ->
+          localStorage.story_pos = parseInt(localStorage.story_pos) + 1
           parse_story()
           console.log "callback from swal"
         ,250
@@ -72,11 +76,11 @@ parse_story_element = (element) ->
       swal __swal, callbacks[element.callback]
     else
       swal __swal, ->
+        localStorage.story_pos = parseInt(localStorage.story_pos) + 1
         parse_story()
 
   else if element.type is 'fight'
-    console.log "fight lvl: #{element.lvl}"
-    console.log element
+    console.log "fight lvl: #{element.lvl} against #{element.enemy}"
     fight_start(element.enemy, parseInt(element.lvl))
 
 parse_inline_vars = (input) ->

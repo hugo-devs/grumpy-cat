@@ -145,8 +145,14 @@ function Fight (enemy, enemy_lvl) {
 	//keeps track of whos turn it is
 	this.turn = 'player';
 	this.victim = 'enemy';
+	this.ended = false;
 
 	this.switch_turn = function () {
+
+		if (this.ended) {
+			return
+		}
+
 		console.log("running switch_turn");
 		console.log("currentFight.turn was " + this.turn);
 		if (this.turn == 'player') {
@@ -237,6 +243,7 @@ function Fight (enemy, enemy_lvl) {
 		};
 
 		this.update_health();
+		this.ended = true;
 	};
 };
 
@@ -291,9 +298,11 @@ fight_check_question = function(attack_name) {
     }
   }
   if (__success__) {
+    console.log('%c right answer', 'color: #3BFF5F;');
     fight_attack(attack_name);
     return currentFight.switch_turn();
   } else {
+    console.log('%c wrong answer', 'color: #FF2424;');
     notify("<span style='color: #E53935;'>Wrong answer! Your attack failed!<span>");
     return setTimeout(function() {
       return currentFight.switch_turn();
@@ -427,12 +436,10 @@ parse_story = function() {
   if (parseInt(localStorage.story_pos) >= data.story.length) {
     $(".dialog").html("<paper-dialog backdrop autoCloseDisabled='true' heading='Which story do you want to play next?' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'> <h3>Choose one of the three. You will still learn the same language and have the same creature, but your level will be reset. You can also replay the story you just played. Or you can completely reset the game and choose another language to learn.</h3> <paper-button onclick=\"set_storyline('english');\" raised role='button' affirmative>English</paper-button> <paper-button onclick=\"set_storyline('latin');\" raised  role='button' affirmative>Latin</paper-button> <paper-button onclick=\"set_storyline('french');\" raised  role='button' affirmative>French</paper-button> <paper-button onclick=\"reset();\" raised role='button' affirmative>Reset</paper-button> </paper-dialog>");
     $(".dialog > paper-dialog")[0].toggle();
+    return;
   }
   skip_tut();
-  parse_story_element(data.story[parseInt(localStorage.story_pos)]);
-  if (data.story[parseInt(localStorage.story_pos)].type !== "fight") {
-    return localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-  }
+  return parse_story_element(data.story[parseInt(localStorage.story_pos)]);
 };
 
 parse_story_element = function(element) {
@@ -441,6 +448,7 @@ parse_story_element = function(element) {
   if (element.type === "text") {
     notify(parse_inline_vars(element.value));
     return setTimeout(function() {
+      localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
       return parse_story();
     }, 1000);
   } else if (element.type === "pop") {
@@ -450,6 +458,7 @@ parse_story_element = function(element) {
         title: parse_inline_vars(element.title)
       }, function() {
         return setTimeout(function() {
+          localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
           parse_story();
           return console.log("callback from swal");
         }, 250);
@@ -459,6 +468,7 @@ parse_story_element = function(element) {
         title: parse_inline_vars(element.value)
       }, function() {
         return setTimeout(function() {
+          localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
           parse_story();
           return console.log("callback from swal");
         }, 250);
@@ -482,12 +492,12 @@ parse_story_element = function(element) {
       return swal(__swal, callbacks[element.callback]);
     } else {
       return swal(__swal, function() {
+        localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
         return parse_story();
       });
     }
   } else if (element.type === 'fight') {
-    console.log("fight lvl: " + element.lvl);
-    console.log(element);
+    console.log("fight lvl: " + element.lvl + " against " + element.enemy);
     return fight_start(element.enemy, parseInt(element.lvl));
   }
 };
