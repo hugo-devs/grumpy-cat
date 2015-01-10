@@ -187,265 +187,112 @@
   ],
   "medium": [
     {
-      "question":"what does \"to cover\" mean in german?"
-      "answer":["beenden","bedecken","befinden"]
-      "right":1
-      
-    }
-    ,
+      "question": "what does \"to cover\" mean in german?",
+      "answer": [
+        "beenden",
+        "bedecken",
+        "befinden"
+      ],
+      "right": 1
+    },
     {
-      "question":"what does \"guilty\" mean in german?"
-      "answer":["schuldig","mutig","ehrenhaft"]
-      "right":0
-      
+      "question": "what does \"guilty\" mean in german?",
+      "answer": [
+        "schuldig",
+        "mutig",
+        "ehrenhaft"
+      ],
+      "right": 0
+    },
+    {
+      "question": "what does \"goal\" mean in german?",
+      "answer": [
+        "Ziel",
+        "Schatten",
+        "Niederlage"
+      ],
+      "right": 0
+    },
+    {
+      "question": "what does \"application\" mean in german?",
+      "answer": [
+        "Bewerber/in",
+        "Bewerbung",
+        "Leistung"
+      ],
+      "right": 1
+    },
+    {
+      "question": "what does \"award\" mean in german?",
+      "answer": [
+        "Leistung",
+        "Gewinner",
+        "Preis"
+      ],
+      "right": 2
+    },
+    {
+      "question": "what does \"recently\" mean in german?",
+      "answer": [
+        "neu",
+        "kürzlich",
+        "erfolgreich"
+      ],
+      "right": 1
+    },
+    {
+      "question": "what does \"successful\" mean in german?",
+      "answer": [
+        "erfolgreich",
+        "schriftlich",
+        "wertvoll"
+      ],
+      "right": 0
+    },
+    {
+      "question": "what does \"candidate\" mean in german?",
+      "answer": [
+        "Vorstellungsgespräch",
+        "Grund",
+        "Bewerber/in"
+      ],
+      "right": 0
+    },
+    {
+      "question": "what does \"basic\" mean in german?",
+      "answer": [
+        "schriftlich",
+        "mündlich",
+        "grundlegend"
+      ],
+      "right": 0
+    },
+    {
+      "question": "what does \"reference\" mean in german?",
+      "answer": [
+        "Erfindung",
+        "Erfahrung",
+        "Empfehlung"
+      ],
+      "right": 2
+    },
+    {
+      "question": "what does \"grateful\" mean in german?",
+      "answer": [
+        "untreu",
+        "großartig",
+        "dankbar"
+      ],
+      "right": 0
+    },
+    {
+      "question": "what does \"opportunity\" mean in german?",
+      "answer": [
+        "Gemeinde",
+        "Gelegenheit",
+        "Willenskraft"
+      ],
+      "right": 1
     }
-    ,
-      {
-      "question":"what does \"goal\" mean in german?"
-      "answer":["Ziel","Schatten","Niederlage"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"application\" mean in german?"
-      "answer":["Bewerber/in","Bewerbung","Leistung"]
-      "right":1
-      
-    }
-    ,  {
-      "question":"what does \"award\" mean in german?"
-      "answer":["Leistung","Gewinner","Preis"]
-      "right":2
-      
-    }
-    ,  {
-      "question":"what does \"recently\" mean in german?"
-      "answer":["neu","kürzlich","erfolgreich"]
-      "right":1
-      
-    }
-    ,  {
-      "question":"what does \"successful\" mean in german?"
-      "answer":["erfolgreich","schriftlich","wertvoll"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"candidate\" mean in german?"
-      "answer":["Vorstellungsgespräch","Grund","Bewerber/in"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"basic\" mean in german?"
-      "answer":["schriftlich","mündlich","grundlegend"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"reference\" mean in german?"
-      "answer":["Erfindung","Erfahrung","Empfehlung"]
-      "right":2
-      
-    }
-    ,  {
-      "question":"what does \"grateful\" mean in german?"
-      "answer":["untreu","großartig","dankbar"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"opportunity\" mean in german?"
-      "answer":["Gemeinde","Gelegenheit","Willenskraft"]
-      "right":1 
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,  {
-      "question":"what does \"...\" mean in german?"
-      "answer":["0","1","2"]
-      "right":0
-      
-    }
-    ,
   ]
 }
