@@ -3,7 +3,7 @@
 		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except stochastic). It is a Hamster? No! Is it a Boy? No! It's the Dymynator!",
 		"basestats": {
 			"hp": 1000,
-			"type": "french",
+			"type": "latin",
 			"price": 6000
 		},
 		"attacks": [
@@ -402,19 +402,6 @@
 			"Clout",
 			"Brownie-power",
 			"Camouflage"
-		]
-	},
-	"Ben-Cheat": {
-		"description": "Just for ehhh... testing. *hust*",
-		"basestats": {
-			"hp": 100000000000,
-			"type": "english",
-			"price": 6000
-		},
-		"attacks": [
-			"INSTAKILL",
-			"HEAL",
-			"Platscher"
 		]
 	}
 }

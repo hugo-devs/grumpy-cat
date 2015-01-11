@@ -9,7 +9,7 @@
 	"Habs-Hamster": {
 		"text": "||creature|| swallows ||Enemy||. ||Enemy|| escapes barely.",
 		"action": ["hp", -400],
-		"type": "latin",
+		"type": "french",
 		"difficulty": "hard"
 	},
 	"Beißerchen": {

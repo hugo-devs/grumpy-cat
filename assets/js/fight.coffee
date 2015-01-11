@@ -9,7 +9,7 @@ fight_question = (attack_name) ->
   console.log "running fight_question"
   currentQuestion.difficulty = data.attacks[attack_name].difficulty
   #currentQuestion.type = data.attacks[attack_name].type
-  currentQuestion.question = data.questions[currentQuestion.difficulty][random(0, data.questions[currentQuestion.difficulty].length)]
+  currentQuestion.question = data.questions[data.attacks[attack_name].type][currentQuestion.difficulty][random(0, data.questions[data.attacks[attack_name].type][currentQuestion.difficulty].length)]
   if currentQuestion.question.hasOwnProperty 'right'
     $(".dialog").html("
         <paper-dialog backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
