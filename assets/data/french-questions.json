@@ -228,7 +228,7 @@
       "question": "what does 'sleep' mean in french?",
       "answer": "dormir"
     }
-],
+  ],
  
   "medium": [
    {
@@ -421,7 +421,7 @@
       "question": "what does 'winter' mean in french?",
       "answer": ["hiver","l'hiver"]
     } 
-],
+  ],
   "hard": [
     {
       "question": "Who is a good boy",

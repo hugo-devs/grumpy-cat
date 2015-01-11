@@ -139,6 +139,16 @@ div.select_attack {
 .active {
   background-color: #4CAF50; }
 
+h1.shop-h1 {
+  font-size: 2em;
+  text-align: center; }
+
+@media (max-width: 800px) {
+  .card {
+    width: 45%; } }
+@media (max-width: 550px) {
+  .card {
+    width: 95%; } }
 @media (max-width: 400px) {
   div.fight_area > .enemy {
     float: left; } }

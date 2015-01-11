@@ -40,7 +40,7 @@ update_money = () ->
   $('.money_count').html(money())
 
 update_shop = () ->
-  $('.shop').html('')
+  $('.shop').html('<h1 class="shop-h1">Shop</h1><p>Welcome to the shop. Here you can buy more creatures. You will need to answer questions according to the type of your active creature. Be careful when buying new creatures, because you don\'t know how strong they are.</p>')
 
   for key, __creature__ of data.creatures
 
@@ -73,7 +73,7 @@ update_shop = () ->
         __disabled__ = 'disabled'
 
     if __creature__.basestats.type.toLowerCase() == 'latin'
-      __type__ = ':hamster:'
+      __type__ = ':it:'
     else if __creature__.basestats.type.toLowerCase() == 'english'
       __type__ = ':gb:'
     else if __creature__.basestats.type.toLowerCase() == 'french'
@@ -83,7 +83,7 @@ update_shop = () ->
       <div class='card'>
         <h3>#{key}</h3>
         <span class='block'>HEALTH: #{__health__}</span>
-        <span class='block'>TYPE: :#{__type__}</span>
+        <span class='block'>TYPE: #{__type__}</span>
         <span class='block'>ATTACKS:</span>
         <ul>
           <li>#{__attacks__[0]}</li>

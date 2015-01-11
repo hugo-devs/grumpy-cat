@@ -42,25 +42,29 @@ parse_story_element = (element) ->
     ,1000
 
   else if element.type is "pop"
-    if element.hasOwnProperty "title"
-      swal {
-        text: parse_inline_vars(element.value),
-        title: parse_inline_vars(element.title)
-      }, ->
-        setTimeout ->
-          localStorage.story_pos = parseInt(localStorage.story_pos) + 1
-          parse_story()
-          console.log "callback from swal"
-        ,250
-    else
-      swal {
-        title: parse_inline_vars(element.value)
-      }, ->
-        setTimeout ->
-          localStorage.story_pos = parseInt(localStorage.story_pos) + 1
-          parse_story()
-          console.log "callback from swal"
-        ,250
+    console.log 'poping'
+    setTimeout ->
+      if element.hasOwnProperty "title"
+        console.log 'has title'
+        swal {
+          text: parse_inline_vars(element.value),
+          title: parse_inline_vars(element.title)
+        }, ->
+          setTimeout ->
+            localStorage.story_pos = parseInt(localStorage.story_pos) + 1
+            parse_story()
+            console.log "callback from swal"
+          ,250
+      else
+        swal {
+          title: parse_inline_vars(element.value)
+        }, ->
+          setTimeout ->
+            localStorage.story_pos = parseInt(localStorage.story_pos) + 1
+            parse_story()
+            console.log "callback from swal"
+          ,250
+    ,250
 
   else if element.type is "advanced_pop"
     __swal = element.swal

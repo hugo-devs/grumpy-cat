@@ -10,10 +10,21 @@ load_story = ->
     data.story = json
     load_attacks()
 
-load_questions = ->
-  console.log "loading questions"
-  $.getJSON "assets/data/#{data.creatures[localStorage.character].basestats.type}-questions.json", (json) ->
-    data.questions = json
+load_questions_latin = ->
+  console.log "loading latin questions"
+  data.questions = {}
+  $.getJSON "assets/data/latin-questions.json", (json) ->
+    data.questions.latin = json
+
+load_questions_english = ->
+  console.log "loading english questions"
+  $.getJSON "assets/data/english-questions.json", (json) ->
+    data.questions.english = json
+
+load_questions_french = ->
+  console.log "loading french questions"
+  $.getJSON "assets/data/french-questions.json", (json) ->
+    data.questions.french = json
 
 load_attacks = ->
   console.log "loading attacks"
@@ -25,7 +36,9 @@ load_creatures = ->
   console.log "Hey I am loading the creatures"
   $.getJSON "assets/data/creatures.json", (json) ->
     data.creatures = json
-    load_questions()
+    load_questions_latin()
+    load_questions_english()
+    load_questions_french()
     parse_story()
 
 reset = ->

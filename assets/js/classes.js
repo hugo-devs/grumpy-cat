@@ -33,6 +33,8 @@ function Fight (enemy, enemy_lvl) {
 	this.switch_turn = function () {
 
 		if (this.ended) {
+			console.log("fight is over");
+			console.log(this.ended);
 			return
 		}
 
@@ -102,18 +104,17 @@ function Fight (enemy, enemy_lvl) {
 				swal({
 					title: "You lost the Battle.",
 					text: "Try again!",
-					timer: 2999,
 					type: "error"
 				},
 					function () {
 						parse_story();
 					}
 				);
+				this.ended = true;
 			} else if (this.enemy_health <= 0) {
 				swal({
 					title: "You won the Battle!",
 					text: "You earn one level. Continue you journey.",
-					timer: 2999,
 					type: "success"
 				},
 					function () {
@@ -122,10 +123,10 @@ function Fight (enemy, enemy_lvl) {
 						parse_story();
 						$(".fight_area").fadeOut("fast");
 					});
+				this.ended = true;
 			}
 		};
 
 		this.update_health();
-		this.ended = true;
 	};
 }
