@@ -88,6 +88,13 @@ parse_story_element = (element) ->
   else if element.type is 'fight'
     console.log "fight lvl: #{element.lvl} against #{element.enemy}"
     fight_start(element.enemy, parseInt(element.lvl))
+  else if element.type is 'money'
+    add_money(element.amount)
+    console.log "adding #{element.amount} to your balance."
+    localStorage.story_pos = parseInt(localStorage.story_pos) + 1
+    parse_story();
+
+  
 
 parse_inline_vars = (input) ->
   __print = input.split("||")

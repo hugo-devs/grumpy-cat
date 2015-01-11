@@ -93,7 +93,7 @@ update_shop = () ->
         <paper-button class='#{__button_class__}' onclick='#{__button_action__}; update_shop()' #{__disabled__}>#{__button_text__}</paper-button>
       </div>
     "    
-    
-    $('.shop').append(__append__)
+    if __creature__.basestats.buy != false
+      $('.shop').append(__append__)
 
     emojify.run()

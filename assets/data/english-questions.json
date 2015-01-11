@@ -256,7 +256,7 @@
         "Grund",
         "Bewerber/in"
       ],
-      "right": 0
+      "right": 2
     },
     {
       "question": "what does \"basic\" mean in german?",
@@ -265,7 +265,7 @@
         "mündlich",
         "grundlegend"
       ],
-      "right": 0
+      "right": 2
     },
     {
       "question": "what does \"reference\" mean in german?",
@@ -283,7 +283,7 @@
         "großartig",
         "dankbar"
       ],
-      "right": 0
+      "right": 2
     },
     {
       "question": "what does \"opportunity\" mean in german?",
