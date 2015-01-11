@@ -1,5 +1,7 @@
 check_for_new_game = ->
   if localStorage.character is undefined or localStorage.name is null
+    localStorage.ownedCreatures = ''
+    localStorage.money = 0
     $("#dialog_choose_name")[0].toggle()
     console.log "toggling dialog"
   else
@@ -118,6 +120,7 @@ set_name = ->
   $("#dialog_backstory")[0].toggle()
 
 set_character = (what) ->
+  add_creature(what)
   localStorage.character = what
   localStorage.lvl = 1
   localStorage.finished_tut = false

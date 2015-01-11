@@ -21,6 +21,8 @@ html
     link(rel="import", href="bower_components/paper-radio-button/paper-radio-button.html")
     link(rel="import", href="bower_components/paper-radio-group/paper-radio-group.html")
     link(rel="import", href="bower_components/core-tooltip/core-tooltip.html")
+    link(rel="import", href="bower_components/paper-shadow/paper-shadow.html")
+
 
     link(rel="stylesheet", type="text/css", href="bower_components/sweetalert/lib/sweet-alert.css")
     link(rel="stylesheet", type="text/css", href="assets/css/main.css")
@@ -38,6 +40,12 @@ html
         core-toolbar#mainheader
           paper-icon-button#navicon(icon="announcement")
           span(flex) Our Fun Game
+
+          .money_shop_tr
+            paper-button(onclick="open_shop()")
+              span.money_count 6000
+              | :money_with_wings:
+            paper-icon-button(icon="shopping-cart", onclick="open_shop()")
 
         .fight_area.dpn
 
@@ -81,6 +89,42 @@ html
 
     .dialog
 
+    paper-dialog(transition="paper-dialog-transition-bottom", class="paper-dialog-transition paper-dialog-transition-bottom shop", backdrop)
+      .card
+        h3 Dymynator
+        span.block HEALTH: 450
+        span.block TYPE: :hamster:
+        span.block ATTACKS:
+        ul
+          li Beißerchen
+          li aoeuoaeu
+          li apypfypyf.pyf
+        paper-button.buy(disabled) 4000 :money_with_wings:
+
+      .card
+        h3 Birwon
+        span.block HEALTH: 350
+        span.block TYPE: :gb:
+        span.block ATTACKS:
+        ul
+          li Style-mode
+          li Bubble-gum-shooter
+          li Drink-juice
+        paper-button.active ACTIVE
+
+      .card
+        core-tooltip(label="Ho", position="bottom")
+          h3 Hugulo
+        span.block HEALTH: 420
+        span.block TYPE: :fr:
+        span.block ATTACKS:
+        ul
+          li Jump-kick
+          li Rainbow-poop
+          li Easter-egg-attack
+        paper-button.select SELECT
+
     script(src="bower_components/jquery/dist/jquery.min.js")
     script(src="//connect.soundcloud.com/sdk.js")
+    script(src="bower_components/emojify/emojify.min.js")
     script(src="assets/js/main.js")

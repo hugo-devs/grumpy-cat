@@ -3,7 +3,8 @@
 		"description": "It's the Dymynator. The Lord of Hamsters. The Ruler of Math (except stochastic). It is a Hamster? No! Is it a Boy? No! It's the Dymynator!",
 		"basestats": {
 			"hp": 1000,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Habs-Hamster",
@@ -15,7 +16,9 @@
 		"description": "He is the grandfather of all birds. His wings are longer than any promotional tour could reach.",
 		"basestats": {
 			"hp": 550,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000,
+			"price": 6000
 		},
 		"attacks": [
 			"Antiquus",
@@ -27,7 +30,8 @@
 		"description": "It is a little gourmét, which loves good food and particuarly wine. Also it wears always a bottle and is often drunk.",
 		"basestats": {
 			"hp": 600,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Blanc-de-noirs",
@@ -39,7 +43,8 @@
 		"description": "Great. Brilliant. Terrfic. Bullet-Proof and Super-Natural. But extraordinarily stuipd.",
 		"basestats": {
 			"hp": 440,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Confulizzle",
@@ -51,7 +56,8 @@
 		"description": "It is a small dinosaur with yellow feathers, like a sunflower in the summer. He looks very cute, because he has a big beak and a small body, but if he hungry, he will be dangerous.",
 		"basestats": {
 			"hp": 400,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Sun-dance",
@@ -63,7 +69,8 @@
 		"description": "Ferreon is a little raccon. He is the ninja of the nature and the hero of the big city jungle..",
 		"basestats": {
 			"hp": 540,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Purzeltree",
@@ -76,7 +83,8 @@
 		"description": "It's a hamster! It's cute, abdorable and snappy.",
 		"basestats": {
 			"hp": 400,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Test-Attack-Multiplier",
@@ -88,7 +96,8 @@
 		"description": "Jussi is a clever, white and angry beaver.",
 		"basestats": {
 			"hp": 700,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Build-a-wall",
@@ -100,7 +109,8 @@
 		"description": "A green-black-striped big cat, which has long, dangerous claws and green eyes.",
 		"basestats": {
 			"hp": 550,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Catching-claws",
@@ -112,7 +122,8 @@
 		"description": "Hugulo. It is a pink, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
 			"hp": 420,  
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Jump-kick",
@@ -124,7 +135,8 @@
 		"description": "Souri is a little mouse with yellow tail and paws and a white fur.",
 		"basestats": {
 			"hp": 400,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Squeek",
@@ -136,7 +148,8 @@
 		"description": "He is nice and tolerant, but he hasn't any friends except Phnax.",
 		"basestats": {
 			"hp": 380,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Desperation",
@@ -148,7 +161,8 @@
 		"description": "An anemone clown fish with jug ears.",
 		"basestats": {
 			"hp": 460,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Bad-joke",
@@ -160,7 +174,8 @@
 		"description": "A colour-blind lizard wich can change his body colour randomly. He usually doesn't know what colour his body has.",
 		"basestats": {
 			"hp": 560,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Colour-flash",
@@ -172,7 +187,8 @@
 		"description": "A white horse with shiny blue eyes. She likes music. Her best friends are Combus and Skopper.",
 		"basestats": {
 			"hp": 490,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Wibble",
@@ -184,7 +200,8 @@
 		"description": "Ladas is a cute red bumblebee. She is a really huge bumblebee, so don't underestimate her. ",
 		"basestats": {
 			"hp": 470,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Flower-Power",
@@ -196,7 +213,8 @@
 		"description": "A fluffy purple elephant wich loves sweets, especially pancakes. You better do not stand between a Laudiphant and a pancake... It's for your own sake.",
 		"basestats": {
 			"hp": 550,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Eat-a-pancake",
@@ -208,7 +226,8 @@
 		"description": "Oedipus is a blue fire bird with a big red tail and two green eyes.",
 		"basestats": {
 			"hp": 420,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Fire-dance",
@@ -220,7 +239,8 @@
 		"description": "Lop is a really big black lop, he isnt cute...",
 		"basestats": {
 			"hp": 320,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Plague-attack",
@@ -232,7 +252,8 @@
 		"description": "Birwon is a little cute Monkey with green eyes.",
 		"basestats": {
 			"hp": 350,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Style-mode",
@@ -244,7 +265,8 @@
 		"description": "Medusa's sister. She can do everything - except latin.",
 		"basestats": {
 			"hp": 550,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Curse",
@@ -256,7 +278,8 @@
 		"description": "Skopper is the labrador of all the creatures: He barks, protects his friends and smells like a dog...well, he is a dog. By the way, his fur is neongreen.",
 		"basestats": {
 			"hp": 365,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Yelp",
@@ -268,7 +291,8 @@
 		"description": "An orange octupus. One of Phnax' friends",
 		"basestats": {
 			"hp": 460,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Ink-bomb",
@@ -280,7 +304,8 @@
 		"description": "A yellow-violet-checkered snail. Escargon's worst fear is being eaten.",
 		"basestats": {
 			"hp": 550,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Slimy-track",
@@ -292,7 +317,8 @@
 		"description": "A kind of noodle monster. Look delicious. Please do not eat him.",
 		"basestats": {
 			"hp": 410,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Spaghetti-whip",
@@ -304,7 +330,8 @@
 		"description": "A beautiful blue flower with yellow eyes. Forget-me-not gets scared easily! She is a real scaredy cat.",
 		"basestats": {
 			"hp": 330,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Panic",
@@ -316,7 +343,8 @@
 		"description": "Buffalon is a shiny red buffalo with a big black moustache.",
 		"basestats": {
 			"hp": 450,
-			"type": "french"
+			"type": "french",
+			"price": 6000
 		},
 		"attacks": [
 			"Clout",
@@ -328,7 +356,8 @@
 		"description": "Papilio is a special butterfly. Because he is able to swim and he loves the sea. Papilio isn't a small insect, he is as huge as a Ladas.",
 		"basestats": {
 			"hp": 320,
-			"type": "latin"
+			"type": "latin",
+			"price": 6000
 		},
 		"attacks": [
 			"Flower-power",
@@ -340,7 +369,8 @@
 		"description": "He is the twin brother of the Sandman. He wears a black suit and a green hat. His hair is lightblue and long.",
 		"basestats": {
 			"hp": 425,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Lullaby",
@@ -352,7 +382,8 @@
 		"description": "Joeey is a snowman wich can't melt. He enjoys the summer and loves ice cream.",
 		"basestats": {
 			"hp": 400,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Frozen",
@@ -364,7 +395,8 @@
 		"description": "Karlson is a brown moose with a blond spot. ",
 		"basestats": {
 			"hp": 425,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"Clout",
@@ -376,7 +408,8 @@
 		"description": "Just for ehhh... testing. *hust*",
 		"basestats": {
 			"hp": 100000000000,
-			"type": "english"
+			"type": "english",
+			"price": 6000
 		},
 		"attacks": [
 			"INSTAKILL",
