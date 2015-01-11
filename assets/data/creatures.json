@@ -4,7 +4,8 @@
 		"basestats": {
 			"hp": 1000,
 			"type": "latin",
-			"price": 6000
+			"price": 6000,
+			"buy": false
 		},
 		"attacks": [
 			"Habs-Hamster",

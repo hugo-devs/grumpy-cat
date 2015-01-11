@@ -229,7 +229,9 @@ update_shop = function() {
       __type__ = ':fr:';
     }
     __append__ = "<div class='card'> <h3>" + key + "</h3> <span class='block'>HEALTH: " + __health__ + "</span> <span class='block'>TYPE: " + __type__ + "</span> <span class='block'>ATTACKS:</span> <ul> <li>" + __attacks__[0] + "</li> <li>" + __attacks__[1] + "</li> <li>" + __attacks__[2] + "</li> </ul> <paper-button class='" + __button_class__ + "' onclick='" + __button_action__ + "; update_shop()' " + __disabled__ + ">" + __button_text__ + "</paper-button> </div>";
-    $('.shop').append(__append__);
+    if (__creature__.basestats.buy !== false) {
+      $('.shop').append(__append__);
+    }
     _results.push(emojify.run());
   }
   return _results;
@@ -626,6 +628,11 @@ parse_story_element = function(element) {
   } else if (element.type === 'fight') {
     console.log("fight lvl: " + element.lvl + " against " + element.enemy);
     return fight_start(element.enemy, parseInt(element.lvl));
+  } else if (element.type === 'money') {
+    add_money(element.amount);
+    console.log("adding " + element.amount + " to your balance.");
+    localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+    return parse_story();
   }
 };
 

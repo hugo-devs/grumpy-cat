@@ -111,6 +111,10 @@
     "title": "General Albert Johnston:"
   },
   {
+    "type": "money",
+    "amount": 4000
+  },
+  {
     "type": "fight",
     "enemy": "Laudiphant",
     "lvl": 9
