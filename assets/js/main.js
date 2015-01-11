@@ -189,7 +189,7 @@ update_money = function() {
 
 update_shop = function() {
   var key, __append__, __attacks__, __button_action__, __button_class__, __button_text__, __creature__, __disabled__, __health__, __type__, _ref, _results;
-  $('.shop').html('');
+  $('.shop').html('<h1 class="shop-h1">Shop</h1><p>Welcome to the shop. Here you can buy more creatures. You will need to answer questions according to the type of your active creature. Be careful when buying new creatures, because you don\'t know how strong they are.</p>');
   _ref = data.creatures;
   _results = [];
   for (key in _ref) {
@@ -222,13 +222,13 @@ update_shop = function() {
       }
     }
     if (__creature__.basestats.type.toLowerCase() === 'latin') {
-      __type__ = ':hamster:';
+      __type__ = ':it:';
     } else if (__creature__.basestats.type.toLowerCase() === 'english') {
       __type__ = ':gb:';
     } else if (__creature__.basestats.type.toLowerCase() === 'french') {
       __type__ = ':fr:';
     }
-    __append__ = "<div class='card'> <h3>" + key + "</h3> <span class='block'>HEALTH: " + __health__ + "</span> <span class='block'>TYPE: :" + __type__ + "</span> <span class='block'>ATTACKS:</span> <ul> <li>" + __attacks__[0] + "</li> <li>" + __attacks__[1] + "</li> <li>" + __attacks__[2] + "</li> </ul> <paper-button class='" + __button_class__ + "' onclick='" + __button_action__ + "; update_shop()' " + __disabled__ + ">" + __button_text__ + "</paper-button> </div>";
+    __append__ = "<div class='card'> <h3>" + key + "</h3> <span class='block'>HEALTH: " + __health__ + "</span> <span class='block'>TYPE: " + __type__ + "</span> <span class='block'>ATTACKS:</span> <ul> <li>" + __attacks__[0] + "</li> <li>" + __attacks__[1] + "</li> <li>" + __attacks__[2] + "</li> </ul> <paper-button class='" + __button_class__ + "' onclick='" + __button_action__ + "; update_shop()' " + __disabled__ + ">" + __button_text__ + "</paper-button> </div>";
     $('.shop').append(__append__);
     _results.push(emojify.run());
   }
