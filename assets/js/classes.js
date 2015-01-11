@@ -28,8 +28,14 @@ function Fight (enemy, enemy_lvl) {
 	//keeps track of whos turn it is
 	this.turn = 'player';
 	this.victim = 'enemy';
+	this.ended = false;
 
 	this.switch_turn = function () {
+
+		if (this.ended) {
+			return
+		}
+
 		console.log("running switch_turn");
 		console.log("currentFight.turn was " + this.turn);
 		if (this.turn == 'player') {
@@ -120,5 +126,6 @@ function Fight (enemy, enemy_lvl) {
 		};
 
 		this.update_health();
+		this.ended = true;
 	};
 }

@@ -1,5 +1,7 @@
 check_for_new_game = ->
   if localStorage.character is undefined or localStorage.name is null
+    localStorage.ownedCreatures = ''
+    localStorage.money = 0
     $("#dialog_choose_name")[0].toggle()
     console.log "toggling dialog"
   else
@@ -23,17 +25,19 @@ parse_story = ->
       </paper-dialog>
     ")
     $(".dialog > paper-dialog")[0].toggle()
+    return
 
   skip_tut()
   parse_story_element data.story[parseInt(localStorage.story_pos)]
-  if data.story[parseInt(localStorage.story_pos)].type != "fight"
-    localStorage.story_pos = parseInt(localStorage.story_pos) + 1
+  # if data.story[parseInt(localStorage.story_pos)].type != "fight"
+  #   localStorage.story_pos = parseInt(localStorage.story_pos) + 1
 
 parse_story_element = (element) ->
   console.log element
   if element.type is "text"
     notify parse_inline_vars(element.value)
     setTimeout ->
+      localStorage.story_pos = parseInt(localStorage.story_pos) + 1
       parse_story();
     ,1000
 
@@ -44,6 +48,7 @@ parse_story_element = (element) ->
         title: parse_inline_vars(element.title)
       }, ->
         setTimeout ->
+          localStorage.story_pos = parseInt(localStorage.story_pos) + 1
           parse_story()
           console.log "callback from swal"
         ,250
@@ -52,6 +57,7 @@ parse_story_element = (element) ->
         title: parse_inline_vars(element.value)
       }, ->
         setTimeout ->
+          localStorage.story_pos = parseInt(localStorage.story_pos) + 1
           parse_story()
           console.log "callback from swal"
         ,250
@@ -72,9 +78,11 @@ parse_story_element = (element) ->
       swal __swal, callbacks[element.callback]
     else
       swal __swal, ->
+        localStorage.story_pos = parseInt(localStorage.story_pos) + 1
         parse_story()
 
   else if element.type is 'fight'
+    console.log "fight lvl: #{element.lvl} against #{element.enemy}"
     fight_start(element.enemy, parseInt(element.lvl))
 
 parse_inline_vars = (input) ->
@@ -112,6 +120,7 @@ set_name = ->
   $("#dialog_backstory")[0].toggle()
 
 set_character = (what) ->
+  add_creature(what)
   localStorage.character = what
   localStorage.lvl = 1
   localStorage.finished_tut = false

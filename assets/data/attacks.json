@@ -13,7 +13,7 @@
 		"difficulty": "hard"
 	},
 	"Beißerchen": {
-		"text": "||creature|| bites ||Enemy||. ||Enemy||'s hp sink.",
+		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points sink.",
 		"action": ["hp", -300],
 		"action-self": ["hp", 250],
 		"type": "latin",
@@ -52,16 +52,14 @@
 		"difficulty": "medium"
 	},
 	"Confulizzle" : {
-		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points sinks.",
+		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points sink.",
 		"action": ["hp", -70],
-		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "medium"
 	},
 	"Muncher" : {
 		"text": "||creature|| bites enemy. ||Enemy||'s attack increases.",
 		"action": ["hp", -150],
-		"action-self": ["defense", 0.0],
 		"type": "latin",
 		"difficulty": "hard"
 	},
@@ -75,7 +73,6 @@
 	"Throw-a-table" : {
 		"text": "||creature|| builds a table and throws it at the enemy.",
 		"action": ["hp", -190],
-		"action-self": ["defense", 0.0],
 		"type": "english",
 		"difficulty": "medium"
 	},
@@ -89,7 +86,6 @@
 	"Jump-Kick" : {
 		"text": "||creature|| jumps and kicks ||Enemy|| in the face.",
 		"action": ["hp", -210],
-		"action-self": ["hp", 0.0],
 		"type": "french",
 		"difficulty": "hard"
 	},
@@ -103,7 +99,6 @@
 	"Easter-Egg-Attack" : {
 		"text": "||creature|| hides an egg. ||Enemy|| searches for it. ||Enemy||'s defense decreases.",
 		"action": ["defense", 0.2],
-		"action-self": ["hp", 0], 
 		"type": "french",
 		"difficulty": "medium"
 	},
@@ -115,7 +110,7 @@
 		"difficulty": "medium"
 	},
 	"Cheesecake" : {
-		"text": "||creature|| eats a cake. ||creature|| hp increases.",
+		"text": "||creature|| eats a cake. ||creature|| health points increase.",
 		"action": ["defense", 0.0],
 		"action-self": ["hp", 50], 
 		"type": "french",
@@ -130,32 +125,30 @@
 	"Antiquus" : {
 		"text": "||creature|| reads an ancient book to ||enemy||. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.15],
-		"action-self": ["hp", 0], 
 		"type": "latin",
 		"difficulty": "easy"
 	},
 	"Auspicium-Magnum" : {
-		"text": "||creature|| sees some birds and partners with them. ||enemy|| looks for ||creature||. ||creature|| attacks ||enemy|| from behind. ||enemy||'s health points sinks",
+		"text": "||creature|| sees some birds and partners with them. ||enemy|| looks for ||creature||. ||creature|| attacks ||enemy|| from behind. ||enemy||'s health points sink.",
 		"action": ["hp", -70],
-		"action-self": ["hp", 0], 
 		"type": "latin",
 		"difficulty": "medium"
 	},
 	"Ala Dea" : {
-		"text": "||creature|| hits ||enemy|| with it's big wings. ||creature||'s attack increases. ||enemy||'s health points sinks.",
+		"text": "||creature|| hits ||enemy|| with it's big wings. ||creature||'s attack increases. ||enemy||'s health points sink.",
 		"action": ["hp", -150],
 		"action-self": ["attack", 0.1], 
 		"type": "latin",
 		"difficulty": "hard"
 	},
 	"Sun-dance" : {
-		"text": "||creature|| starts dancing the sun-dance. ||enemy|| is burning for a short time. ||enemy||'s health points sinks.",
+		"text": "||creature|| starts dancing the sun-dance. ||enemy|| is burning for a short time. ||enemy||'s health points sink.",
 		"action": ["hp", -100],
 		"type": "latin",
 		"difficulty": "medium"
 	},
 	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defens decreases",
+		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defense decreases",
 		"action": ["defense", -0.15],
 		"action-self": ["hp", 75], 
 		"type": "english",
@@ -171,14 +164,14 @@
 		"text": "||creature|| starts running really fast. Flames burst out of the road. ||Enemy|| gets burned and loses health.",
 		"action": ["hp", -250],
 		"type": "latin",
-		"difficulty": "easy"
+		"difficulty": "medium"
 	},
 	"Purzeltree": {
 		"text": "||creature|| purzels around. This gets ||creature|| going and their attack increases significantly.",
 		"action": ["hp", 0],
 		"action-self": ["attack", 0.4],
 		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "hard"
 	},
 	"Desperation": {
 		"text": "||creature|| gets very desperate and activates all power resources. Their attack increases.",
@@ -188,7 +181,7 @@
 		"difficulty": "easy"
 	},
 	"Spaghetti-whip": {
-		"text": "||creature|| whips ||enemy|| with spaghetti. This deals quite some demage.",
+		"text": "||creature|| whips ||enemy|| with spaghetti. This deals quite some damage.",
 		"action": ["hp", 233],
 		"type": "french",
 		"difficulty": "easy"
@@ -211,7 +204,7 @@
 		"action": ["hp", -300],
 		"action-self": ["hp", -20],
 		"type": "english",
-		"difficulty": "easy"
+		"difficulty": "hard"
 	},
 	"INSTAKILL": {
 		"text": "Cheat kill",
@@ -226,11 +219,266 @@
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"": {
-		"text": "||",
-		"action": ["", 0],
-		"action-self": ["hp", 0],
+	"Yell": {
+		"text": "||creature|| yells extremely loud. ||enemy||'s ears hurt, but ||creature|| gets really going. ||creature||'s attack increases while ||enemy||'s defense decreases.",
+		"action": ["defense", 0.3],
+		"action-self": ["attack", 0.2],
+		"type": "latin",
+		"difficulty": "medium"
+	},
+	"Cuddle-attack": {
+		"text": "||creature|| gives ||enemy|| a big hug. ||enemy|| doesn't want to hurt ||creature|| anymore. ||enemy||'s attack decreases significantly.",
+		"action": ["attack", -0.5],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Spilling-acid": {
+		"text": "||creature|| spills achid over ||enemy||. ||enemy|| gets hurt badly.",
+		"action": ["hp", -267],
+		"type": "latin",
+		"difficulty": "medium"
+	},
+	"Clout": {
+		"text": "||creature|| clouts ||enemy||. ||enemy|| loses health points.",
+		"action": ["hp", -243],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Wave": {
+		"text": "||creature|| summons a huge wave. ||enemy|| nearly drowns and loses a lot of health.",
+		"action": ["hp", -213],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Sea-bubble": {
+		"text": "||creature|| creates a big bubble that protects them very well from ||enemy||'s attacks",
+		"action": ["hp", 0],
+		"action-self": ["defense", -0.45],
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Style-mode": {
+		"text": "||creature|| activates the style mode. They are now basicly unstoppable",
+		"action": ["hp", 0],
+		"action-self": ["attack", 0.4],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Fossilize": {
+		"text": "||creature|| fossilizes themself. They are now hard as rock.",
+		"action": ["hp", 0],
+		"action-self": ["defense", -0.3],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Curse": {
+		"text": "||creature|| curses ||enemy||. This does quite some damage.",
+		"action": ["hp", -200],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Bubble-gum-shooter": {
+		"text": "||creature|| puts out bubble gum at 500 gums per minute and ||enemy|| gets hit often.",
+		"action": ["hp", -245],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Jumping": {
+		"text": "||creature|| jumps up and down so hard that the floor starts shaking. ||enemy|| bounces around and gets hurt.",
+		"action": ["hp", -200],
 		"type": "english",
 		"difficulty": "easy"
+	},
+	"Flap": {
+		"text": "||creature|| flaps their wings so fast that the air vibrates. It's now harder for ||enemy|| to attack.",
+		"action": ["attack", -0.15],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"You-won't-get-a-cookie!": {
+		"text": "||creature|| won't give ||enemy|| a cookie. This really hurts emotionally.",
+		"action": ["hp", -150],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Ink-bomb": {
+		"text": "||creature|| throws a ink bomb onto ||enemy||'s can't see a thing now.",
+		"action": ["attack", -0.25],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Sailing": {
+		"text": "||creature|| sails in a circle to create a swirl. ||enemy|| nearly drowns and takes some demage.",
+		"action": ["hp", -212],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Wibble": {
+		"text": "||creature|| wibbles a lot to distract ||enemy|| and eventually they hit ||enemy|| suprisingly.",
+		"action": ["hp", -300],
+		"type": "latin",
+		"difficulty": "medium"
+	},
+	"Look-at-my-horse-my-horse-is-amazing!": {
+		"text": "||creature|| likes their horse so much that they regain health points, because they need to protect the horse.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 275],
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Drink-juice": {
+		"text": "||creature|| drinks a magical juice to regenerate health.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 300],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Eat-a-pancake": {
+		"text": "||creature|| eats a a pancake and regains health with the new energy.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 75],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Fit-of-rage": {
+		"text": "||creature|| gets very angry so they wildly hit ||enemy|| and ||creature||'s attack increases.",
+		"action": ["hp", -230],
+		"action-self": ["attack", 0.2],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Flic-flacs": {
+		"text": "||creature|| does flic flacs and hits ||enemy|| with their feet multiple times.",
+		"action": ["hp", -276],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Catching-claws": {
+		"text": "||creature|| catches ||enemy|| with their claws.",
+		"action": ["hp", -200],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Calaws-grind": {
+		"text": "||creature|| grinds their claws so they are extremely sharp.",
+		"action": ["hp", 0],
+		"action-self": ["attack", 0.34],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Eat-kitekat": {
+		"text": "||creature|| eats some kitekat to regenerate health.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 340],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"The-I-to-Erik": {
+		"text": "||creature|| tries to diss you, but fails.",
+		"action": ["hp", 0],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Bad-joke": {
+		"text": "||creature|| makes a bad joke that is so bad that ||enemy|| doesn't want to figth anymore. ||enemy||'s attack decreases.",
+		"action": ["attack", -0.2],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Water-sound": {
+		"text": "||creature|| hears the sound of the water. Their favorite sound. This boosts their health points up.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 300],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Colour-flash": {
+		"text": "||creature|| flashes ||enemy|| with a lot of bright colors. ||enemy||'s attack decreases significantly.",
+		"action": ["attack", -0.5],
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Not-evil": {
+		"text": "||creature|| makes ||enemy|| believe they aren't evil. So ||enemy|| gives ||creature|| some of their health points.",
+		"action": ["hp", -200],
+		"action-self": ["hp", 200],
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Bzzzzzzzzzzzzzz": {
+		"text": "||creature|| bzzzes around and stings ||enemy||",
+		"action": ["hp", -240],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Desperation-about-English": {
+		"text": "||creature|| is desperate because of english. This doesn't sound like an attack so nothing happens.",
+		"action": ["hp", 0],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Confusion": {
+		"text": "|creature| confuses |enemy|. |enemy|'s defense decreases.",
+		"action": ["defense", 0.1],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Fire-dance": {
+		"text": "|creature| starts dancing the Fire-dance. |enemy| burns for a long time. |enemy|'s health points decrease.",
+		"action": ["hp", -300],
+		"type": "latin",
+		"difficulty": "hard"
+	},
+	"Beak-attack": {
+		"text": "|creature| picks |enemy| in the face. |enemy|'s defense decreases.",
+		"action": ["defense", 0.2],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Plague-attack": {
+		"text": "|creature| infects |enemy| with a plaque. |enemy|'s attack decreases.",
+		"action": ["attack", -0.25],
+		"action-self": ["hp", 30],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Black-soul": {
+		"text": "The dark side of the Force goes to the body of |creature|. |creature|'s health points increase.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 50],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Eat-music": {
+		"text": "|creature| eats a CD. |creature|'s attack decreases.",
+		"action": ["hp", 0],
+		"action-self": ["attack", -0.3],
+		"type": "latin",
+		"difficulty": "easy"
+	},
+	"Yelp": {
+		"text": "|creature| yelps loudly. |enemy|'s defense decreases.",
+		"action": ["defense", 0.25],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Devour": {
+		"text": "|creature| devours |enemy|'s arms. |enemy|'s health points decrease.",
+		"action": ["hp", -350],
+		"type": "french",
+		"difficulty": "hard"
+	},
+	"Like-a-puppy": {
+		"text": "|creature| thinks enemy is nice, so |creature| gives |enemy| some health points.",
+		"action": ["hp", 150],
+		"action-self": ["hp", -150],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Tentacle-strike": {
+		"text": "|creature| strikes |enemy| with a tentacle. |enemy|'s health points decrease.",
+		"action": ["hp", -120],
+		"type": "frenc",
+		"difficulty": "medium"
 	}
 }
