@@ -25,6 +25,46 @@
 	},
 	{
 		"type": "text",
+		"value": "You agree and together you decide to bring Pierre at home first. But is a long way to Brest and the childs be tired early. You want them to sleep while you keep watch. Not long as they fell asleep something rustles in the bush in front of you and a wild Hugolo comes ot and attacks the children. To save the children you distract it and you are attacked."
+	},
+	{
+		"type": "fight",
+		"enemy": "Hugolo",
+		"lvl": 1
+	},
+	{
+		"type": "text",
+		"value": "You are save, but the children awake. You told them, what happened"
+	},
+	{
+		"type": "pop",
+		"value": "Pierre: Pouhh, that was close. *sighs* \n Francois: Wow, you saved us alone a second time! Your're amazing! \n Gabrielle: Our hero! *hugs you*", 
+		"title": "Saved"
+	},
+	{
+		"type": "text",
+		"value": "The three kids and you continue west. Suddenly as you cross a little steam, a little orange octupus attacks you."
+	},
+	{
+		"type": "fight",
+		"enemy": "Pieuvrerre",
+		"lvl": "2"
+	},
+	{
+		"type": "text",
+		"value": "Something glistens in the steam. You stoop and find some money."
+	},
+	{
+		"type": "money",
+		"amount": "500"
+	},
+	
+	{
+		"type": "text",
+		"value": "The sun goes down and the world goes darker. Somewhere on the silverline there are lights. From a tavern!"
+	},
+	{
+		"type": "text",
 		"value": "You agree and together you decide to bring Pierre at home first. But is a long way to Brest and the childs be tired early. You want them to sleep while you keep watch. Not long as they fell asleep something rustles in the bush in front of you and a wild Nuoillion comes ot and attacks the children. To save the children you distract it and you are attacked."
 	},
 	{
@@ -38,7 +78,24 @@
 	},
 	{
 		"type": "pop",
-		"value": "Pierre: Pouhh, that was close. *sighs* \n ", 
+		"value": "Pierre: Pouhh, that was close. *sighs* \n Francois: Wow, you saved us alone a second time! Your're amazing! \n Gabrielle: Our hero! *hugs you*", 
 		"title": "Saved"
-	}
+	},
+	{
+		"type": "text",
+		"value": "The three kids and you continue west. Suddenly as you cross a little steam, a little orange octupus attacks you."
+	},
+	{
+		"type": "fight",
+		"enemy": "Pieuvrerre",
+		"lvl": "2"
+	},
+	{
+		"type": "text",
+		"value": "Something glistens in the steam. You stoop and find some money."
+	},
+	{
+		"type": "money",
+		"amount": "500"
+	},
 ]

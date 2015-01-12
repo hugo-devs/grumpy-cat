@@ -418,67 +418,67 @@
 		"difficulty": "easy"
 	},
 	"Confusion": {
-		"text": "|creature| confuses |enemy|. |enemy|'s defense decreases.",
+		"text":"||creature|| confuses ||enemy||. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.1],
 		"type": "english",
 		"difficulty": "easy"
 	},
 	"Fire-dance": {
-		"text": "|creature| starts dancing the Fire-dance. |enemy| burns for a long time. |enemy|'s health points decrease.",
+		"text": "||creature|| starts dancing the Fire-dance. ||enemy|| burns for a long time. ||enemy||'s health points decrease.",
 		"action": ["hp", -300],
 		"type": "latin",
 		"difficulty": "hard"
 	},
 	"Beak-attack": {
-		"text": "|creature| picks |enemy| in the face. |enemy|'s defense decreases.",
+		"text": "||creature|| picks ||enemy|| in the face. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.2],
 		"type": "latin",
 		"difficulty": "easy"
 	},
 	"Plague-attack": {
-		"text": "|creature| infects |enemy| with a plaque. |enemy|'s attack decreases.",
+		"text": "||creature|| infects ||enemy|| with a plaque. ||enemy||'s attack decreases.",
 		"action": ["attack", -0.25],
 		"action-self": ["hp", 30],
 		"type": "english",
 		"difficulty": "hard"
 	},
 	"Black-soul": {
-		"text": "The dark side of the Force goes to the body of |creature|. |creature|'s health points increase.",
+		"text": "The dark side of the Force goes to the body of ||creature||. ||creature||'s health points increase.",
 		"action": ["hp", 0],
 		"action-self": ["hp", 50],
 		"type": "english",
 		"difficulty": "easy"
 	},
 	"Eat-music": {
-		"text": "|creature| eats a CD. |creature|'s attack decreases.",
+		"text": "||creature|| eats a CD. ||creature||'s attack decreases.",
 		"action": ["hp", 0],
 		"action-self": ["attack", -0.3],
 		"type": "latin",
 		"difficulty": "easy"
 	},
 	"Yelp": {
-		"text": "|creature| yelps loudly. |enemy|'s defense decreases.",
+		"text": "||creature|| yelps loudly. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.25],
 		"type": "french",
 		"difficulty": "medium"
 	},
 	"Devour": {
-		"text": "|creature| devours |enemy|'s arms. |enemy|'s health points decrease.",
+		"text": "||creature|| devours ||enemy||'s arms. ||enemy||'s health points decrease.",
 		"action": ["hp", -350],
 		"type": "french",
 		"difficulty": "hard"
 	},
 	"Like-a-puppy": {
-		"text": "|creature| thinks enemy is nice, so |creature| gives |enemy| some health points.",
+		"text": "||creature|| thinks enemy is nice, so ||creature|| gives ||enemy|| some health points.",
 		"action": ["hp", 150],
 		"action-self": ["hp", -150],
 		"type": "french",
 		"difficulty": "easy"
 	},
 	"Tentacle-strike": {
-		"text": "|creature| strikes |enemy| with a tentacle. |enemy|'s health points decrease.",
+		"text": "||creature|| strikes ||enemy|| with a tentacle. ||enemy||'s health points decrease.",
 		"action": ["hp", -120],
-		"type": "frenc",
+		"type": "french",
 		"difficulty": "medium"
 	}
 }

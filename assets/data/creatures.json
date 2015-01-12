@@ -4,8 +4,7 @@
 		"basestats": {
 			"hp": 1000,
 			"type": "latin",
-			"price": 6000,
-			"buy": false
+			"price": 6000
 		},
 		"attacks": [
 			"Habs-Hamster",
@@ -41,7 +40,7 @@
 		]
 	},
 	"Lizzle": {
-		"description": "Great. Brilliant. Terrfic. Bullet-Proof and Super-Natural. But extraordinarily stuipd.",
+		"description": "Great. Brilliant. Terrfic. Bullet-Proof and Super-Natural Fish. But extraordinarily stupid.",
 		"basestats": {
 			"hp": 440,
 			"type": "latin",

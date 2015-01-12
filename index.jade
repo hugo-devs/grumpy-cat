@@ -23,7 +23,6 @@ html
     link(rel="import", href="bower_components/core-tooltip/core-tooltip.html")
     link(rel="import", href="bower_components/paper-shadow/paper-shadow.html")
 
-
     link(rel="stylesheet", type="text/css", href="bower_components/sweetalert/lib/sweet-alert.css")
     link(rel="stylesheet", type="text/css", href="assets/css/main.css")
   body(fullbleed, unresolved)
@@ -47,7 +46,7 @@ html
               | :money_with_wings:
             paper-icon-button(icon="shopping-cart", onclick="open_shop()")
 
-        .fight_area.dpn
+        .fight_area
 
           .creatures
             .player
@@ -57,6 +56,9 @@ html
                 span.lvl LVL
                   span 100
               paper-progress(value="70")
+              span.player-health 100
+              | /
+              span.player-basehealth 100
             .enemy
               h1
                 core-tooltip(label="Ho", position="left")
@@ -64,6 +66,9 @@ html
                 span.lvl LVL
                   span 1
               paper-progress(value="20")
+              span.enemy-health 100
+              | /
+              span.enemy-basehealth 100
         
           .select_attack
             h3 Choose an attack
