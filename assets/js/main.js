@@ -251,6 +251,8 @@ function Fight (enemy, enemy_lvl) {
 	this.enemy_health = Math.round(parseInt(data.creatures[this.enemy].basestats.hp) * parseInt(enemy_lvl) / 33);
 	this.player_basehealth = this.player_health;
 	this.enemy_basehealth = this.enemy_health;
+	$(".player-basehealth").html(this.player_basehealth)
+	$(".enemy-basehealth").html(this.enemy_basehealth)
 
 	//Keeps track type and multipliers and attacks
 	this.player_type = data.creatures[this.character].basestats.type;
@@ -295,6 +297,10 @@ function Fight (enemy, enemy_lvl) {
 	this.update_health = function () {
 		$(".fight_area > .creatures > .player > paper-progress").attr("value", Math.round(this.player_health / this.player_basehealth * 100));
 		$(".fight_area > .creatures > .enemy > paper-progress").attr("value", Math.round(this.enemy_health / this.enemy_basehealth * 100));
+		$(".player-health").html()
+		$(".player-health").html(this.player_health)
+		$(".enemy-health").html(this.enemy_health)
+
 	};
 
 	this.set_display = function () {
