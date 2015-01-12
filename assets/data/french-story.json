@@ -48,7 +48,7 @@
 	{
 		"type": "fight",
 		"enemy": "Pieuvrerre",
-		"lvl": "2"
+		"lvl": 2
 	},
 	{
 		"type": "text",
@@ -56,7 +56,7 @@
 	},
 	{
 		"type": "money",
-		"amount": "500"
+		"amount": 500
 	},
 	
 	{
@@ -96,6 +96,6 @@
 	},
 	{
 		"type": "money",
-		"amount": "500"
+		"amount": 500
 	}
 ]
