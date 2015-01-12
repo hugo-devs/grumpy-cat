@@ -36,19 +36,14 @@
 		"value": "That was impressive, you did a good job! And look your ||creature|| went one level up. But there's still a long way to go on wich you have to fight a lot. From now I'm not going to help you with your fights anymore, but don't worry because you'll gain more and more experience and your ||creature|| will become stronger. Furthermore you will gain money to buy new creatures. Look, your next enemy is already waiting for you!",
 		"title": "Spartacus:"
 	},
-	{	"type": "sound",
-		"value": "Horn"
-	},
-	{	"type": "pop"
-		"value": "I have to leave you alone now. Try your best!
+	{	"type": "pop",
+		"value": "I have to leave you alone now. Try your best!"
 	},	
-	{	"type": "text"
+	{	"type": "text",
 		"value": ""
 	},
-	{	"type": "fight"
-		"enemy": "Cricetinae"
+	{	"type": "fight",
+		"enemy": "Cricetinae",
 		"lvl": 2
-		
-	
-	
+	}	
 ]
