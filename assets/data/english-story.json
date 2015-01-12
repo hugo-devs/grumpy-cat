@@ -118,7 +118,95 @@
     "type": "fight",
     "enemy": "Laudiphant",
     "lvl": 9
-  }
+  },
+  {
+    "type": "pop",
+    "value": "That was a great achievement, ||name||, but I'm sorry to say that the troops of the northern states lost this battle. We have to flee now otherwise we'll get captured!",
+    "title": "Union soldier:"
+  },
+  {
+    "type": "text",
+    "value": ""
+  },
+  {
+    "type": "fight",
+    "enemy": "Aestas",
+    "lvl": 
+  },  
+  {
+    "type": "pop",
+    "value": "Hey young soldier! You're doing well, but the battle is only starting. We have order to advance to General Albert Johnston's tent and capture him",
+    "title": "Union soldier:"
+  },
+  {
+    "type": "fight",
+    "enemy": "Souri",
+    "lvl": 4
+  },
+  {
+    "type": "text",
+    "value": "Be careful! There's another soldier who wants to attack you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "Oedipus",
+    "lvl": 5
+  },  
+  {
+    "type": "pop",
+    "value": "Hey scaredy-cat! Don't just stand around, let's fight!",
+    "title": "Enemy soldier:"
+  },
+  {
+    "type": "fight",
+    "enemy": "Sandmin",
+    "lvl": 6
+  },
+    {
+    "type": "text",
+    "value": "You advanced to the tent of the enemy commander. There are only two guards protecting it. You have to beat both of them to finally compete with General Johnston."
+  },
+  {
+    "type": "text",
+    "value": "The first guard is attacking you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "Phnax",
+    "lvl": 7
+  },
+  {
+    "type": "text",
+    "value": "The second guard is attacking you!"
+  },
+  {
+    "type": "fight",
+    "enemy": "Hugulo",
+    "lvl": 8
+  },  
+  {
+    "type": "pop",
+    "value": "Be careful my friend, now we're going to enter the commanders tent. Don't lose courage! General Johnston and his creature are tough opponents, but your ||creature|| and you are tough as well.",
+    "title": "Union soldier:"
+  },
+  {
+    "type": "text",
+    "value": "You step into the tent and confront the general bravely."
+  },
+  {
+    "type": "pop",
+    "value": "You little Union soldier will never beat me! We'll destroy the weak northern states and continue slavery for our own prosperity and wealthiness. The Confederate States of America shall prevail!",
+    "title": "General Albert Johnston:"
+  },
+  {
+    "type": "money",
+    "amount": 4000
+  },
+  {
+    "type": "fight",
+    "enemy": "Laudiphant",
+    "lvl": 9
+  },
     
   
 ]
