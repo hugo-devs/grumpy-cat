@@ -182,7 +182,7 @@
 	},
 	"Spaghetti-whip": {
 		"text": "||creature|| whips ||enemy|| with spaghetti. This deals quite some damage.",
-		"action": ["hp", 233],
+		"action": ["hp", -233],
 		"type": "french",
 		"difficulty": "easy"
 	},
@@ -477,8 +477,50 @@
 	},
 	"Tentacle-strike": {
 		"text": "||creature|| strikes ||enemy|| with a tentacle. ||enemy||'s health points decrease.",
-		"action": ["hp", -120],
+		"action": ["hp", -190],
 		"type": "french",
+		"difficulty": "medium"
+	},
+	"Orange-poison": {
+		"text": "||creature|| poisons ||enemy||. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.5],
+		"type": "french",
+		"difficulty": "hard"
+	},
+	"Slimy-track": {
+		"text": "||creature|| leaves a slimy-track. ||enemy|| slips. ||enemy||'s health points decreases.",
+		"action": ["hp", -180],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Please-don't-eat-me!": {
+		"text": "||enemy|| begs ||creature|| because they don't want to get eaten.||enemy||'s defense decreases.",
+		"action": ["defense", 0.2],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Highspeed": {
+		"text": "||creature|| runs away fast, so ||enemy|| can't attack ||creature|| easily. ||enemy||'s attack decreases.",
+		"action": ["attack", -0.3],
+		"type": "french",
+		"difficulty": "hard"
+	},
+	"Extra-cheese!": {
+		"text": "||creature|| throws some cheese on ||enemy||. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.4],
+		"type": "french",
+		"difficulty": "hard"
+	},
+	"Carbonara-Rain": {
+		"text": "Suddenly it starts raining Spaghetti Carbonara. ||enemy|| eats this and so ||enemy||'s health points increases.",
+		"action": ["hp", 233],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Root-blow": {
+		"text": "||creature|| hits ||enemy|| with a root. ||enemy||'s health points decreases.",
+		"action": ["hp", -230],
+		"type": "english",
 		"difficulty": "medium"
 	}
 }
