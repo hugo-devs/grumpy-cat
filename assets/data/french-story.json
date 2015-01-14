@@ -61,41 +61,41 @@
 	
 	{
 		"type": "text",
-		"value": "The sun goes down and the world goes darker. Somewhere on the silverline there are lights. From a tavern!"
-	},
-	{
-		"type": "text",
-		"value": "You agree and together you decide to bring Pierre at home first. But is a long way to Brest and the childs be tired early. You want them to sleep while you keep watch. Not long as they fell asleep something rustles in the bush in front of you and a wild Nuoillion comes ot and attacks the children. To save the children you distract it and you are attacked."
+		"value": "The sun goes down and the world goes darker. Somewhere on the silverline there are lights. From a tavern! You pay for one night an lay down the kids in your room. You want to eat something, as your food... moves? You can't do anything because you too surprised, so a noodle jumps and attacks you."
 	},
 	{
 		"type": "fight",
 		"enemy": "Nouillon",
-		"lvl": 1
+		"lvl": 3
 	},
 	{
-		"type": "text",
-		"value": "You are save, but the children awake. You told them, what happened"
-	},
-	{
-		"type": "pop",
-		"value": "Pierre: Pouhh, that was close. *sighs* \n Francois: Wow, you saved us alone a second time! Your're amazing! \n Gabrielle: Our hero! *hugs you*", 
-		"title": "Saved"
-	},
-	{
-		"type": "text",
-		"value": "The three kids and you continue west. Suddenly as you cross a little steam, a little orange octupus attacks you."
+		"type": "text
+		"value": "You beat the creature, that looks like an freaking noodle, but you two crashed into another table. The tavern is devastated and suddenly somebody or better something hits you with its bottle of wine. But as you turn around and it takes your breath away. Was it a cock? You really doubt your sanity, but you can't think about it any longer, because the attacks of the disturbed rooster don't stop and you have to fight with it."
 	},
 	{
 		"type": "fight",
-		"enemy": "Pieuvrerre",
-		"lvl": "2"
+		"enemy": "Champagnier ",
+		"lvl": "4"
+	},
+	{
+		"type": "text"
+		"value": "It was deep in the night as the battle was won and the rooster flew awy, or tried to. Because you have'nt enough money the children and you have to flee, but first you promissed to come back to pay for the damage."
+	},
+	{
+		"type": "fight",
+		"enemy": "Birwon",
+		"lvl": "5"
+	},
+	{
+		"type": "text",
+		"value": "The little being flee but left a pouch with some money."
+	},
+	{
+		"type": "money",
+		"amount": 1000
 	},
 	{
 		"type": "text",
 		"value": "Something glistens in the steam. You stoop and find some money."
 	},
-	{
-		"type": "money",
-		"amount": 500
-	}
 ]
