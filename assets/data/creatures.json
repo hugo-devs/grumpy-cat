@@ -43,7 +43,7 @@
 		"basestats": {
 			"hp": 440,
 			"type": "latin",
-			"price": 750
+			"price": 1000
 		},
 		"attacks": [
 			"Confulizzle",
