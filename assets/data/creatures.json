@@ -313,7 +313,7 @@
 		]
 	},
 	"Nouillon": {
-		"description": "A kind of noodle monster. Looks delicious. Please do not eat him.",
+		"description": "A kind of noodle monster. Look delicious. Please do not eat him.",
 		"basestats": {
 			"hp": 410,
 			"type": "french",
@@ -321,8 +321,8 @@
 		},
 		"attacks": [
 			"Spaghetti-whip",
-			"Extra-cheese-!",
-			"Caborara-Rain"
+			"Extra-cheese!",
+			"Carbonara-Rain"
 		]
 	},
 	"Forget-me-not": {
@@ -382,7 +382,7 @@
 		"basestats": {
 			"hp": 400,
 			"type": "english",
-			"price": 11000
+			"price": 2500
 		},
 		"attacks": [
 			"Frozen",
