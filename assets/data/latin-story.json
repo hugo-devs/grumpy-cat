@@ -20,7 +20,7 @@
 	},
 	{
 		"type": "text",
-		"value": "You are attacked by a gladiator and his ||enemy||"
+		"value": "You are attacked by a gladiator and his Lop"
 	},
 	{
 		"type": "text",
@@ -28,7 +28,7 @@
 	},
 	{
 		"type": "fight",
-		"enemy": "Mydusa",
+		"enemy": "Lop",
 		"lvl": 1
 	},
 	{
@@ -36,14 +36,132 @@
 		"value": "That was impressive, you did a good job! And look your ||creature|| went one level up. But there's still a long way to go on wich you have to fight a lot. From now I'm not going to help you with your fights anymore, but don't worry because you'll gain more and more experience and your ||creature|| will become stronger. Furthermore you will gain money to buy new creatures. Look, your next enemy is already waiting for you!",
 		"title": "Spartacus:"
 	},
+	{
+		"type": "sound",
+		"value": "Horn"
+	},
 	{	"type": "pop",
-		"value": "I have to leave you alone now. Try your best!"
+		"value": "I have to leave you alone now. Try your best!",
+		"title": "Spartacus:"
 	},	
+	{
+		"type": "pop",
+		"value": "You won't obstruct me on my way to liberty!",
+		"title": "Gladiator:"
+	},
 	{	"type": "text",
-		"value": ""
+		"value": "You are attacked by a gladiator and his Cricetinae."
 	},
 	{	"type": "fight",
 		"enemy": "Cricetinae",
 		"lvl": 2
-	}	
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{	"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "pop",
+		"value": "You are my last chance to become a free man, so please forgive me.",
+		"title": "Gladiator:"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a gladiator and his Papilio."
+	},
+	{	
+		"type": "fight",
+		"enemy": "Cricetinae",
+		"lvl": 3
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a gladiator and his Escargon."
+	},
+	{
+		"type": "fight",
+		"enemy": "Escargon",
+		"lvl": 4
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a gladiator and his Aestas."
+	},
+	{
+		"type": "fight",
+		"enemy": "Aestas",
+		"lvl": 5
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a gladiator and his Combus."
+	},
+	{
+		"type": "fight",
+		"enemy": "Combus",
+		"lvl": 6
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "pop",
+		"value": "Ave! Today we saw many spectecular fights and met new gladiators. We are going to coninue tomorrow.",
+		"title": "Caesar:"
+	},
+	{ 
+		"type": "text",
+		"value": "You arrive at your accomodation."
+	},
+	{
+		"type": "pop",
+		"value": "You are one of the rookies, aren't you? Your fights looked very impressive. Do you want to train with me?",
+		"title": "Stranger:"
+	},
+	{
+		"type": "text",
+		"value": "You follow the stranger to the drill ground. You are attacked by a Souri.
+	},
+	{	
+		"type": "fight",
+		"enemy": "Souri",
+		"lvl": 7
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "text"
+		"value": "You are attacked by an Aestas."
+		
+		
 ]
