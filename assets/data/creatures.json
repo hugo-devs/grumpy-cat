@@ -313,7 +313,7 @@
 		]
 	},
 	"Nouillon": {
-		"description": "A kind of noodle monster. Look delicious. Please do not eat him.",
+		"description": "A kind of noodle monster. Looks delicious. Please do not eat him.",
 		"basestats": {
 			"hp": 410,
 			"type": "french",
