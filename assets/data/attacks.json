@@ -6,21 +6,21 @@
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Habs-Hamster": {
+	"Morsels-Hamster": {
 		"text": "||creature|| swallows ||Enemy||. ||Enemy|| escapes barely.",
 		"action": ["hp", -400],
-		"type": "french",
+		"type": "latin",
 		"difficulty": "hard"
 	},
-	"Beißerchen": {
-		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points sink.",
+	"Toothypegs": {
+		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points decreases.",
 		"action": ["hp", -300],
 		"action-self": ["hp", 250],
 		"type": "latin",
 		"difficulty": "hard"
 	},
-	"Scharfer-Blick": {
-		"text": "||creature|| stares ||Enemy|| down. ||Enemy||'s attack sinks.",
+	"Shrewd-eyes": {
+		"text": "||creature|| stares ||Enemy|| down. ||Enemy||'s attack decreases.",
 		"action": ["defense", 0.25],
 		"action-self": ["attack", 0.3],
 		"type": "latin",
@@ -44,7 +44,7 @@
 		"type": "latin",
 		"difficulty": "easy"
 	},
-	"Klugscheißerism" : {
+	"Smart-acerism" : {
 		"text": "||creature|| corrects ||Enemy||. ||Enemy|| gets angry. ||creature||'s defense increases, ||enemy||'s defense decreases.",
 		"action": ["defense", 0.2],
 		"action-self": ["defense", -0.3],
@@ -79,7 +79,7 @@
 	"Gets-angry" : {
 		"text": "||creature|| gets angry. ||creature||'s attack increases.",
 		"action": ["attack", 0.0],
-		"action-self": ["attack", 0.5],
+		"action-self": ["attack", 0.3],
 		"type": "english",
 		"difficulty": "hard"
 	},
@@ -146,19 +146,6 @@
 		"action": ["hp", -100],
 		"type": "latin",
 		"difficulty": "medium"
-	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defense decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"type": "english",
-		"difficulty": "easy"
 	},
 	"Road-Run": {
 		"text": "||creature|| starts running really fast. Flames burst out of the road. ||Enemy|| gets burned and loses health.",
@@ -359,7 +346,7 @@
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Calaws-grind": {
+	"Claws-grind": {
 		"text": "||creature|| grinds their claws so they are extremely sharp.",
 		"action": ["hp", 0],
 		"action-self": ["attack", 0.34],
@@ -522,5 +509,19 @@
 		"action": ["hp", -230],
 		"type": "english",
 		"difficulty": "medium"
-	}
+	},
+	"Moustache-dance": {
+		"text": "||creature|| starts dancing the Moustache-dance. ||creature||'s health points increases.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 150],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Red-cloth": {
+		"text": "||creature|| dresses a red-cloth. ||creature||'s defense increases.",
+		"action": ["hp", 0],
+		"action-self": ["defense", -0.4],
+		"type": "french",
+		"difficulty": "hard"
+	},
 }
