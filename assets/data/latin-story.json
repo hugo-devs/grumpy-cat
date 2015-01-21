@@ -160,8 +160,86 @@
 		"value": "Your ||creature|| goes one level up."
 	},
 	{
-		"type": "text"
+		"type": "text",
 		"value": "You are attacked by an Aestas."
+	},
+	{
+		"type": "fight",
+		"enemy": "Aestas",
+		"lvl": 8
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by an Oedipus."
+	},
+	{
+		"type": "fight",
+		"enemy": "Oedipus",
+		"lvl": 9
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "pop",
+		"value": "Well done, my friend. I wasn't wrong about your strength, you have the potential to be a succesfull gladiator - or to become a free man. I am tired now, let's rest until tomorrow.",
+		"title": "Stranger:"
+	},
+	{
+		"type": "text",
+		"value": "You return to the accomodation. On the next morning the fights in the Colosseum continue.
+	},
+	{
+		"type": "pop",
+		"value": "Ave! Now it's time for the highlight of the morning: A grand fight between the battle-tested fighter Scipio and a newcoming gladiator we saw yesterday!",
+		"title": "Caesar:"
+		
+	},	
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by the gladiator Scipio and his Lizzle."
+	},
+	{
+		"type": "fight",
+		"enemy": "Lizzle",
+		"lvl": 10
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "text",
+		"value": "Everyone celebrates you for defeating Scipio. As a reward you don't have to fight someone else today. You return to the accomodation and meet the stranger you trained with yesterday."
+	},
+	{
+		"type": "pop",
+		"value": "Congratulations! Your fight was amazing. As I said, slowly but surely you become famous. On the one hand you made a bg step towards liberty, on the other hand you will have to fight against stronger gladiators, so you should not stop training. By the way, i didn't introduce myself yet, did I? My name is Quintus.",
+		"title": "Stranger:"
+	},
+	{
+		"type": "text",
+		"value": "You follow Quintus to the drill ground."
+	}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		
 		
 ]
