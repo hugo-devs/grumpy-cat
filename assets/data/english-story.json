@@ -121,27 +121,17 @@
   },
   {
     "type": "pop",
-    "value": "That was a great achievement, ||name||, but I'm sorry to say that the troops of the northern states lost this battle. We have to flee now otherwise we'll get captured!",
+    "value": "That was a great achievement, ||name||, but I'm sorry to say that the troops of the northern states lost this battle. We have to flee now, otherwise we'll get captured!",
     "title": "Union soldier:"
   },
   {
     "type": "text",
-    "value": ""
+    "value": "The residual soldiers of the northern states and you flee. You manage it to arrive in a small town near Corinth in Tennessee, where a huge Union troop is stationed."
   },
-  {
-    "type": "fight",
-    "enemy": "Aestas",
-    "lvl": 
-  },  
   {
     "type": "pop",
-    "value": "Hey young soldier! You're doing well, but the battle is only starting. We have order to advance to General Albert Johnston's tent and capture him",
-    "title": "Union soldier:"
-  },
-  {
-    "type": "fight",
-    "enemy": "Souri",
-    "lvl": 4
+    "value": "Hello my friend, I'm pleased to see you! I've heard about your great achievements and fortitude at the Bull Run. Hopefully you are willing to prove yourself for a second time, because we are planning to conquer territories, wich are occupied by the southern states.",
+    "title": "Abraham Lincoln:"
   },
   {
     "type": "text",
