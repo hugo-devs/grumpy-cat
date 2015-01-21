@@ -228,7 +228,12 @@
 	},
 	{
 		"type": "text",
-		"value": "You follow Quintus to the drill ground."
+		"value": "You are following Quintus to the drill ground."
+	},
+	{
+		"type": "pop",
+		"value": "Do you see the people over there? You better stay away from these guys. They think it is fun to bully younger gladiators, especially those who have sudden succes",
+		"title": "Quintus:"
 	}
 		
 	
