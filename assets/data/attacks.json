@@ -524,4 +524,25 @@
 		"type": "french",
 		"difficulty": "hard"
 	},
+	"Lullaby": {
+		"text": "||creature|| sings a lullaby. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.2],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Sand-wall": {
+		"text": "||creature|| builds a sand-wall.||enemy||'s attack decreases.",
+		"action": ["attack", -0.3],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Sand-storm": {
+		"text": "||creature|| creates a big sand-storm. ||enemy||'s health points decreases.",
+		"action": ["hp", -310],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "hard"
+	}
 }
