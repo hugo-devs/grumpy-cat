@@ -148,40 +148,27 @@
   },
   {
     "type": "fight",
-    "enemy": "Phnax",
+    "enemy": "Joeey",
     "lvl": 10
   },
   {
-    "type": "text",
-    "value": "The second guard is attacking you!"
-  },
-  {
-    "type": "fight",
-    "enemy": "Hugulo",
-    "lvl": 8
-  },  
-  {
     "type": "pop",
-    "value": "Be careful my friend, now we're going to enter the commanders tent. Don't lose courage! General Johnston and his creature are tough opponents, but your ||creature|| and you are tough as well.",
+    "value": "Help me! Here are other creatures which attack our troop. I can't beat them alone!",
     "title": "Union soldier:"
   },
   {
     "type": "text",
-    "value": "You step into the tent and confront the general bravely."
-  },
-  {
-    "type": "pop",
-    "value": "You little Union soldier will never beat me! We'll destroy the weak northern states and continue slavery for our own prosperity and wealthiness. The Confederate States of America shall prevail!",
-    "title": "General Albert Johnston:"
-  },
-  {
-    "type": "money",
-    "amount": 4000
+    "value": "You step towards the soldier and a few of the creatures instantly attack you."
   },
   {
     "type": "fight",
-    "enemy": "Laudiphant",
-    "lvl": 9
+    "enemy": "Karlson",
+    "lvl": 11
+  },
+  {
+    "type": "fight",
+    "enemy": "Papilio",
+    "lvl": 12
   },
     
   
