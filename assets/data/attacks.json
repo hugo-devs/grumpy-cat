@@ -83,7 +83,7 @@
 		"type": "english",
 		"difficulty": "hard"
 	},
-	"Jump-Kick" : {
+	"Jump-kick" : {
 		"text": "||creature|| jumps and kicks ||Enemy|| in the face.",
 		"action": ["hp", -210],
 		"type": "french",
@@ -103,7 +103,7 @@
 		"difficulty": "medium"
 	},
 	"Squeek" : {
-		"text": "||creature|| squeeks. ||creatures||'s attack increases. ||enemy||'s defense decreases.",
+		"text": "||creature|| squeeks. ||creature||'s attack increases. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.1],
 		"action-self": ["attack", 0.25], 
 		"type":"french",
