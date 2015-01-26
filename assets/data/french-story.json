@@ -136,10 +136,25 @@
 	{
 		"type": "fight",
 		"enemy": "Buffalon"
-		"lvl": 7
+		"lvl": 10
 	},
 	{
-		"type": "money",
-		"amount": 2000
+		"type": "text"
+		"value": "Francois and Gabrielle miss Pierre very much and every time you told them, that he will be always their friend and is happy now. From then on you have to be more careful and hide often. You promised to save them and you'll keep the promise. Like now, because you be attack by a group of wild creatures which want to steel all of the food."
+	},
+	{
+		"type": "fight",
+		"enemy": "Combus"
+		"lvl": 11
+	},
+	{
+		"type": "fight",
+		"enemy": "COmbus"
+		"lvl": 11
+	},
+	{
+		"type": "fight",
+		"enemy": "Pieuvrerre"
+		"lvl": 12
 	},
 ]
