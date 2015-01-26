@@ -111,13 +111,13 @@
     "title": "General Albert Johnston:"
   },
   {
-    "type": "money",
-    "amount": 4000
-  },
-  {
     "type": "fight",
     "enemy": "Laudiphant",
     "lvl": 9
+  },
+  {
+    "type": "money",
+    "amount": 4000
   },
   {
     "type": "pop",
@@ -135,35 +135,21 @@
   },
   {
     "type": "text",
-    "value": "The Union army marches southeastward deep into Tennessee. "
+    "value": "The Union army marches southeastward deep into Tennessee. It's a dangerous way, because there are many wild creatures which attack everybody who crosses their path. Be careful and never walk around without your ||creature||!"
   },
-  {
-    "type": "fight",
-    "enemy": "Oedipus",
-    "lvl": 5
-  },  
   {
     "type": "pop",
-    "value": "Hey scaredy-cat! Don't just stand around, let's fight!",
-    "title": "Enemy soldier:"
-  },
-  {
-    "type": "fight",
-    "enemy": "Sandmin",
-    "lvl": 6
-  },
-    {
-    "type": "text",
-    "value": "You advanced to the tent of the enemy commander. There are only two guards protecting it. You have to beat both of them to finally compete with General Johnston."
+    "value": "Do you hear this noise? It sounds like something is rustling in the bush over there!",
+    "title": "Union soldier:"
   },
   {
     "type": "text",
-    "value": "The first guard is attacking you!"
+    "value": "A wild ||enemy|| rushes out and runs towards you!"
   },
   {
     "type": "fight",
     "enemy": "Phnax",
-    "lvl": 7
+    "lvl": 10
   },
   {
     "type": "text",
