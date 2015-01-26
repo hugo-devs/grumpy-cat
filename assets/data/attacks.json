@@ -544,5 +544,19 @@
 		"action-self": ["defense", 0],
 		"type": "english",
 		"difficulty": "hard"
+	},
+	"Frozen": {
+		"text": "||creature|| freezes ||enemy||. ||enemy|| escapes barely. ||enemy||'s health points decreases.",
+		"action": ["hp", -220],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Snow-flake": {
+		"text": "Actually this isn't an attack, so nothing happens.",
+		"action": ["attack", 0],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "medium"
 	}
 }
