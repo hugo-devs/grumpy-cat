@@ -7,9 +7,9 @@
 			"price": 50000
 		},
 		"attacks": [
-			"Habs-Hamster",
-			"Scharfer-Blick",
-			"Beißerchen"
+			"Morsels-Hamster",
+			"Shrewd-eyes",
+			"Toothypegs"
 		]
 	},
 	"Avus-Avis": {
@@ -47,7 +47,7 @@
 		},
 		"attacks": [
 			"Confulizzle",
-			"Klugscheißerism",
+			"Smart-acerism",
 			"Self-Dizzle"
 		]
 	},
