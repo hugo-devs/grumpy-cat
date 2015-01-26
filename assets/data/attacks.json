@@ -558,5 +558,26 @@
 		"action-self": ["defense", 0],
 		"type": "english",
 		"difficulty": "medium"
+	},
+	"Ice-cream": {
+		"text": "||creature|| gives ||enemy|| some ice cream, because they think ||enemy|| isn't bad. ||enemy||'s health points increases.",
+		"action": ["hp", 170],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Brownie-power": {
+		"text": "||creature|| eats some brownies. ||creature||'s health points increases.",
+		"action": ["attack", 0],
+		"action-self": ["hp", 150],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Camouflage": {
+		"text": "||creature|| camouflages themself. ||enemy||'s attack decreases.",
+		"action": ["attack", -0.3],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "medium"
 	}
 }
