@@ -95,7 +95,7 @@
     "type": "fight",
     "enemy": "Hugulo",
     "lvl": 8
-  },  
+  },
   {
     "type": "pop",
     "value": "Be careful my friend, now we're going to enter the commanders tent. Don't lose courage! General Johnston and his creature are tough opponents, but your ||creature|| and you are tough as well.",
@@ -126,7 +126,7 @@
   },
   {
     "type": "text",
-    "value": "The residual soldiers of the northern states and you flee. You manage it to arrive in a small town near Corinth in Tennessee, where a huge Union troop is stationed."
+    "value": "The residual soldiers of the northern states and you flee. You manage to arrive in a small town near Corinth in Tennessee, where a huge Union troop is stationed."
   },
   {
     "type": "pop",
@@ -170,6 +170,39 @@
     "enemy": "Papilio",
     "lvl": 12
   },
-    
-  
+  {
+    "type": "text",
+    "value": "Union soldier: Thanks, you saved my life. I owe you, but I don't have much. Here take these 500$."
+  }
+  {
+    "type": "money",
+    "ammount": 500
+  },
+  {
+    "type": "text",
+    "value": "You continue your journey to the west bank of Pittsburg Landing, Tennessee."
+  },
+  {
+    "type": "pop",
+    "title": "Ulysses",
+    "value": "Hey you, ||name||, there are wild Ferreons at the riverside. The are basicly racoons, but way stronger and more agressive. You need to secure the area so we can set up a camp."
+  },
+  {
+    "type": "fight",
+    "enemy": "Ferreon",
+    "lvl": 13
+  },
+  {
+    "type": "text",
+    "value": "And there's another one."
+  },
+  {
+    "type": "fight",
+    "enemy": "Ferreon",
+    "lvl": 14
+  },
+  {
+    "type": "text",
+    "value": "You return to the other soldiers and they star setting up the camp."
+  }
 ]
