@@ -156,5 +156,23 @@
 		"type": "fight",
 		"enemy": "Pieuvrerre",
 		"lvl": 12
+<<<<<<< HEAD
 	}
+=======
+	},
+	{
+		"type": "pop"
+		"value": " 'Its a pleasent to see how you are growing stronger and stronger, very good, my friend. I'm glad to hear that Pierre is at home healthily. But the reason why I am here is to see howe strong you really are, after all you are wanted by the royal guardians, because you beat one of them  captains. But are you able to defeat me ||name||?"
+		"title": "A short reunion with Condorcet"
+	},
+	{
+		"type": "fight",
+		"enemy": "Souri"
+		"lvl": 14
+	},
+	{
+		"type": "text"
+		"value": ""
+	},
+>>>>>>> FETCH_HEAD
 ]
