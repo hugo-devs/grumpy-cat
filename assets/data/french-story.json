@@ -69,7 +69,7 @@
 		"lvl": 3
 	},
 	{
-		"type": "text"
+		"type": "text",
 		"value": "You beat the creature, that looks like an freaking noodle, but you two crashed into another table. The tavern is devastated and suddenly somebody or better something hits you with its bottle of wine. But as you turn around and it takes your breath away. Was it a cock? You really doubt your sanity, but you can't think about it any longer, because the attacks of the disturbed rooster don't stop and you have to fight with it."
 	},
 	{
@@ -78,7 +78,7 @@
 		"lvl": "4"
 	},
 	{
-		"type": "text"
+		"type": "text",
 		"value": "It was deep in the night as the battle was won and the rooster flew awy, or tried to. Because you have'nt enough money the children and you have to flee, but first you promissed to come back to pay for the damage."
 	},
 	{
@@ -100,17 +100,17 @@
 	},
 	{
 		"type": "pop",
-		"value": "Pierres home is attacking by aristrocats troops. The soldier, who once were your brothers, loot and destroy. It is your responsibility to protect the poor people and save the home, family and friends of the little boy! Your target is to defeat the captain, before all the houses are burned down! Keep care."
+		"value": "Pierres home is attacking by aristrocats troops. The soldier, who once were your brothers, loot and destroy. It is your responsibility to protect the poor people and save the home, family and friends of the little boy! Your target is to defeat the captain, before all the houses are burned down! Keep care.",
 		"title": "The offended village"
 	},
 	{
 		"type": "fight",
-		"enemy": "Buffalon"
+		"enemy": "Buffalon",
 		"lvl": 7
 	},
 	{
 		"type": "fight",
-		"enemy": "Buffalon"
+		"enemy": "Buffalon",
 		"lvl": 7
 	},
 	{
@@ -125,36 +125,50 @@
 	},
 	{
 		"type": "fight",
-		"enemy": "Eirik"
+		"enemy": "Eirik",
 		"lvl": "8"
 	},
 	{
 		"type": "pop",
-		"value": "All of the inhabitants assemble a thank you for beeing save, especially Pierres Family. \n Pierres Mother: We owe you so much, please accept our best thanks! \n The only thing you answer is 'Your welcome! Keep care on your family, Pierre'. Then you grab Gabrielle and Francois and leave, because you are sure you'll we be wanted."
+		"value": "All of the inhabitants assemble a thank you for beeing save, especially Pierres Family. \n Pierres Mother: We owe you so much, please accept our best thanks! \n The only thing you answer is 'Your welcome! Keep care on your family, Pierre'. Then you grab Gabrielle and Francois and leave, because you are sure you'll we be wanted.",
 		"title": "The journey goes on"
 	},
 	{
 		"type": "fight",
-		"enemy": "Buffalon"
+		"enemy": "Buffalon",
 		"lvl": 10
 	},
 	{
-		"type": "text"
+		"type": "text",
 		"value": "Francois and Gabrielle miss Pierre very much and every time you told them, that he will be always their friend and is happy now. From then on you have to be more careful and hide often. You promised to save them and you'll keep the promise. Like now, because you be attack by a group of wild creatures which want to steel all of the food."
 	},
 	{
 		"type": "fight",
-		"enemy": "Combus"
+		"enemy": "Combus",
 		"lvl": 11
 	},
 	{
 		"type": "fight",
-		"enemy": "COmbus"
+		"enemy": "Combus",
 		"lvl": 11
 	},
 	{
 		"type": "fight",
-		"enemy": "Pieuvrerre"
+		"enemy": "Pieuvrerre",
 		"lvl": 12
 	},
+	{
+		"type": "pop",
+		"value": " 'Its a pleasent to see how you are growing stronger and stronger, very good, my friend. I'm glad to hear that Pierre is at home healthily. But the reason why I am here is to see howe strong you really are, after all you are wanted by the royal guardians, because you beat one of them  captains. But are you able to defeat me ||name||?",
+		"title": "A short reunion with Condorcet"
+	},
+	{
+		"type": "fight",
+		"enemy": "Souri",
+		"lvl": 14
+	},
+	{
+		"type": "text",
+		"value": ""
+	}
 ]

@@ -2,7 +2,7 @@
 	"Self-Dizzle" : {
 		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
 		"action": ["attack", -0.2],
-		"action-self": ["defense", 0],
+		"action-self": ["defense", 0.1],
 		"type": "english",
 		"difficulty": "easy"
 	},
@@ -52,8 +52,8 @@
 		"difficulty": "medium"
 	},
 	"Confulizzle" : {
-		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points decreases.",
-		"action": ["hp", -220],
+		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points sink.",
+		"action": ["hp", -70],
 		"type": "english",
 		"difficulty": "medium"
 	},
@@ -578,27 +578,6 @@
 		"action": ["attack", -0.3],
 		"action-self": ["defense", 0],
 		"type": "english",
-		"difficulty": "medium"
-	},
-	"Blanc-de-noirs": {
-		"text": "||creature|| gives ||enemy|| some Blanc-de-noirs-wine. ||enemy|| gets drunk. ||enemy||'s attack decreases.",
-		"action": ["attack", -0.3],
-		"action-self": ["defense", 0],
-		"type": "french",
-		"difficulty": "medium"
-	},
-	"Bordeaux": {
-		"text": "||creature|| gives ||enemy|| some Bordeaux-wine. ||enemy|| gets drunk. ||enemy||'s defense decreases.",
-		"action": ["defense", 0.3],
-		"action-self": ["defense", 0],
-		"type": "french",
-		"difficulty": "medium"
-	},
-	"À-ta-santé": {
-		"text": "||creature|| wishes ||enemy|| 'Cheers' and hits ||enemy|| with a bottle. ||enemy||'s health points decreases.",
-		"action": ["hp", -190],
-		"action-self": ["defense", 0],
-		"type": "french",
 		"difficulty": "medium"
 	}
 }
