@@ -4,12 +4,12 @@
 		"basestats": {
 			"hp": 1000,
 			"type": "latin",
-			"price": 6000
+			"price": 50000
 		},
 		"attacks": [
-			"Habs-Hamster",
-			"Scharfer-Blick",
-			"Beißerchen"
+			"Morsels-Hamster",
+			"Shrewd-eyes",
+			"Toothypegs"
 		]
 	},
 	"Avus-Avis": {
@@ -17,7 +17,6 @@
 		"basestats": {
 			"hp": 550,
 			"type": "latin",
-			"price": 6000,
 			"price": 6000
 		},
 		"attacks": [
@@ -31,12 +30,12 @@
 		"basestats": {
 			"hp": 600,
 			"type": "french",
-			"price": 6000
+			"price": 1000
 		},
 		"attacks": [
 			"Blanc-de-noirs",
 			"Bordeaux",
-			"Á-ta-santé"
+			"À-ta-santé"
 		]
 	},
 	"Lizzle": {
@@ -44,11 +43,11 @@
 		"basestats": {
 			"hp": 440,
 			"type": "latin",
-			"price": 6000
+			"price": 1000
 		},
 		"attacks": [
 			"Confulizzle",
-			"Klugscheißerism",
+			"Smart-acerism",
 			"Self-Dizzle"
 		]
 	},
@@ -57,7 +56,7 @@
 		"basestats": {
 			"hp": 400,
 			"type": "latin",
-			"price": 6000
+			"price": 1500
 		},
 		"attacks": [
 			"Sun-dance",
@@ -70,7 +69,7 @@
 		"basestats": {
 			"hp": 540,
 			"type": "english",
-			"price": 6000
+			"price": 2000
 		},
 		"attacks": [
 			"Purzeltree",
@@ -84,7 +83,7 @@
 		"basestats": {
 			"hp": 400,
 			"type": "latin",
-			"price": 6000
+			"price": 500
 		},
 		"attacks": [
 			"Test-Attack-Multiplier",
@@ -97,7 +96,7 @@
 		"basestats": {
 			"hp": 700,
 			"type": "latin",
-			"price": 6000
+			"price": 3000
 		},
 		"attacks": [
 			"Build-a-wall",
@@ -110,7 +109,7 @@
 		"basestats": {
 			"hp": 550,
 			"type": "english",
-			"price": 6000
+			"price": 3500
 		},
 		"attacks": [
 			"Catching-claws",
@@ -118,8 +117,8 @@
 			"Eat-kitekat"
 		]
 	},
-	"Hugulo": {
-		"description": "Hugulo. It is a pink, fluffy rabbit. But he has red eyes, which can kill you.",
+	"Hugolo": {
+		"description": "Hugulo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
 			"hp": 420,  
 			"type": "french",
@@ -136,7 +135,7 @@
 		"basestats": {
 			"hp": 400,
 			"type": "french",
-			"price": 6000
+			"price": 5000
 		},
 		"attacks": [
 			"Squeek",
@@ -149,7 +148,7 @@
 		"basestats": {
 			"hp": 380,
 			"type": "french",
-			"price": 6000
+			"price": 000
 		},
 		"attacks": [
 			"Desperation",
@@ -162,7 +161,7 @@
 		"basestats": {
 			"hp": 460,
 			"type": "french",
-			"price": 6000
+			"price": 1500
 		},
 		"attacks": [
 			"Bad-joke",
@@ -175,7 +174,7 @@
 		"basestats": {
 			"hp": 560,
 			"type": "latin",
-			"price": 6000
+			"price": 7000
 		},
 		"attacks": [
 			"Colour-flash",
@@ -188,7 +187,7 @@
 		"basestats": {
 			"hp": 490,
 			"type": "latin",
-			"price": 6000
+			"price": 3000
 		},
 		"attacks": [
 			"Wibble",
@@ -201,7 +200,7 @@
 		"basestats": {
 			"hp": 470,
 			"type": "english",
-			"price": 6000
+			"price": 4000
 		},
 		"attacks": [
 			"Flower-Power",
@@ -214,7 +213,7 @@
 		"basestats": {
 			"hp": 550,
 			"type": "english",
-			"price": 6000
+			"price": 6500
 		},
 		"attacks": [
 			"Eat-a-pancake",
@@ -227,7 +226,7 @@
 		"basestats": {
 			"hp": 420,
 			"type": "latin",
-			"price": 6000
+			"price": 2000
 		},
 		"attacks": [
 			"Fire-dance",
@@ -240,7 +239,7 @@
 		"basestats": {
 			"hp": 320,
 			"type": "english",
-			"price": 6000
+			"price": 7500
 		},
 		"attacks": [
 			"Plague-attack",
@@ -253,7 +252,7 @@
 		"basestats": {
 			"hp": 350,
 			"type": "english",
-			"price": 6000
+			"price": 7500
 		},
 		"attacks": [
 			"Style-mode",
@@ -266,7 +265,7 @@
 		"basestats": {
 			"hp": 550,
 			"type": "latin",
-			"price": 6000
+			"price": 10000
 		},
 		"attacks": [
 			"Curse",
@@ -292,7 +291,7 @@
 		"basestats": {
 			"hp": 460,
 			"type": "french",
-			"price": 6000
+			"price": 5000
 		},
 		"attacks": [
 			"Ink-bomb",
@@ -305,7 +304,7 @@
 		"basestats": {
 			"hp": 550,
 			"type": "french",
-			"price": 6000
+			"price": 9000
 		},
 		"attacks": [
 			"Slimy-track",
@@ -318,12 +317,12 @@
 		"basestats": {
 			"hp": 410,
 			"type": "french",
-			"price": 6000
+			"price": 9500
 		},
 		"attacks": [
 			"Spaghetti-whip",
-			"Extra-cheese-!",
-			"Caborara-Rain"
+			"Extra-cheese!",
+			"Carbonara-Rain"
 		]
 	},
 	"Forget-me-not": {
@@ -331,7 +330,7 @@
 		"basestats": {
 			"hp": 330,
 			"type": "english",
-			"price": 6000
+			"price": 4000
 		},
 		"attacks": [
 			"Panic",
@@ -344,7 +343,7 @@
 		"basestats": {
 			"hp": 450,
 			"type": "french",
-			"price": 6000
+			"price": 4500
 		},
 		"attacks": [
 			"Clout",
@@ -357,7 +356,7 @@
 		"basestats": {
 			"hp": 320,
 			"type": "latin",
-			"price": 6000
+			"price": 5000
 		},
 		"attacks": [
 			"Flower-power",
@@ -370,7 +369,7 @@
 		"basestats": {
 			"hp": 425,
 			"type": "english",
-			"price": 6000
+			"price": 7000
 		},
 		"attacks": [
 			"Lullaby",
@@ -383,7 +382,7 @@
 		"basestats": {
 			"hp": 400,
 			"type": "english",
-			"price": 6000
+			"price": 8500
 		},
 		"attacks": [
 			"Frozen",
@@ -396,7 +395,7 @@
 		"basestats": {
 			"hp": 425,
 			"type": "english",
-			"price": 6000
+			"price": 8000
 		},
 		"attacks": [
 			"Clout",

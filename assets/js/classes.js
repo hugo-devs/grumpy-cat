@@ -5,6 +5,8 @@ function Fight (enemy, enemy_lvl) {
 	this.enemy_lvl = enemy_lvl;
 
 	this.player_description = data.creatures[this.character].description;
+	console.log('enemy: ' + this.enemy);
+	console.log(data.creatures[this.enemy])
 	this.enemy_description = data.creatures[this.enemy].description;
 
 	//Keeps track of health

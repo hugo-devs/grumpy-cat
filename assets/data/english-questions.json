@@ -293,6 +293,105 @@
         "Willenskraft"
       ],
       "right": 1
+    },
+    {
+      "question": "What does \"tin\" mean in German?",
+      "answer": [
+        "Schale",
+        "Dose",
+        "Tasse"
+      ],
+      "right": 1
+    },
+    {
+      "question": "What does \"image\" mean in German?",
+      "answer": [
+        "Bild",
+        "Metapher",
+        "Author"
+      ],
+      "right": 0
+    },
+    {
+      "question": "What does \"beside\" mean in German?",
+      "answer": [
+        "bescheiden",
+        "unter",
+        "neben"
+      ],
+      "right": 2
+    },
+    {
+      "question": "What does \"university\" mean in German?",
+      "answer": [
+        "Schule",
+        "Hochschule",
+        "Gymnasium"
+      ],
+      "right": 1
+    },
+    {
+      "question": "What does \"welcoming\" mean in German?",
+      "answer": [
+        "abneigend",
+        "gastfreundlich",
+        "vorstellbar"
+      ],
+      "right": 1
+    },
+    {
+      "question": "What does \"seperate\" mean in German?",
+      "answer": [
+        "trennen",
+        "einzeln",
+        "zusammen"
+      ],
+      "right": 0
+    },
+    {
+      "question": "What does \"imaginable\" mean in German?",
+      "answer": [
+        "behandeln",
+        "ausgedacht",
+        "vorstellbar"
+      ],
+      "right": 2
+    },
+    {
+      "question": "What does \"opressive\" mean in German?",
+      "answer": [
+        "offensiv",
+        "repressiv",
+        "negativ"
+      ],
+      "right": 1
+    },
+    {
+      "question": "What does \"rapid\" mean in German?",
+      "answer": [
+        "schnell",
+        "sofort",
+        "stetig"
+      ],
+      "right": 0
+    },
+    {
+      "question": "What does \"posh\" mean in German?",
+      "answer": [
+        "pur",
+        "besetzt",
+        "edel"
+      ],
+      "right": 2
+    },
+    {
+      "question": "What does \"fan\" mean in German?",
+      "answer": [
+        "Zaun",
+        "Weg",
+        "Foehn"
+      ],
+      "right": 2
     }
   ]
 }

@@ -48,7 +48,7 @@
 	{
 		"type": "fight",
 		"enemy": "Pieuvrerre",
-		"lvl": "2"
+		"lvl": 2
 	},
 	{
 		"type": "text",
@@ -56,46 +56,105 @@
 	},
 	{
 		"type": "money",
-		"amount": "500"
+		"amount": 500
 	},
 	
 	{
 		"type": "text",
-		"value": "The sun goes down and the world goes darker. Somewhere on the silverline there are lights. From a tavern!"
-	},
-	{
-		"type": "text",
-		"value": "You agree and together you decide to bring Pierre at home first. But is a long way to Brest and the childs be tired early. You want them to sleep while you keep watch. Not long as they fell asleep something rustles in the bush in front of you and a wild Nuoillion comes ot and attacks the children. To save the children you distract it and you are attacked."
+		"value": "The sun goes down and the world goes darker. Somewhere on the silverline there are lights. From a tavern! You pay for one night an lay down the kids in your room. You want to eat something, as your food... moves? You can't do anything because you too surprised, so a noodle jumps and attacks you."
 	},
 	{
 		"type": "fight",
 		"enemy": "Nouillon",
-		"lvl": 1
+		"lvl": 3
 	},
 	{
-		"type": "text",
-		"value": "You are save, but the children awake. You told them, what happened"
-	},
-	{
-		"type": "pop",
-		"value": "Pierre: Pouhh, that was close. *sighs* \n Francois: Wow, you saved us alone a second time! Your're amazing! \n Gabrielle: Our hero! *hugs you*", 
-		"title": "Saved"
-	},
-	{
-		"type": "text",
-		"value": "The three kids and you continue west. Suddenly as you cross a little steam, a little orange octupus attacks you."
+		"type": "text"
+		"value": "You beat the creature, that looks like an freaking noodle, but you two crashed into another table. The tavern is devastated and suddenly somebody or better something hits you with its bottle of wine. But as you turn around and it takes your breath away. Was it a cock? You really doubt your sanity, but you can't think about it any longer, because the attacks of the disturbed rooster don't stop and you have to fight with it."
 	},
 	{
 		"type": "fight",
-		"enemy": "Pieuvrerre",
-		"lvl": "2"
+		"enemy": "Champagnier ",
+		"lvl": "4"
+	},
+	{
+		"type": "text"
+		"value": "It was deep in the night as the battle was won and the rooster flew awy, or tried to. Because you have'nt enough money the children and you have to flee, but first you promissed to come back to pay for the damage."
+	},
+	{
+		"type": "fight",
+		"enemy": "Birwon",
+		"lvl": "5"
 	},
 	{
 		"type": "text",
-		"value": "Something glistens in the steam. You stoop and find some money."
+		"value": "The little being flee but left a pouch with some money."
 	},
 	{
 		"type": "money",
-		"amount": "500"
+		"amount": 1000
+	},
+	{
+		"type": "text",
+		"value": " You ask yourself, what is happening hear. Faster as you can react Pierre runs towards the village, in which his family lives. You run after him, but stop on a little high standing in front of the entrance."
+	},
+	{
+		"type": "pop",
+		"value": "Pierres home is attacking by aristrocats troops. The soldier, who once were your brothers, loot and destroy. It is your responsibility to protect the poor people and save the home, family and friends of the little boy! Your target is to defeat the captain, before all the houses are burned down! Keep care."
+		"title": "The offended village"
+	},
+	{
+		"type": "fight",
+		"enemy": "Buffalon"
+		"lvl": 7
+	},
+	{
+		"type": "fight",
+		"enemy": "Buffalon"
+		"lvl": 7
+	},
+	{
+		"type": "money",
+		"amount": 2000
+	},
+	
+	
+	{
+		"type": "text",
+		"value": "You beat two soldiers but now you are standing eye to eye with the leader. You know, that only one can win this fight and the captain, who has a lot more experience than you, is strong, but you promised yourself you'll win it. "
+	},
+	{
+		"type": "fight",
+		"enemy": "Eirik"
+		"lvl": "8"
+	},
+	{
+		"type": "pop",
+		"value": "All of the inhabitants assemble a thank you for beeing save, especially Pierres Family. \n Pierres Mother: We owe you so much, please accept our best thanks! \n The only thing you answer is 'Your welcome! Keep care on your family, Pierre'. Then you grab Gabrielle and Francois and leave, because you are sure you'll we be wanted."
+		"title": "The journey goes on"
+	},
+	{
+		"type": "fight",
+		"enemy": "Buffalon"
+		"lvl": 10
+	},
+	{
+		"type": "text"
+		"value": "Francois and Gabrielle miss Pierre very much and every time you told them, that he will be always their friend and is happy now. From then on you have to be more careful and hide often. You promised to save them and you'll keep the promise. Like now, because you be attack by a group of wild creatures which want to steel all of the food."
+	},
+	{
+		"type": "fight",
+		"enemy": "Combus"
+		"lvl": 11
+	},
+	{
+		"type": "fight",
+		"enemy": "COmbus"
+		"lvl": 11
+	},
+	{
+		"type": "fight",
+		"enemy": "Pieuvrerre"
+		"lvl": 12
 	},
 ]

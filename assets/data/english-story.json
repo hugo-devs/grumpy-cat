@@ -29,7 +29,7 @@
   },
   {
     "type": "text",
-    "value": "An enemy soldier and his creature are attackig you!"
+    "value": "An enemy soldier and his creature are attacking you!"
   },
   {
     "type": "fight",
@@ -95,7 +95,7 @@
     "type": "fight",
     "enemy": "Hugulo",
     "lvl": 8
-  },  
+  },
   {
     "type": "pop",
     "value": "Be careful my friend, now we're going to enter the commanders tent. Don't lose courage! General Johnston and his creature are tough opponents, but your ||creature|| and you are tough as well.",
@@ -111,14 +111,124 @@
     "title": "General Albert Johnston:"
   },
   {
+    "type": "fight",
+    "enemy": "Laudiphant",
+    "lvl": 9
+  },
+  {
     "type": "money",
     "amount": 4000
   },
   {
+    "type": "pop",
+    "value": "That was a great achievement, ||name||, but I'm sorry to say that the troops of the northern states lost this battle. We have to flee now, otherwise we'll get captured!",
+    "title": "Union soldier:"
+  },
+  {
+    "type": "text",
+    "value": "The residual soldiers of the northern states and you flee. You manage to arrive in a small town near Corinth in Tennessee, where a huge Union troop is stationed."
+  },
+  {
+    "type": "pop",
+    "value": "Hello my friend, I'm pleased to see you! I've heard about your great achievements and fortitude at the Bull Run. Hopefully you are willing to prove yourself for a second time, because we are planning to conquer territories, wich are occupied by the southern states.",
+    "title": "Abraham Lincoln:"
+  },
+  {
+    "type": "text",
+    "value": "The Union army marches southeastward deep into Tennessee. It's a dangerous way, because there are many wild creatures which attack everybody who crosses their path. Be careful and never walk around without your ||creature||!"
+  },
+  {
+    "type": "pop",
+    "value": "Do you hear this noise? It sounds like something is rustling in the bush over there!",
+    "title": "Union soldier:"
+  },
+  {
+    "type": "text",
+    "value": "A wild ||enemy|| rushes out and runs towards you!"
+  },
+  {
     "type": "fight",
-    "enemy": "Laudiphant",
-    "lvl": 9
+    "enemy": "Joeey",
+    "lvl": 10
+  },
+  {
+    "type": "pop",
+    "value": "Help me! Here are other creatures which attack our troop. I can't beat them alone!",
+    "title": "Union soldier:"
+  },
+  {
+    "type": "text",
+    "value": "You step towards the soldier and a few of the creatures instantly attack you."
+  },
+  {
+    "type": "fight",
+    "enemy": "Karlson",
+    "lvl": 11
+  },
+  {
+    "type": "fight",
+    "enemy": "Papilio",
+    "lvl": 12
+  },
+  {
+    "type": "text",
+    "value": "Union soldier: Thanks, you saved my life. I owe you, but I don't have much. Here take these 500$."
   }
-    
-  
+  {
+    "type": "money",
+    "ammount": 500
+  },
+  {
+    "type": "text",
+    "value": "You continue your journey to the west bank of Pittsburg Landing, Tennessee."
+  },
+  {
+    "type": "pop",
+    "title": "Ulysses",
+    "value": "Hey you, ||name||, there are wild Ferreons at the riverside. They are basicly racoons, but way stronger and more agressive. You need to secure the area so we can set up a camp."
+  },
+  {
+    "type": "fight",
+    "enemy": "Ferreon",
+    "lvl": 13
+  },
+  {
+    "type": "text",
+    "value": "And there's another one."
+  },
+  {
+    "type": "fight",
+    "enemy": "Ferreon",
+    "lvl": 14
+  },
+  {
+    "type": "text",
+    "value": "You return to the other soldiers and they start setting up the camp."
+  },
+  {
+    "type": "text",
+    "value": "The next days it seems that the time flies. The army marches on without any big events and you become friends with some soldiers."
+  },
+  {
+    "type": "text",
+    "value": "You converge fast to south Tennessee."
+  },
+  {
+    "type": "pop",
+    "title": "Ulysses",
+    "value": "We've been informed about a troop of the Confederate States which marches closer. A battle is unavoidable. Prepare yourself to fight for the Union once again!"
+  },
+  {
+    "type": "text",
+    "value": "Moments later enemy soldiers storm out of the forest and attack the Union army."
+  },
+  {
+    "type": "fight",
+    "enemy": "Ferreon",
+    "lvl": 15
+  },
+  {
+    "type": "text",
+    "value": "You return to the other soldiers and they star setting up the camp."
+  }
 ]

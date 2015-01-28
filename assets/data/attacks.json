@@ -2,25 +2,25 @@
 	"Self-Dizzle" : {
 		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
 		"action": ["attack", -0.2],
-		"action-self": ["defense", 0.1],
+		"action-self": ["defense", 0],
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Habs-Hamster": {
+	"Morsels-Hamster": {
 		"text": "||creature|| swallows ||Enemy||. ||Enemy|| escapes barely.",
 		"action": ["hp", -400],
-		"type": "french",
+		"type": "latin",
 		"difficulty": "hard"
 	},
-	"Beißerchen": {
-		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points sink.",
+	"Toothypegs": {
+		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points decreases.",
 		"action": ["hp", -300],
 		"action-self": ["hp", 250],
 		"type": "latin",
 		"difficulty": "hard"
 	},
-	"Scharfer-Blick": {
-		"text": "||creature|| stares ||Enemy|| down. ||Enemy||'s attack sinks.",
+	"Shrewd-eyes": {
+		"text": "||creature|| stares ||Enemy|| down. ||Enemy||'s attack decreases.",
 		"action": ["defense", 0.25],
 		"action-self": ["attack", 0.3],
 		"type": "latin",
@@ -44,7 +44,7 @@
 		"type": "latin",
 		"difficulty": "easy"
 	},
-	"Klugscheißerism" : {
+	"Smart-acerism" : {
 		"text": "||creature|| corrects ||Enemy||. ||Enemy|| gets angry. ||creature||'s defense increases, ||enemy||'s defense decreases.",
 		"action": ["defense", 0.2],
 		"action-self": ["defense", -0.3],
@@ -52,8 +52,8 @@
 		"difficulty": "medium"
 	},
 	"Confulizzle" : {
-		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points sink.",
-		"action": ["hp", -70],
+		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points decreases.",
+		"action": ["hp", -220],
 		"type": "english",
 		"difficulty": "medium"
 	},
@@ -79,11 +79,11 @@
 	"Gets-angry" : {
 		"text": "||creature|| gets angry. ||creature||'s attack increases.",
 		"action": ["attack", 0.0],
-		"action-self": ["attack", 0.5],
+		"action-self": ["attack", 0.3],
 		"type": "english",
 		"difficulty": "hard"
 	},
-	"Jump-Kick" : {
+	"Jump-kick" : {
 		"text": "||creature|| jumps and kicks ||Enemy|| in the face.",
 		"action": ["hp", -210],
 		"type": "french",
@@ -103,7 +103,7 @@
 		"difficulty": "medium"
 	},
 	"Squeek" : {
-		"text": "||creature|| squeeks. ||creatures||'s attack increases. ||enemy||'s defense decreases.",
+		"text": "||creature|| squeeks. ||creature||'s attack increases. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.1],
 		"action-self": ["attack", 0.25], 
 		"type":"french",
@@ -147,19 +147,6 @@
 		"type": "latin",
 		"difficulty": "medium"
 	},
-	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defense decreases",
-		"action": ["defense", -0.15],
-		"action-self": ["hp", 75], 
-		"type": "english",
-		"difficulty": "easy"
-	},
-	"Easter-Egg-Attack" : {
-		"text": "||creature|| hides an egg. ||Enemy|| search it ||Enemy||'s defense decreases",
-		"action": ["defense", 0.15],
-		"type": "english",
-		"difficulty": "easy"
-	},
 	"Road-Run": {
 		"text": "||creature|| starts running really fast. Flames burst out of the road. ||Enemy|| gets burned and loses health.",
 		"action": ["hp", -250],
@@ -182,7 +169,7 @@
 	},
 	"Spaghetti-whip": {
 		"text": "||creature|| whips ||enemy|| with spaghetti. This deals quite some damage.",
-		"action": ["hp", 233],
+		"action": ["hp", -233],
 		"type": "french",
 		"difficulty": "easy"
 	},
@@ -359,7 +346,7 @@
 		"type": "english",
 		"difficulty": "easy"
 	},
-	"Calaws-grind": {
+	"Claws-grind": {
 		"text": "||creature|| grinds their claws so they are extremely sharp.",
 		"action": ["hp", 0],
 		"action-self": ["attack", 0.34],
@@ -477,7 +464,140 @@
 	},
 	"Tentacle-strike": {
 		"text": "||creature|| strikes ||enemy|| with a tentacle. ||enemy||'s health points decrease.",
-		"action": ["hp", -120],
+		"action": ["hp", -190],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Orange-poison": {
+		"text": "||creature|| poisons ||enemy||. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.5],
+		"type": "french",
+		"difficulty": "hard"
+	},
+	"Slimy-track": {
+		"text": "||creature|| leaves a slimy-track. ||enemy|| slips. ||enemy||'s health points decreases.",
+		"action": ["hp", -180],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Please-don't-eat-me!": {
+		"text": "||enemy|| begs ||creature|| because they don't want to get eaten.||enemy||'s defense decreases.",
+		"action": ["defense", 0.2],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Highspeed": {
+		"text": "||creature|| runs away fast, so ||enemy|| can't attack ||creature|| easily. ||enemy||'s attack decreases.",
+		"action": ["attack", -0.3],
+		"type": "french",
+		"difficulty": "hard"
+	},
+	"Extra-cheese!": {
+		"text": "||creature|| throws some cheese on ||enemy||. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.4],
+		"type": "french",
+		"difficulty": "hard"
+	},
+	"Carbonara-Rain": {
+		"text": "Suddenly it starts raining Spaghetti Carbonara. ||enemy|| eats this and so ||enemy||'s health points increases.",
+		"action": ["hp", 233],
+		"type": "french",
+		"difficulty": "easy"
+	},
+	"Root-blow": {
+		"text": "||creature|| hits ||enemy|| with a root. ||enemy||'s health points decreases.",
+		"action": ["hp", -230],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Moustache-dance": {
+		"text": "||creature|| starts dancing the Moustache-dance. ||creature||'s health points increases.",
+		"action": ["hp", 0],
+		"action-self": ["hp", 150],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Red-cloth": {
+		"text": "||creature|| dresses a red-cloth. ||creature||'s defense increases.",
+		"action": ["hp", 0],
+		"action-self": ["defense", -0.4],
+		"type": "french",
+		"difficulty": "hard"
+	},
+	"Lullaby": {
+		"text": "||creature|| sings a lullaby. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.2],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "easy"
+	},
+	"Sand-wall": {
+		"text": "||creature|| builds a sand-wall.||enemy||'s attack decreases.",
+		"action": ["attack", -0.3],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Sand-storm": {
+		"text": "||creature|| creates a big sand-storm. ||enemy||'s health points decreases.",
+		"action": ["hp", -310],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Frozen": {
+		"text": "||creature|| freezes ||enemy||. ||enemy|| escapes barely. ||enemy||'s health points decreases.",
+		"action": ["hp", -220],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "hard"
+	},
+	"Snow-flake": {
+		"text": "Actually this isn't an attack, so nothing happens.",
+		"action": ["attack", 0],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Ice-cream": {
+		"text": "||creature|| gives ||enemy|| some ice cream, because they think ||enemy|| isn't bad. ||enemy||'s health points increases.",
+		"action": ["hp", 170],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Brownie-power": {
+		"text": "||creature|| eats some brownies. ||creature||'s health points increases.",
+		"action": ["attack", 0],
+		"action-self": ["hp", 150],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Camouflage": {
+		"text": "||creature|| camouflages themself. ||enemy||'s attack decreases.",
+		"action": ["attack", -0.3],
+		"action-self": ["defense", 0],
+		"type": "english",
+		"difficulty": "medium"
+	},
+	"Blanc-de-noirs": {
+		"text": "||creature|| gives ||enemy|| some Blanc-de-noirs-wine. ||enemy|| gets drunk. ||enemy||'s attack decreases.",
+		"action": ["attack", -0.3],
+		"action-self": ["defense", 0],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Bordeaux": {
+		"text": "||creature|| gives ||enemy|| some Bordeaux-wine. ||enemy|| gets drunk. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.3],
+		"action-self": ["defense", 0],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"À-ta-santé": {
+		"text": "||creature|| wishes ||enemy|| 'Cheers' and hits ||enemy|| with a bottle. ||enemy||'s health points decreases.",
+		"action": ["hp", -190],
+		"action-self": ["defense", 0],
 		"type": "french",
 		"difficulty": "medium"
 	}
