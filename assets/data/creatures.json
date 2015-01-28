@@ -382,7 +382,7 @@
 		"basestats": {
 			"hp": 400,
 			"type": "english",
-			"price": 2500
+			"price": 8500
 		},
 		"attacks": [
 			"Frozen",
