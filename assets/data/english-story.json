@@ -185,7 +185,7 @@
   {
     "type": "pop",
     "title": "Ulysses",
-    "value": "Hey you, ||name||, there are wild Ferreons at the riverside. The are basicly racoons, but way stronger and more agressive. You need to secure the area so we can set up a camp."
+    "value": "Hey you, ||name||, there are wild Ferreons at the riverside. They are basicly racoons, but way stronger and more agressive. You need to secure the area so we can set up a camp."
   },
   {
     "type": "fight",
@@ -200,6 +200,32 @@
     "type": "fight",
     "enemy": "Ferreon",
     "lvl": 14
+  },
+  {
+    "type": "text",
+    "value": "You return to the other soldiers and they start setting up the camp."
+  },
+  {
+    "type": "text",
+    "value": "The next days it seems that the time flies. The army marches on without any big events and you become friends with some soldiers."
+  },
+  {
+    "type": "text",
+    "value": "You converge fast to south Tennessee."
+  },
+  {
+    "type": "pop",
+    "title": "Ulysses",
+    "value": "We've been informed about a troop of the Confederate States which marches closer. A battle is unavoidable. Prepare yourself to fight for the Union once again!"
+  },
+  {
+    "type": "text",
+    "value": "Moments later enemy soldiers storm out of the forest and attack the Union army."
+  },
+  {
+    "type": "fight",
+    "enemy": "Ferreon",
+    "lvl": 15
   },
   {
     "type": "text",
