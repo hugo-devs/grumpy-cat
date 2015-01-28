@@ -2,7 +2,7 @@
 	"Self-Dizzle" : {
 		"text": "||creature|| bullies herself. ||Enemy|| laughs. ||Enemy||'s attack sinks.",
 		"action": ["attack", -0.2],
-		"action-self": ["defense", 0.1],
+		"action-self": ["defense", 0],
 		"type": "english",
 		"difficulty": "easy"
 	},
@@ -52,8 +52,8 @@
 		"difficulty": "medium"
 	},
 	"Confulizzle" : {
-		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points sink.",
-		"action": ["hp", -70],
+		"text": "||creature|| confuses her enemy. ||Enemy|| attacks himself, ||Enemy||'s health points decreases.",
+		"action": ["hp", -220],
 		"type": "english",
 		"difficulty": "medium"
 	},
