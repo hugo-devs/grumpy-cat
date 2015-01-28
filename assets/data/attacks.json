@@ -579,5 +579,26 @@
 		"action-self": ["defense", 0],
 		"type": "english",
 		"difficulty": "medium"
+	},
+	"Blanc-de-noirs": {
+		"text": "||creature|| gives ||enemy|| some Blanc-de-noirs-wine. ||enemy|| gets drunk. ||enemy||'s attack decreases.",
+		"action": ["attack", -0.3],
+		"action-self": ["defense", 0],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"Bordeaux": {
+		"text": "||creature|| gives ||enemy|| some Bordeaux-wine. ||enemy|| gets drunk. ||enemy||'s defense decreases.",
+		"action": ["defense", 0.3],
+		"action-self": ["defense", 0],
+		"type": "french",
+		"difficulty": "medium"
+	},
+	"À-ta-santé": {
+		"text": "||creature|| wishes ||enemy|| 'Cheers' and hits ||enemy|| with a bottle. ||enemy||'s health points decreases.",
+		"action": ["hp", -190],
+		"action-self": ["defense", 0],
+		"type": "french",
+		"difficulty": "medium"
 	}
 }
