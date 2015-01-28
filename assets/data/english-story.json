@@ -224,11 +224,28 @@
   },
   {
     "type": "fight",
-    "enemy": "Ferreon",
+    "enemy": "Birwon",
     "lvl": 15
   },
   {
+    "type": "pop",
+    "title": "Union soldier:",
+    "value": "We need support! The Confederate soldiers exeed us in number!"
+  },
+  {
+    "type": "fight",
+    "enemy": "Mydusa",
+    "lvl": 16
+  },
+  {
     "type": "text",
-    "value": "You return to the other soldiers and they star setting up the camp."
+    "value": "It seems that the Union cant't win this battle. "
+  },
+  {
+    "type": "fight",
+    "enemy": "Skopper",
+    "lvl": 17
   }
+  
+  
 ]
