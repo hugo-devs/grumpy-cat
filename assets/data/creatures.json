@@ -4,7 +4,8 @@
 		"basestats": {
 			"hp": 1000,
 			"type": "latin",
-			"price": 50000
+			"price": 50000,
+			"buy": false
 		},
 		"attacks": [
 			"Morsels-Hamster",
@@ -83,7 +84,8 @@
 		"basestats": {
 			"hp": 400,
 			"type": "latin",
-			"price": 500
+			"price": 500,
+			"buy": false
 		},
 		"attacks": [
 			"Test-Attack-Multiplier",
@@ -148,7 +150,7 @@
 		"basestats": {
 			"hp": 380,
 			"type": "french",
-			"price": 000
+			"price": 0
 		},
 		"attacks": [
 			"Desperation",
