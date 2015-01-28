@@ -234,8 +234,119 @@
 		"type": "pop",
 		"value": "Do you see the people over there? You better stay away from these guys. They think it is fun to bully younger gladiators, especially those who have sudden succes",
 		"title": "Quintus:"
-	}
-		
+	},
+	{
+		"type": "pop",
+		"value": "Oh no,they saw us... We have a problem now. A fight seems to be unavoidable.",
+		"title": "Quintus:"
+	},
+	{
+		"type": "text",
+		"value": "You see a group of gladiators approaching you and Quintus. Suddenly you are attacked by one of them and his Combus."
+	},
+	{
+		"type": "fight",
+		"enemy": "Combus",
+		"lvl": 11
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "text",
+		"value": "The next guy attacks you with his Joeey."
+	},
+	{
+		"type": "fight",
+		"enemy": "Joeey",
+		"lvl": 12
+	},
+		{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "text",
+		"value": "You see that Quintus is in trouble and try to help him. You attack the last gladiator and his Biworn."
+	},
+	{
+		"type": "fight",
+		"enemy": "Biworn",
+		"lvl": 13
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "pop",
+		"value": "Thank you very much, my friend. Without you I would not have been able to fight him. Nevertheless we have to train hard. Are you ready? Go!",
+		"title": "Quintus:"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a Karlson."
+	},
+	{
+		"type": "fight",
+		"enemy": "Karlson",
+		"lvl": 14
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a Cricetinae."
+	},
+	{
+		"type": "fight",
+		"enemy": "Cricetinae",
+		"lvl": 15
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a Lop."
+	},
+	{
+		"type": "fight",
+		"enemy": "Lop",
+		"lvl": 16
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "pop",
+		"value": "You are becoming a great and dangerous fighter. I hope I will never be due to fight against you.",
+		"title": "Quintus:"
+	},
+	{
+		"type": "text",
+		"value": "After finishing training you return to the accomodation."
+	},
+	{
+		"type": "text",
+		"value": "On the next morning you have to go to the arena, because the fights in the Colosseum continue."
+	},
+	{	
+		"type": "pop",
+		"value": "Ave! ",
+		"title": "Caesar"
+	},
+	{	
+		"type": "pop",
+		"value": "You are becoming a great and dangerous fighter. I hope I will never have to fight against you.",
+		"title": "Quintus:"
+	},
+	
 	
 	
 	
