@@ -91,12 +91,9 @@ function Fight (enemy, enemy_lvl) {
 			var tt_other = false;
 			var tt_dat = {}
 			if (data.attacks[this.player_attacks[i]].hasOwnProperty("action-self")) {
-				console.log("has self");
 				tt_self = true;
 				tt_dat.self_type = data.attacks[this.player_attacks[i]]["action-self"][0]
 				tt_dat.self_val = data.attacks[this.player_attacks[i]]["action-self"][1]
-				console.log("self_type: " + tt_dat.self_type);
-				console.log("self_val: " + tt_dat.self_val);
 
 			}
 			if (data.attacks[this.player_attacks[i]].hasOwnProperty("action")) {

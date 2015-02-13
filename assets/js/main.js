@@ -330,12 +330,9 @@ function Fight (enemy, enemy_lvl) {
 			var tt_other = false;
 			var tt_dat = {}
 			if (data.attacks[this.player_attacks[i]].hasOwnProperty("action-self")) {
-				console.log("has self");
 				tt_self = true;
 				tt_dat.self_type = data.attacks[this.player_attacks[i]]["action-self"][0]
 				tt_dat.self_val = data.attacks[this.player_attacks[i]]["action-self"][1]
-				console.log("self_type: " + tt_dat.self_type);
-				console.log("self_val: " + tt_dat.self_val);
 
 			}
 			if (data.attacks[this.player_attacks[i]].hasOwnProperty("action")) {
@@ -585,18 +582,15 @@ parse_story_element = function(element) {
       return parse_story();
     }, 1000);
   } else if (element.type === "pop") {
-    console.log('poping');
     return setTimeout(function() {
       if (element.hasOwnProperty("title")) {
-        console.log('has title');
         return swal({
           text: parse_inline_vars(element.value),
           title: parse_inline_vars(element.title)
         }, function() {
           return setTimeout(function() {
             localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-            parse_story();
-            return console.log("callback from swal");
+            return parse_story();
           }, 250);
         });
       } else {
@@ -605,8 +599,7 @@ parse_story_element = function(element) {
         }, function() {
           return setTimeout(function() {
             localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-            parse_story();
-            return console.log("callback from swal");
+            return parse_story();
           }, 250);
         });
       }

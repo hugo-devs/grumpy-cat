@@ -42,10 +42,8 @@ parse_story_element = (element) ->
     ,1000
 
   else if element.type is "pop"
-    console.log 'poping'
     setTimeout ->
       if element.hasOwnProperty "title"
-        console.log 'has title'
         swal {
           text: parse_inline_vars(element.value),
           title: parse_inline_vars(element.title)
@@ -53,7 +51,6 @@ parse_story_element = (element) ->
           setTimeout ->
             localStorage.story_pos = parseInt(localStorage.story_pos) + 1
             parse_story()
-            console.log "callback from swal"
           ,250
       else
         swal {
@@ -62,7 +59,6 @@ parse_story_element = (element) ->
           setTimeout ->
             localStorage.story_pos = parseInt(localStorage.story_pos) + 1
             parse_story()
-            console.log "callback from swal"
           ,250
     ,250
 

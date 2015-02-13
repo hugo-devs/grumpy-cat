@@ -173,7 +173,7 @@
   {
     "type": "text",
     "value": "Union soldier: Thanks, you saved my life. I owe you, but I don't have much. Here take these 500$."
-  }
+  },
   {
     "type": "money",
     "ammount": 500
