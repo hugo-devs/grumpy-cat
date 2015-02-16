@@ -338,18 +338,30 @@
 	},
 	{	
 		"type": "pop",
-		"value": "Ave! We are truly glad to go on with a series of thrilling fights! We are especially delighted to see the young gladiator who defeated the great scorpio.  ",
+		"value": "Ave! We are truly glad to go on with a series of thrilling fights! We are especially delighted to see the young gladiator who defeated the great Scorpio.  ",
 		"title": "Caesar"
 	},
 	{	
-		"type": "pop",
-		"value": "You are becoming a great and dangerous fighter. I hope I will never have to fight against you.",
-		"title": "Quintus:"
+		"type": "sound",
+		"value": "horn"
+	},
+	{	
+		"type": "text",
+		"value": "You are attacked by a strong gladiator and his Sandmin."
+	},
+	{	
+		"type": "fight",
+		"enemy": "Sandmin",
+		"lvl": 17
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
 	},
 	{	
 		"type": "pop",
-		"value": "You are becoming a great and dangerous fighter. I hope I will never have to fight against you.",
-		"title": "Quintus:"
+		"value": "Great! He is still undefeated.",
+		"title": "Caesar"
 	},
 	
 	
