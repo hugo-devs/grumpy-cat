@@ -75,7 +75,7 @@
 	{
 		"type": "fight",
 		"enemy": "Champagnier ",
-		"lvl": "4"
+		"lvl": 4
 	},
 	{
 		"type": "text",
@@ -84,7 +84,7 @@
 	{
 		"type": "fight",
 		"enemy": "Birwon",
-		"lvl": "5"
+		"lvl": 5
 	},
 	{
 		"type": "text",
@@ -106,7 +106,7 @@
 	{
 		"type": "fight",
 		"enemy": "Buffalon",
-		"lvl": 7
+		"lvl": 6
 	},
 	{
 		"type": "fight",
@@ -126,7 +126,7 @@
 	{
 		"type": "fight",
 		"enemy": "Eirik",
-		"lvl": "8"
+		"lvl": 8
 	},
 	{
 		"type": "pop",
@@ -136,7 +136,7 @@
 	{
 		"type": "fight",
 		"enemy": "Buffalon",
-		"lvl": 10
+		"lvl": 9
 	},
 	{
 		"type": "text",
@@ -145,7 +145,7 @@
 	{
 		"type": "fight",
 		"enemy": "Combus",
-		"lvl": 11
+		"lvl": 10
 	},
 	{
 		"type": "fight",
@@ -159,7 +159,7 @@
 	},
 	{
 		"type": "pop",
-		"value": " 'Its a pleasent to see how you are growing stronger and stronger, very good, my friend. I'm glad to hear that Pierre is at home healthily. But the reason why I am here is to see howe strong you really are, after all you are wanted by the royal guardians, because you beat one of them  captains. But are you able to defeat me ||name||?",
+		"value": " 'Its a pleasent to see how you are growing stronger and stronger, very good, my friend. I'm glad to hear that Pierre is at home healthily. But the reason why I am here is to see howe strong you really are, after all you are wanted by the royal guardians, because you beat one of them  captains. But are youable to defeating me, ||name||?",
 		"title": "A short reunion with Condorcet"
 	},
 	{
@@ -169,6 +169,6 @@
 	},
 	{
 		"type": "text",
-		"value": ""
+		"value": "You defeat your friend Condorcet and he leave. The only thing he does is smirking on you and you don't know any of his thoughts, but there is some pround in you. The childrens and you resume your way, now southwards, because Gabrielle is from Aquitania. One day the kids are dirty, so you have a pause at a lake. Suddenly somebody or better said: somethings pulls the little girl under water. Without thinking about it you jump and dive after her. The only way to release her is to defeat."
 	}
 ]
