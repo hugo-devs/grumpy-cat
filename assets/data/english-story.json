@@ -203,7 +203,6 @@
   },
   {
     "type": "fight",
--   "enemy": "Ferreon",
 +   "enemy": "Birwon",
     "lvl": 15
   },
