@@ -242,11 +242,11 @@
 	},
 	{
 		"type": "text",
-		"value": "You see a group of gladiators approaching you and Quintus. Suddenly you are attacked by one of them and his Combus."
+		"value": "You see a group of gladiators approaching you and Quintus. Suddenly you are attacked by one of them and his Champagnier."
 	},
 	{
 		"type": "fight",
-		"enemy": "Combus",
+		"enemy": "Champagnier",
 		"lvl": 11
 	},
 	{
@@ -299,11 +299,11 @@
 	},
 	{
 		"type": "text",
-		"value": "You are attacked by a Cricetinae."
+		"value": "You are attacked by a Forget-me-not."
 	},
 	{
 		"type": "fight",
-		"enemy": "Cricetinae",
+		"enemy": "Forget-me-not",
 		"lvl": 15
 	},
 	{
@@ -312,11 +312,11 @@
 	},
 	{
 		"type": "text",
-		"value": "You are attacked by a Lop."
+		"value": "You are attacked by a Avus-Avis."
 	},
 	{
 		"type": "fight",
-		"enemy": "Lop",
+		"enemy": "Avus-Avis",
 		"lvl": 16
 	},
 	{
@@ -427,7 +427,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "Congratulations! You mastered every challenge. You are strong, wise and a great fighter, so I declare you to a free citizen of Rome!"
+		"value": "Congratulations! You mastered every challenge. You are strong, wise and a great fighter, so I declare you to a free citizen of Rome!",
 		"title": "Caesar:"
 	}
 	
