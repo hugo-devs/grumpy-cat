@@ -13,7 +13,7 @@
 		"difficulty": "hard"
 	},
 	"Toothypegs": {
-		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points decreases.",
+		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points decrease.",
 		"action": ["hp", -300],
 		"action-self": ["hp", 250],
 		"type": "latin",
@@ -90,7 +90,7 @@
 		"difficulty": "hard"
 	},
 	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defense decreases.",
+		"text": "A Rainbow appears. ||creature||'s health points increase. ||Enemy||'s defense decreases.",
 		"action": ["defense", -0.1],
 		"action-self": ["hp", 60], 
 		"type": "french",
@@ -117,7 +117,7 @@
 		"difficulty": "medium"
 	},
 	"Morse-code" : {
-		"text": "||creature|| attacks ||Enemy|| with an encrypted Message.",
+		"text": "||creature|| attacks ||Enemy|| with an encrypted message.",
 		"action": ["hp", -40],
 		"type": "french",
 		"difficulty": "easy"
@@ -135,7 +135,7 @@
 		"difficulty": "medium"
 	},
 	"Ala Dea" : {
-		"text": "||creature|| hits ||enemy|| with it's big wings. ||creature||'s attack increases. ||enemy||'s health points sink.",
+		"text": "||creature|| hits ||enemy|| with its big wings. ||creature||'s attack increases. ||enemy||'s health points sink.",
 		"action": ["hp", -150],
 		"action-self": ["attack", 0.1], 
 		"type": "latin",
@@ -174,7 +174,7 @@
 		"difficulty": "easy"
 	},
 	"Photosynthesis": {
-		"text": "||creature|| spreads their leafs and heals them.",
+		"text": "||creature|| spreads its leaves and heals them.",
 		"action": ["hp", 0],
 		"action-self": ["hp", 267],
 		"type": "english",
@@ -207,7 +207,7 @@
 		"difficulty": "easy"
 	},
 	"Yell": {
-		"text": "||creature|| yells extremely loud. ||enemy||'s ears hurt, but ||creature|| gets really going. ||creature||'s attack increases while ||enemy||'s defense decreases.",
+		"text": "||creature|| yells extremely loudly. ||enemy||'s ears hurt, but ||creature|| gets really going. ||creature||'s attack increases while ||enemy||'s defense decreases.",
 		"action": ["defense", 0.3],
 		"action-self": ["attack", 0.2],
 		"type": "latin",
@@ -245,14 +245,14 @@
 		"difficulty": "hard"
 	},
 	"Style-mode": {
-		"text": "||creature|| activates the style mode. They are now basicly unstoppable",
+		"text": "||creature|| activates the style mode. They are now basically unstoppable",
 		"action": ["hp", 0],
 		"action-self": ["attack", 0.4],
 		"type": "english",
 		"difficulty": "hard"
 	},
 	"Fossilize": {
-		"text": "||creature|| fossilizes themself. They are now hard as rock.",
+		"text": "||creature|| fossilizes itself. They are now as hard as rock.",
 		"action": ["hp", 0],
 		"action-self": ["defense", -0.3],
 		"type": "latin",
@@ -265,7 +265,7 @@
 		"difficulty": "easy"
 	},
 	"Bubble-gum-shooter": {
-		"text": "||creature|| puts out bubble gum at 500 gums per minute and ||enemy|| gets hit often.",
+		"text": "||creature|| puts out bubble gum at 500 gums per minute and ||enemy|| gets often hit.",
 		"action": ["hp", -245],
 		"type": "english",
 		"difficulty": "medium"
@@ -289,19 +289,19 @@
 		"difficulty": "easy"
 	},
 	"Ink-bomb": {
-		"text": "||creature|| throws a ink bomb onto ||enemy||'s can't see a thing now.",
+		"text": "||creature|| throws an ink bomb onto ||enemy||'s can't see a thing now.",
 		"action": ["attack", -0.25],
 		"type": "french",
 		"difficulty": "medium"
 	},
 	"Sailing": {
-		"text": "||creature|| sails in a circle to create a swirl. ||enemy|| nearly drowns and takes some demage.",
+		"text": "||creature|| sails in a circle to create a swirl. ||enemy|| nearly drowns and takes some damage.",
 		"action": ["hp", -212],
 		"type": "french",
 		"difficulty": "easy"
 	},
 	"Wibble": {
-		"text": "||creature|| wibbles a lot to distract ||enemy|| and eventually they hit ||enemy|| suprisingly.",
+		"text": "||creature|| wibbles a lot to distract ||enemy|| and eventually it hits ||enemy|| surprisingly.",
 		"action": ["hp", -300],
 		"type": "latin",
 		"difficulty": "medium"
@@ -321,7 +321,7 @@
 		"difficulty": "hard"
 	},
 	"Eat-a-pancake": {
-		"text": "||creature|| eats a a pancake and regains health with the new energy.",
+		"text": "||creature|| eats a pancake and regains health with the new energy.",
 		"action": ["hp", 0],
 		"action-self": ["hp", 75],
 		"type": "english",
@@ -367,13 +367,13 @@
 		"difficulty": "easy"
 	},
 	"Bad-joke": {
-		"text": "||creature|| makes a bad joke that is so bad that ||enemy|| doesn't want to figth anymore. ||enemy||'s attack decreases.",
+		"text": "||creature|| makes a bad joke which is so bad that ||enemy|| doesn't want to fight anymore. ||enemy||'s attack decreases.",
 		"action": ["attack", -0.2],
 		"type": "french",
 		"difficulty": "easy"
 	},
 	"Water-sound": {
-		"text": "||creature|| hears the sound of the water. Their favorite sound. This boosts their health points up.",
+		"text": "||creature|| hears the sound of water. Their favorite sound. This boosts their health points up.",
 		"action": ["hp", 0],
 		"action-self": ["hp", 300],
 		"type": "french",
@@ -399,7 +399,7 @@
 		"difficulty": "medium"
 	},
 	"Desperation-about-English": {
-		"text": "||creature|| is desperate because of english. This doesn't sound like an attack so nothing happens.",
+		"text": "||creature|| is desperate because of English. This doesn't sound like an attack so nothing happens.",
 		"action": ["hp", 0],
 		"type": "english",
 		"difficulty": "easy"
@@ -475,7 +475,7 @@
 		"difficulty": "hard"
 	},
 	"Slimy-track": {
-		"text": "||creature|| leaves a slimy-track. ||enemy|| slips. ||enemy||'s health points decreases.",
+		"text": "||creature|| leaves a slimy-track. ||enemy|| slips. ||enemy||'s health points decrease.",
 		"action": ["hp", -180],
 		"type": "french",
 		"difficulty": "medium"
@@ -499,19 +499,19 @@
 		"difficulty": "hard"
 	},
 	"Carbonara-Rain": {
-		"text": "Suddenly it starts raining Spaghetti Carbonara. ||enemy|| eats this and so ||enemy||'s health points increases.",
+		"text": "Suddenly it starts raining Spaghetti Carbonara. ||enemy|| eats this and so ||enemy||'s health points increase.",
 		"action": ["hp", 233],
 		"type": "french",
 		"difficulty": "easy"
 	},
 	"Root-blow": {
-		"text": "||creature|| hits ||enemy|| with a root. ||enemy||'s health points decreases.",
+		"text": "||creature|| hits ||enemy|| with a root. ||enemy||'s health points decrease.",
 		"action": ["hp", -230],
 		"type": "english",
 		"difficulty": "medium"
 	},
 	"Moustache-dance": {
-		"text": "||creature|| starts dancing the Moustache-dance. ||creature||'s health points increases.",
+		"text": "||creature|| starts dancing the Moustache-dance. ||creature||'s health points increase.",
 		"action": ["hp", 0],
 		"action-self": ["hp", 150],
 		"type": "french",
@@ -539,7 +539,7 @@
 		"difficulty": "medium"
 	},
 	"Sand-storm": {
-		"text": "||creature|| creates a big sand-storm. ||enemy||'s health points decreases.",
+		"text": "||creature|| creates a big sand-storm. ||enemy||'s health points decrease.",
 		"action": ["hp", -310],
 		"action-self": ["defense", 0],
 		"type": "english",
@@ -567,7 +567,7 @@
 		"difficulty": "medium"
 	},
 	"Brownie-power": {
-		"text": "||creature|| eats some brownies. ||creature||'s health points increases.",
+		"text": "||creature|| eats some brownies. ||creature||'s health points increase.",
 		"action": ["attack", 0],
 		"action-self": ["hp", 150],
 		"type": "english",
