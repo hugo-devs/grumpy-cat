@@ -1,7 +1,7 @@
 [
 	{
 		"type": "pop",
-		"value": "Hello young slave and welcome to the Colosseum of Rome. Now you have to fight as a gladiator with the help of your ||creature|| against opponents and their creatures to obtain the emperors favour and attain freedom.",
+		"value": "Hello young slave and welcome to the Colosseum of Rome. Now you have to fight as a gladiator with the help of your ||creature|| against opponents and their creatures to obtain the emperor's favour and attain freedom.",
 		"title": "Spartacus:"
 	},
 	{
@@ -33,7 +33,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "That was impressive, you did a good job! And look your ||creature|| went one level up. But there's still a long way to go on wich you have to fight a lot. From now I'm not going to help you with your fights anymore, but don't worry because you'll gain more and more experience and your ||creature|| will become stronger. Furthermore you will gain money to buy new creatures. Look, your next enemy is already waiting for you!",
+		"value": "That was impressive, you did a good job! And look your ||creature|| went one level up. But there's still a long way to go on which you have to fight a lot. From now on I'm not going to help you with your fights anymore, but don't worry because you'll gain more and more experience and your ||creature|| will become stronger. Furthermore you will gain money to buy new creatures. Look, your next enemy is already waiting for you!",
 		"title": "Spartacus:"
 	},
 	{
@@ -134,7 +134,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "Ave! Today we saw many spectecular fights and met new gladiators. We are going to coninue tomorrow.",
+		"value": "Ave! Today we saw many spectecular fights and met new gladiators. We are going to continue tomorrow.",
 		"title": "Caesar:"
 	},
 	{ 
@@ -187,7 +187,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "Well done, my friend. I wasn't wrong about your strength, you have the potential to be a succesfull gladiator - or to become a free man. I am tired now, let's rest until tomorrow.",
+		"value": "Well done, my friend. I wasn't wrong about your strength, you have the potential to be a successful gladiator - or to become a free man. I am tired now, let's rest until tomorrow.",
 		"title": "Stranger:"
 	},
 	{
@@ -196,7 +196,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "Ave! Now it's time for the highlight of the morning: A grand fight between the battle-tested fighter Scipio and a newcoming gladiator we saw yesterday!",
+		"value": "Ave! Now it's time for the highlight of the morning: Yesterday we saw a grand fight between the battle-tested fighter Scipio and a newcoming gladiator!",
 		"title": "Caesar:"
 		
 	},	
@@ -219,11 +219,11 @@
 	},
 	{
 		"type": "text",
-		"value": "Everyone celebrates you for defeating Scipio. As a reward you don't have to fight someone else today. You return to the accomodation and meet the stranger you trained with yesterday."
+		"value": "Everyone celebrates you for defeating Scipio. As a reward you don't have to fight someone else today. You return to the accomodation and meet the stranger you trained with the day before."
 	},
 	{
 		"type": "pop",
-		"value": "Congratulations! Your fight was amazing. As I said, slowly but surely you become famous. On the one hand you made a bg step towards liberty, on the other hand you will have to fight against stronger gladiators, so you should not stop training. By the way, i didn't introduce myself yet, did I? My name is Quintus.",
+		"value": "Congratulations! Your fight was amazing. As I said, slowly but surely you become famous. On the one hand you made a big step towards liberty, on the other hand you will have to fight against stronger gladiators, so you should not stop training. By the way, I haven't introduced myself yet, have I? My name is Quintus.",
 		"title": "Stranger:"
 	},
 	{
@@ -232,7 +232,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "Do you see the people over there? You better stay away from these guys. They think it is fun to bully younger gladiators, especially those who have sudden succes",
+		"value": "Do you see the people over there? You better stay away from these guys. They think it is fun to bully younger gladiators, especially those who are suddenly successful",
 		"title": "Quintus:"
 	},
 	{
