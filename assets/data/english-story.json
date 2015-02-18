@@ -185,7 +185,7 @@
   {
     "type": "pop",
     "title": "Ulysses",
-    "value": "Hey you, ||name||, there are wild Ferreons at the riverside. The are basicly racoons, but way stronger and more agressive. You need to secure the area so we can set up a camp."
+    "value": "Hey you, ||name||, there are wild Ferreons at the riverside. They are basicly racoons, but way stronger and more agressive. You need to secure the area so we can set up a camp."
   },
   {
     "type": "fight",
@@ -208,7 +208,12 @@
   },
   {
     "type": "text",
-    "value": "You return to the other soldiers and they star setting up the camp."
+    "value": "You return to the other soldiers and they start setting up the camp."
+  },
+  {
+    "type": "pop",
+    "title": "Abraham Lincoln:",
+    "value": "We were informed by a scout that the troops of the southern states are marching towards us. I think a battle will be unavoidable."
   },
   {
     "type": "pop",
@@ -222,8 +227,7 @@
   },
   {
      "type": "text",
--    "value": "You return to the other soldiers and they star setting up the camp."
-    "value": "It seems that the Union cant't win this battle. "
+     "value": "It seems that the Union cant't win this battle. "
   },
   {
     "type": "fight",
