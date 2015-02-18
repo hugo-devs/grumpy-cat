@@ -50,10 +50,10 @@
 		"title": "Gladiator:"
 	},
 	{	"type": "text",
-		"value": "You are attacked by a gladiator and his Cricetinae."
+		"value": "You are attacked by a gladiator and his Sandmin."
 	},
 	{	"type": "fight",
-		"enemy": "Cricetinae",
+		"enemy": "Sandmin",
 		"lvl": 2
 	},
 	{
@@ -360,9 +360,76 @@
 	},
 	{	
 		"type": "pop",
-		"value": "Great! He is still undefeated.",
+		"value": "Great! He is still undefeated. But will he also beat his next opponent?",
 		"title": "Caesar"
 	},
+	{	
+		"type": "sound",
+		"value": "horn"
+	},
+	{	
+		"type": "text",
+		"value": "You are attacked by a gladiator and his Papilio"
+	},
+	{
+		"type": "fight",
+		"enemy": "Papilio",
+		"lvl": 18
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "pop",
+		"value": "It seems like he is unstoppable!But here comes the next one. Will he win again?"
+		"title": "Caesar"
+	},
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a gladiator and his Buffalon."
+	},
+	{
+		"type":"fight",
+		"enemy":"Buffalon",
+		"lvl": 19
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "pop",
+		"value": "And again he prove his unbelievable strength! Today, there is only one big challenge left for him. Somebody who also prove his amazing talent in many hard and exciting fights: Quintus! ",
+		"title":"Caesar"
+	},
+	{
+		"type": "pop",
+		"value": "I am sorry, my friend, but I do not have a choice. I hoped so much the day we have to fight each other never comes, but now it is too late.",
+		"title": "Quintus:"
+	},
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "Your last fight starts, you are attacked by your friend Quintus and his Mydusa."
+	},
+	{
+		"type": "fight",
+		"enemy": "Mydusa",
+		"lvl": 20
+	},
+	{
+		"type": "pop",
+		"value": "Congratulations! You mastered every challenge. You are strong, wise and a great fighter, so I declare you to a free citizen of Rome!"
+		"title": "Caesar:"
+	}
 	
 	
 	
