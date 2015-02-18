@@ -312,8 +312,16 @@
       "answer": ["l'ete","l'été","ete","été"]
     },
     {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
+      "question": "What does 'come' mean in French?",
+      "answer": "venir"
+    },
+    {
+      "question": "What does 'can' mean in French?",
+      "answer": "pouvoir"
+    },
+    {
+      "question": "What does 'know' mean in French?",
+      "answer": "savoir"
     },
     {
       "question": "What does 'xy' mean in French?",
@@ -356,60 +364,52 @@
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
+      "question": "What does 'die' mean in French?",
+      "answer": "mourir"
+    },
+    {
+      "question": "What does 'run' mean in French?",
+      "answer": "courir"
+    },
+    {
+      "question": "What does 'flee' mean in French?",
+      "answer": "fuir"
+    },
+    {
+      "question": "What does 'cry' mean in French?",
+      "answer": "pleurer"
+    },
+    {
+      "question": "What does 'think' mean in French?",
+      "answer": "penser"
+    },
+    {
+      "question": "What does 'win' mean in French?",
+      "answer": "gagner"
+    },
+    {
+      "question": "What does 'teach' mean in French?",
+      "answer": "enseigner"
+    },
+    {
+      "question": "What does 'kiss' mean in French?",
+      "answer": "embrasser"
+    },
+    {
+      "question": "What does 'dance' mean in French?",
+      "answer": "danser"
+    },
+    {
+      "question": "What does 'sing' mean in French?",
+      "answer": "chanter"
     },
     {
       "question": "What does 'xy' mean in French?",
-      "answer": "xy"
+      "answer": ["arrêter","arreter"]
     },
     {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
-    },
-    {
-      "question": "What does 'xy' mean in French?",
-      "answer": "xy"
+      "question": "What does 'call' mean in French?",
+      "answer": "appeler"
     },
     {
       "question": "How do you build the passe compose of a regular French verb?",
