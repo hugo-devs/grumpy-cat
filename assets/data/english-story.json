@@ -213,7 +213,29 @@
   {
     "type": "pop",
     "title": "Abraham Lincoln:",
-    "value": "We were informed by a scout that the troops of the southern states are marching towards us. I think a battle will be unavoidable."
+    "value": "We were informed by a scout that the troops of the southern states are marching towards us. I think a battle will be unavoidable. Prepare yourself to prove your courage a second time."
+  },
+  {
+    "type": "text",
+    "value": "You adjust yourself to fight with your creature again."
+  },
+  {
+    "type": "text",
+    "value": "A moment after enemy soldiers storm out of the forest and start attacking you and your friends"
+  },
+  {
+    "type": "fight",
+    "enemy": "Mydusa",
+    "lvl": 16
+  },
+  {
+    "type": "text",
+    "value": "You put up a good fight but suddenly there is another rush of Confederate soldiers who reach the camp"
+  },
+  {
+    "type": "fight",
+    "enemy": "Oedipus",
+    "lvl": 17
   },
   {
     "type": "pop",
@@ -222,16 +244,35 @@
   },
   {
     "type": "fight",
-    "enemy": "Mydusa",
-    "lvl": 16
+    "enemy": "Emmil",
+    "lvl": 18
   },
   {
      "type": "text",
-     "value": "It seems that the Union cant't win this battle. "
+     "value": "It seems that the Union isn't able to win this battle. You can read the fear in your friends eyes. You must be strong now."
   },
   {
     "type": "fight",
     "enemy": "Skopper",
-    "lvl": 17
-   }
+    "lvl": 19
+   },
+   {
+    "type": "pop",
+    "title": "Abraham:",
+    "value": "Don't become desperate my friend! There is one more chance we can take to win this war. You have to find Jefferson Davis, who is the leader of the Confederate States, and beat and capture him to show all citizens the superiority of the northern states. Slavery won't be possible anymore and we'll achieve our aim"
+  },
+  {
+     "type": "text",
+     "value": "It's easier to find Davis than you thought. You sneak through the woods and suddenly spot him standing at a lonely clearing."
+  },
+  {
+    "type": "pop",
+    "title": "Jefferson Davis:",
+    "value": "I didn't expect your commander to send an insignificant and weak soldier like you. Let's get this fight over with. You are no danger to me!"
+  }
+  {
+    "type": "fight",
+    "enemy": "Catoline",
+    "lvl": 20
+  },
 ]
