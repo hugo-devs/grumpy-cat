@@ -16,7 +16,7 @@
 	{
 		"type": "pop",
 		"value": "Listen! The horn calls us for the first fight! Good luck my friend.",
-		"title": "Spartacus"
+		"title": "Spartacus:"
 	},
 	{
 		"type": "text",
@@ -339,7 +339,7 @@
 	{	
 		"type": "pop",
 		"value": "Ave! We are truly glad to go on with a series of thrilling fights! We are especially delighted to see the young gladiator who defeated the great Scorpio.  ",
-		"title": "Caesar"
+		"title": "Caesar:"
 	},
 	{	
 		"type": "sound",
@@ -361,7 +361,7 @@
 	{	
 		"type": "pop",
 		"value": "Great! He is still undefeated. But will he also beat his next opponent?",
-		"title": "Caesar"
+		"title": "Caesar:"
 	},
 	{	
 		"type": "sound",
@@ -382,8 +382,8 @@
 	},
 	{
 		"type": "pop",
-		"value": "It seems like he is unstoppable!But here comes the next one. Will he win again?"
-		"title": "Caesar"
+		"value": "It seems like he is unstoppable!But here comes the next one. Will he win again?",
+		"title": "Caesar:"
 	},
 	{
 		"type": "sound",
@@ -405,7 +405,7 @@
 	{
 		"type": "pop",
 		"value": "And again he prove his unbelievable strength! Today, there is only one big challenge left for him. Somebody who also prove his amazing talent in many hard and exciting fights: Quintus! ",
-		"title":"Caesar"
+		"title":"Caesar:"
 	},
 	{
 		"type": "pop",
