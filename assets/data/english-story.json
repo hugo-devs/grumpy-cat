@@ -203,7 +203,7 @@
   },
   {
     "type": "fight",
-+   "enemy": "Birwon",
+    "enemy": "Birwon",
     "lvl": 15
   },
   {
