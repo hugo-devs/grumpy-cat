@@ -1,426 +1,426 @@
 {
   "easy": [
     {
-      "question": "What does 'be' mean in French?",
+      "question": "What does \"be\" mean in French?",
       "answer": ["être","etre"]
     },
     {
-      "question": "What does 'my name is' mean in French?",
-      "answer": "je m'apelle"
+      "question": "What does \"my name is\" mean in French?",
+      "answer": "je m\"apelle"
     },
     {
-      "question": "What does 'do' mean in French?",
+      "question": "What does \"do\" mean in French?",
       "answer": "faire"
     },
     {
-      "question": "What does 'live' mean in French?",
+      "question": "What does \"live\" mean in French?",
       "answer": "vivre"
     },
     {
-      "question": "What does 'year' mean in French?",
+      "question": "What does \"year\" mean in French?",
       "answer": "ans"
     },
     {
-      "question": "What does 'like' mean in French?",
+      "question": "What does \"like\" mean in French?",
       "answer": "aimer"
     },
     {
-      "question": "What does 'my name is' mean in French?",
-      "answer": "je m'apelle"
+      "question": "What does \"my name is\" mean in French?",
+      "answer": "je m\"apelle"
     },
     {
-      "question": "What does 'walk' mean in French?",
+      "question": "What does \"walk\" mean in French?",
       "answer": "aller"
     },
     {
-      "question": "What does 'have' mean in French?",
+      "question": "What does \"have\" mean in French?",
       "answer": "avoir"
     },
     {
-      "question": "What does 'call' mean in French?",
+      "question": "What does \"call\" mean in French?",
       "answer": "appeler"
     },
     {
-      "question": "What does 'hear' meanin French?",
+      "question": "What does \"hear\" meanin French?",
       "answer": ["écouter","ecouter"]
     },
     {
-      "question": "What does 'play' mean in French?",
+      "question": "What does \"play\" mean in French?",
       "answer": "jouer"
     },
     {
-      "question": "What does 'eat' mean in French?",
+      "question": "What does \"eat\" mean in French?",
       "answer": "manger"
     },
     {
-      "question": "What does 'find' mean in French?",
+      "question": "What does \"find\" mean in French?",
       "answer": "trouver"
     },
     {
-      "question": "What does 'say' mean in French?",
+      "question": "What does \"say\" mean in French?",
       "answer": "dire"
     },
     {
-      "question": "What does 'house' mean in French?",
+      "question": "What does \"house\" mean in French?",
       "answer": "maison"
     },
     {
-      "question": "What does 'cat' mean in French?",
+      "question": "What does \"cat\" mean in French?",
       "answer": "chat"
     },
     {
-      "question": "What does 'dog' mean in French?",
+      "question": "What does \"dog\" mean in French?",
       "answer": "chien"
     },
     {
-      "question": "What does 'yes' mean in French?",
+      "question": "What does \"yes\" mean in French?",
       "answer": "oui"
     },
     {
-      "question": "What does 'no' mean in French?",
+      "question": "What does \"no\" mean in French?",
       "answer": "non"
     },
     {
-      "question": "What does 'thank you' mean in French?",
+      "question": "What does \"thank you\" mean in French?",
       "answer": "merci"
     },
     {
-      "question": "What does 'one' mean in French?",
+      "question": "What does \"one\" mean in French?",
       "answer": ["un","une"]
     },
     {
-      "question": "What does 'two' mean in French?",
+      "question": "What does \"two\" mean in French?",
       "answer": "deux"
     },
     {
-      "question": "What does 'three' mean in French?",
+      "question": "What does \"three\" mean in French?",
       "answer": "troi"
     },
     {
-      "question": "What does 'four' mean in French?",
+      "question": "What does \"four\" mean in French?",
       "answer": "quatre"
     },
     {
-      "question": "What does 'five' mean in French?",
+      "question": "What does \"five\" mean in French?",
       "answer": "cinq"
     },
     {
-      "question": "What does 'six' mean in French?",
+      "question": "What does \"six\" mean in French?",
       "answer": "six"
     },
     {
-      "question": "What does 'seven' mean in French?",
+      "question": "What does \"seven\" mean in French?",
       "answer": "sept"
     },
     {
-      "question": "What does 'eight' mean in French?",
+      "question": "What does \"eight\" mean in French?",
       "answer": "huit"
     },
     {
-      "question": "What does 'nine' mean in French?",
+      "question": "What does \"nine\" mean in French?",
       "answer": "neuf"
     },
     {
-      "question": "What does 'ten' mean in French?",
+      "question": "What does \"ten\" mean in French?",
       "answer": "dix"
     },
     {
-      "question": "What does 'eleven' mean in French?",
+      "question": "What does \"eleven\" mean in French?",
       "answer": "onze"
     },
     {
-      "question": "What does 'twelve' mean in French?",
+      "question": "What does \"twelve\" mean in French?",
       "answer": "douze"
     },
     {
-      "question": "What does 'green' mean in French?",
+      "question": "What does \"green\" mean in French?",
       "answer": ["vert","verte"]
     },
     {
-      "question": "What does 'yellow' mean in French?",
+      "question": "What does \"yellow\" mean in French?",
       "answer": "jaune"
     },
     {
-      "question": "What does 'red' mean in French?",
+      "question": "What does \"red\" mean in French?",
       "answer": "rouge"
     },
     {
-      "question": "What does 'blue' mean in French?",
+      "question": "What does \"blue\" mean in French?",
       "answer": "bleu"
     },
     {
-      "question": "What does 'black' mean in French?",
+      "question": "What does \"black\" mean in French?",
       "answer": ["noir","noire"]
     },
     {
-      "question": "What does 'white' mean in French?",
+      "question": "What does \"white\" mean in French?",
       "answer": ["blanc","blanche"]
     },
     {
-      "question": "What does 'orange' mean in French?",
+      "question": "What does \"orange\" mean in French?",
       "answer": "orange"
     },
     {
-      "question": "What does 'grey' mean in French?",
+      "question": "What does \"grey\" mean in French?",
       "answer": ["gris","grise"]
     },
     {
-      "question": "What does 'brown' mean in French?",
+      "question": "What does \"brown\" mean in French?",
       "answer": "marron"
     },
     {
-      "question": "What does 'drink' mean in French?",
+      "question": "What does \"drink\" mean in French?",
       "answer": "boire"
     },
     {
-      "question": "What does 'learn' mean in French?",
+      "question": "What does \"learn\" mean in French?",
       "answer": "apprendre"
     },
     {
-      "question": "What does 'see' mean in French?",
+      "question": "What does \"see\" mean in French?",
       "answer": "voir"
     },
     {
-      "question": "What does 'dress' mean in French?",
+      "question": "What does \"dress\" mean in French?",
       "answer": "robe"
     },
     {
-      "question": "What does 'pants' mean in French?",
+      "question": "What does \"pants\" mean in French?",
       "answer": "pantalon"
     },
     {
-      "question": "What does 'shoes' mean in French?",
+      "question": "What does \"shoes\" mean in French?",
       "answer": "chaussures"
     },
     {
-      "question": "What does 'shirt' mean in French?",
+      "question": "What does \"shirt\" mean in French?",
       "answer": "chemise"
     },
     {
-      "question": "What does 'pencil' mean in French?",
+      "question": "What does \"pencil\" mean in French?",
       "answer": "crayon"
     },
     {
-      "question": "What does 'street' mean in French?",
+      "question": "What does \"street\" mean in French?",
       "answer": "rue"
     },
     {
-      "question": "What does 'music' mean in French?",
+      "question": "What does \"music\" mean in French?",
       "answer": "musique"
     },
     {
-      "question": "What does 'write' mean in French?",
+      "question": "What does \"write\" mean in French?",
       "answer": ["écrire","ecrire"]
     },
     {
-      "question": "What does 'want' mean in French?",
+      "question": "What does \"want\" mean in French?",
       "answer": "vouloir"
     },
     {
-      "question": "What does 'arrive' mean in French?",
+      "question": "What does \"arrive\" mean in French?",
       "answer": "arriver"
     },
     {
-      "question": "What does 'change' mean in French?",
+      "question": "What does \"change\" mean in French?",
       "answer": "changer"
     },
     {
-      "question": "What does 'sleep' mean in French?",
+      "question": "What does \"sleep\" mean in French?",
       "answer": "dormir"
     }
   ],
- 
+
   "medium": [
    {
-      "question": "write 'avoir' 1.P in passe compose",
-      "answer": "j'ai eu"
+      "question": "write \"avoir\" 1.P in passe compose",
+      "answer": "j\"ai eu"
     },
     {
-      "question": "write 'être' 1.P in passe compose",
-      "answer": ["j'ai été","j'ai ete"]
+      "question": "write \"être\" 1.P in passe compose",
+      "answer": ["j\"ai été","j\"ai ete"]
     },
     {
-      "question": "write 'aller' 1.P in passe compose (m)?",
+      "question": "write \"aller\" 1.P in passe compose (m)?",
       "answer": "je suis allé"
     },
     {
-      "question": "write 'apprendre' 1.P in passe compose?",
-      "answer": "j'ai appris"
+      "question": "write \"apprendre\" 1.P in passe compose?",
+      "answer": "j\"ai appris"
     },
     {
-      "question": "write 'voir' 1.P in passe compose",
-      "answer": "j'ai vu"
+      "question": "write \"voir\" 1.P in passe compose",
+      "answer": "j\"ai vu"
     },
     {
-      "question": "write 'faire' 1.P in passe compose",
-      "answer": "j'ai fait"
+      "question": "write \"faire\" 1.P in passe compose",
+      "answer": "j\"ai fait"
     },
     {
-      "question": "write 'dire' 1.P in passe compose",
-      "answer": "j'ai dit"
+      "question": "write \"dire\" 1.P in passe compose",
+      "answer": "j\"ai dit"
     },
     {
-      "question": "write 'boire' in 1.P passe compose",
-      "answer": "j'ai bu"
+      "question": "write \"boire\" in 1.P passe compose",
+      "answer": "j\"ai bu"
     },
     {
-      "question": "What does 'happy birthday' mean in French?",
+      "question": "What does \"happy birthday\" mean in French?",
       "answer": "bon anniversaire"
     },
     {
-      "question": "What does 'spider' mean in French?",
+      "question": "What does \"spider\" mean in French?",
       "answer": ["araignee","araignée"]
     },
     {
-      "question": "What does 'Monday' mean in French?",
+      "question": "What does \"Monday\" mean in French?",
       "answer": "lundi"
     },
     {
-      "question": "What does 'Tuesday' mean in French?",
+      "question": "What does \"Tuesday\" mean in French?",
       "answer": "mardi"
     },
     {
-      "question": "What does 'Wednesday' mean in French?",
+      "question": "What does \"Wednesday\" mean in French?",
       "answer": "mercredi"
     },
     {
-      "question": "What does 'Thursday' mean in French?",
+      "question": "What does \"Thursday\" mean in French?",
       "answer": "jeudi"
     },
     {
-      "question": "What does 'Friday' mean in French?",
+      "question": "What does \"Friday\" mean in French?",
       "answer": "vendredi"
     },
     {
-      "question": "What does 'Saturday' mean in French?",
+      "question": "What does \"Saturday\" mean in French?",
       "answer": "samedi"
     },
     {
-      "question": "What does 'Sunday' mean in French?",
+      "question": "What does \"Sunday\" mean in French?",
       "answer": "dimanche"
     },
     {
-      "question": "What does 'autumn' mean in French?",
-      "answer": ["l'automne","automne"]
+      "question": "What does \"autumn\" mean in French?",
+      "answer": ["l\"automne","automne"]
     },
     {
-      "question": "What does 'spring' mean in French?",
+      "question": "What does \"spring\" mean in French?",
       "answer": ["le printemps","printemps"]
     },
     {
-      "question": "What does 'summer' mean in French?",
-      "answer": ["l'ete","l'été","ete","été"]
+      "question": "What does \"summer\" mean in French?",
+      "answer": ["l\"ete","l\"été","ete","été"]
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
-      "question": "What does 'xy' mean in French?",
+      "question": "What does \"xy\" mean in French?",
       "answer": "xy"
     },
     {
       "question": "How do you build the passe compose of a regular French verb?",
       "answer": ["finite verb form of être/avoir + particip passe","infinite verb form of ",""],
       "right": 1
-      
+
     },
     {
-      "question": "What does 'winter' mean in French?",
+      "question": "What does \"winter\" mean in French?",
       "answer": ["hiver","l'hiver"]
-    } 
+    }
   ],
   "hard": [
     {
