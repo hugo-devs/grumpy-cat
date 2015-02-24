@@ -20,16 +20,16 @@
 	},
 	{
 		"type": "pop",
-		"value": "Condorcet: Wow, that was exciting. *to the kids* Are you alright? \n Pierre: Thank you for helping us, strange hero. My name is Pierre and this are my friends François and Gabrielle. We are from different parts of France and came to Paris for working and earning money for our families. We are very poor, you know? But now it's too dangerous for us to stay here, even if we aren't able to make money anymore. We want to get back home, but on the way there are lots of creatures, which can attack us. Can you help us to get back home safely, please? \n Conndorcet: These unfortunate children! Be generous and help them!", 
+		"value": "Condorcet: Wow, that was exciting. *to the kids* Are you alright? \n Pierre: Thank you for helping us, strange hero. My name is Pierre and this are my friend Gabrielle. We are from different parts of France and came to Paris for working and earning money for our families. We are very poor, you know? But now it's too dangerous for us to stay here, even if we aren't able to make money anymore. We want to get back home, but on the way there are lots of creatures, which can attack us. Can you help us to get back home safely, please? \n Conndorcet: These unfortunate children! Be generous and help them!", 
 		"title": "The story of the kids"
 	},
 	{
 		"type": "text",
-		"value": "You agree and together you decide to bring Pierre at home first. But is a long way to Brest and the childs be tired early. You want them to sleep while you keep watch. Not long as they fell asleep something rustles in the bush in front of you and a wild Hugolo comes ot and attacks the children. To save the children you distract it and you are attacked."
+		"value": "You agree and together you decide to bring Pierre at home first. But is a long way to Brest and the childs be tired early. You want them to sleep while you keep watch. Not long as they fell asleep something rustles in the bush in front of you and a wild Hugolo comes ot and attacks the children. To save the two you distract it and you are attacked."
 	},
 	{
 		"type": "fight",
-		"enemy": "Hugolo",
+		"enemy": "Eirik",
 		"lvl": 1
 	},
 	{
@@ -38,12 +38,12 @@
 	},
 	{
 		"type": "pop",
-		"value": "Pierre: Pouhh, that was close. *sighs* \n Francois: Wow, you saved us alone a second time! Your're amazing! \n Gabrielle: Our hero! *hugs you*", 
+		"value": "Pierre: Pouhh, that was close. *sighs* But you saved us alone a second time! Your're amazing! \n Gabrielle: Our hero! *hugs you*", 
 		"title": "Saved"
 	},
 	{
 		"type": "text",
-		"value": "The three kids and you continue west. Suddenly as you cross a little steam, a little orange octupus attacks you."
+		"value": "The two kids and you continue west. Suddenly as you cross a little steam, a little orange octupus attacks you."
 	},
 	{
 		"type": "fight",
@@ -74,17 +74,17 @@
 	},
 	{
 		"type": "fight",
-		"enemy": "Champagnier ",
-		"lvl": "4"
+		"enemy": "Champagnier",
+		"lvl": 4
 	},
 	{
 		"type": "text",
-		"value": "It was deep in the night as the battle was won and the rooster flew awy, or tried to. Because you have'nt enough money the children and you have to flee, but first you promissed to come back to pay for the damage."
+		"value": "It was deep in the night as the battle was won and the rooster flew awy, or tried to. Because you haven't enough money the children and you have to flee, but first you promissed to come back to pay for the damage."
 	},
 	{
 		"type": "fight",
 		"enemy": "Birwon",
-		"lvl": "5"
+		"lvl": 5
 	},
 	{
 		"type": "text",
@@ -106,7 +106,7 @@
 	{
 		"type": "fight",
 		"enemy": "Buffalon",
-		"lvl": 7
+		"lvl": 6
 	},
 	{
 		"type": "fight",
@@ -126,7 +126,7 @@
 	{
 		"type": "fight",
 		"enemy": "Eirik",
-		"lvl": "8"
+		"lvl": 8
 	},
 	{
 		"type": "pop",
@@ -136,7 +136,7 @@
 	{
 		"type": "fight",
 		"enemy": "Buffalon",
-		"lvl": 10
+		"lvl": 9
 	},
 	{
 		"type": "text",
@@ -145,7 +145,7 @@
 	{
 		"type": "fight",
 		"enemy": "Combus",
-		"lvl": 11
+		"lvl": 10
 	},
 	{
 		"type": "fight",
@@ -159,7 +159,7 @@
 	},
 	{
 		"type": "pop",
-		"value": " 'Its a pleasent to see how you are growing stronger and stronger, very good, my friend. I'm glad to hear that Pierre is at home healthily. But the reason why I am here is to see howe strong you really are, after all you are wanted by the royal guardians, because you beat one of them  captains. But are you able to defeat me ||name||?",
+		"value": " 'Its a pleasent to see how you are growing stronger and stronger, very good, my friend. I'm glad to hear that Pierre is at home healthily. But the reason why I am here is to see howe strong you really are, after all you are wanted by the royal guardians, because you beat one of them  captains. But are youable to defeating me, ||name||?",
 		"title": "A short reunion with Condorcet"
 	},
 	{
@@ -169,6 +169,56 @@
 	},
 	{
 		"type": "text",
-		"value": ""
+		"value": "You defeat your friend Condorcet and he leaves. The only thing he does is smirking on you and you don't know any of his thoughts, but there is some pround in you. The childrens and you resume your way, now southwards, because Gabrielle is from Aquitania. One day the kids are dirty, so you have a pause at a lake. Suddenly somebody or better said: somethings pulls the little girl under water. Without thinking about it you jump and dive after her. The only way to release her is to defeat the being."
 	}
+	{
+		"type": "fight",
+		"enemy": "Papilio",
+		"lvl": 14
+	},
+	{
+		"type": "text",
+		"value": "Only a few seconds longer under water and you drowned. Gaspend you crouch out of the water and lay down yourself for a minute. But not longer, because in some distance there are voices like: 'Find them, they can't be far away!' and horses. You ignore your burning lungs and get up, treating the girl to hurry and hide. Not much longer four soldiers and one, who have a more decorated uniform then the other. As they stop their horses and survey you with a complacent smile you square your shoulders automaticily. Now it counts."
+	},
+	{
+		"type": "pop",
+		"value": " Commander: 'Look, what we have right here, guys. The wanted ||name|| right in front of us. And you are the one, who defeated my soldiers? Hah, never ever! Most probably they were confused and confound you with an other Guy, who realy beat them!' He laughs and you but suddenly he gets serious. 'Clement! Maxim! Théo! Mathis! Show the little stickybeak where is it's place!'",
+		"title": "The last fight"
+	},
+	{
+		"type": "fight",
+		"enemy": "Papilio",
+		"lvl": 15
+	},
+	{
+		"type": "fight",
+		"enemy": "Papilio",
+		"lvl": 16
+	},
+	{
+		"type": "fight",
+		"enemy": "Papilio",
+		"lvl": 17
+	},
+	{
+		"type": "fight",
+		"enemy": "Papilio",
+		"lvl": 18
+	},
+	{
+		"type": "pop",
+		"value": "Commander: 'How is this possible? How you defeated MY soldiers? Gosh! You're stronger, than I thought... So there's no other way, i have to handle it on my own. I'm not so weak than them, you know? Be ready for the fight, snickybeak!' He dismounts from his horse and goes a few steps on you with a creepy smile on his face. You gulp. You need to win this fight to get Gabrielle back home safely.",
+		"title": "Defeat the commander!"
+	},
+	{
+		"type": "fight",
+		"enemy": "Hugolo",
+		"lvl": 20
+	},
+	{
+		"type": "pop",
+		"value": "It was a hard fight, but you defeated the commander. Gabrielle shyly leaves her hideout and embraces you. You are tired, but relieved. There still is a long way to go, but you are sure that you'll handle it and bring the little girl back home safe and sound.
+		"title": "Victory"
+	}
+	
 ]

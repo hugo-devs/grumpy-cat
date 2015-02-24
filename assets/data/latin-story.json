@@ -1,7 +1,7 @@
 [
 	{
 		"type": "pop",
-		"value": "Hello young slave and welcome to the Colosseum of Rome. Now you have to fight as a gladiator with the help of your ||creature|| against opponents and their creatures to obtain the emperors favour and attain freedom.",
+		"value": "Hello young slave and welcome to the Colosseum of Rome. Now you have to fight as a gladiator with the help of your ||creature|| against opponents and their creatures to obtain the emperor's favour and attain freedom.",
 		"title": "Spartacus:"
 	},
 	{
@@ -16,7 +16,7 @@
 	{
 		"type": "pop",
 		"value": "Listen! The horn calls us for the first fight! Good luck my friend.",
-		"title": "Spartacus"
+		"title": "Spartacus:"
 	},
 	{
 		"type": "text",
@@ -33,7 +33,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "That was impressive, you did a good job! And look your ||creature|| went one level up. But there's still a long way to go on wich you have to fight a lot. From now I'm not going to help you with your fights anymore, but don't worry because you'll gain more and more experience and your ||creature|| will become stronger. Furthermore you will gain money to buy new creatures. Look, your next enemy is already waiting for you!",
+		"value": "That was impressive, you did a good job! And look your ||creature|| went one level up. But there's still a long way to go on which you have to fight a lot. From now on I'm not going to help you with your fights anymore, but don't worry because you'll gain more and more experience and your ||creature|| will become stronger. Furthermore you will gain money to buy new creatures. Look, your next enemy is already waiting for you!",
 		"title": "Spartacus:"
 	},
 	{
@@ -43,17 +43,17 @@
 	{	"type": "pop",
 		"value": "I have to leave you alone now. Try your best!",
 		"title": "Spartacus:"
-	},	
+	},
 	{
 		"type": "pop",
 		"value": "You won't obstruct me on my way to liberty!",
 		"title": "Gladiator:"
 	},
 	{	"type": "text",
-		"value": "You are attacked by a gladiator and his Cricetinae."
+		"value": "You are attacked by a gladiator and his Sandmin."
 	},
 	{	"type": "fight",
-		"enemy": "Cricetinae",
+		"enemy": "Sandmin",
 		"lvl": 2
 	},
 	{
@@ -72,7 +72,7 @@
 		"type": "text",
 		"value": "You are attacked by a gladiator and his Papilio."
 	},
-	{	
+	{
 		"type": "fight",
 		"enemy": "Cricetinae",
 		"lvl": 3
@@ -134,10 +134,10 @@
 	},
 	{
 		"type": "pop",
-		"value": "Ave! Today we saw many spectecular fights and met new gladiators. We are going to coninue tomorrow.",
+		"value": "Ave! Today we saw many spectecular fights and met new gladiators. We are going to continue tomorrow.",
 		"title": "Caesar:"
 	},
-	{ 
+	{
 		"type": "text",
 		"value": "You arrive at your accomodation."
 	},
@@ -150,7 +150,7 @@
 		"type": "text",
 		"value": "You follow the stranger to the drill ground. You are attacked by a Souri."
 	},
-	{	
+	{
 		"type": "fight",
 		"enemy": "Souri",
 		"lvl": 7
@@ -187,7 +187,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "Well done, my friend. I wasn't wrong about your strength, you have the potential to be a succesfull gladiator - or to become a free man. I am tired now, let's rest until tomorrow.",
+		"value": "Well done, my friend. I wasn't wrong about your strength, you have the potential to be a successful gladiator - or to become a free man. I am tired now, let's rest until tomorrow.",
 		"title": "Stranger:"
 	},
 	{
@@ -196,10 +196,10 @@
 	},
 	{
 		"type": "pop",
-		"value": "Ave! Now it's time for the highlight of the morning: A grand fight between the battle-tested fighter Scipio and a newcoming gladiator we saw yesterday!",
+		"value": "Ave! Now it's time for the highlight of the morning: Yesterday we saw a grand fight between the battle-tested fighter Scipio and a newcoming gladiator!",
 		"title": "Caesar:"
-		
-	},	
+
+	},
 	{
 		"type": "sound",
 		"value": "horn"
@@ -219,11 +219,11 @@
 	},
 	{
 		"type": "text",
-		"value": "Everyone celebrates you for defeating Scipio. As a reward you don't have to fight someone else today. You return to the accomodation and meet the stranger you trained with yesterday."
+		"value": "Everyone celebrates you for defeating Scipio. As a reward you don't have to fight someone else today. You return to the accomodation and meet the stranger you trained with the day before."
 	},
 	{
 		"type": "pop",
-		"value": "Congratulations! Your fight was amazing. As I said, slowly but surely you become famous. On the one hand you made a bg step towards liberty, on the other hand you will have to fight against stronger gladiators, so you should not stop training. By the way, i didn't introduce myself yet, did I? My name is Quintus.",
+		"value": "Congratulations! Your fight was amazing. As I said, slowly but surely you become famous. On the one hand you made a big step towards liberty, on the other hand you will have to fight against stronger gladiators, so you should not stop training. By the way, I haven't introduced myself yet, have I? My name is Quintus.",
 		"title": "Stranger:"
 	},
 	{
@@ -232,7 +232,7 @@
 	},
 	{
 		"type": "pop",
-		"value": "Do you see the people over there? You better stay away from these guys. They think it is fun to bully younger gladiators, especially those who have sudden succes",
+		"value": "Do you see the people over there? You better stay away from these guys. They think it is fun to bully younger gladiators, especially those who are suddenly successful",
 		"title": "Quintus:"
 	},
 	{
@@ -242,11 +242,11 @@
 	},
 	{
 		"type": "text",
-		"value": "You see a group of gladiators approaching you and Quintus. Suddenly you are attacked by one of them and his Combus."
+		"value": "You see a group of gladiators approaching you and Quintus. Suddenly you are attacked by one of them and his Champagnier."
 	},
 	{
 		"type": "fight",
-		"enemy": "Combus",
+		"enemy": "Champagnier",
 		"lvl": 11
 	},
 	{
@@ -299,11 +299,11 @@
 	},
 	{
 		"type": "text",
-		"value": "You are attacked by a Cricetinae."
+		"value": "You are attacked by a Forget-me-not."
 	},
 	{
 		"type": "fight",
-		"enemy": "Cricetinae",
+		"enemy": "Forget-me-not",
 		"lvl": 15
 	},
 	{
@@ -312,11 +312,11 @@
 	},
 	{
 		"type": "text",
-		"value": "You are attacked by a Lop."
+		"value": "You are attacked by a Avus-Avis."
 	},
 	{
 		"type": "fight",
-		"enemy": "Lop",
+		"enemy": "Avus-Avis",
 		"lvl": 16
 	},
 	{
@@ -336,26 +336,110 @@
 		"type": "text",
 		"value": "On the next morning you have to go to the arena, because the fights in the Colosseum continue."
 	},
-	{	
+	{
 		"type": "pop",
-		"value": "Ave! We are truly glad to go on with a series of thrilling fights! We are especially delighted to see the young gladiator who defeated the great scorpio.  ",
-		"title": "Caesar"
+		"value": "Ave! We are truly glad to go on with a series of thrilling fights! We are especially delighted to see the young gladiator who defeated the great Scorpio.  ",
+		"title": "Caesar:"
 	},
-	{	
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a strong gladiator and his Sandmin."
+	},
+	{
+		"type": "fight",
+		"enemy": "Sandmin",
+		"lvl": 17
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
 		"type": "pop",
-		"value": "You are becoming a great and dangerous fighter. I hope I will never have to fight against you.",
+		"value": "Great! He is still undefeated. But will he also beat his next opponent?",
+		"title": "Caesar:"
+	},
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a gladiator and his Papilio"
+	},
+	{
+		"type": "fight",
+		"enemy": "Papilio",
+		"lvl": 18
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "pop",
+		"value": "It seems like he is unstoppable!But here comes the next one. Will he win again?",
+		"title": "Caesar:"
+	},
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "You are attacked by a gladiator and his Buffalon."
+	},
+	{
+		"type":"fight",
+		"enemy":"Buffalon",
+		"lvl": 19
+	},
+	{
+		"type": "text",
+		"value": "Your ||creature|| goes one level up."
+	},
+	{
+		"type": "pop",
+		"value": "And again he prove his unbelievable strength! Today, there is only one big challenge left for him. Somebody who also prove his amazing talent in many hard and exciting fights: Quintus! ",
+		"title":"Caesar:"
+	},
+	{
+		"type": "pop",
+		"value": "I am sorry, my friend, but I do not have a choice. I hoped so much the day we have to fight each other never comes, but now it is too late.",
 		"title": "Quintus:"
+	},
+	{
+		"type": "sound",
+		"value": "horn"
+	},
+	{
+		"type": "text",
+		"value": "Your last fight starts, you are attacked by your friend Quintus and his Mydusa."
+	},
+	{
+		"type": "fight",
+		"enemy": "Mydusa",
+		"lvl": 20
+	},
+	{
+		"type": "pop",
+		"value": "Congratulations! You mastered every challenge. You are strong, wise and a great fighter, so I declare you to a free citizen of Rome!",
+		"title": "Caesar:"
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
 ]
