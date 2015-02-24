@@ -77,7 +77,7 @@
 			"Fit-of-rage",
 			"Flic-flacs"
 		]
-	
+
 	},
 	"Cricetinae": {
 		"description": "It's a hamster! It's cute, abdorable and snappy.",
@@ -120,9 +120,9 @@
 		]
 	},
 	"Hugolo": {
-		"description": "Hugulo. It is a pink, fluffy rabbit. But he has red eyes, which can kill you.",
+		"description": "Hugolo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
-			"hp": 420,  
+			"hp": 420,
 			"type": "french",
 			"price": 6000
 		},

@@ -44,7 +44,7 @@
     "type": "fight",
     "enemy": "Aestas",
     "lvl": 3
-  },  
+  },
   {
     "type": "pop",
     "value": "Hey young soldier! You're doing well, but the battle is only starting. We have order to advance to General Albert Johnston's tent and capture him",
@@ -63,7 +63,7 @@
     "type": "fight",
     "enemy": "Oedipus",
     "lvl": 5
-  },  
+  },
   {
     "type": "pop",
     "value": "Hey scaredy-cat! Don't just stand around, let's fight!",
@@ -93,7 +93,7 @@
   },
   {
     "type": "fight",
-    "enemy": "Hugulo",
+    "enemy": "Hugolo",
     "lvl": 8
   },
   {
@@ -185,7 +185,7 @@
   {
     "type": "pop",
     "title": "Ulysses",
-    "value": "Hey you, ||name||, there are wild Ferreons at the riverside. They are basicly racoons, but way stronger and more agressive. You need to secure the area so we can set up a camp."
+    "value": "Hey you, ||name||, there are wild Ferreons at the riverside. The are basicly racoons, but way stronger and more agressive. You need to secure the area so we can set up a camp."
   },
   {
     "type": "fight",
@@ -202,36 +202,7 @@
     "lvl": 14
   },
   {
-    "type": "fight",
-    "enemy": "Birwon",
-    "lvl": 15
-  },
-  {
     "type": "text",
-    "value": "You return to the other soldiers and they start setting up the camp."
-  },
-  {
-    "type": "pop",
-    "title": "Abraham Lincoln:",
-    "value": "We were informed by a scout that the troops of the southern states are marching towards us. I think a battle will be unavoidable."
-  },
-  {
-    "type": "pop",
-    "title": "Union soldier:",
-    "value": "We need support! The Confederate soldiers exeed us in number!"
-  },
-  {
-    "type": "fight",
-    "enemy": "Mydusa",
-    "lvl": 16
-  },
-  {
-     "type": "text",
-     "value": "It seems that the Union cant't win this battle. "
-  },
-  {
-    "type": "fight",
-    "enemy": "Skopper",
-    "lvl": 17
-   }
+    "value": "You return to the other soldiers and they star setting up the camp."
+  }
 ]

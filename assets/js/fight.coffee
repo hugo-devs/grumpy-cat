@@ -12,7 +12,7 @@ fight_question = (attack_name) ->
   currentQuestion.question = data.questions[data.attacks[attack_name].type][currentQuestion.difficulty][random(0, data.questions[data.attacks[attack_name].type][currentQuestion.difficulty].length)]
   if currentQuestion.question.hasOwnProperty 'right'
     $(".dialog").html("
-        <paper-dialog backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
+        <paper-dialog autoCloseDisabled backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
           <h3>Answer this question to perform the attack!</h3>
           <paper-radio-group class='radio-gr'></paper-radio-group>
           <paper-button onclick='fight_check_question(\"#{attack_name}\")' autofocus role='button' affirmative>Attack!</paper-button>
@@ -20,10 +20,10 @@ fight_question = (attack_name) ->
     ")
     for i in currentQuestion.question.answer
       $('.radio-gr').append('<paper-radio-button name="' + currentQuestion.question.answer.indexOf(i) + '" label="' + i + '"></paper-radio-button>')
-    
+
   else
     $(".dialog").html("
-        <paper-dialog backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
+        <paper-dialog autoCloseDisabled backdrop heading='#{currentQuestion.question.question}' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'>
           <h3>Answer this question to perform the attack!</h3>
           <paper-input autoclosedisabled label='enter your answer here'></paper-input>
           <paper-button onclick='fight_check_question(\"#{attack_name}\")' autofocus role='button' affirmative>Attack!</paper-button>
@@ -46,11 +46,11 @@ fight_check_question = (attack_name) ->
 
   if localStorage.cheatMode == "Boss" or localStorage.character == 'Ben-Cheat'
     __success__ = true
-  
+
   if currentQuestion.question.hasOwnProperty 'right'
     if parseInt($('.radio-gr')[0].selected) == currentQuestion.question.right
       __success__ = true
-    
+
   else
     if $(".dialog > paper-dialog > paper-input").val().toLowerCase() == currentQuestion.question.answer.toLowerCase()
       __success__ = true
@@ -68,7 +68,7 @@ fight_check_question = (attack_name) ->
       currentFight.switch_turn()
     ,500
 
-  
+
 
 fight_enemy_attack = ->
   console.log "running fight_enemy_attack"
@@ -162,9 +162,9 @@ fight_attack_tooltip = (self, other, dat, i) ->
     result = 'Nothing happens'
 
   $('.select_attack > .attack_btns > .' + i + ' > .tip').html(result)
-  
 
-  
+
+
 
 fight_parse_inline_vars = (text) ->
   console.log "running fight_parse_inline_vars"
@@ -173,7 +173,7 @@ fight_parse_inline_vars = (text) ->
   if currentFight.turn is 'enemy'
     __attacker = currentFight.enemy
     __victim = currentFight.character
-    
+
   __res = text.split("||")
   for i in [0..__res.length-1]
     if __res[i].toLowerCase() is 'creature'

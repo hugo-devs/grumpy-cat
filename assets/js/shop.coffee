@@ -8,6 +8,7 @@ add_creature = (creature) ->
   owned_creatures()
 
 add_money = (number) ->
+  number = parseInt(number)
   localStorage.money = money() + number
   update_money()
 
@@ -18,7 +19,7 @@ buy_creature = (creature) ->
     add_money(-data.creatures[creature].basestats.price)
   else
     console.log 'You dont have enough money to buy ' + creature
-  
+
 
 clear_creatures = () ->
   localStorage.ownedCreatures = ''
@@ -57,7 +58,7 @@ update_shop = () ->
     __button_text__ = ''
     __button_action__= ''
 
-    if localStorage.character == key 
+    if localStorage.character == key
       __button_class__ = 'active'
       __button_text__  = 'ACTIVE'
       __button_action__ = 'console.log("already active")'
@@ -78,7 +79,8 @@ update_shop = () ->
       __type__ = ':gb:'
     else if __creature__.basestats.type.toLowerCase() == 'french'
       __type__ = ':fr:'
-    
+
+
     __append__ = "
       <div class='card'>
         <h3>#{key}</h3>
@@ -92,7 +94,7 @@ update_shop = () ->
         </ul>
         <paper-button class='#{__button_class__}' onclick='#{__button_action__}; update_shop()' #{__disabled__}>#{__button_text__}</paper-button>
       </div>
-    "    
+    "
     if __creature__.basestats.buy != false
       $('.shop').append(__append__)
 

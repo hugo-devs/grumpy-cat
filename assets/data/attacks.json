@@ -92,7 +92,7 @@
 	"Rainbow-Poop" : {
 		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defense decreases.",
 		"action": ["defense", -0.1],
-		"action-self": ["hp", 60], 
+		"action-self": ["hp", 60],
 		"type": "french",
 		"difficulty": "easy"
 	},
@@ -105,14 +105,14 @@
 	"Squeek" : {
 		"text": "||creature|| squeeks. ||creature||'s attack increases. ||enemy||'s defense decreases.",
 		"action": ["defense", 0.1],
-		"action-self": ["attack", 0.25], 
+		"action-self": ["attack", 0.25],
 		"type":"french",
 		"difficulty": "medium"
 	},
 	"Cheesecake" : {
 		"text": "||creature|| eats a cake. ||creature|| health points increase.",
 		"action": ["defense", 0.0],
-		"action-self": ["hp", 50], 
+		"action-self": ["hp", 50],
 		"type": "french",
 		"difficulty": "medium"
 	},
@@ -137,7 +137,7 @@
 	"Ala Dea" : {
 		"text": "||creature|| hits ||enemy|| with it's big wings. ||creature||'s attack increases. ||enemy||'s health points sink.",
 		"action": ["hp", -150],
-		"action-self": ["attack", 0.1], 
+		"action-self": ["attack", 0.1],
 		"type": "latin",
 		"difficulty": "hard"
 	},
@@ -532,7 +532,7 @@
 		"difficulty": "easy"
 	},
 	"Sand-wall": {
-		"text": "||creature|| builds a sand-wall.||enemy||'s attack decreases.",
+		"text": "||creature|| builds a sand-wall. ||enemy||'s attack decreases.",
 		"action": ["attack", -0.3],
 		"action-self": ["defense", 0],
 		"type": "english",

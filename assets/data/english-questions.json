@@ -393,5 +393,36 @@
       ],
       "right": 2
     }
+  ],
+  "hard": [
+    {
+      "question": "Who of this people are jews?",
+      "answer": [
+        "Albert Einstein",
+        "Robert Oppenheimer",
+        "Sacha Baron Cohen",
+        "All of these"
+      ],
+      "right": 3
+    },
+    {
+      "question": "What is/are de jure the offcial language(s) of the USA?",
+      "answer": [
+        "None",
+        "English",
+        "English and Spanish",
+        "English and Quechua"
+      ],
+      "right": 0
+    },
+    {
+      "question": "What does CIA stand for?",
+      "answer": [
+        "Center for International Affairs ",
+        "Continental Interrogation and Activities",
+        "Central Intelligence Agency"
+      ],
+      "right": 2
+    }
   ]
 }
