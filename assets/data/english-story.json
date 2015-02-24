@@ -44,7 +44,7 @@
     "type": "fight",
     "enemy": "Aestas",
     "lvl": 3
-  },  
+  },
   {
     "type": "pop",
     "value": "Hey young soldier! You're doing well, but the battle is only starting. We have order to advance to General Albert Johnston's tent and capture him",
@@ -63,7 +63,7 @@
     "type": "fight",
     "enemy": "Oedipus",
     "lvl": 5
-  },  
+  },
   {
     "type": "pop",
     "value": "Hey scaredy-cat! Don't just stand around, let's fight!",
@@ -93,7 +93,7 @@
   },
   {
     "type": "fight",
-    "enemy": "Hugulo",
+    "enemy": "Hugolo",
     "lvl": 8
   },
   {

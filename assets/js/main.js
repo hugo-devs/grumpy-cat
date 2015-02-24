@@ -136,6 +136,180 @@ random = function(from, to) {
   return res;
 };
 
+check_for_new_game = function() {
+  if (localStorage.character === void 0 || localStorage.name === null) {
+    localStorage.ownedCreatures = '';
+    localStorage.money = 0;
+    $("#dialog_choose_name")[0].toggle();
+    return console.log("toggling dialog");
+  } else {
+    return load_story();
+  }
+};
+
+skip_tut = function() {
+  if (parseInt(localStorage.story_pos) === 0 && localStorage.finished_tut === "true") {
+    if (localStorage.storyline === "latin") {
+      return localStorage.story_pos = 10;
+    }
+  }
+};
+
+parse_story = function() {
+  console.log("running parse_story");
+  if (parseInt(localStorage.story_pos) >= data.story.length) {
+    $(".dialog").html("<paper-dialog backdrop autoCloseDisabled='true' heading='Which story do you want to play next?' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'> <h3>Choose one of the three. You will still learn the same language and have the same creature, but your level will be reset. You can also replay the story you just played. Or you can completely reset the game and choose another language to learn.</h3> <paper-button onclick=\"set_storyline('english');\" raised role='button' affirmative>English</paper-button> <paper-button onclick=\"set_storyline('latin');\" raised  role='button' affirmative>Latin</paper-button> <paper-button onclick=\"set_storyline('french');\" raised  role='button' affirmative>French</paper-button> <paper-button onclick=\"reset();\" raised role='button' affirmative>Reset</paper-button> </paper-dialog>");
+    $(".dialog > paper-dialog")[0].toggle();
+    return;
+  }
+  skip_tut();
+  return parse_story_element(data.story[parseInt(localStorage.story_pos)]);
+};
+
+parse_story_element = function(element) {
+  var __swal;
+  console.log(element);
+  if (element.type === "text") {
+    notify(parse_inline_vars(element.value));
+    return setTimeout(function() {
+      localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+      return parse_story();
+    }, 1000);
+  } else if (element.type === "pop") {
+    return setTimeout(function() {
+      if (element.hasOwnProperty("title")) {
+        return swal({
+          text: parse_inline_vars(element.value),
+          title: parse_inline_vars(element.title)
+        }, function() {
+          return setTimeout(function() {
+            localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+            return parse_story();
+          }, 250);
+        });
+      } else {
+        return swal({
+          title: parse_inline_vars(element.value)
+        }, function() {
+          return setTimeout(function() {
+            localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+            return parse_story();
+          }, 250);
+        });
+      }
+    }, 250);
+  } else if (element.type === "advanced_pop") {
+    __swal = element.swal;
+    if (__swal.hasOwnProperty("title")) {
+      __swal.title = parse_inline_vars(__swal.title);
+    }
+    if (__swal.hasOwnProperty("text")) {
+      __swal.text = parse_inline_vars(__swal.text);
+    }
+    if (__swal.hasOwnProperty("confirmButtonText")) {
+      __swal.confirmButtonText = parse_inline_vars(__swal.confirmButtonText);
+    }
+    if (__swal.hasOwnProperty("cancelButtonText")) {
+      __swal.cancelButtonText = parse_inline_vars(__swal.cancelButtonText);
+    }
+    if (element.hasOwnProperty("callback")) {
+      return swal(__swal, callbacks[element.callback]);
+    } else {
+      return swal(__swal, function() {
+        localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+        return parse_story();
+      });
+    }
+  } else if (element.type === 'fight') {
+    console.log("fight lvl: " + element.lvl + " against " + element.enemy);
+    return fight_start(element.enemy, parseInt(element.lvl));
+  } else if (element.type === 'money') {
+    add_money(element.amount);
+    console.log("adding " + element.amount + " to your balance.");
+    localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+    return parse_story();
+  } else {
+    localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
+    return parse_story();
+  }
+};
+
+parse_inline_vars = function(input) {
+  var i, __print, _i, _ref;
+  __print = input.split("||");
+  for (i = _i = 0, _ref = __print.length - 1; 0 <= _ref ? _i <= _ref : _i >= _ref; i = 0 <= _ref ? ++_i : --_i) {
+    if (__print[i].toLowerCase() === "name") {
+      __print[i] = localStorage.name;
+    } else if (__print[i].toLowerCase() === "creature") {
+      __print[i] = localStorage.character;
+    }
+  }
+  return __print = __print.join("");
+};
+
+reset = function() {
+  return swal({
+    title: "Are you sure?",
+    text: "All progress will be lost.",
+    type: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#DD6B55",
+    confirmButtonText: "Yes, reset the game!",
+    cancelButtonText: "No, cancel please!"
+  }, function(confirmed) {
+    if (confirmed) {
+      localStorage.clear();
+      return location.reload();
+    } else {
+      return location.reload();
+    }
+  });
+};
+
+set_name = function() {
+  console.log("Name set: " + ($("#dialog_choose_name > paper-input").val()));
+  localStorage.name = $("#dialog_choose_name > paper-input").val();
+  $("#dialog_choose_name").remove();
+  $("#dialog_backstory").attr("heading", "Welcome to the Hugo Science Enrichment Center");
+  $("#dialog_backstory").html("<p>HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakespeare or the french revolution.</p> <paper-button onclick='show_choose_creature()' affirmative autofocus role='button'>Got it</paper-button>");
+  return $("#dialog_backstory")[0].toggle();
+};
+
+set_character = function(what) {
+  add_creature(what);
+  localStorage.character = what;
+  localStorage.lvl = 1;
+  localStorage.finished_tut = false;
+  localStorage.story_pos = 0;
+  $("#dialog_choose_creature").remove();
+  return $(".core-overlay-backdrop").remove();
+};
+
+set_storyline = function(which) {
+  console.log("Running set_storyline");
+  localStorage.story_pos = 0;
+  localStorage.lvl = 1;
+  localStorage.storyline = which;
+  $(".core-overlay-backdrop").remove();
+  return load_story();
+};
+
+show_choose_creature = function() {
+  $("#dialog_backstory").remove();
+  $("#dialog_choose_creature")[0].toggle();
+  return notify("HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakepeare or the french revolution.");
+};
+
+notify = function(text) {
+  $("#timeline_content").prepend("<p class='notification-element'>" + text + "</p>");
+  $(".notification-element:nth-of-type(1)").css("display", "none");
+  return $(".notification-element:nth-of-type(1)").fadeIn("fast");
+};
+
+pop = function(text, heading) {
+  return $(".dialog").html('<paper-dialog heading="' + heading + '" opened="true" transition="paper-dialog-transition-bottom">' + text + '</paper-dialog>');
+};
+
 shop_dialog = $('.shop')[0];
 
 add_creature = function(creature) {
@@ -148,6 +322,7 @@ add_creature = function(creature) {
 };
 
 add_money = function(number) {
+  number = parseInt(number);
   localStorage.money = money() + number;
   return update_money();
 };
@@ -388,14 +563,14 @@ fight_question = function(attack_name) {
   currentQuestion.difficulty = data.attacks[attack_name].difficulty;
   currentQuestion.question = data.questions[data.attacks[attack_name].type][currentQuestion.difficulty][random(0, data.questions[data.attacks[attack_name].type][currentQuestion.difficulty].length)];
   if (currentQuestion.question.hasOwnProperty('right')) {
-    $(".dialog").html("<paper-dialog backdrop heading='" + currentQuestion.question.question + "' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'> <h3>Answer this question to perform the attack!</h3> <paper-radio-group class='radio-gr'></paper-radio-group> <paper-button onclick='fight_check_question(\"" + attack_name + "\")' autofocus role='button' affirmative>Attack!</paper-button> </paper-dialog>");
+    $(".dialog").html("<paper-dialog autoCloseDisabled backdrop heading='" + currentQuestion.question.question + "' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'> <h3>Answer this question to perform the attack!</h3> <paper-radio-group class='radio-gr'></paper-radio-group> <paper-button onclick='fight_check_question(\"" + attack_name + "\")' autofocus role='button' affirmative>Attack!</paper-button> </paper-dialog>");
     _ref = currentQuestion.question.answer;
     for (_i = 0, _len = _ref.length; _i < _len; _i++) {
       i = _ref[_i];
       $('.radio-gr').append('<paper-radio-button name="' + currentQuestion.question.answer.indexOf(i) + '" label="' + i + '"></paper-radio-button>');
     }
   } else {
-    $(".dialog").html("<paper-dialog backdrop heading='" + currentQuestion.question.question + "' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'> <h3>Answer this question to perform the attack!</h3> <paper-input autoclosedisabled label='enter your answer here'></paper-input> <paper-button onclick='fight_check_question(\"" + attack_name + "\")' autofocus role='button' affirmative>Attack!</paper-button> </paper-dialog>");
+    $(".dialog").html("<paper-dialog autoCloseDisabled backdrop heading='" + currentQuestion.question.question + "' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'> <h3>Answer this question to perform the attack!</h3> <paper-input autoclosedisabled label='enter your answer here'></paper-input> <paper-button onclick='fight_check_question(\"" + attack_name + "\")' autofocus role='button' affirmative>Attack!</paper-button> </paper-dialog>");
   }
   return $(".dialog > paper-dialog")[0].toggle();
 };
@@ -540,177 +715,6 @@ fight_parse_inline_vars = function(text) {
     }
   }
   return __res = __res.join("");
-};
-
-check_for_new_game = function() {
-  if (localStorage.character === void 0 || localStorage.name === null) {
-    localStorage.ownedCreatures = '';
-    localStorage.money = 0;
-    $("#dialog_choose_name")[0].toggle();
-    return console.log("toggling dialog");
-  } else {
-    return load_story();
-  }
-};
-
-skip_tut = function() {
-  if (parseInt(localStorage.story_pos) === 0 && localStorage.finished_tut === "true") {
-    if (localStorage.storyline === "latin") {
-      return localStorage.story_pos = 10;
-    }
-  }
-};
-
-parse_story = function() {
-  console.log("running parse_story");
-  if (parseInt(localStorage.story_pos) >= data.story.length) {
-    $(".dialog").html("<paper-dialog backdrop autoCloseDisabled='true' heading='Which story do you want to play next?' class='paper-dialog-transition paper-dialog-transition-bottom' transition='paper-dialog-transition-bottom'> <h3>Choose one of the three. You will still learn the same language and have the same creature, but your level will be reset. You can also replay the story you just played. Or you can completely reset the game and choose another language to learn.</h3> <paper-button onclick=\"set_storyline('english');\" raised role='button' affirmative>English</paper-button> <paper-button onclick=\"set_storyline('latin');\" raised  role='button' affirmative>Latin</paper-button> <paper-button onclick=\"set_storyline('french');\" raised  role='button' affirmative>French</paper-button> <paper-button onclick=\"reset();\" raised role='button' affirmative>Reset</paper-button> </paper-dialog>");
-    $(".dialog > paper-dialog")[0].toggle();
-    return;
-  }
-  skip_tut();
-  return parse_story_element(data.story[parseInt(localStorage.story_pos)]);
-};
-
-parse_story_element = function(element) {
-  var __swal;
-  console.log(element);
-  if (element.type === "text") {
-    notify(parse_inline_vars(element.value));
-    return setTimeout(function() {
-      localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-      return parse_story();
-    }, 1000);
-  } else if (element.type === "pop") {
-    return setTimeout(function() {
-      if (element.hasOwnProperty("title")) {
-        return swal({
-          text: parse_inline_vars(element.value),
-          title: parse_inline_vars(element.title)
-        }, function() {
-          return setTimeout(function() {
-            localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-            return parse_story();
-          }, 250);
-        });
-      } else {
-        return swal({
-          title: parse_inline_vars(element.value)
-        }, function() {
-          return setTimeout(function() {
-            localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-            return parse_story();
-          }, 250);
-        });
-      }
-    }, 250);
-  } else if (element.type === "advanced_pop") {
-    __swal = element.swal;
-    if (__swal.hasOwnProperty("title")) {
-      __swal.title = parse_inline_vars(__swal.title);
-    }
-    if (__swal.hasOwnProperty("text")) {
-      __swal.text = parse_inline_vars(__swal.text);
-    }
-    if (__swal.hasOwnProperty("confirmButtonText")) {
-      __swal.confirmButtonText = parse_inline_vars(__swal.confirmButtonText);
-    }
-    if (__swal.hasOwnProperty("cancelButtonText")) {
-      __swal.cancelButtonText = parse_inline_vars(__swal.cancelButtonText);
-    }
-    if (element.hasOwnProperty("callback")) {
-      return swal(__swal, callbacks[element.callback]);
-    } else {
-      return swal(__swal, function() {
-        localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-        return parse_story();
-      });
-    }
-  } else if (element.type === 'fight') {
-    console.log("fight lvl: " + element.lvl + " against " + element.enemy);
-    return fight_start(element.enemy, parseInt(element.lvl));
-  } else if (element.type === 'money') {
-    add_money(element.amount);
-    console.log("adding " + element.amount + " to your balance.");
-    localStorage.story_pos = parseInt(localStorage.story_pos) + 1;
-    return parse_story();
-  }
-};
-
-parse_inline_vars = function(input) {
-  var i, __print, _i, _ref;
-  __print = input.split("||");
-  for (i = _i = 0, _ref = __print.length - 1; 0 <= _ref ? _i <= _ref : _i >= _ref; i = 0 <= _ref ? ++_i : --_i) {
-    if (__print[i].toLowerCase() === "name") {
-      __print[i] = localStorage.name;
-    } else if (__print[i].toLowerCase() === "creature") {
-      __print[i] = localStorage.character;
-    }
-  }
-  return __print = __print.join("");
-};
-
-reset = function() {
-  return swal({
-    title: "Are you sure?",
-    text: "All progress will be lost.",
-    type: "warning",
-    showCancelButton: true,
-    confirmButtonColor: "#DD6B55",
-    confirmButtonText: "Yes, reset the game!",
-    cancelButtonText: "No, cancel please!"
-  }, function(confirmed) {
-    if (confirmed) {
-      localStorage.clear();
-      return location.reload();
-    } else {
-      return location.reload();
-    }
-  });
-};
-
-set_name = function() {
-  console.log("Name set: " + ($("#dialog_choose_name > paper-input").val()));
-  localStorage.name = $("#dialog_choose_name > paper-input").val();
-  $("#dialog_choose_name").remove();
-  $("#dialog_backstory").attr("heading", "Welcome to the Hugo Science Enrichment Center");
-  $("#dialog_backstory").html("<p>HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakepeare or the french revolution.</p> <paper-button onclick='show_choose_creature()' affirmative autofocus role='button'>Got it</paper-button>");
-  return $("#dialog_backstory")[0].toggle();
-};
-
-set_character = function(what) {
-  add_creature(what);
-  localStorage.character = what;
-  localStorage.lvl = 1;
-  localStorage.finished_tut = false;
-  localStorage.story_pos = 0;
-  $("#dialog_choose_creature").remove();
-  return $(".core-overlay-backdrop").remove();
-};
-
-set_storyline = function(which) {
-  console.log("Running set_storyline");
-  localStorage.story_pos = 0;
-  localStorage.lvl = 1;
-  localStorage.storyline = which;
-  $(".core-overlay-backdrop").remove();
-  return load_story();
-};
-
-show_choose_creature = function() {
-  $("#dialog_backstory").remove();
-  $("#dialog_choose_creature")[0].toggle();
-  return notify("HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakepeare or the french revolution.");
-};
-
-notify = function(text) {
-  $("#timeline_content").prepend("<p class='notification-element'>" + text + "</p>");
-  $(".notification-element:nth-of-type(1)").css("display", "none");
-  return $(".notification-element:nth-of-type(1)").fadeIn("fast");
-};
-
-pop = function(text, heading) {
-  return $(".dialog").html('<paper-dialog heading="' + heading + '" opened="true" transition="paper-dialog-transition-bottom">' + text + '</paper-dialog>');
 };
 
 init = function() {

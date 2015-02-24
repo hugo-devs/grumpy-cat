@@ -89,8 +89,11 @@ parse_story_element = (element) ->
     console.log "adding #{element.amount} to your balance."
     localStorage.story_pos = parseInt(localStorage.story_pos) + 1
     parse_story();
+  else
+    localStorage.story_pos = parseInt(localStorage.story_pos) + 1
+    parse_story()
 
-  
+
 
 parse_inline_vars = (input) ->
   __print = input.split("||")
@@ -123,7 +126,7 @@ set_name = ->
   localStorage.name = $("#dialog_choose_name > paper-input").val()
   $("#dialog_choose_name").remove()
   $("#dialog_backstory").attr "heading", "Welcome to the Hugo Science Enrichment Center"
-  $("#dialog_backstory").html "<p>HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakepeare or the french revolution.</p> <paper-button onclick='show_choose_creature()' affirmative autofocus role='button'>Got it</paper-button>"
+  $("#dialog_backstory").html "<p>HugoOS: We here at Hugo Science Enrichment Center are the leading scientists in terms of portals and time travel. You have been chosen to test our newest time machine protoype. You may never come back, so choose wisely if you want to go to ancient Rome, the England of Shakespeare or the french revolution.</p> <paper-button onclick='show_choose_creature()' affirmative autofocus role='button'>Got it</paper-button>"
   $("#dialog_backstory")[0].toggle()
 
 set_character = (what) ->
