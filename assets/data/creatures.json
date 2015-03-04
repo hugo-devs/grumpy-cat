@@ -102,7 +102,7 @@
 		},
 		"attacks": [
 			"Build-a-wall",
-			"Throw-a-taible",
+			"Throw-a-table",
 			"Gets-angry"
 		]
 	},
@@ -120,7 +120,7 @@
 		]
 	},
 	"Hugolo": {
-		"description": "Hugolo. It is a brown, fluffy rabbit. But he has red eyes, which can kill you.",
+		"description": "Hugolo. It is a pink, fluffy rabbit. But he has red eyes, which can kill you.",
 		"basestats": {
 			"hp": 420,
 			"type": "french",
