@@ -13,7 +13,7 @@
 		"difficulty": "hard"
 	},
 	"Toothypegs": {
-		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points decreases.",
+		"text": "||creature|| bites ||Enemy||. ||Enemy||'s health points decrease.",
 		"action": ["hp", -300],
 		"action-self": ["hp", 250],
 		"type": "latin",
@@ -90,7 +90,7 @@
 		"difficulty": "hard"
 	},
 	"Rainbow-Poop" : {
-		"text": "A Rainbow appears. ||creature||'s hp increases. ||Enemy||'s defense decreases.",
+		"text": "A Rainbow appears. ||creature||'s health points increase. ||Enemy||'s defense decreases.",
 		"action": ["defense", -0.1],
 		"action-self": ["hp", 60],
 		"type": "french",
@@ -475,7 +475,7 @@
 		"difficulty": "hard"
 	},
 	"Slimy-track": {
-		"text": "||creature|| leaves a slimy-track. ||enemy|| slips. ||enemy||'s health points decreases.",
+		"text": "||creature|| leaves a slimy-track. ||enemy|| slips. ||enemy||'s health points decrease.",
 		"action": ["hp", -180],
 		"type": "french",
 		"difficulty": "medium"
@@ -499,19 +499,19 @@
 		"difficulty": "hard"
 	},
 	"Carbonara-Rain": {
-		"text": "Suddenly it starts raining Spaghetti Carbonara. ||enemy|| eats this and so ||enemy||'s health points increases.",
+		"text": "Suddenly it starts raining Spaghetti Carbonara. ||enemy|| eats this and so ||enemy||'s health points increase.",
 		"action": ["hp", 233],
 		"type": "french",
 		"difficulty": "easy"
 	},
 	"Root-blow": {
-		"text": "||creature|| hits ||enemy|| with a root. ||enemy||'s health points decreases.",
+		"text": "||creature|| hits ||enemy|| with a root. ||enemy||'s health points decrease.",
 		"action": ["hp", -230],
 		"type": "english",
 		"difficulty": "medium"
 	},
 	"Moustache-dance": {
-		"text": "||creature|| starts dancing the Moustache-dance. ||creature||'s health points increases.",
+		"text": "||creature|| starts dancing the Moustache-dance. ||creature||'s health points increase.",
 		"action": ["hp", 0],
 		"action-self": ["hp", 150],
 		"type": "french",
@@ -539,14 +539,14 @@
 		"difficulty": "medium"
 	},
 	"Sand-storm": {
-		"text": "||creature|| creates a big sand-storm. ||enemy||'s health points decreases.",
+		"text": "||creature|| creates a big sand-storm. ||enemy||'s health points decrease.",
 		"action": ["hp", -310],
 		"action-self": ["defense", 0],
 		"type": "english",
 		"difficulty": "hard"
 	},
 	"Frozen": {
-		"text": "||creature|| freezes ||enemy||. ||enemy|| escapes barely. ||enemy||'s health points decreases.",
+		"text": "||creature|| freezes ||enemy||. ||enemy|| escapes barely. ||enemy||'s health points decrease.",
 		"action": ["hp", -220],
 		"action-self": ["defense", 0],
 		"type": "english",
@@ -560,14 +560,14 @@
 		"difficulty": "medium"
 	},
 	"Ice-cream": {
-		"text": "||creature|| gives ||enemy|| some ice cream, because they think ||enemy|| isn't bad. ||enemy||'s health points increases.",
+		"text": "||creature|| gives ||enemy|| some ice cream, because they think ||enemy|| isn't bad. ||enemy||'s health points increase.",
 		"action": ["hp", 170],
 		"action-self": ["defense", 0],
 		"type": "english",
 		"difficulty": "medium"
 	},
 	"Brownie-power": {
-		"text": "||creature|| eats some brownies. ||creature||'s health points increases.",
+		"text": "||creature|| eats some brownies. ||creature||'s health points increase.",
 		"action": ["attack", 0],
 		"action-self": ["hp", 150],
 		"type": "english",
